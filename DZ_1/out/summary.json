@@ -1,0 +1,21 @@
+{
+  "docs_dir": "/Users/antonalekseev/nlp_mage/DZ_1/docs",
+  "out_dir": "/Users/antonalekseev/nlp_mage/DZ_1/out",
+  "processed": [
+    {
+      "doc_id": "Пособие по КВ-5-10",
+      "pdf_file": "Пособие по КВ-5-10.pdf",
+      "pdf_sha1": "e4c2cd1299baf4be6a5d3e631dfa4efd1fa560c5",
+      "pages_processed": 2,
+      "formula_counts": {
+        "EQ_EXPR": 13,
+        "INEQ": 15
+      },
+      "result_json": "/Users/antonalekseev/nlp_mage/DZ_1/out/docs/Пособие по КВ-5-10/result.json",
+      "time_sec": 38.76500691699039
+    }
+  ],
+  "skipped": [],
+  "started_at": 1772409069.3927848,
+  "finished_at": 1772409108.172534
+}
