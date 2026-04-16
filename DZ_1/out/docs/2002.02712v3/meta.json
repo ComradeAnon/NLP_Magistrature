@@ -1,0 +1,19 @@
+{
+  "doc_id": "2002.02712v3",
+  "pdf_file": "2002.02712v3.pdf",
+  "pdf_sha1": "c5739c411ee6099ec38e00e945176c2c53a5d95f",
+  "page_count": 13,
+  "metadata": {
+    "format": "PDF 1.5",
+    "title": "Discovering Mathematical Objects of Interest—A Study of Mathematical Notations",
+    "author": "André Greiner-Petter, Moritz Schubotz, Fabian Müller, Corinna Breitinger, Howard S. Cohl, Akiko Aizawa, Bela Gipp",
+    "subject": "-  Information systems  ->  Mathematics retrieval.Novelty in information retrieval.Information extraction.Recommender systems.Near-duplicate and plagiarism detection.",
+    "keywords": "Mathematical Objects of Interest, Mathematical Information Retrieval, Distributions of Mathematical Objects, Term Frequency-Inverse Document Frequency, Mathematical Search Engine",
+    "creator": "LaTeX with acmart 2019/08/24 v1.64 Typesetting articles for the Association for Computing Machinery and hyperref 2020-05-15 v7.00e Hypertext links for LaTeX",
+    "producer": "pdfTeX-1.40.21",
+    "creationDate": "D:20210623014256Z",
+    "modDate": "D:20210623014256Z",
+    "trapped": "",
+    "encryption": null
+  }
+}

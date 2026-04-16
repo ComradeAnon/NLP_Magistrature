@@ -1,21 +1,37 @@
 {
-  "docs_dir": "/Users/antonalekseev/nlp_mage/DZ_1/docs",
-  "out_dir": "/Users/antonalekseev/nlp_mage/DZ_1/out",
+  "docs_dir": "D:\\Учёба\\Магистратура\\2 семестр\\NLP\\DZ1\\code\\DZ_1\\docs",
+  "out_dir": "D:\\Учёба\\Магистратура\\2 семестр\\NLP\\DZ1\\code\\DZ_1\\out",
   "processed": [
     {
-      "doc_id": "Пособие по КВ-5-10",
-      "pdf_file": "Пособие по КВ-5-10.pdf",
-      "pdf_sha1": "e4c2cd1299baf4be6a5d3e631dfa4efd1fa560c5",
-      "pages_processed": 2,
+      "doc_id": "1703.04931v1",
+      "pdf_file": "1703.04931v1.pdf",
+      "pdf_sha1": "a1c54b82915ccd7812a63491092c2548d0df3aa6",
+      "pages_processed": 23,
       "formula_counts": {
-        "EQ_EXPR": 13,
-        "INEQ": 15
+        "OTHER": 30,
+        "INEQ": 80,
+        "EQ_EXPR": 67,
+        "DEF_EQ": 9
       },
-      "result_json": "/Users/antonalekseev/nlp_mage/DZ_1/out/docs/Пособие по КВ-5-10/result.json",
-      "time_sec": 38.76500691699039
+      "result_json": "D:\\Учёба\\Магистратура\\2 семестр\\NLP\\DZ1\\code\\DZ_1\\out\\docs\\1703.04931v1\\result.json",
+      "time_sec": 405.3507605001796
+    },
+    {
+      "doc_id": "2002.02712v3",
+      "pdf_file": "2002.02712v3.pdf",
+      "pdf_sha1": "c5739c411ee6099ec38e00e945176c2c53a5d95f",
+      "pages_processed": 13,
+      "formula_counts": {
+        "OTHER": 23,
+        "INEQ": 39,
+        "EQ_EXPR": 21,
+        "DEF_EQ": 8
+      },
+      "result_json": "D:\\Учёба\\Магистратура\\2 семестр\\NLP\\DZ1\\code\\DZ_1\\out\\docs\\2002.02712v3\\result.json",
+      "time_sec": 435.0809981999919
     }
   ],
   "skipped": [],
-  "started_at": 1772409069.3927848,
-  "finished_at": 1772409108.172534
+  "started_at": 1776236325.7868354,
+  "finished_at": 1776237166.227786
 }
