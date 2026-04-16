@@ -1,0 +1,152 @@
+[
+  {
+    "text": "C(5,4) = 5",
+    "latex": "\\binom{5}{4} = 5",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lim S,=1",
+    "latex": "\\lim S,=1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "lim g” =0",
+    "latex": "\\lim g” =0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "log 2 16 — log ;; 7 = 2",
+    "latex": "\\log 2 16 — \\log ;; 7 = 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "∥g1:T,i∥2+ i=1 i=1",
+    "latex": "∥g1:T,i∥2+ i=1 i=1",
+    "source": "1412.6980v9",
+    "class": "series_limit"
+  },
+  {
+    "text": "sin 270° =-1",
+    "latex": "\\sin 270^{\\circ} =-1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "p0= 7",
+    "latex": "p0= 7",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "vVe+11 =4",
+    "latex": "vVe+11 =4",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log 3 (y~ x) = 45",
+    "latex": "\\log 3 (y~ x) = 45",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log; 0; 2 = 35.002788",
+    "latex": "\\log; 0; 2 = 35.002788",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2 +3 = 1.4",
+    "latex": "2 +3 = 1.4",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "82-1 = 30",
+    "latex": "82-1 = 30",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log , p0= 7",
+    "latex": "\\log , p0= 7",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "cos 45° = 0.707",
+    "latex": "\\cos 45^{\\circ} = 0.707",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lg 13, пoлyчaeм lg 13 = 1.1139433",
+    "latex": "\\lg 13, пoлyчaeм \\lg 13 = 1.1139433",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "cos 24 = 1",
+    "latex": "\\cos 24 = 1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "xз = 8503",
+    "latex": "xз = 8503",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1) зт2x=-1; 2) sin 3x = 53, 2 2",
+    "latex": "1) зт2x=-1; 2) \\sin 3x = 53, 2 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "6! =1.2",
+    "latex": "6! =1.2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lg (8x —1) =90",
+    "latex": "\\lg (8x —1) =90",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "Нaпримeр, cos 270° ctg 270°= “= 8 =0, cыт =) 21, sin 270° -1 4 te = 1",
+    "latex": "Нaпримeр, \\cos 270^{\\circ} \\\\cot 270^{\\circ}= “= 8 =0, cыт =) 21, \\sin 270^{\\circ} -1 4 te = 1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lg (x+4y) = 21",
+    "latex": "\\lg (x+4y) = 21",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1! =1",
+    "latex": "1! =1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lim x, =1",
+    "latex": "\\lim x, =1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "lim ——-=1",
+    "latex": "\\lim ——-=1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  }
+]
