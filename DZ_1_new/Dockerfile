@@ -1,13 +1,11 @@
-FROM ubuntu:24.04 AS builder
+FROM python:3.14.4-slim AS builder
 
 ENV VENV_PATH=/opt/venv \
     PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
-RUN apt update  && apt install -y --no-install-recommends \
+RUN apt update && apt install -y --no-install-recommends \
       build-essential \
-      python3-full \
-      python3-pip \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -19,7 +17,7 @@ RUN python3 -m venv $VENV_PATH \
 
 
 
-FROM ubuntu:24.04
+FROM python:3.14-4-slim AS final
 
 ENV VENV_PATH=/opt/venv \
     PATH=/opt/venv/bin:$PATH \
@@ -27,10 +25,7 @@ ENV VENV_PATH=/opt/venv \
     PYTHONOPTIMIZE=1 \
     PYTHONUNBUFFERED=1
 
-RUN apt update  && apt install -y --no-install-recommends \
-      python3-minimal \
-      python3-venv \
-      python3-pip \
+RUN apt update && apt install -y --no-install-recommends \
       tesseract-ocr \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
@@ -41,4 +36,4 @@ WORKDIR /app
 
 COPY . .
 
-# CMD ["python3", "-m", "main"]
+CMD ["python3", "-m", "main"]
