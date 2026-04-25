@@ -17,7 +17,7 @@ RUN python3 -m venv $VENV_PATH \
 
 
 
-FROM python:3.14-4-slim AS final
+FROM python:3.14.4-slim AS final
 
 ENV VENV_PATH=/opt/venv \
     PATH=/opt/venv/bin:$PATH \
