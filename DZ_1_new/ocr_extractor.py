@@ -10,8 +10,8 @@ from config import OCR_LANG, OCR_DPI, OCR_TEXT_THRESHOLD
 logger = logging.getLogger(__name__)
 
 # Путь к tesseract для Windows (раскомментируйте и исправьте если нужно)
-import pytesseract
-pytesseract.pytesseract.tesseract_cmd = r"D:\Programs\Tesseract-OCR\tesseract.exe"
+# import pytesseract
+# pytesseract.pytesseract.tesseract_cmd = r"D:\Programs\Tesseract-OCR\tesseract.exe"
 
 
 # ─── Проверка доступности ─────────────────────────────────────────────────────
