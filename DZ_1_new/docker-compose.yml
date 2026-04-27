@@ -10,7 +10,7 @@ services:
     restart: no
     volumes:
       - ./dataset:/app/dataset
-      - /opt/docs:/app/docs:ro
+      - ./docs:/app/docs:ro
     working_dir: /app
     tty: true
     stdin_open: true
