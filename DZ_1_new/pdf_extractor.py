@@ -123,14 +123,14 @@ def _is_formula_line(line: str) -> bool:
     # ── Фильтр 4: правая часть — строго число ─────────────────────────────────
     rhs_clean = rhs.replace(",", ".").replace(" ", "")
 
-    rhs_valid = bool(re.fullmatch(
-        r"[-+]?\d+([.,]\d+)?"       # целое или десятичное
-        r"|[-+]?\d+/\d+"            # обыкновенная дробь
-        r"|0|1|-1|∞|\\infty",
-        rhs_clean,
-    ))
-    if not rhs_valid:
-        return False
+    # rhs_valid = bool(re.fullmatch(
+    #     r"[-+]?\d+([.,]\d+)?"       # целое или десятичное
+    #     r"|[-+]?\d+/\d+"            # обыкновенная дробь
+    #     r"|0|1|-1|∞|\\infty",
+    #     rhs_clean,
+    # ))
+    # if not rhs_valid:
+    #     return False
 
     # ── Фильтр 5: левая часть — математическое выражение ─────────────────────
     lhs_norm = _clean_russian_line(lhs)
