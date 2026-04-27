@@ -2,12 +2,14 @@ version: '3.8'
 
 services:
   app:
+    image: 'math-formulas-pdf-extractor:0.1.1-python-slim'
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: math-formulas-dataset-builder-app
-    restart: unless-stopped
+    container_name: math-formulas-pdf-extractor
+    restart: no
     volumes:
+      - ./dataset:/app/dataset
       - /opt/docs:/app/docs:ro
     working_dir: /app
     tty: true
