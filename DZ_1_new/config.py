@@ -14,14 +14,10 @@ DATASET_STATS_FILE = DATASET_DIR / "dataset_stats.json"
 for _dir in (DOCS_DIR, DATASET_DIR, LOGS_DIR):
     _dir.mkdir(parents=True, exist_ok=True)
 
-<<<<<<< HEAD
 # ─── Параметры датасета ───────────────────────────────────────────────────────
 
-# Минимум примеров на класс (5 классов × 40 = 200 минимум)
-MIN_EXAMPLES_PER_CLASS = 40
-=======
+# Минимум примеров на класс (5 классов × 100 = 500 минимум)
 MIN_EXAMPLES_PER_CLASS = 100
->>>>>>> main
 
 # ─── НОВЫЕ КЛАССЫ ПО ОПЕРАТОРАМ ──────────────────────────────────────────────
 FORMULA_CLASSES = {
