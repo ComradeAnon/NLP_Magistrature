@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-04-16T11:06:58.426156",
-  "total": 25,
+  "generated_at": "2026-04-28T04:52:38.284734",
+  "total": 500,
   "by_class": {
-    "combinatorial": 5,
-    "series_limit": 5,
-    "logarithmic": 5,
-    "trigonometric": 5,
-    "algebraic": 5
+    "derivative_limit": 100,
+    "equation": 100,
+    "integral": 100,
+    "summation": 100,
+    "mixed": 100
   },
   "by_source": {
-    "synthetic": 1,
-    "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s": 23,
-    "1412.6980v9": 1
+    "synthetic": 386,
+    "0707.2723v1": 85,
+    "1412.6980v9": 29
   },
   "class_descriptions": {
-    "algebraic": "Алгебраические выражения (полиномы, дроби, корни)",
-    "trigonometric": "Тригонометрические выражения (sin, cos, tg, ctg)",
-    "logarithmic": "Логарифмические выражения (log, ln, lg)",
-    "combinatorial": "Комбинаторные выражения (C, P, A, факториал)",
-    "series_limit": "Суммы рядов и пределы (Σ, lim, интеграл = число)"
+    "integral": "Интегралы (\\int, \\oint)",
+    "summation": "Суммы и произведения (\\sum, \\prod)",
+    "derivative_limit": "Производные и пределы (\\partial, \\nabla, \\lim)",
+    "equation": "Базовые уравнения/неравенства (=, \\le, \\ge)",
+    "mixed": "Смешанные формулы (содержат >= 2 разных главных операторов)"
   }
 }

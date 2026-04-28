@@ -1,0 +1,1257 @@
+[
+  {
+    "text": "( Xt = X0 + R t 0 σ(Xs−, Ps)dZs, t ∈[0, T], ∀s ∈[0, T], Ps denotes the probability distribution of Xs.",
+    "latex": "\\left\\{\\begin{array}{l l}{{X_{t}=X_{0}+\\int_{0}^{t}\\sigma(X_{s-},P_{s})d Z_{s},}}&{{t\\in[0,T],}}\\\\ {{\\mid\\forall s\\in[0,T],\\;P_{s}\\;\\;\\mathrm{denotes~the~probability~distribution~of}}}&{{X_{s}.}}\\end{array}\\right.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "( ∂tpt(x) = Dα x(|σ(., pt)|αpt(.))(x) limt→0+ pt(x)dx = m(dx), ,",
+    "latex": "\\begin{array}{l l}{{\\displaystyle\\int_{\\displaystyle\\vphantom{\\int}\\theta_{t}p_{t}(.x)}\\rightarrow{\\cal D}_{x}^{\\alpha}(\\vert\\sigma(.,p_{t})\\vert^{\\alpha}p_{t}(.)\\rangle(\\mathit{x})}}\\\\ {{\\displaystyle\\mid\\Im\\ln_{t\\rightarrow0+}p_{t}(\\alpha\\rangle d\\alpha\\equiv\\eta n(d\\alpha),}}\\end{array}\\quad,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Dα xf(x) = K Z R \u0000f(x + y) −f(x) −1{|y|≤1}f ′(x)y \u0001 dy |y|1+α ,",
+    "latex": "D_{x}^{\\alpha}f(x)=K\\int_{\\mathbb{R}}\\left(f(x+y)-f(x)-{\\mathbf{1}_{\\{|y|\\leq1\\}}}f^{\\prime}(x)y\\right){\\frac{d y}{|y|^{1+\\alpha}}},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "σ(x, ν) = (gε ∗ν(x))s with ε > 0, gε(x) = 1 √ 2πεe−x2 2ε and s > 0,",
+    "latex": "\\sigma(x,\\nu)=(g_{\\varepsilon}*\\nu(x))^{s}\\ \\mathrm{with}\\ \\varepsilon>0,\\ g_{\\varepsilon}(x)=\\frac{1}{\\sqrt{2\\pi\\varepsilon}}e^{-\\frac{x^{2}}{2\\varepsilon}}\\ \\mathrm{and}\\ s>0,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d(µ, ν) = inf (\u0012Z Rk×Rk |x −y|2 Q(dx, dy) \u00131/2 : Q ∈P(Rk × Rk) with marginals µ and ν ) .",
+    "latex": "d(\\mu,\\nu)={\\mathrm{inf}}\\left\\{\\left(\\int_{\\mathbb{R}^{k}\\times\\mathbb{R}^{k}}|x-y|^{2}\\,Q(d x,d y)\\right)^{1/2}:Q\\in{\\mathcal{P}}(\\mathbb{R}^{k}\\times\\mathbb{R}^{k}){\\mathrm{~with~marginals~}}\\mu{\\mathrm{~and~}}\\nu\\right\\}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d1(µ, ν) = inf (\u0012Z Rk×Rk |x −y|2 ∧1 Q(dx, dy) \u00131/2 : Q ∈P(Rk × Rk) with marginals µ and ν ) ,",
+    "latex": "d_{1}(\\mu,\\nu)={\\mathrm{inf}}\\left\\{\\left(\\int_{\\mathbb{R}^{k}\\times\\mathbb{R}^{k}}|x-y|^{2}\\wedge1\\,Q(d x,d y)\\right)^{1/2}:Q\\in{\\mathcal{P}}(\\mathbb{R}^{k}\\times\\mathbb{R}^{k}){\\mathrm{~with~marginals~}}\\mu{\\mathrm{~and~}}\\nu\\right\\}{\\mathrm{~and~}}\\lambda(\\mathbb{R}^{k}\\times\\mathbb{R}^{k}){\\mathrm{~with~marginals~}}\\mu{\\mathrm{~and~}}\\nu\\right\\}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0012 sup s≤t \f\f\f\f Z s 0 HudZu \f\f\f\f p\u0013 ≤Cp Z t 0 E(|Hs|p)ds.",
+    "latex": "\\left|\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq t}\\right|\\right)_{0}^{s}H_{u}d Z_{u}\\right|^{p}\\right)\\leq\\ C_{p}\\int_{0}^{t}\\mathbb{R}(|H_{s}|^{p})d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Dt(P, Q) = inf (\u0012Z D×D sup s≤t |Ys −Ws|2 R(dY, dW) \u00131/2 : R ∈P(D × D) with marginals P and Q ) ,",
+    "latex": "D_{t}(P,Q)=\\operatorname*{inf}\\left\\{\\left(\\int_{\\mathsf{Dtimes\\infty}\\operatorname*{sup}_{s\\leq t}}|Y_{s}-W_{s}|^{2}\\,R(d Y,d W)\\right)^{1/2}:R\\in{\\mathcal{P}}({\\mathsf{D}}\\times{\\mathsf{D}}){\\mathrm{~with~marginals~}}P{\\mathrm{~and~}}Q\\right\\}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d(Qt, Qs) ≤ Z D |Yt −Ys|2Q(dY )",
+    "latex": "\\left.\\mathcal{U}(\\mathcal{Q}_{t},\\mathcal{Q}_{S})\\stackrel{<}{\\longrightarrow}\\int_{\\bar{\\jmath}\\bar{\\bf b}}\\left|\\mathcal{V}_{t}\\right.-\\left.Y_{s}\\right|^{2}\\mathcal{C}\\right\\langle\\mathcal{U}\\mathcal{V}\\right>",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "XQ t = X0 + Z t 0 σ(XQ s−, Qs)dZs, t ∈[0, T]",
+    "latex": "X_{t}^{\\cal Q}\\equiv\\ X_{0}+\\int_{0}^{t}\\sigma(X_{s-}^{\\cal Q},\\mathcal{Q}_{s})d Z_{s},\\;\\;t\\in[0,T]",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0012 sup s≤t |XQ s∧τK|2 \u0013 ≤C \u0012 E(|X0|2) + Z t 0 E \u00001{s≤τK}|σ(XQ s , Qs) −σ(0, δ0)|2 + |σ(0, δ0)|2\u0001 ds \u0013",
+    "latex": "\\Xi\\left(\\operatorname*{sup}_{s\\leq t}|X_{s s\\gamma_{E}}^{Q}|^{2}\\right)\\leq C\\left(\\operatorname{E}(|X_{0}|^{2})+\\int_{0}^{t}\\mathbb{E}\\left(|_{(s\\leq\\tau_{K})}|\\sigma(X_{s}^{Q},Q_{s})-\\sigma(0,\\delta_{0})|^{2}+|\\sigma(0,\\delta_{0})|^{2}\\right)d s\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤C   E(|X0|2) + Z t 0 E \u0012 sup r≤s |XQ r∧τK|2 \u0013 ds + t Z D sup t≤T |Yt|2Q(dY ) + t|σ(0, δ0)|2 ! .",
+    "latex": "\\le C\\left(\\mathrm{\\tilde{E}}(|X_{0}|^{2})+\\int_{0}^{t}\\mathrm{\\tilde{E}}\\left(\\operatorname*{sup}_{r\\le s}|X_{r}^{Q}|^{2}Q(d Y)+t|\\sigma(0,\\delta_{0})|^{2}\\right).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E   sup s≤T |XQ s∧τK|2 ! ≤C   E(|X0|2) + |σ(0, δ0)|2 + Z D sup t≤T |Yt|2Q(dY ) ! ,",
+    "latex": "\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq T}|X_{s\\land\\tau_{K}}^{Q}|^{2}\\right)\\leq C\\left(\\mathbb{E}(|X_{0}|^{2})+|\\sigma(0,\\delta_{0})|^{2}+\\int_{\\mathbb{B}^{\\mathrm{\\scriptsize~sup}}}|Y_{t}|^{2}Q(d Y)\\right),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z D sup s≤T |Ys|2dΦ(Q)(Y ) = E   sup s≤T |XQ s |2 ! ≤C   E(|X0|2) + |σ(0, δ0)|2 + Z D sup t≤T |Yt|2Q(dY ) ! . (2) Observe that a process (Xt)t∈[0,T], such that E \u0000supt≤T |Xt|2\u0001 < +∞, solves (1) if and only if its law is a ﬁxed-point of Φ. So, to complete the proof of the Proposition, it suﬃces to check that ﬁ",
+    "latex": "\\left.\\int_{\\bf5\\delta z T}\\left|Y_{8}|^{2}d\\Phi(Q)(Y)=\\mathbb{E}\\left(\\operatorname*{sup}_{\\begin{array}{l}{\\epsilon\\leq T}\\\\ {\\operatorname*{s\\inT}}\\\\ {\\operatorname*{lim}\\left[X_{8}|^{2}\\right]^{2}\\right)\\leq C\\left(\\frac{\\mathrm{sup}\\left|Y_{c}\\right|^{2}\\right)}{\\left|\\operatorname*{s\\toT}\\right|\\left.\\mathrm{sin}\\right.\\,f i n t~o r\\ s t h e\\left(Y t\\right)\\cdot\\mathrm{sur\\se\\sthe\\s\\E\\left(\\langle\\frac{\\scriptstylef\\dt\\s\\cdot\\k}{\\mathrm{s\\pt\\s\\s\\s\\the\\g\\s\\s\\s\\pr\\s\\s\\s\\s\\te\\s\\the\\s\\s\\s\\s\\s\\s\\te\\s\\s\\the\\s\\s\\s\\s\\s\\s\\s\\tr\\s\\s\\s\\s\\s\\s\\s\\s\\the\\s\\the\\s\\tr\\s\\s\\s\\s\\s\\s\\s\\s\\the}\\ s\\ t h e}}\\right)\\right)\\right)}_{\\leq\\left(\\to\\ s\\to\\frac{\\frac{\\ s e\\ s\\ s\\ s\\ s\\ s\\ s\\ o\\ o t s\\ o r\\ g\\ s\\varepsilon\\ s\\ s\\varepsilon\\ s\\ s\\ g\\varepsilon\\ s\\varepsilon\\ s\\ s\\varepsilon\\ t\\varepsilon\\left(\\ e\\varepsilon\\ n\\ s\\ \\ e\\ e\\ n\\varepsilon\\varepsilon\\frac{\\frac{\\ s\\varepsilon\\to\\to\\",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0012 sup s≤t |XP s −XQ s |2 \u0013 ≤C Z t 0 E(|σ(XP s−, Ps) −σ(XQ s−, Qs)|2)ds",
+    "latex": "\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq t}|X_{s}^{P}-X_{s}^{Q}|^{2}\\right)\\leq C\\int_{0}^{t}\\mathbb{E}(|\\sigma(X_{s-}^{P},P_{s})-\\sigma(X_{s-}^{Q},Q_{s})|^{2})d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤C Z t 0 E \u0012 sup r≤s |XP r −XQ r |2 \u0013 + d2(Ps, Qs)ds.",
+    "latex": "\\begin{array}{l}{{\\mathrm{~\\cal~\\Sigma~}}}\\\\ {{\\qquad\\qquad\\qquad\\le~C\\int_{0}^{t}\\mathrm{fif~}\\left(\\operatorname*{sup}_{r\\leq s}\\vert X_{r}^{P}-X_{r}^{Q}\\vert^{2}\\right)+d^{2}(P_{s},Q_{s})d s.}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0012 sup s≤t |XP s −XQ s |2 \u0013 ≤C Z t 0 d2(Ps, Qs)ds.",
+    "latex": "\\left|\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq t}|X_{s}^{P}-X_{s}^{Q}|^{2}\\right)\\leq C\\int_{0}^{t}d^{2}(P_{s},Q_{s})d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Since D2 t (Φ(P), Φ(Q)) ≤E(sups≤t |XP s −XQ s |2), and d(Ps, Qs) ≤Ds(P, Q), the last inequality implies, ∀t ≤T, Z t",
+    "latex": "\\begin{array}{l}{{\\mathrm{Since~}D^{2}(\\Phi(P),\\Phi(Q))\\leq\\Xi(\\mathrm{sup}_{s\\le t}|X_{s}^{P}-X_{s}^{Q}|^{2}),\\mathrm{~and~}d(P_{s},Q_{s})\\leq D_{s}(P,Q),\\mathrm{the~last~inequaity}}}\\\\ {{\\mathrm{implies,}\\,\\ \\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\mathrm{\\mathrm{\\\\mathrm{\\mathrm{\\mathrm{\\mathrm{Einuai}\\mathrm{Bi}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "D2 t (Φ(P), Φ(Q)) ≤C Z t 0 D2 s(P, Q)ds.",
+    "latex": "D_{t}^{2}(\\Phi(P),\\Phi(Q))\\leq C\\int_{0}^{t}D_{s}^{2}(P,Q)d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "∀N ∈N∗,",
+    "latex": "\\begin{array}{l}{{\\overset{\\leftarrow\\sim\\sim\\sim\\sim\\sim\\sim\\infty}{\\n\\sqrt{\\wedge\\star}},}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "D2 T (ΦN(P), ΦN(Q)) ≤CN Z T 0 (T −s)N−1 (N −1)! D2 s(P, Q)ds ≤CNT N N! D2 T (P, Q).",
+    "latex": "D_{T}^{2}(\\Phi^{N}(P),\\Phi^{N}(Q))\\leq C^{N}\\int_{\\Omega}^{T}\\frac{(T-s)^{N-1}}{(N-1)!}D_{s}^{2}(P,Q)d s\\leq\\frac{C^{N}T^{N}}{N!}D_{T}^{2}(P,Q).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E   sup s≤T |Xs|p ! ≤C  E(|X0|p) + |σ(0, δ0)|p + E   sup s≤T |Xs|2 !p/2 < +∞.",
+    "latex": "\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq T}|X_{s}|^{p}\\right)\\leq C\\left(\\mathbb{E}(|X_{0}|^{p})+|\\sigma(0,\\delta_{0})|^{p}+\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq T}|X_{s}|^{2}\\right)^{p/2}\\right)<+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "( Xi,n t = Xi 0 + R t 0 σ(Xi,n s−, µn s−)dZi s, t ∈[0, T], 1 ≤i ≤n, where µn = 1 n Pn j=1 δXj,n denotes the empirical measure",
+    "latex": "\\begin{array}{l l}{{\\displaystyle{\\int}X_{t}^{i,n}=X_{0}^{i}+\\int_{0}^{t}\\sigma(X_{s-}^{i,n},\\mu_{s-}^{n})d Z_{s}^{i},}}&{{t\\in[0,T],\\quad1\\leq i\\leq n,}}\\\\ {{\\mathrm{where~}\\mu^{n}=\\frac{1}{n}\\sum_{j=1}^{n}\\delta_{X^{j,n}}\\mathrm{denotes~the~empirical~measure}}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Since for ξ = (x1, . . . , xn), and ζ = (y1, . . . , yn) in Rnk, one has",
+    "latex": "\\mathrm{Since~for~}\\xi=(x_{1},\\ldots,x_{n}),\\mathrm{~and~}\\zeta=(y_{1},\\ldots,y_{n})\\mathrm{~in~le~}^{n k},\\mathrm{one~has}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d  1 n n X j=1 δxj, 1 n n X j=1 δyj  ≤  1 n n X j=1 |xj −yj|2   1/2 = 1 √n|ξ −ζ|.",
+    "latex": "d\\left(\\frac{1}{n}\\sum_{j=1}^{n}\\delta_{x_{j}},\\frac{1}{n}\\sum_{j=1}^{n}\\delta_{y_{j}}\\right)\\leq\\left(\\frac{1}{n}\\sum_{j=1}^{n}|x_{j}-y_{j}|^{2}\\right)^{1/2}=\\frac{1}{\\sqrt{n}}|\\xi-\\zeta|.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "lim n→+∞sup i≤n E   sup t≤T |Xi,n t −Xi t|2 ! = 0",
+    "latex": "\\begin{array}{c}{{\\displaystyle{\\cal|\\frac{\\Lambda_{\\Pi}}{\\to\\ +\\infty}\\mathrm{\\Subp}\\left|\\Omega\\right.\\left(\\mathrm{\\SSup}\\left|{\\cal X}_{t}^{\\dot{\\iota},n}\\right.\\right.-\\,{\\cal X}_{t}^{\\dot{\\iota}}\\right|^{2}}}}\\\\ {{\\displaystyle{n\\to\\ +\\infty}\\left.{\\cal A}_{\\Z}\\right.\\left.\\bar{\\iota}\\leq n}}\\end{array}\\right)\\longrightarrow\\left(\\begin{array}{c}{{\\displaystyle{\\cal X}_{\\Lambda}\\right)}}\\\\ {{\\displaystyle{\\cal n}\\to\\frac{\\Lambda}{\\cal X}_{\\Lambda}\\right)\\right.\\longrightarrow}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "• If E(|X0|k+5 + |ZT |k+5) < +∞, then",
+    "latex": "\\bullet\\;\\;I\\!\\!f\\;\\mathbb{R}(|X_{0}|^{k+5}\\,+\\,|Z_{T}|^{k+5})<\\,+\\infty,\\;t\\!\\!h e\\!p",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup i≤n E   sup t≤T |Xi,n t −Xi t|2 ! ≤Cn− 2 k+4;",
+    "latex": "\\operatorname*{sup}_{i\\leq n}\\left(\\operatorname*{sup}_{t\\leq T}|X_{t}^{i,n}-X_{t}^{i}|^{2}\\right)\\leq C n^{-\\frac{2}{k+4}};",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup i≤n E   sup t≤T |Xi,n t −Xi t|2 ! ≤C n ,",
+    "latex": "\\operatorname*{sup}_{i\\le n}\\left(\\operatorname*{sup}_{t\\le T}\\left|{X}_{t}^{i,n}\\,-\\,{X}_{t}^{i}\\right|^{2}\\,\\right)\\,\\le\\,\\frac{C}{r_{l}},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0000d2 (νn, ν) \u0001 ≤4 Z Rk |x|2ν(dx), and lim n→+∞E \u0000d2 (νn, ν) \u0001 = 0.",
+    "latex": "\\mathbb{E}\\left(d^{2}\\left(\\nu^{n},\\nu\\right)\\right)\\leq4\\int_{\\mathbb{R}^{k}}\\left|x\\right|^{2}\\nu(d x),\\ \\ a n d\\ \\ \\operatorname*{lim}_{n\\to+\\infty}\\mathbb{E}\\left(d^{2}\\left(\\nu^{n},\\nu\\right)\\right)=0.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d2(νn, ν) ≤2 n n X j=1 |ξj|2 + 2 Z Rk |x|2ν(dx).",
+    "latex": "d^{2}\\big(\\nu^{n},\\nu\\big)\\leq\\ \\frac{2}{\\eta}\\sum_{j=1}^{n}\\big|\\xi_{j}\\big|^{2}+\\ 2\\int_{\\mathbb{f\\mathbb{R}}^{k}}\\big|\\mathcal{x}\\big|^{2}\\nu\\big(d\\alpha\\big).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0012 sup s≤t |Xi,n s −Xi s|2 \u0013 ≤C Z t 0 E \u0000|σ(Xi,n s , µn s ) −σ(Xi s, P n s )|2\u0001 ds",
+    "latex": "\\mathbb{E}\\left(\\operatorname*{sup}_{s\\leq t}|X_{s}^{i,n}-X_{s}^{i}|^{2}\\right)\\leq C\\int_{0}^{t}\\mathbb{E}\\left(|\\sigma(X_{s}^{i,n},\\mu_{s}^{n})-\\sigma(X_{s}^{i},P_{s}^{n})|^{2}\\right)d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E   sup t≤T |Xi,n t −Xi t|2 ! ≤C Z T 0 E \u0010\f\fσ \u0000Xi s, P n s \u0001 −σ(Xi s, Ps) \f\f2\u0011 ds ≤C Z T 0 E(d2(P n s , Ps))ds.",
+    "latex": "\\operatorname{\\mathbb{E}}\\left(\\operatorname*{sup}_{t\\leq T}|X_{t}^{i\\,n}-X_{t}^{i}|^{2}\\right)\\leq C\\int_{0}^{T}\\operatorname{\\mathbb{E}}\\left(|\\sigma\\left(X_{s}^{i},P_{s}^{n}\\right)-\\sigma(X_{s}^{i},P_{s})|^{2}\\right)d s\\leq C\\int_{0}^{T}\\operatorname{E}(d^{2}(P_{s}^{n},P_{s}))d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E \u0000d2 (P n s , Ps) \u0001 ≤C   1 + sZ Rk |y|k+5Ps(dy) ! n− 2 k+4,",
+    "latex": "\\mathbb{E}\\left(d^{2}\\left(P_{s}^{n},P_{s}\\right)\\right)\\leq C\\left(1+{\\sqrt{\\int_{\\mathbb{R}^{k}}\\left|y\\right|^{k+5}P_{s}(d y)}}\\right)n^{-{\\frac{2}{k+4}}},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Finally, if, as in the usual McKean-Vlasov framework (see [22]), σ(x, ν) = R Rk ς(x, y)ν(dy), where ς = (ςab)a≤k,b≤d : Rk×Rk →Rk×d is Lipschitz continuous, then E \u0010\f\fσ \u0000Xi s, P n s \u0001 −σ(Xi s, Ps) \f\f2\u0011 is equal to",
+    "latex": "\\begin{array}{c}{{\\mathrm{Finaly,if,~as~inthe~usond~MeKeanylasothenurewention}(\\kappa e x)(\\rho),}}\\\\ {{\\mathrm{wherecec}=\\left(\\cos\\left(\\cos\\left(\\left(\\cos\\left(\\frac{1}{\\kappa},\\mu_{s}\\right)\\right)\\right)}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "k X a=1 d X b=1 1 n2 n X j,l=1 E \u0012\u0014 ςab(Xi s, Xj s) − Z Rk ςab(Xi s, y)Ps(dy) \u0015 \u0014 ςab(Xi s, Xl s) − Z Rk ςab(Xi s, y)Ps(dy) \u0015\u0013 .",
+    "latex": "\\sum_{a=1}^{k}\\sum_{b=1}^{d}\\frac{1}{n^{2}}\\sum_{i,l=1}^{n}\\operatorname*{s}\\left(\\left[\\xi_{a b}(X_{s}^{i},X_{s}^{j})-\\int_{\\mathbb{R}^{k}}\\xi_{a b}(X_{s}^{i},X_{s}^{l})-\\int_{\\mathbb{R}^{k}}\\xi_{a b}(X_{s}^{i},Y)P_{s}(d y)\\right]\\right).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d(νn, ν) ≥ \u0012Z Rk min 1≤j≤n |ξj −x|2ν(dx) \u00131/2 ≥ inf (y1,...,yn)∈(Rk)n \u0012Z Rk min 1≤j≤n |yj −x|2ν(dx) \u00131/2 .",
+    "latex": "d(\\nu^{n},\\nu)\\geq\\left(\\int_{\\mathbb{R}^{k}\\;1\\leq j\\leq n}|\\xi_{j}-x|^{2}\\nu(d x)\\right)^{1/2}\\geq\\operatorname*{inf}_{\\langle y_{1},\\ldots,y_{n}\\rangle\\in(\\mathbb{R}^{k}\\rangle^{n}}\\left(\\int_{\\mathbb{R}^{k}\\;\\operatorname*{min}_{\\leq j\\leq n}|y_{j}-x|^{2}\\nu(d x)\\right)^{1/2}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "/k inf (y1,...,yn)∈(Rk)n \u0012Z Rk min 1≤j≤n |yj −x|2ϕ(x)dx \u00131/2",
+    "latex": "\\langle k\\operatorname*{lim}_{(y_{1},\\ldots,y,n)\\in(\\mathbb{R}^{k})^{n}}\\left(\\int_{\\mathbb{R}^{k}}\\operatorname*{min}_{\\Sigma\\geq j\\leq n}|y_{j}-x|^{2}\\varphi(x)d x\\right)^{1/2}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Lf(z) = 1 2 d X i,j=1 aij∂2 zi,zjf(z) + b.∇f(z) + Z Rd \u0002 f(z + y) −f(z) −1{|y|≤1}y.∇f(z) \u0003 β(dy),",
+    "latex": "{\\cal L}f(z)=\\frac{1}{2}\\sum_{i,j=1}^{d}a_{i j}\\partial_{z_{i},z_{j}}^{2}f(z)+b.\\nabla f(z)+\\int_{\\mathbb{R}^{d}}\\left[f(z+y)-f(z)-\\mathbf{1}_{\\{|y|\\leq1\\}}y.\\nabla f(z)\\right]\\beta(d y),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ZN t = Zt − X s≤t 1{|∆Zs|>N}∆Zs.",
+    "latex": "Z_{t}^{N}=Z_{t}-\\sum_{s\\leq t}1_{\\{|\\Delta Z_{s}|>N\\}}\\Delta Z_{s}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "   P0 = m and ∀ϕ : Rk →R, C2 with compact support, \u0010 Mϕ t = ϕ(Yt) −ϕ(Y0) − R t 0 L[Ps]ϕ(Ys)ds \u0011 t∈[0,T] is a P-martingale , (9)",
+    "latex": "\\left\\{P_{0}=m\\ a\\begin{array}{l l}{{a n d\\ \\forall\\varphi:\\mathbb{R}^{k}\\to\\mathbb{R},\\ C^{2}\\ w i t h\\ c o m p a c t\\ s u p p o r t,}}\\\\ {{\\left(M_{t}^{\\varphi}=\\varphi(Y_{t})-\\varphi(Y_{0})-\\int_{0}^{t}{\\mathcal{L}}[P_{s}]\\varphi(Y_{s})d s\\right)_{t\\in[0,T]}\\ i s\\ a\\ P-m a r t i n g a l e}}\\end{array}\\right.\\ ,\\qquad(9)=\\frac{M(\\chi)+i\\epsilon\\theta)}{\\langle0\\rangle}=\\frac{M_{u}^{\\varphi}(\\chi)}{\\langle0\\rangle},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "L[ν]ϕ(x) =1 2 k X i,j=1 (σaσ∗(x, ν))ij∂2 xi,xjϕ(x) + (σ(x, ν)b).∇ϕ(x)",
+    "latex": "{\\mathcal{L}}[\\nu]\\varphi(x)={\\frac{1}{2}}\\sum_{i,j=1}^{k}(\\sigma a\\sigma^{*}(x,\\nu))_{i j}\\partial_{x_{i},x_{j}}^{2}\\varphi(x)+(\\sigma(x,\\nu)b).\\nabla\\varphi(x)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z Rd \u0002 ϕ (x + σ(x, ν)y) −ϕ(x) −1{|y|≤1}σ(x, ν)y.∇ϕ(x) \u0003 β(dy)ds. (10)",
+    "latex": "\\left.+\\int_{\\mathbb{R}^{d}}\\left[\\varphi(x+\\sigma(x,\\nu)y)-\\varphi(x)-\\mathbf{1}_{\\{|y|\\leq1\\}}\\sigma(x,\\nu)y.\\nabla\\varphi(x)\\right]\\beta(d y)d s.\\qquad{\\mathrm{(10)}}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "XN,M t = XN∧M 0 + Z t 0 σ(XN,M s− , P N s )dZN∧M s , t ∈[0, T],",
+    "latex": "X_{t}^{N,M}=X_{0}^{N\\wedge M}+\\int_{0}^{t}\\sigma(X_{s-}^{N,M},P_{s}^{N})d Z_{s}^{N\\wedge M},\\;\\;\\;\\;\\;t\\in[0,T],",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "q uniqueness, ∀N ∈N∗, ∀t ∈[0, T],",
+    "latex": "\\begin{array}{l}{{\\ ^{\\infty\\times\\pm\\pm\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot}}}\\\\ {{\\mathrm{~MMMdden}{\\bf\\hat{e}\\mathrm{SSS},\\ \\sqrt{M}\\ \\propto\\left.\\left[\\nabla\\ E\\ \\(\\left.\\hat{\\Pi}\\right.\\kern\\varepsilon}\\in\\left.\\left[\\left(\\int\\!\\!\\right.,\\mathbf{\\mathcal{T}}\\right]\\right),}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup N∈N∗E   sup t≤T |XN,M t |2 ! < +∞.",
+    "latex": "\\left.\\begin{array}{r}{{\\mathrm{Sup}\\mathrm{~}\\vert\\!\\!\\mathrm{li}\\left(\\!\\!\\overbrace{\\mathrm{Sup}}\\!\\!\\mid X_{t}^{N,M}\\!\\!\\mid^{2}\\right)\\,\\!\\!\\!\\!\\!\\!\\right.<\\ +\\infty.}}\\\\ {{\\mathrm{}\\small\\!N\\!\\!\\in\\!\\!\\Vdash^{*}}\\!\\!\\!\\left.\\left.\\left.t\\leq T\\right.\\left.\\right.^{N}\\right.\\!\\right.\\!\\right.\\!\\!\\right.\\!<\\ \\ \\right.+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "P \u0010 |XN,M ˜S −XN,M S |2 ≥ε \u0011 ≤P   \f\f\f\f\f Z ˜S S σ(XN,M s , P N s )bN∧Mds \f\f\f\f\f 2 ≥ε 4  ",
+    "latex": "\\mathrm{\\boldmath{~p~}}\\!\\left(\\left|X_{\\tilde{S}}^{N,M}-X_{S}^{N,M}\\right|^{2}\\geq\\varepsilon{\\right)}\\leq\\mathbb{P}\\left(\\left|\\int_{S}^{\\tilde{S}}\\sigma(X_{s}^{N,M},P_{s}^{N})b^{N\\wedge M}d s\\right|^{2}\\geq{\\frac{\\varepsilon}{4}}\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ P   \f\f\f\f\f Z ˜S S σ(XN,M s− , P N s )d ˜ZN∧M s \f\f\f\f\f 2 ≥ε 4  . (12)",
+    "latex": "\\left.+\\,\\mathrm{p}\\left(\\left|\\int_{S}^{\\bar{S}}\\sigma(X_{s-}^{N,M},P_{s}^{N})d\\tilde{Z}_{s}^{N\\wedge M}\\right|^{2}\\geq\\frac{\\varepsilon}{4}\\right)\\,.\\qquad\\qquad(12)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E   \f\f\f\f\f Z ˜S S σ(XN,M s− , P N s )d ˜ZN∧M s \f\f\f\f\f 2 = E \u0012 Z ˜S S \u0014 k X i=1 (σaσ∗)ii(XN,M s , P N s )",
+    "latex": "\\mathbb{E}\\left(\\left|\\int_{S}^{{\\bar{S}}}\\sigma(X_{s-}^{N,M},P_{s}^{N})d{\\tilde{Z}}_{s}^{N\\wedge M}\\right|^{2}\\right)=\\mathbb{E}\\left(\\int_{S}^{{\\bar{S}}}\\left[\\sum_{i=1}^{k}(\\sigma a\\sigma^{*})_{i i}(X_{s}^{N,M},P_{s}^{N})\\right]\\right),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z Rd |σ(XN,M s , P N s )y|21{|y|≤N∧M}β(dy) \u0015 ds \u0013",
+    "latex": "\\bot\\int_{\\mathbb{R}^{d}}\\left|\\mathcal{O}\\big(X_{\\mathcal{S}}^{N,M}\\ \\!\\Big)_{\\mathcal{S}}^{\\mathcal{N}}\\Big\\rangle y\\big|^{2}\\bot\\{\\vert y\\vert\\underline{{{\\leq}}}N\\land\\rlap\\rangle\\mathcal{O}\\big(d y\\big)\\right|d\\mathcal{S}\\right\\rangle",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤Cδ,",
+    "latex": "\\leq C\\delta,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "F(Q) = Z D \u0012 ϕ(Yt) −ϕ(Ys) − Z t s L[Qu]ϕ(Yu)du \u0013 ψ(Ys1, . . . , Ysp)Q(dY ).",
+    "latex": "F(Q)=\\int_{\\mathrm{D}}\\left(\\varphi(Y_{t})-\\varphi(Y_{s})-\\int_{s}^{t}{\\mathcal{L}}[Q_{u}]\\varphi(Y_{u})d u\\right)\\psi(Y_{s_{1}},\\ldots,Y_{s_{p}})Q(d Y).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "|F(P N)| = |F(P N) −F N(P N)| ≤2(t −s)∥ψ∥∞∥ϕ∥∞ Z Rd 1{|y|≥N}β(dy) N→+∞ −→ 0.",
+    "latex": "|F(P^{N})|=|F(P^{N})-F^{N}(P^{N})|\\leq2(t-s)||\\psi||_{\\infty}||\\varphi||_{\\infty}\\int_{\\infty}{\\bf1}_{\\{|y|\\geq N\\}}\\beta(d y)\\stackrel{N\\to+\\infty}{\\longrightarrow}0.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "∂tPt = L∗[Pt]Pt, P0 = m,",
+    "latex": "\\partial_{t}P_{t}=\\mathcal{L}^{*}\\lbrack P_{t}\\rbrack P_{t},\\;\\;\\;\\;\\;P_{0}=m\\d{}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z Rk L∗[ν]ψ(x)ϕ(x)dx = Z Rk ψ(x)L[ν]ϕ(x)dx.",
+    "latex": "\\int_{\\mathbb{R}^{k}}\\mathcal{L}^{*}[\\nu]\\psi(x)\\varphi(x)d x=\\int_{\\mathbb{R}^{k}}\\psi(x)\\mathcal{L}[\\nu]\\varphi(x)d x.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "XP t = X0 + Z t 0 σ(XP s−, Ps)dZs",
+    "latex": "X_{t}^{P}=X_{0}+\\int_{0}^{t}\\sigma(X_{s^{-}}^{P},P_{s})d Z_{s}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "∂tQt = L∗[Pt]Qt, Q0 = m,",
+    "latex": "\\partial_{t}Q_{t}=\\mathcal{L}^{*}[P_{t}]Q_{t},\\quad Q_{0}=m,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "β(dy) = 1|y|≤1β1(y)dy + 1|y|>1β(dy).",
+    "latex": "\\beta(d y)={\\bf1}_{|y|\\leq1}\\beta_{1}(y)d y+{\\bf1}_{|y|>1}\\beta(d y).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "We set β1(y) = 0, for |y| > 1. Then",
+    "latex": "\\mathsf{W e\\ s e t}\\ \\rlap{p}_{\\rlap{p}}\\partial_{1}(y)\\longrightarrow\\emptyset,\\ \\mathsf{f o r\\ }\\vert y\\vert\\geqslant\\ 1.\\mathsf{\\nabla}\\mathsf{n a\\nabla}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Zt = Z (0,t]×R y ˜N1(ds, dy) + Z (0,t]×R y N2(ds, dy),",
+    "latex": "Z_{t}=\\int_{(0,t|\\times\\mathbb{R}}y\\;{\\tilde{N}}_{1}(d s,d y)+\\int_{(0,t|\\times\\mathbb{R}}y\\;N_{2}(d s,d y),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Xt = X0 + Z (0,t]×R σ(Xs−, Ps) y ˜N1(dy, ds) + Z (0,t]×R σ(Xs−, Ps) yN2(dy, ds), (16)",
+    "latex": "X_{t}=X_{0}+\\int_{(0,t)\\times\\mathbb{R}}\\sigma(X_{s-},P_{s})\\ y{\\hat{N}}_{1}(d y,d s)+\\int_{(1,t)\\times\\mathbb{R}}\\sigma(X_{s-},P_{s})\\ y N_{2}(d y,d s),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "|σ′ x(x, ν)| ≤K1, and |σ′′ x(x, ν)| ≤K2.",
+    "latex": "|\\sigma_{x}^{\\prime}(x,\\nu)|\\leq K_{1},\\quad\\mathrm{and}\\quad\\mathrm{~\\\\\\\\\\|\\sigma_{x}^{\\prime\\prime}(x,\\nu)|\\leq~K_{2}.}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "σ(x, ν) ̸= 0.",
+    "latex": "\\sigma(x,\\nu)\\ne0.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z 1 −1 β1(y)dy = +∞.",
+    "latex": "\\int_{-1}^{1}\\beta_{1}(y)d y=+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z 1 −1 k2(y)β1(y)dy < +∞,",
+    "latex": "\\int_{-1}^{1}\\,k^{2}(y)\\beta_{1}(y)d y\\,<\\,+\\infty,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "• for all y ∈[−1, 1],",
+    "latex": "\\bullet\\;\\;\\mathrm{for\\,\\;all}\\;\\;y\\in\\;\\left[-\\,1,\\,1\\right],",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup a∈[−K1,K1],λ∈[−1,1] 1 |λ| \f\f\f\f β1(y + λ(1 + ay)k(y)) β1(y) (1 + λ(ak(y) + (1 + ay)k′(y)) −1 \f\f\f\f ≤1 2,",
+    "latex": "\\operatorname*{sup}_{a\\in[-K_{1},s_{1},s\\epsilon[-1,1]}\\frac{1}{|\\lambda|}\\left|\\frac{\\beta_{1}(y+\\lambda(1+a y)k(y))}{\\beta_{1}(y)}(1+\\lambda(a k(y)+(1+a y)k^{\\prime}(y))-1\\right|\\Sigma\\frac{1}{2},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup a∈[−K1,K1] Z 1 −1 \f\f\f\f β′ 1(y) β1(y)(1 + ay)k(y) + ak(y) + (1 + ay)k′(y) \f\f\f\f 2 β1(y)dy < +∞,",
+    "latex": "\\operatorname*{sup}_{a\\in[-K_{1},K_{1}]}\\int_{-1}^{1}\\left|\\frac{\\beta_{1}^{\\prime}(y)}{\\beta_{1}(y)}(1+a y)k(y)+(1+a y)k^{\\prime}(y)\\right|^{2}\\beta_{1}(y)d y<+\\infty,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup a∈[−K1,K1] Z 1 −1 sup λ∈[−1,1] \u0012 \f\f\f\f β′′ 1(y + λ(1 + ay)k(y)) β1(y) (1 + λ(ak(y) + (1 + ay)k′(y)) \f\f\f\f 2 k2(y)",
+    "latex": "\\operatorname*{sup}_{a\\,e\\left[-K_{1},K_{1}\\right]}\\int_{-1\\,\\lambda\\in\\left[-1,1\\right]}^{1}\\left(\\left|\\frac{\\beta_{1}^{\\prime\\prime}(y+\\lambda(1+a y)k(y))}{\\beta_{1}(y)}(1+\\lambda(a k(y)+(1+a y)k^{\\prime}(y))\\right|^{2}k^{2}(y)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ \f\f\f\f β′ 1(y + λ(1 + ay)k(y)) β1(y) \f\f\f\f 2 \u0013 k2(y)β1(y)dy < +∞,",
+    "latex": "+\\left|\\frac{\\beta_{1}^{\\prime}(y+\\lambda(1+a y)k(y))}{\\beta_{1}(y)}\\right|^{2}\\rangle k^{2}(y)\\beta_{1}(y)d y<+\\infty,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "• for all y ∈[−1, 1],",
+    "latex": "\\bullet\\;\\;\\mathrm{for\\,\\;all}\\;\\;y\\in\\;\\left[-\\,1,\\,1\\right],",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "|k(y)| < 1 4(1 + K1) ; |k′(y)| < 1 4(1 + K1).",
+    "latex": "|k(y)|<\\frac{1}{4(1+K_{1})}\\quad;\\quad|k^{\\prime}(y)|<\\frac{1}{4(1+K_{1})}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET(sup t≤T |Xt|2) < +∞.",
+    "latex": "\\overline{{{\\vert\\Omega}}}_{I\\subseteq\\overline{{{T}}}}^{\\dagger}\\Bigl({\\bf S u p}{\\bf\\Omega}\\vert X_{t}\\vert^{2}\\Bigr)\\,<\\,+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET \u0012 sup s≤t |Xt∧τn|2 \u0013 ≤C \u0012 |X0|2 + Z t∧τn 0 Z 1 −1 |y|2 \u0012 ET (|Xs|2) + σ2(0, Ps) \u0013 β1(y)dyds",
+    "latex": "\\mathbb{E}_{T}\\left(\\operatorname*{sup}_{s\\leq t}|X_{t\\wedge\\tau_{n}}|^{2}\\right)\\leq C\\left(|X_{0}|^{2}+\\int_{0}^{t\\wedge\\tau_{n}}\\int_{-1}^{1}|y|^{2}\\left(\\mathbb{E}_{T}(|X_{s}|^{2})+\\sigma^{2}(0,P_{s})\\right)\\beta_{1}(y)d y d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ k X i=1 |Yi|2 \u0000ET (|XTi−|2) + σ2(0, PTi) \u0001 1Ti≤t∧τn \u0013",
+    "latex": "\\displaystyle\\left.+\\sum_{i=1}^{k}\\left|{\\cal Y}_{i}\\right|^{2}\\left(\\left|\\mathrm{\\bf{R}}_{T}(\\left|{\\cal X}_{T_{i}-}\\right|^{2}\\right)+\\sigma^{2}\\left(0,P_{T_{i}}\\right)\\right)\\,\\mathbf{\\calL}_{T_{i}\\leq t\\wedge\\tau_{n}}\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤C \u0012 |X0|2 + sup u∈[0,T] σ2(0, Pu) \u0012 1 + k X i=1 |Yi|2 \u0013 + Z t∧τn 0 ET (|Xs|2)ds",
+    "latex": "\\le C\\biggl(\\vert X_{0}\\vert^{2}+\\operatorname*{sup}_{u\\in[0,T]}\\sigma^{2}(0,P_{u})\\biggl(1+\\sum_{i=1}^{k}\\vert Y_{i}\\vert^{2}\\biggr)+\\int_{0}^{t\\wedge\\tau_{n}}\\mathrm{f}_{T}(\\vert X_{s}\\vert^{2})d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ k sup i=1 |Yi|2 Z t∧τn 0 ET (|Xs−|2) Z |y|>1 N2(dy, ds) \u0013 .",
+    "latex": "\\begin{array}{l}{{\\mathrm{~\\Gamma~}_{+}\\mathrm{~\\Gamma~}_{1}^{\\star}\\mathrm{~\\Gamma~}_{n}^{\\star}\\mathrm{~\\Gamma~}\\!\\!^{*}\\int_{0}^{t\\wedge\\tau_{n}}\\!\\!\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{n}\\!\\!\\Gamma\\!\\!\\Gamma_{1}\\!\\!\\Gamma_{2}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{2}\\!\\!\\Gamma\\!\\!\\Gamma_{2}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{1}\\!\\!\\Gamma_{2}\\!\\!\\Gamma\\!\\!\\Gamma\\!\\!\\Gamma_{1}\\!\\!\\Psi_{2}\\!\\!\\Gamma\\!\\!\\Psi\\!\\!\\Gamma_{1}\\!\\Gamma_{1}\\!\\Gamma_{1}\\!\\Gamma_{2}\\!\\!\\Gamma\\!\\Gamma_{1}\\!\\Gamma_{\\Gamma_{1}\\!\\Gamma_{1}\\!\\Gamma_{\\Sigma_{\\Gamma_{1}\\!\\Gamma_{1}\\!\\!\\Gamma_{\\Gamma_{1}\\!\\!\\!\\!\\Gamma_{2}\\!\\Gamma_{2}\\!\\Gamma_{1}\\!\\Sigma_{\\Gamma_{\\Gamma_{1}\\!\\!\\!\\Gamma_{\\Sigma\\!\\mu}\\!\\!\\Gamma_{\\Sigma}\\!\\Gamma_{\\Sigma_{\\Gamma_{\\Gamma_{",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "g g p +∞, and ∃C ∀φ ∈C∞ c (R),",
+    "latex": "\\begin{array}{l}{{\\cdots\\sim\\check{\\check{}}\\begin{array}{l}{\\infty\\sim\\check{\\check{}}\\cdots\\check{\\check{\\ }}\\check{\\mu}\\check{}\\enspace\\check{P}^{\\check{}}\\cdots\\check{\\mu}\\check{\\Lambda}\\check{\\Lambda}\\check{\\Lambda}\\check{}\\ \\check{\\sqrt{\\phi}}\\check{}\\check{}\\ \\check{F}\\ .}\\check{}}}\\\\ {{\\ \\,\\ \\,+\\check{\\mathbf{O}\\check{}}\\check{}\\check{}\\check{\\bf W}\\check{}\\ \\check{(\\check{}\\check{}\\check{}\\ .}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\ \\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{}\\check{end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "|ET (φ′(XT )DXT )| ≤C∥φ∥∞,",
+    "latex": "|\\mathbb{E}_{T}(\\phi^{\\prime}(X_{T})D X_{T})|\\leq C||\\phi||_{\\infty},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET (φ(XT )) = ET (Gλ T φ(Xλ T )).",
+    "latex": "|\\bar{\\mathrm{\\bfR}}_{T}(\\phi(X_{T}))=\\bar{\\mathrm{\\bfR}}_{T}(G_{T}^{\\lambda}\\phi(X_{T}^{\\lambda})).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET (φ′(XT )DXT ) = −ET (DGT φ(XT )),",
+    "latex": "\\mathbb{R}_{T}(\\phi^{\\prime}(X_{T})D X_{T})=-\\mathbb{R}_{T}(D\\!\\l^{}\\!\\!\\!\\!/G_{T}^{}\\!\\!\\!\\!/(X_{T})),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET(|DGT |).",
+    "latex": "{\\hat{\\overline{{\\vert}}}}_{T}^{\\times\\times\\times}{\\bf\\hat{\\Pi}}(\\vert D G_{T}^{\\star\\times\\cdot\\frac{\\L}{\\L}}).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "v(s, y) = 1{s>S}(1 + yσ′ x(Xs−, Ps)) g(σ(Xs−, Ps)) k(y)",
+    "latex": "v(s,y)={\\bf1}_{\\{s>S\\}}(1+y\\sigma_{x}^{\\prime}(X_{s-},P_{s}))\\ g(\\sigma(X_{s-},P_{s}))\\ k(y)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "|v(t, y)| ≤(1 + K1)k(y) and |v′(t, y)| ≤K1k(y) + (1 + K1)|k′(y)|.",
+    "latex": "|v(t,y)|\\leq(1+K_{1})k(y)\\quad{\\mathrm{and}}\\quad|v^{\\prime}(t,y)|\\leq K_{1}k(y)+(1+K_{1})|k^{\\prime}(y)|.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "γλ(t, y) = y + λv(t, y).",
+    "latex": "\\gamma^{\\lambda}(t,y)\\stackrel{\\_}{\\longrightarrow}y\\stackrel{\\sim}{\\sqrt{}}w(t,y).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "We can easily check that, for every ω, and t, the map y 7→γλ(t, y) is an increasing bijection from [−1, 1] into itself, since by (24) and (30), |v′| ≤1 2, and k(−1) = k(1) = 0.",
+    "latex": "\\begin{array}{l}{{\\mathrm{We~can~ean~ehet~that~for~that~for~every~ond~}}t_{1}\\mathrm{~the~map~}\\scriptstyle y\\to\\gamma^{\\lambda}(t,y)\\mathrm{~is~an~irereasing~bijection}}}\\\\ {{\\mathrm{trom~}[-1,1]\\mathrm{~into~itself,~since~by~(24)~and~}(30),\\,|v^{\\prime}|\\leq\\frac{1}{2},\\mathrm{~and~}k(-1)=k(1)=0.}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "N λ 1 (A) = Z 1A(t, γλ(t, y))N1(dy, dt).",
+    "latex": "{\\cal N}_{1}^{\\lambda}\\bigl({\\cal A}\\bigr)\\Longrightarrow\\int\\sum_{\\cal A}\\bigl(t,\\gamma\\bigr)^{\\lambda}\\bigl(t,\\Sigma\\bigr)\\bigr)\\bigr)\\mathcal N_{1}\\bigl(d y,d t\\bigr).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "V λ(s, y) = β1(y + λv(s, y)) β1(y) (1 + λv′(s, y)),",
+    "latex": "V^{\\lambda}(s,y)=\\frac{\\beta_{1}(y+\\lambda v(s,y))}{\\beta_{1}(y)}(1+\\lambda v^{\\prime}(s,y)),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup λ,y∈[−1,1] 1 λ|V λ(s, y) −1| ≤1 2 ,",
+    "latex": "\\operatorname*{sup}_{\\lambda,y\\in[-1,1]}\\frac{1}{\\lambda}\\vert V^{\\lambda}(s,y)-1\\vert\\leq\\frac{1}{2}\\ ,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup λ∈[−1,1] 1 λ2 Z 1 −1 |V λ(s, y) −1|2β1(y)dy ≤C,",
+    "latex": "\\operatorname*{sup}_{\\lambda\\in[-1,1]}\\frac{1}{\\lambda^{2}}\\int_{-1}^{1}|V^{\\lambda}(s,y)-1|^{2}\\beta_{1}(y)d y\\leq C,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup λ∈[−1,1] 1 λ4 Z 1 −1 \f\f\f\fV λ(s, y) −1 −λ d dλV λ(s, y)/λ=0 \f\f\f\f 2 β1(y)dy ≤C.",
+    "latex": "\\operatorname*{sup}_{\\lambda\\in[-1,1]}\\frac{1}{\\lambda^{4}}\\int_{-1}^{1}\\left|V^{\\lambda}(s,y)-1-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}(s,y)/_{\\lambda=0}\\right|^{2}\\beta_{1}(y)d y\\leq C.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d dλV λ(s, y) = v′(s, y)β1(y + λv(s, y)) β1(y) + β′ 1(y + λv(s, y)) β1(y) v(s, y)(1 + λv′(s, y)),",
+    "latex": "\\begin{array}{r c l}{{\\frac{d}{d\\lambda}V^{\\lambda}(s,y)}}&{{=}}&{{v^{\\prime}(s,y)\\frac{\\beta_{1}(y+\\lambda v(s,y))}{\\beta_{1}(y)}+\\frac{\\beta_{1}^{\\prime}(y+\\lambda v(s,y))}{\\beta_{1}(y)}v(s,y)(1+\\lambda v^{\\prime}(s,y)),}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "d2 dλ2 V λ(s, y) = v2(s, y)(1 + λv′(s, y))β′′ 1 (y + λv(s, y)) β1(y) + 2β′ 1(y + λv(s, y)) β1(y) v(s, y)v′(s, y).",
+    "latex": "\\frac{d^{2}}{d\\lambda^{2}}V^{\\lambda}(s,y)\\;\\;=\\;\\;v^{2}(s,y)(1+\\lambda v^{\\prime}(s,y))\\frac{\\beta_{1}^{\\prime\\prime}(y+\\lambda v(s,y))}{\\beta_{1}(y)}+2\\frac{\\beta_{1}^{\\prime}(y+\\lambda v(s,y))}{\\beta_{1}(y)}v(s,y).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Since, for λ ∈[−1, 1], we have estimates,",
+    "latex": "\\mathrm{Since,~for~}\\lambda\\in[-1,1],\\mathrm{~we~have~estimates},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "V λ(s, y) −1 λ \f\f\f\f 2 ≤2 \f\f\f\f d dλV λ(s, y)/λ=0 \f\f\f\f 2 + 2 λ2 \f\f\f\fV λ(s, y) −1 −λ d dλV λ(s, y)/λ=0 \f\f\f\f 2 ,",
+    "latex": "\\left|\\frac{V^{\\lambda}(s,y)-1}{\\lambda}\\right|^{2}\\leq2\\left|\\frac{d}{d\\lambda}V^{\\lambda}(s,y)/_{\\lambda=0}\\right|^{2}+\\frac{2}{\\lambda^{2}}\\left|V^{\\lambda}(s,y)-1-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}(s,y)/_{\\lambda=0}\\right|^{2},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "V λ(s, y) −1 −λ d dλV λ(s, y)/λ=0 \f\f\f\f 2 ≤λ4 4 sup µ∈[−1,1] \f\f\f\f d2 dµ2 V µ(s, y) \f\f\f\f 2 ,",
+    "latex": "\\Big\\vert V^{\\lambda}(s,y)-1-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}(s,y)/_{\\lambda=0}\\Big\\vert^{2}\\leq\\frac{\\lambda^{4}}{4}\\operatorname*{sup}_{\\mu\\in[-1,1]}\\bigg\\vert\\frac{d^{2}}{d\\mu^{2}}V^{\\mu}(s,y)\\bigg\\vert^{2}\\,,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Gλ t = 1 + Z (0,t]×R Gλ s−(V λ(s, y) −1) ˜N1(dy, ds),",
+    "latex": "G_{t}^{\\lambda}=1+\\int_{(0,t)\\times\\mathbb{R}}G_{s-}^{\\lambda}(V^{\\lambda}(s,y)-1)\\check{N}_{1}(d y,d s),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup λ∈[−1,1] ET   sup t≤T |Gλ t |2 ! < +∞.",
+    "latex": "\\operatorname*{sup}_{\\lambda\\in[-1,1]}\\vert\\Xi_{T}\\left(\\operatorname*{sup}_{t\\le T}\\vert G_{t}^{\\lambda}\\vert^{2}\\right)<+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "(ii) Let us denote µ(dy, dt) = 1|y|≤1β1(y)dydt, and compute the image measure γλ(V λ.µ). For a Borel subset A of [0, T] × [−1, 1], we have",
+    "latex": "\\underbrace{(i)\\mathrm{\\bf~Let\\nsdenote\\}\\mu(d y,d t)=\\mathrm{\\bf~1_{|y|<1}}/\\mathrm{\\bf~bute\\nonge\\nuse\\neasure\\}}y^{\\lambda}(V^{\\lambda}\\!\\!\\!\\!/).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "γλ(V λ.µ)(A) = Z 1A(t, y + λv(t, y))V λ(t, y)β1(y)dydt",
+    "latex": "\\begin{array}{l l l}{\\gamma^{\\lambda}(V^{\\lambda}.\\mu)(A)}&{=}&{\\int_{\\mathbf{1}_{A}}(t,y+\\lambda v(t,y))V^{\\lambda}(t,y)\\beta_{1}(y)d y d t}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= Z 1A(t, y′)β1(y′) β1(y) (1 + λv′(t, y))β1(y) dy′ 1 + λv′(t, y)dt",
+    "latex": "=\\left.\\begin{array}{l}{{\\displaystyle{\\int_{\\Sigma}}}}\\\\ {{\\displaystyle{\\bf1}_{A}(t,y^{\\prime}){\\frac{\\partial_{1}(y^{\\prime})}{\\beta_{1}(y)}}(1+\\lambda v^{\\prime}(t,y))\\beta_{1}(y){\\frac{d y^{\\prime}}{1+\\lambda v^{\\prime}(t,y)}}d t}\\end{array}\\right.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= Z 1A(t, y′)β1(y′)dy′dt = µ(A),",
+    "latex": "\\underline{{{\\d\\Psi}}}_{\\L}\\phantom{\\Psi}\\underline{{{\\Psi}}}_{\\L\\L A}(t,y^{\\prime})\\beta_{1}(\\underline{{{y}}}^{\\prime})d y^{\\prime}d t=\\mu(\\boldsymbol{A}),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "γλ(V λ.µ) = µ.",
+    "latex": "\\gamma^{\\lambda}(V^{\\lambda}.\\mu)\\equiv\\mu.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "DGt = Z (0,t]×R d dλV λ(s, y)/λ=0 ˜N1(dy, ds) = Z (0,t]×R \u0012 v′(s, y) + β′ 1(y) β1(y)v(s, y) \u0013 ˜N1(dy, ds)",
+    "latex": "D G_{t}\\ =\\ \\int_{(0,t)\\times\\mathbb{K}}{\\frac{d}{d\\lambda}}V^{\\lambda}(s,y)/{\\lambda}=0\\tilde{N}_{1}(d y,d s)=\\int_{(0,t)\\times\\mathbb{R}}\\left(v^{\\prime}(s,y)+{\\frac{\\beta_{1}^{\\prime}(y)}{\\beta_{1}(y)}}v(s,y)\\right)\\tilde{N}_{1}(d y,d s)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET(sup t≤T |DGt|2) < +∞.",
+    "latex": "\\mathbb{E}_{\\ell}^{\\mathcal{\\mathrm{ln}}}_{\\mathbb{Z}\\mathbb{T}}^{\\left(\\mathrm{Sup}\\right|D G_{t}^{\\quad\\left|^{2}}\\right)}<+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET   sup t≤T |Gλ t −1 −λDGt|2 ! = o(λ2), a.s.,",
+    "latex": "\\vert\\mathrm{\\bar{G}_{T}}\\left(\\ \\!\\begin{array}{\\!\\!\\!\\downarrow_{\\bf\\!\\!{L}}\\!\\!\\!\\mid\\!G_{t}^{\\lambda}-1-\\lambda D G_{t}^{\\lambda}\\!\\!\\mid^{2}}\\right)=o(\\lambda^{2}),\\quad\\mathrm{a.s.},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Proof : (i) Thanks to (36) and (22), for almost all ω, and all s ∈[0, T],",
+    "latex": "\\mathrm{Proof~:~}(i)\\mathrm{\\boldmath~Thanks~to~}(36)\\mathrm{~and~}(22),\\,\\mathrm{for~almost~all~}\\omega,\\,\\mathrm{and~all~}s\\in[0,T],",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z 1 −1 \f\f\f\f d dλV λ(s, y)/λ=0 \f\f\f\f 2 β1(y)dy ≤C.",
+    "latex": "\\int_{-1}^{1}\\left|\\frac{d}{d\\lambda}V^{\\lambda}(s,y)\\slash{\\lambda}\\!=\\!0\\right|^{2}\\beta_{1}(y)d y\\leq\\mathbf{C}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET   sup t≤T |Gλ t −1 −λDGt|2 !",
+    "latex": "|\\mathrm{E}_{T}\\left(\\operatorname*{sup}_{t\\leq T}|G_{t}^{\\lambda}-1-\\lambda D G_{t}|^{2}\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤ C Z (0,t]×R ET  \u0012 Gλ s \u0010 V λ(s, y) −1 \u0011 −λ d dλV λ(s, y)/λ=0 \u00132! β1(y)dyds",
+    "latex": "\\le\\mathrm{\\boldmath{~\\cal~\\cal~C}}\\int_{(0,t)\\times\\bar{\\mathrm{R}}}^{\\dag}\\mathrm{\\large~}\\!\\!\\!\\mathrm{\\!\\cal~\\cal{E}}_{T}\\left(\\ \\!\\left({G_{s}^{\\lambda}}({x^{\\lambda}}({s,y})-1\\right)-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}({s,y})_{/\\lambda=0}\\right)^{2}\\right)\\beta_{1}(y)d y d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤ C Z (0,t]×R ET  \u0012 Gλ s \u0012 V λ(s, y) −1 −λ d dλV λ(s, y)/λ=0 \u0013\u00132! β1(y)dyds",
+    "latex": "\\leq\\;\\;C\\int_{(0,t)\\times\\mathbb{R}}^{\\;\\;\\mathrm{\\scriptsize~}^{\\prime}\\;\\;\\;\\;\\;\\mathrm{\\scriptsize~\\cal~E}}T\\left(\\left(G_{s}^{\\lambda}\\left(V^{\\lambda}(s,y)-1-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}(s,y)_{/\\lambda=0}\\right)\\right)^{\\prime}\\right)\\beta_{1}(y)d y d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+λ2C Z (0,t]×R ET  \u0012 d dλV λ(s, y)/λ=0) \u00132 (Gλ s −1)2 ! β1(y)dyds.",
+    "latex": "+\\lambda^{2}C\\int_{(0,t|\\times\\mathbb{R}}\\mathbb{E}_{T}\\left(\\left({\\frac{d}{d\\lambda}}V^{\\lambda}(s,y)_{/\\lambda=0}\\right)^{2}(G_{s}^{\\lambda}-1)^{2}\\right)\\beta_{1}(y)d y d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z (0,t]×R ET  \u0012 Gλ s(V λ(s, y) −1 −λ d dλV λ(s, y)/λ=0) \u00132! β1(y)dyds ≤Cλ4t.",
+    "latex": "\\int_{(0,t)\\times\\mathbb{R}}\\mathrm{\\le}_{T}\\left(\\left(G_{s}^{\\lambda}(V^{\\lambda}(s,y)-1-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}(s,y)_{/\\lambda=0}\\right)\\right)^{2}\\right)\\beta_{1}(y)d y d s\\le C\\lambda^{4}t.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z (0,t]×R ET  \u0012 d dλV λ(s, y)/λ=0) \u00132 (Gλ s −1)2 ! β1(y)dyds ≤ Z t 0 ET((Gλ s −1)2)ds,",
+    "latex": "\\int_{(0,t)\\times\\mathbb{R}}\\operatorname{E}_{T}\\left(\\left({\\frac{d}{d\\lambda}}V^{\\lambda}(s,y)_{/\\lambda=0}\\right)\\right)^{2}(G_{s}^{\\lambda}-1)^{2}\\right)\\beta_{1}(y)d y d s\\leq\\int_{0}^{t}\\operatorname{E}_{T}((G_{s}^{\\lambda}-1)^{2})d s,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET ((Gλ t −1)2) = Z (0,t]×R ET ((Gλ s(V λ(s, y) −1))2)β1(y)dyds ≤Cλ2.",
+    "latex": "\\mathbb{E}_{T}((G_{t}^{\\lambda}-1)^{2})=\\int_{(0,t)\\times\\mathbb{R}}\\mathbb{E}_{T}((G_{s}^{\\lambda}(N^{\\lambda}(s,y)-1))^{2})\\beta_{1}(y)d y d s\\leq C\\lambda^{2}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Xλ t = X0 + Z (0,t]×R y σ(Xλ s−, Ps) \u0010 N λ 1 (dy, ds) −β1(dy)ds \u0011 + Z (0,t]×R y σ(Xλ s−, Ps)N2(dy, ds)",
+    "latex": "X_{t}^{\\lambda}\\ =\\ \\ X_{0}+\\int_{(\\cdot\\iota)\\cdot\\kappa}y\\ \\sigma(X_{s-}^{\\lambda},P_{s})\\ \\left(N_{1}^{\\lambda}(d y,d s)-\\beta_{1}(d y)d s\\right)+\\int_{(0,t)\\cdot\\kappa}y\\ \\sigma(X_{s-}^{\\lambda},P_{s})N_{2}(d y,d s)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= X0 + Z (0,t]×R (y + λv(s, y)) σ(Xλ s−, Ps) \u0010 N1(dy, ds) −V λ(s, y)β1(dy)ds \u0011",
+    "latex": "=\\ \\ X_{0}+\\int_{(0,t)\\times\\mathbb{R}}^{\\infty+\\gamma\\cdots\\to}(y+\\lambda v(s,y))\\ \\sigma(X_{s-}^{\\lambda},P_{s})\\ \\left(N_{1}(d y,d s)-V^{\\lambda}(s,y)\\beta_{1}(d y)d s\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z (0,t]×R y σ(Xλ s−, Ps)N2(dy, ds),",
+    "latex": "+\\,\\int_{(0,t)\\times\\mathbb{R}}^{}y\\,\\,{\\mathcal{O}}\\,(X_{s-}^{\\lambda},P_{s})\\mathcal{N}_{2}(d y,d s),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "( since γλ(V λ.µ) = µ)",
+    "latex": "\\left(~\\sin\\mathrm{ce}~\\gamma^{\\lambda}\\bigl(\\bar{V}^{\\lambda}.\\mu\\bigr)~\\longrightarrow~\\mu\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= X0 + Z (0,t]×R yσ(Xλ s−, Ps) ˜N1(dy, ds) + λ Z (0,t]×R σ(Xλ s−, Ps)v(s, y) ˜ N1(dy, ds)",
+    "latex": "=\\;\\;X_{0}+\\int_{(0,t|\\times\\mathbb{R}}y\\sigma(X_{s-}^{\\lambda},P_{s}){\\hat{N}}_{1}(d y,d s)+\\lambda\\int_{(0,t|\\times\\mathbb{R}}\\sigma(X_{s-}^{\\lambda},P_{s})v(s,y){\\hat{N}}_{1}(d y,d s)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z (0,t]×R y σ(Xλ s−, Ps)N2(dy, ds) − Z (0,t]×R (y + λv(s, y))σ(Xλ s−, Ps)(V λ(s, y) −1)β1(y)dyds.",
+    "latex": "\\ast\\;\\;\\int_{(0,d)\\times\\hat{\\alpha}}\\sigma(X_{s-}^{\\lambda},P_{s})N_{2}(d y,d s)-\\int_{(0,d)\\times\\hat{\\alpha}}(y+\\lambda v(s,y))\\sigma(X_{s-}^{\\lambda},P_{s})(V^{\\lambda}(s,y)-1)\\beta_{1}(y)d y d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET   sup t≤T |Xλ t −Xt|4 ! ≤Cλ4.",
+    "latex": "\\mathbb{R}_{T}\\left(\\operatorname*{sup}_{t\\leq T}|X_{t}^{\\lambda}-X_{t}|^{4}\\right)\\leq C\\lambda^{4}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET   sup t≤T |Xλ t −Xt −λDXt|2 ! = o(λ2),",
+    "latex": "|\\mathrm{\\tilde{E}_{T}}\\left(\\S_{t\\preceq T}\\left(\\O_{x\\preceq T}^{\\phantom{s u p}}|X_{t}^{\\lambda}-X_{t}-\\lambda{\\cal D}X_{t}|^{2}\\right)=o(\\lambda^{2}),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "DXt = Z (0,t]×R yσ′ x(Xs−, Ps)DXs−˜N1(dy, ds) + Z (0,t]×R σ(Xs−, Ps)v(s, y) ˜ N1(dy, ds)",
+    "latex": "{\\cal D}X_{t}=\\int_{(0,t)\\times{\\bar{\\mathrm{R}}}}y\\sigma_{x}^{\\prime}(X_{s-},P_{s}){\\cal D}X_{s-}~\\tilde{N}_{1}(d y,d s)+\\int_{(0,t)\\times{\\mathrm{R}}}\\sigma(X_{s-},P_{s})v(s,y)\\tilde{N}_{1}(d y,d s)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z (0,t]×R yσ′ x(Xs−, Ps)DXs−N2(dy, ds) − Z (0,t]×[−1,1] y σ(Xs−, Ps)(β1(y)v′(s, y) + β′ 1(y)v(s, y))dyds.",
+    "latex": "\\ast\\int_{(0,\\bar{\\nu})\\times\\bar{\\nu}}(X_{s-},P_{s})D X_{s-}~N_{2}(d y,d s)-\\int_{(0,d)\\times[-1,\\bar{\\nu}}(\\beta_{1}(y)v^{\\prime}(s,y)+\\beta_{1}^{\\prime}(y)v(s,y))d y d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup λ∈[−1,1] ET   sup t≤T |Xλ t |4 ! < +∞.",
+    "latex": "\\operatorname*{sup}_{\\lambda\\in[-1,1]}\\vert\\Xi_{T}\\left(\\operatorname*{sup}_{t\\le T}\\vert X_{t}^{\\lambda}\\vert^{4}\\right)<+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET    Z (0,t]×R Hsρ(y) ˜N1(dy, ds) !4 ≤C  \u0012Z 1 −1 ρ2(y)β1(y)dy \u00132 + Z 1 −1 ρ4(y)β1(y)dy !",
+    "latex": "\\mathbb{E}_{T}\\left(\\left(\\int_{(0,t)\\times\\mathbb{R}}H_{s}\\rho(y){\\bar{N}}_{1}(d y,d s)\\right)^{4}\\right)\\leq C\\left(\\left(\\int_{-1}^{1}\\rho^{2}(y)\\beta_{1}(y)d y\\right)^{2}+\\int_{-1}^{1}\\rho^{4}(y)\\beta_{1}(y)d y\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "× Z t 0 ET \u0012 sup u≤s |Hu|4 \u0013 ds,",
+    "latex": "\\times\\;\\int_{0}^{t}\\mathbb{R}_{T}\\left(\\operatorname*{sup}_{u\\leq s}|H_{u}|^{4}\\right)d s,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "ET \u0012\f\f\f\f Z t 0 yσ(Xλ s−, Ps)N2(dy, ds) \f\f\f\f 4\u0013 ≤C k X i=1 Y 4 i \u0010 ET(|Xλ Ti−|4) + σ4(0, PTi) \u0011",
+    "latex": "\\mathbb{E}_{T}\\left(\\left|\\int_{0}^{t}y\\sigma(X_{s-}^{\\lambda},P_{s})N_{2}(d y,d s)\\right|^{4}\\right)\\leq C\\sum_{i=1}^{k}Y_{i}^{4}\\left(\\mathbb{E}_{T}(|X_{T_{i}-}^{\\lambda}|^{4})+\\sigma^{4}(0,P_{T_{i}})\\right)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤C k sup i=1 |Yi|4   sup u∈[0,T] σ4(0, Pu) + Z t 0 Z |y|>1 ET (|Xλ s−|4)N2(dy, ds) ! .",
+    "latex": "\\leq C\\operatorname*{s_{i=1}^{k}|Y_{i}|^{4}}\\left(\\operatorname*{sup}_{u\\in[0,T]}^{\\operatorname*{sup}}\\sigma^{4}(0,P_{u})+\\int_{0}^{t}\\int_{|y|>1}\\mathbb{E}_{T}(|X_{s-}^{\\lambda}|^{4})N_{2}(d y,d s)\\right).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup λ∈[−1,1] ET   sup t≤T |σ(Xλ t , Pt)|4 ! < +∞.",
+    "latex": "\\begin{array}{l}{{\\mathrm{~Sup~}\\left[\\mathrm{E}{\\displaystyle[\\vphantom{S u p}\\right.}\\left[\\sigma(X_{t}^{\\lambda},{\\cal{P}}_{t})\\right]^{4}\\right)\\,\\!<\\,+\\infty.}}\\\\ {{\\mathrm{~}\\lambda{\\in\\!\\!{\\left[-1,1\\right]}}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= Z (0,t]×R y Zλ s−σ′ x(Xs−, Ps)( ˜N1(dy, ds) + N2(dy, ds))",
+    "latex": "=\\;\\int_{(0,t)\\times\\mathbb{R}}^{\\circ}\\!y\\;Z_{s-}^{\\lambda}\\sigma_{x}^{\\prime}(X_{s-},P_{s})\\big(\\tilde{N}_{1}(d y,d s)+N_{2}(d y,d s)\\big)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z (0,t]×R y \u0010 σ(Xλ s−, Ps) −σ(Xs−, Ps) −σ′ x(Xs−, Ps)(Xλ s−−Xs−) \u0011 ( ˜N1(dy, ds) + N2(dy, ds))",
+    "latex": "\\ast\\int_{(0,t)^{\\prime}\\times\\bar{\\bf R}}^{\\prime}\\Bigl(\\sigma(X_{s-}^{\\lambda},P_{s})-\\sigma(X_{s-}^{\\prime},P_{s})-\\sigma_{x}^{\\prime}(X_{s-}^{\\lambda},P_{s})(X_{s-}^{\\lambda}-X_{s-}^{\\prime})\\Bigr)\\,(\\tilde{N}_{1}(d y,d s)+N_{2}(d y,d s))",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ Z (0,t]×R λv(s, y) \u0010 σ(Xλ s−, Ps) −σ(Xs−, Ps) \u0011 ˜N1(dy, ds)",
+    "latex": "+\\int_{(0,t)\\times\\mathbb{R}}^{(\\cdots,t^{\\to\\infty}}\\lambda v(s,y)\\left(\\sigma(X_{s-}^{\\lambda},P_{s})-\\sigma(X_{s-},P_{s})\\right)\\tilde{N}_{1}(d y,d s)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "− Z (0,t]×R y σ(Xs, Ps) \u0012 V λ(s, y) −1 −λ d dλV λ(s, y)/λ=0 \u0013 β1(y)dyds",
+    "latex": "-\\int_{\\stackrel{(\\cdot,t)}{\\d t}\\times\\mathbb{R}}^{\\textrm{c}}^{\\textrm{C}}\\d t\\circ(X_{s},P_{s})\\left(V^{\\lambda}(s,y)-1-\\lambda\\frac{d}{d\\lambda}V^{\\lambda}(s,y)_{/\\lambda=0}\\right)\\beta_{1}(y)d y d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "− Z (0,t]×R y \u0010 σ(Xλ s , Ps) −σ(Xs, Ps) \u0011 (V λ(s, y) −1)β1(y)dyds",
+    "latex": "-\\int_{\\stackrel{\\leftarrow,t}{\\sim}\\!\\!\\!\\!\\!\\!\\int_{\\sigma}^{\\infty}\\!\\!\\!\\!\\!\\!\\overbrace{\\theta}(\\d K_{s}^{\\lambda},P_{s})-\\sigma(X_{s},P_{s}))\\,(V^{\\lambda}(s,y)-1)\\beta_{1}(y)d y d s",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "− Z (0,t]×R λ v(s, y)σ(Xλ s , Ps)(V λ(s, y) −1)β1(y)dyds.",
+    "latex": "-\\int_{(0,t)\\times{\\mathbb{R}}}^{+\\cdot\\cdot\\cdot\\cdot\\cdot\\cdot-}\\lambda\\ v(s,y)\\sigma({\\cal X}_{s}^{\\lambda},{\\cal P}_{s})({\\cal V}^{\\lambda}(s,y)-1)\\beta_{1}(y)d y d s.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z (0,t]×R σ(Xs−, Ps)v(s, y) ˜N1(dy, ds),",
+    "latex": "\\int_{(0,t)\\times\\mathbb{R}}O\\left({\\cal X}_{s-},P_{s}\\right)v\\Big(S,\\,y\\Big)\\tilde{M}_{1}\\left({\\cal Q}y,\\,{\\cal Q}s\\right),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Kt = Z (0,t]×R y σ′ x(Xs−, Ps) ˜N1(dy, ds) + Z (0,t]×R y σ′ x(Xs−, Ps)N2(dy, ds), (53)",
+    "latex": "\\begin{array}{r c l}{{K_{t}}}&{{=}}&{{\\displaystyle\\int_{(0,t)\\times\\hat{\\mathrm{{s}}}}y~\\sigma_{x}^{\\prime}(X_{s-},P_{s})\\hat{N}_{1}(d y,d s)+\\displaystyle\\int_{(0,t)\\times\\hat{\\mathrm{{s}}}}y~\\sigma_{x}^{\\prime}(X_{s-},P_{s})N_{2}(d y,d s),}}\\end{array}\\qquad(53)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Lt = Z (0,t]×R σ(Xs−, Ps) v(s, y) N1(dy, ds).",
+    "latex": "L_{t}\\quad=\\quad\\int_{(0,t)\\times\\mathbb{R}}^{\\leftarrow\\overbrace{\\sim}^{\\\\!{s\\to\\lnot}}\\qquad}\\sigma(X_{s-},P_{s})\\ \\upsilon(s,y)\\ N_{1}(d y,d s).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E(K)t = eKtΠ0<s≤t(1 + ∆Ks)e−∆Ks",
+    "latex": "\\bar{C}\\left(K\\right)_{t}\\,\\longrightarrow\\,e^{K_{t}}\\Pi_{0<s\\leq t}\\left({1\\ +\\ \\Delta K_{s}}\\right)\\!e^{-\\Delta K_{s}}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "E(K −KSk)t \u0012 DXSk + Z (Sk,t] (1 + ∆Ks)−1E(K −KSk)−1 s−dLs \u0013",
+    "latex": "\\begin{array}{l}{{\\displaystyle{\\mathcal{E}}(K-K^{S_{k}})_{t}\\left(D X_{S_{k}}+\\int_{(S_{k},t)}(1+\\Delta K_{s})^{-1}\\displaystyle{\\mathcal{E}}(K-K^{S_{k}})_{s-}^{-1}d L_{s}\\right)}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "if Sk ≤t < Sk+1, and t ≤T,",
+    "latex": "\\mathrm{i}\\mathrm{~}S_{k}^{\\mathrm{~}}\\le t\\mathrm{~}\\mathrm{~}\\mathrm{~}\\mathrm{~}\\hat{\\mathrm{\\boldmath~}}\\cdot\\mathrm{~}\\hat{\\mathrm{~}\\hat{~}}\\to\\mathrm{~}\\hat{\\mathrm{~}\\hat{~}}^{\\mathrm{~}\\cdot\\mathrm{~}\\mathrm{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\mathrm{~}\\hat{~}\\hat{~}\\hat{~}\\mathrm{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\mathrm{~}\\hat{~}\\hat{~}\\mathrm{~}\\mathrm{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\hat{~}\\mathrm{~}\\mathrm{~}\\mathrm{~}\\mathrm{~}\\hat{~}\\hat{~}\\mathrm{~}\\leq\\mathrm{~}\\hat{~}\\mathrm{~}\\hat{~}\\hat{~}\\mathrm{~}\\hat{~}\\hat{~}\\mathrm{~}\\hat{~}\\hat{~}\\mathrm{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\hat{~}\\leq\\Lambda)\\;}\\hat{~}\\hat{~}\\hat{{{~}\\hat{~}\\cal",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "DXT = E(K −KSn)T \u0012 DXSn + Z (Sn,T] (1 + ∆Ks)−1E(K −KSn)−1 s−dLs \u0013 .",
+    "latex": "{\\cal D}X_{T}=\\xi(K-K^{S_{n}})_{T}\\biggl({\\cal D}X_{S_{n}}+\\int_{(S_{n},T)}(1+\\Delta K_{s})^{-1}\\xi(K-K^{S_{n}})_{s-}^{-1}d L_{s}\\biggr).",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "v(s, y) = 1{s>Sn}(1 + y σ′ x(Xs−, Ps)) k(y) g(σ(Xs−, Ps))",
+    "latex": "v(s,y)={\\bf1}_{\\{s>S_{n}\\}}(1+y\\;\\sigma_{x}^{\\prime}(X_{s-},P_{s}))\\;k(y)\\;g(\\sigma(X_{s-},P_{s}))",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Proof : One has DXT = E(K −KSn)T Yn, where Yn = R (Sn,T](1 + ∆Ks)−1E(K −KSn)−1 s−dLs.",
+    "latex": "{\\mathrm{Proof~}}:{\\mathrm{One~has~}}D X_{T}={\\mathcal{E}}(K-K^{S_{n}})_{T}Y_{n},\\mathrm{where}\\;Y_{n}=\\textstyle\\int_{\\{S_{n},T\\}}(1+\\Delta K_{s})^{-1}{\\mathcal{E}}(K-K^{S_{n}})_{s-}^{-1}d L_{s}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Yn = Z (Sn,T]×[−1,1] hn(s, y)N1(ds, dy),",
+    "latex": "Y_{n}=\\int_{(S_{n},T]\\times[-1,1]}h_{n}(s,y)N_{1}(d s,d y),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "hn(s, y) = E(K −KSn)−1 s−(1 + yσ′ x(Xs−, Ps))−1v(s, y)σ(Xs−, Ps)",
+    "latex": "\\begin{array}{l l l}{{h_{n}(s,y)}}&{{=}}&{{\\mathcal{E}(K-K_{\\ \\cdot n}^{S_{n}})_{s-}^{-1}(1+y\\sigma_{x}^{\\prime}(X_{s-},P_{s}))^{-1}v(s,y)\\sigma(X_{s-},P_{s})}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= E(K −KSn)−1 s−k(y)σ(Xs−, Ps)g(σ(Xs−, Ps)) ≥0.",
+    "latex": "=\\;\\;\\mathcal{L}\\big(K-K^{S_{n}}\\big)_{s-}^{\\phantom{\\infty}\\sim{}}\\!\\!\\!\\!\\phantom{\\frac{\\textrm{}}\\leftrightarrow{}^{\\circ\\begin{array}{}\\leftrightarrow{}^{\\circ}{}^{\\phantom{\\leftrightarrow}\\leftrightarrow{}^{\\circ\\prime}\\begin{array}{}\\leftrightarrow{}^{\\leftrightarrow\\prime}\\phantom{\\leftrightarrow}{}^{\\leftrightarrow\\prime}}\\\\ {\\qquad\\qquad\\qquad\\left(\\mathcal{C}(X_{s-},P_{s})\\right)\\sum0.}\\end{array}\\right.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Let us consider the set An = {(ω, s, y), hn(ω, s, y) > 0} and deﬁne the stopping time τ = inf{t > Sn, R (Sn,t]×[−1,1] hn(s, y)N1(ds, dy) > 0} = inf{t > Sn, R (Sn,t]×[−1,1] 1An(s, y)N1(ds, dy) > 0}.",
+    "latex": "{\\underline{{{\\mathrm{bet}}}}}\\operatorname{ta}\\operatorname{sensider\\,the\\,set}A_{n}\\,=\\{\\{\\omega,s,y\\}\\},h_{n}(\\omega,s,y)>0\\}{\\mathrm{~and~define~sthe\\,strhe\\,stopping\\,time\\,}}\\tau={\\operatorname*{inf}}\\{t\\}=0\\}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "(ω, s, y) ∈An ⇔σ(Xs−(ω), Ps) ̸= 0,",
+    "latex": "\\left(\\omega,\\,s,\\,y\\right)\\,\\in\\,\\,A_{n}\\,\\Longleftrightarrow\\,\\mathcal{O}\\big(X_{s-}\\big(\\omega\\big),\\,\\mathcal{D}_{s}\\big)\\,\\mp\\,\\big(\\rho,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "On the other hand, R (Sn,τ]×[−1,1] 1An(s, y)N1(ds, dy) ≤1, so E \u0010R (Sn,τ]×[−1,1] 1An(s, y)N1(ds, dy) \u0011 ≤1 and, for ω in a set of probability 1,",
+    "latex": "\\begin{array}{l l}{{\\mathrm{On~the~other~hand,~}f_{(S_{n},\\tau]\\times[-1,1]}\\bar{{\\bf1}}_{A_{n}}(s,d y)\\ \\leq\\ 1,}}\\\\ {{\\mathrm{so~fs}\\left(\\int_{(S_{n},\\tau)\\times[-1,1]}{\\bf1}_{A_{n}}(s,y)N_{1}(d s,d y)\\right)\\ \\leq\\ 1\\mathrm{~and,~for~}\\omega\\ \\mathrm{in~a~set~of~probability~1},}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z (Sn,τ]×[−1,1] 1An(s, y)β1(y)dyds < +∞.",
+    "latex": "\\int_{(S_{n},\\tau)\\times[-1,1]}\\mathbf{1}_{A_{n}}{\\bigl(}S,y{\\bigr)}\\beta_{1}{\\bigl(}y{\\bigr)}d y d S\\ll+\\infty.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Dα xf(x) = K Z R \u0000f(x + y) −f(x) −1{|y|≤1}f ′(x)y \u0001 dy |y|1+α .",
+    "latex": "D_{x}^{\\alpha}f(x)=K\\int_{\\mathbb{R}}\\left(f(x+y)-f(x)-{\\bf1}_{\\{|y|\\leq1\\}}f^{\\prime}(x)y\\right)\\frac{d y}{|y|^{1+\\alpha}}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Dα xv(x) = K′F−1\u0010 |ξ|αF(v)(ξ) \u0011 (x), with K′ > 0.",
+    "latex": "D_{x}^{\\alpha}v(x)=K^{\\prime}{\\mathcal{F}}^{-1}\\left(|\\xi|^{\\alpha}{\\mathcal{T}}(v)(\\xi)\\right)(x),\\ \\mathrm{~with~}K^{\\prime}>0.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z R L[ν]ϕ(x)ψ(x)dx = K Z R2 \u0000ϕ(x + s(x)y) −ϕ(x) −1{|y|≤1}s(x)yϕ′(x) \u0001 dy |y|1+α ψ(x)dx,",
+    "latex": "\\int_{\\mathbb{R}}{\\mathcal{L}}[\\nu]\\varphi(x)\\psi(x)d x=K\\int_{\\mathbb{R}^{2}}\\left(\\varphi(x+s(x)y)-\\varphi(x)-{\\mathbf{1}}_{\\{y\\}\\leq1\\}}s(x)y\\varphi^{\\prime}(x)\\right){\\frac{d y}{|y|^{1+\\alpha}}}\\psi(x)d x,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "where s(x) = σ(x, ν). Setting z = −s(x)y, and observing that R R \u00001{|z|≤s(x)} −1{|z|≤1} \u0001 zdz |z|1+α = 0 one gets",
+    "latex": "{\\mathrm{~where~}}s(x)=\\sigma(x,\\nu).{\\mathrm{~Seting~}}z=-s(x)y,{\\mathrm{~and~observing~that~}}\\int_{\\mathbb{R}}\\left(1_{\\{i|z|\\leq s(x)\\}}-1_{\\{i|z|=1\\}}\\right){\\frac{\\gamma_{i}\\cdot d^{2}}{|z|+a^{2}}}={\\frac{\\mathrm{ing~}}{\\mathrm{~ur~}}a^{2}}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z R \u0012 ϕ(x + s(x)y) −ϕ(x) −1{|y|≤1}s(x)yϕ′(x) \u0013 dy |y|1+α",
+    "latex": "\\int_{\\mathbb{R}}\\left(\\varphi(x+s(x)y)-\\varphi(x)-\\mathbf{1}_{\\{|y|\\leq1\\}}s(x)y\\varphi^{\\prime}(x)\\right){\\frac{d y}{|y|^{1+\\alpha}}}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= Z R \u0000ϕ(x −z) −ϕ(x) + 1{|z|≤1}zϕ′(x) \u0001 |s(x)|α dz |z|1+α .",
+    "latex": "=\\int_{\\mathbb{R}}\\left(\\varphi(x-z)-\\varphi(x)+\\mathbf{1}_{\\{|z|\\leq1\\}}z\\varphi^{\\prime}(x)\\right)|s(x)|^{\\alpha}{\\frac{d z}{|z|^{1+\\alpha}}}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z R ϕ(x −z)[|s|αψ](x)dx = Z R ϕ(x)[|s|αψ](x + z)dx,",
+    "latex": "\\int_{\\mathbb{R}}\\varphi(x-z)[|s|^{\\alpha}\\psi](x)d x=\\int_{\\mathbb{R}}\\varphi(x)[|s|^{\\alpha}\\psi](x+z)d x,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z R ϕ′(x)[|s|αψ](x)dx = − Z R ϕ(x)[|s|αψ]′(x)dx,",
+    "latex": "\\int_{\\mathbb{R}}\\varphi^{\\prime}(x)[|s|^{\\alpha}\\psi](x)d x=-\\int_{\\mathbb{R}}\\varphi(x)[|s|^{\\alpha}\\psi]^{\\prime}(x)d x,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Z R L[ν]ϕ(x)ψ(x)dx = K Z R ϕ(x) Z R \u0012 [|s|αψ](x + z) −[|s|αψ](x) −1{|z|≤1}z[|s|αψ]′(x) \u0013 dz |z|1+α dx.",
+    "latex": "\\int_{\\bf g}Z[\\nu]\\varphi(x)\\psi(x)d x=K\\int_{\\bf g}\\varphi(x)\\int_{\\bf g}\\left(|{\\bf s}|^{\\alpha}\\psi|(x+z)-|{\\bf s}|^{\\alpha}\\psi|(x+z)-|{\\bf s}|^{\\alpha}\\psi|(x)-{\\bf1}_{(|z|\\leq1)}z||{\\bf s}|^{\\alpha}\\psi|^{\\nu}(x)\\right)\\frac{d z}{|z|+\\alpha}d x.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "L∗[ν]ψ(x) = Dα x(|σ(., ν)|αψ(.))(x).",
+    "latex": "\\begin{array}{l}{{\\displaystyle{\\cal Z}^{\\star}\\big[{\\cal J}\\big]\\psi\\big({\\cal x}\\big)\\longrightarrow\\mathrm{\\bf~1}\\ \\!D_{x}^{\\alpha}\\big(\\big\\big\\vert{\\cal O}\\big({\\bf\\varepsilon},{\\cal{1}}\\big)\\big\\vert^{\\alpha}\\psi\\big({\\bf\\varepsilon}\\big)\\big)\\big({\\cal X}\\big).}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "( ∂tpt(x) = Dα x(|σ(., pt)|αpt(.))(x) limt→0+ pt(x)dx = m(dx) for the weak convergence,",
+    "latex": "\\begin{array}{l}{{\\displaystyle\\int\\partial_{t}p_{t}(x)=D_{x}^{\\alpha}(|\\sigma(.,p_{t})|^{\\alpha}p_{t}(.))(x)}}\\\\ {{\\displaystyle\\left\\{\\mathrm{lim}_{t\\to0^{+}}p_{t}(x)d x=m(d x)\\ f o r~t h e~w e a k~c o n v e r g e n c e,}}}\\end{array}\\right.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "each t ∈(0, T], we have Pt = pt(x)dx .",
+    "latex": "\\mathrm{each}\\ t\\in\\ (0,T),\\ \\mathrm{we\\have}\\ {\\stackrel{\\circ}{P}}\\ {\\stackrel{\\circ}{P}}_{t}=p_{t}(x)d x\\ .",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "For γ > α 2 , and ε ∈(0, 1/2), let kε denote the even function on [−1, 1] deﬁned by",
+    "latex": "\\mathrm{For~}\\gamma>{\\frac{a}{2}},{\\mathrm{~and~}}\\varepsilon\\in(0,1/2),{\\mathrm{~let~}}k_{\\varepsilon}{\\mathrm{~denote~the~even~function~on~[-1,1]~defined~by~}}\\varepsilon\\in\\mathbb{C}_{0,1/2}\\gamma\\in\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,1}\\leq\\mathbb{Z}_{1,0}\\leq\\mathbb{Z}_{1,1}\\leq0,1.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "kε(y) =      y1+γ, for y ∈[0, ε], ε1+γ + (1 + γ)εγ(y −ε) −(1 + c)(y −ε)1+γ, for y ∈[ε, 2ε] (1 + γ −c)ε1+γ −c(1 + γ)εγ(y −2ε), for y ∈[2ε, 1], ,",
+    "latex": "k_{\\varepsilon}(y)={\\left\\{\\begin{array}{l l}{y^{1+\\gamma},}&{{\\mathrm{for~}}y\\in[0,\\varepsilon],}\\\\ {\\varepsilon^{1+\\gamma}+(1+\\gamma)\\varepsilon^{\\gamma}(y-\\varepsilon)-(1+c)(y-\\varepsilon)^{1+\\gamma},}&{{\\mathrm{for~}}y\\in[\\varepsilon,2\\varepsilon]~,}\\\\ {(1+\\gamma-c)\\varepsilon^{1+\\gamma}-c(1+\\gamma)\\varepsilon^{\\gamma}(y-2\\varepsilon),}&{{\\mathrm{for~}}y\\in[2\\varepsilon,1],}\\end{array}\\right.}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "for y ∈[0, ε],",
+    "latex": "\\L_{\\circ}\\Psi\\cap\\L_{\\mathrm{~<}}\\L_{\\circ}\\L_{\\circ}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "for y ∈[2ε, 1],",
+    "latex": "\\mathrm{for~}\\mathcal{V}\\in\\left[2\\varepsilon,\\underline{{{1}}}\\right],",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "where c = (1+γ)ε (1+γ)−ε(1+2γ), so that kε(1) = 0. The function kε is non-negative and C1 on [0, 1], satisﬁes (20) and, ∀y ∈[−1, 1],",
+    "latex": "\\begin{array}{l}{{\\mathrm{where~}c={\\frac{(1+\\gamma)(\\varepsilon+2\\gamma)}{\\mathrm{suthes}}}\\mathrm{~}s o~}\\mathrm{that~}k_{\\varepsilon}(1)=0.~~{\\mathrm{The~function~}}k_{\\varepsilon}{\\mathrm{~is~non.negative~and~}}C^{1}{\\mathrm{~on~}}[0,1],}}\\\\ {{\\mathrm{satisfes~}(20)~\\mathrm{and,}{\\sqrt{y/6}}\\in1-1,1],}}\\end{array}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "and kε(y) |y| ≤(1 + γ)εγ.",
+    "latex": "\\mathrm{and}\\;\\;\\;\\;\\frac{k_{\\varepsilon}(y)}{|y|}\\leq(1+\\gamma)\\varepsilon^{\\gamma}.",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "kε(y) ≤(2 + γ)ε1+γ, |k′ ε(y)| ≤(1 + γ) max(1, c)εγ,",
+    "latex": "k_{\\varepsilon}(y)\\le(2+\\gamma)\\varepsilon^{1+\\gamma},\\quad|k_{\\varepsilon}^{\\prime}(y)|\\le(1+\\gamma)\\operatorname*{max}(1,c)\\varepsilon^{\\gamma},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "β′ 1(y) β1(y)(1 + ay)kε(y) + akε(y) + (1 + ay)k′ ε(y) \f\f\f\f 2 β1(y) ≤C \u0014k2 ε(y) y2 + k2 ε(y) + (k′ ε)2(y) \u0015 β1(y)",
+    "latex": "\\left|\\begin{array}{c c}{{\\delta_{1}^{\\prime}(y)}}&{{}}\\\\ {{\\beta_{1}(y)}}(1+a y)k_{\\varepsilon}(y)+(1+a y)k_{\\varepsilon}^{\\prime}(y)\\right|^{2}\\beta_{1}(y)\\leq C\\left[\\frac{k_{\\varepsilon}^{2}(y)}{\\frac{y^{2}}{y^{2}+k_{\\varepsilon}^{2}(y)}+(k_{\\varepsilon}^{\\prime})^{2}(y)\\right]\\beta_{1}(y)\\leq C\\left[\\frac{k_{\\varepsilon}^{\\prime}(y)}{y^{2}+k_{\\varepsilon}^{2}(y)+(k_{\\varepsilon}^{\\prime})^{2}(y)\\right]\\beta_{1}(y)\\right].",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "∼C′|y|−(1+α−2γ),",
+    "latex": "\\sim\\,\\underbrace{1}{\\Omega}_{}^{}^{}\\Delta(\\not{I}+\\alpha)=\\not{A}_{}^{}\\Bigg)\\nonumber\\rightarrow",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "sup a∈[−K1,K1],λ∈[−1,1] \u0012 \f\f\f\f β′′ 1(y + λ(1 + ay)kε(y)) β1(y) (1 + λ(akε(y) + (1 + ay)k′ ε(y)) \f\f\f\f 2 k2 ε(y)",
+    "latex": "\\operatorname*{sup}_{a\\in[-K_{1},K_{1}],\\lambda\\epsilon[-1,1]}\\left(\\left|\\frac{\\beta_{1}^{\\prime\\prime}(y+\\lambda(1+a y)k_{\\varepsilon}(y))}{\\beta_{1}(y)}(1+\\lambda(a k_{\\varepsilon}(y)+(1+a y)k_{\\varepsilon}^{\\prime}(y))\\right|^{2}k_{\\varepsilon}^{2}(y)",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ \f\f\f\f β′ 1(y + λ(1 + ay)kε(y)) β1(y) \f\f\f\f 2 \u0013 k2 ε(y)β1(y) ≤C \u0012|y|2+2γ y4 + 1 y2 \u0013 |y|1+2γ−α,",
+    "latex": "\\ast\\left|\\frac{\\beta_{1}^{\\prime}(y+\\lambda(1+a y)k_{\\varepsilon}(y))}{\\beta_{1}(y)}\\right|^{2}\\right>k_{\\varepsilon}^{2}(y)\\beta_{1}(y)\\le C\\left(\\frac{|y|^{2+2\\gamma}}{y^{4}}+\\frac{1}{y^{2}}\\right)|y|^{1+2\\gamma-\\alpha},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "Finally, for a ∈[−K1, K1] and y, λ ∈[−1, 1], by (57), for ε < ((1 + K1)(1 + γ))−1/γ,",
+    "latex": "\\operatorname{Finally},\\,\\operatorname{for}\\,a\\in\\left[-K_{1},K_{1}\\right]{\\mathrm{~and~}}y,\\lambda\\in\\left[-1,1\\right],\\,\\operatorname{by}\\,\\left(57\\right),\\,\\operatorname{for}\\,\\varepsilon<\\left((1+K_{1})(1+\\gamma)\\right)^{-1/\\gamma},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "1 |λ| \f\f\f\f β1(y + λ(1 + ay)kε(y)) β1(y) (1 + λ(akε(y) + (1 + ay)k′ ε(y)) −1 \f\f\f\f ( )",
+    "latex": "\\frac{1}{|\\lambda|}\\left|\\frac{\\beta_{1}(y+\\lambda(1+a y)k_{\\varepsilon}(y))}{\\beta_{1}(y)}(1+\\lambda(a k_{\\varepsilon}(y)+(1+a y)k_{\\varepsilon}^{\\prime}(y))-1\\right|",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "= 1 |λ| |1 −|1 + λ(1 + ay)kε(y) y |1+α + λ(akε(y) + (1 + ay)k′ ε(y))| |1 + λ(1 + ay)kε(y) y |1+α 1",
+    "latex": "=\\frac{1}{|\\lambda|}\\frac{\\d t}{\\left|1-\\left|1+\\lambda(1+a y)\\frac{k\\epsilon(y)}{y}\\right|^{1+\\alpha}+\\lambda(a k_{\\varepsilon}(y)+(1+a y)k_{\\varepsilon}^{\\prime}(y))\\right|}{\\left|1+\\lambda(1+a y)\\frac{k\\epsilon(y)}{y}\\right|^{1+\\alpha}}",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "≤ 1 (1 −(1 + K1)(1 + γ)εγ)1+α h (1 + α)(1 + (1 + K1)(1 + γ)εγ)α(1 + K1)(1 + γ)εγ",
+    "latex": "\\leq\\frac{1}{(1-(1+K_{1})(1+\\gamma)\\varepsilon^{\\gamma})^{1+\\alpha}}\\Big[(1+\\alpha)(1+(1+K_{1})(1+\\gamma)\\varepsilon^{\\gamma})^{\\alpha}(1+K_{1})(1+\\gamma)\\varepsilon^{\\gamma}\\Big]",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "+ K1(2 + γ)ε1+γ + (1 + K1)(1 + γ) max(1, c)εγi ,",
+    "latex": "+\\,K_{1}(2+\\gamma)\\varepsilon^{1+\\gamma}+(1+K_{1})(1+\\gamma)\\,\\mathrm{max}(1,c)\\varepsilon^{\\gamma}\\Big],",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "∂tpt(x) = D2 x(pq t(x)),",
+    "latex": "\\partial_{t}p_{t}(x)=D_{x}^{2}(p_{t}^{q}(x)),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "q > 1,",
+    "latex": "q>1,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "∂tpr t(x) = −Dx(F(x)pr t(x)) + D2 x(pq t(x)),",
+    "latex": "\\partial_{t}p_{t}^{r}(x)\\equiv-D_{x}(F(x)p_{t}^{r}(x))+D_{x}^{2}(p_{t}^{q}(x)),",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "r, q ∈R,",
+    "latex": "r,q\\in\\mathbb{R},",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "σ(x, ν) = (gε ∗ν(x))s with ε > 0, gε(x) = 1 √ 2πεe−x2 2ε and s > 0,",
+    "latex": "\\sigma(x,\\nu)=(g_{\\varepsilon}*\\nu(x))^{s}\\ \\mathrm{with}\\ \\varepsilon>0,\\ g_{\\varepsilon}(x)=\\frac{1}{\\sqrt{2\\pi\\varepsilon}}e^{-\\frac{x^{2}}{2\\varepsilon}}\\ \\mathrm{and}\\ s>0,",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "[7] Br´ezis, H. and Crandall, M.G., Uniqueness of solutions of the initial-value problem for ut − ∆ϕ(u) = 0, J. math. pures et appl. 58:153-163, 1979.",
+    "latex": "\\begin{array}{l}{{\\overline{{{\\Gamma}}}\\\\!{\\mathrm{Brizs}}\\ \\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\mathrm{Bro\\!\\!\\!\\!/}\\ \\!\\!\\!\\!\\!/(u)\\i\\!\\!\\!\\!\\slash=0,\\underbrace{a n d\\;d i l.\\mathrm{un}}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\mathrm{Bro\\!\\!\\!/}\\ \\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\partial\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\Gammaarray}}}\\!\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\mathrm{\\Gamma}\\!\\!\\mathrm{\\mathrm{\\partial\\!\\mathrm{\\mathrm{\\mathrm{\\partial\\!\\!\\!\\!\\!\\!\\!\\!\\mathrm{\\Gammaarray}\\!\\!\\mathrm{",
+    "source": "0707.2723v1"
+  },
+  {
+    "text": "vt = (1 −β2) t X i=1 βt−i 2 · g2 i",
+    "latex": "\\upsilon_{t}\\longrightarrow\\left(1\\:-\\:\\beta_{2}\\right)\\sum_{i=1}^{t}\\beta_{2}^{t-i}\\cdot g_{i}^{2}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "E[vt] = E \" (1 −β2) t X i=1 βt−i 2 · g2 i #",
+    "latex": "\\mathbb{E}[v_{t}]=\\mathbb{E}\\left[(1-\\beta_{2})\\sum_{i=1}^{t}\\beta_{2}^{t-i}\\cdot g_{i}^{2}\\right]",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= E[g2 t ] · (1 −β2) t X i=1 βt−i 2 + ζ",
+    "latex": "\\begin{array}{c}{{\\cdots}}\\\\ {{\\phantom{\\frac{\\sim}{}}\\left.\\right.\\left(1-\\beta_{2}\\right)\\sum_{i=1}^{\\left(\\begin{array}{c}{{\\cdots}}\\\\ {{\\cdots}}\\end{array}\\right)\\right.}\\end{array}\\right.}}\\\\ {{\\mathop{\\cal M}_{-}^{\\left(\\begin{array}{c}{{1}}\\\\ {{\\cdots}}\\end{array}\\right)}}\\end{array}\\right.}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= E[g2 t ] · (1 −βt 2) + ζ",
+    "latex": "\\underline{{{\\Lambda}}}[g_{t}^{2}]\\cdot\\left(1-\\beta_{2}^{t}\\right)^{+}\\underline{{{-\\Sigma}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) = T X t=1 [ft(θt) −ft(θ∗)]",
+    "latex": "R(T)=\\sum_{t=1}^{T}[f_{t}(\\theta_{t})-f_{t}(\\theta^{*})]",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "g1:t,i ∈ g over all iterations till t, g1:t,i = [g1,i, g2,i, · · · , gt,i]. Also, we deﬁne γ ≜ β2 1 √β2 . Our following h h ld h h l i i d i f 1 d ﬁ i",
+    "latex": "\\begin{array}{l}{{\\scriptstyle{\\mathrm{ovenent~ï¿½remen}}\\cdot{\\mathrm{v}}\\scriptstyle{\\mathrm{evme}}\\cdot{\\mathrm{evmevan}}\\cdot{\\mathrm{ev}}\\scriptstyle{\\mathrm{or~a}}\\scriptstyle{\\mathrm{evmen}}\\cdot{\\mathrm{ex}}\\scriptstyle{\\mathrm{on}}\\scriptstyle{\\mathrm{evan}}\\cdot{\\mathrm{evan}}\\cdot{\\mathrm{ev}}\\scriptstyle{\\mathrm{on}}\\cdot{\\mathrm{e}}\\scriptstyle{\\mathrm{on}}\\cdot{\\mathrm{en}}\\cdot{\\mathrm{e}}\\cdot{\\mathrm{e}}\\scriptstyle{\\mathrm{on}}\\cdot{\\mathrm{e}}\\ {\\mathrm{on}}\\cdot{\\mathrm{for}}\\ \\scriptstyle{\\mathrm{on}}\\ ;{\\mathrm{on}}\\ ;{\\mathrm{on}}\\scriptstyle{\\mathrm{on}}\\ \\scriptstyle{\\mathrm{on}}\\ \\scriptstyle{\\mathrm{fon}}\\ ;{\\mathrm{on}}\\ .{\\mathrm{on}}\\leq{\\mathrm{e}}\\leq-{\\sec}}-{-{\\mathrm{-}}}\\right.{\\sec{-}}-{\\mathrm{-}}-{-}-{\\div{-}}-{\\frac{-}\\div{-}}\\div{\\div{-}}-{-}}\\right.{-}-{\\div}-{-{\\div-}-{-}{-{-}-}-{\\div}-{-{-{-}-}-{-{-{-{-}-}-{-{\\div{-{-{-}-}-{-}-}-{-{-{-{-}-\\",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "Theorem 4.1. Assume that the function ft has bounded gradients, ∥∇ft(θ)∥2 ≤G, ∥∇ft(θ)∥∞≤ G∞for all θ ∈Rd and distance between any θt generated by Adam is bounded, ∥θn −θm∥2 ≤D, ∥θm −θn∥∞≤D∞for any m, n ∈{1, ..., T}, and β1, β2 ∈[0, 1) satisfy β2 1 √β2 < 1. Let αt = α √ t and β1,t = β1λt−1, λ ∈(0, 1). Adam achieves the following guarantee, for all T ≥1.",
+    "latex": "\\begin{array}{l}{{\\displaystyle\\mathrm{~{\\large\\mathrm{Reoren}}.1.\\ A s_{s}\\mathrm{u}e^{\\prime}h a e^{\\prime}h e^{\\prime}\\bar{t}u e^{\\prime}b e^{\\prime}a}\\bar{t}^{\\prime}b e^{\\prime}e^{\\prime}\\bar{t}^{\\prime}b e^{\\prime}e^{\\prime}e^{\\prime}\\bar{t}^{\\prime}}}\\\\ {{G_{\\infty}f o r a l i\\theta\\in R^{\\prime}a a d e^{\\prime}a n y\\,\\bar{t}a a a n h\\bar{t}s b o u n d e^{\\prime}\\bar{t}s^{\\prime}b o a a a a a a a^{\\prime}\\bar{t}s^{\\prime}\\left|\\theta_{n}-\\theta_{m}\\right|\\mid}}\\\\ {{\\displaystyle\\left.\\left.\\left.\\bar{\\theta}_{m}-\\bar{\\theta}_{1}\\right|\\sim\\bar{\\theta}_{n}=\\bar{\\theta}_{1}d e^{\\prime}e^{\\prime}b e^{\\prime}e^{\\prime}e^{\\prime}e^{\\prime}e^{\\prime}e^{\\prime}d i n e^{\\theta e^{\\prime}e^{\\prime}e^{\\theta e^{\\prime}e^{\\prime}d e^{\\theta e^{\\prime}e^{\\theta e^{\\prime}e^{\\theta e^{\\theta e^{\\theta e^{\\prime}e^{\\prime}^{\\prime}e^{\\theta e^{\\theta}d e^{\\prime}d e^{\\theta e^{\\prime}d i t}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) ≤ D2 2α(1 −β1) d X i=1 p TbvT,i+ α(1 + β1)G∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2+ d X i=1 D2 ∞G∞ √1 −β2 2α(1 −β1)(1 −λ)2",
+    "latex": "R(T)\\leq{\\frac{D^{2}}{2\\alpha(1-\\beta_{1})}}\\sum_{i=1}^{d}{\\sqrt{T{\\bar{r}}_{T,i}}}+{\\frac{\\alpha(1+\\beta_{1})G_{\\infty}}{(1-\\beta_{1}){\\sqrt{1-\\beta_{2}(1-\\gamma)^{2}}}}}\\sum_{i=1}^{d}{\\frac{D_{\\infty}^{2}G_{\\infty}{\\sqrt{1-\\beta_{2}}}}{2\\alpha(1-\\beta_{1})(1-\\beta_{2})^{2}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) T = O( 1 √ T )",
+    "latex": "\\frac{R(T)}{T}=O(\\frac{1}{\\sqrt{T}})",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "limT →∞ R(T ) T = 0.",
+    "latex": "\\begin{array}{l}{{{}^{\\mathrm{\\small~k113}}\\mathrm{\\boldmath~1cNult~\\c~}{}~\\mathrm{\\boldmath~\\V\\sim~}{}}\\\\ {{\\mathrm{\\boldmath~iin_{T}}\\to\\propto~}}&{{\\overline{{{\\cal~T}}}}\\end{array}}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "β2=0.99 β2=0.999 β2=0.9999 β2=0.99 β2=0.999 β2=0.9999",
+    "latex": "\\begin{array}{r l r l r l r l}{{\\beta}_{z}=\\theta.{\\mathcal{N}}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad{\\beta}_{z}=\\theta.{\\mathcal{N}}{\\mathcal{N}}{\\mathcal{N}}}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad{\\mathcal{P}}_{z}=\\theta.{\\mathcal{N}}{\\mathcal{N}}{\\mathcal{N}}}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad{\\mathcal{P}}_{z}=\\theta,{\\mathcal{N}}{\\mathcal{N}}{\\mathcal{G}}}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad}}&{{\\quad{\\boldsymbol{{\\cal{P}}z=0,{\\mathcal{N}}{\\mathcal{N}}{\\mathcal{N}}}}}&{{\\quad}}&{{\\quad}}&{{\\quad}}}&{{{{{{{{z}}{\\quad}{\\quad}{\\quad}{\\quad}{{\\quad}{{\\quad}{\\quad}{{\\quad}{\\quad}{{{{\\quad}{\\quad}{\\quad}{{{\\quad}{{\\quad}{\\quad}}}{{{{{\\quad}{{\\ (z}{\\quad}{\\quad}}}{\\quad}{{{{{{\\quad}{{{\\quad}{\\leq{{\\times{\\quad}{\\quad}{{\\quad}{{{\\quad",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "β1=0 β1=0.9 log10(α) Loss",
+    "latex": "\\begin{array}{r l}{\\omega_{t}=\\theta}&{{}\\begin{array}{r l}{\\omega_{\\parallel}\\left\\{\\displaystyle\\left.\\frac{\\omega_{\\parallel}\\right\\}}{\\omega_{\\parallel}}\\right\\}\\left[\\begin{array}{c}{\\omega_{\\parallel}\\left\\{\\left.\\right\\}}\\\\ {\\omega_{\\parallel}\\left.\\begin{array}{l}{\\omega_{\\parallel}\\left.\\omega_{\\parallel}\\left\\{\\begin{array}{l}{\\omega_{\\parallel}\\begin{array}{\\omega_{\\parallel}\\begin{array}{l}{\\omega_{\\parallel}\\begin{array}{\\scriptstyle\\partial_{\\parallel}\\begin{array}{\\scriptstyle\\partial_{\\parallel}\\begin{array}{\\scriptstyle\\omega_{\\parallel}\\begin{array}{\\scriptstyle\\omega_{\\parallel}\\begin{array}{\\scriptstyle\\omega_{\\parallel}}{\\langle\\displaystyle\\begin{array}{\\prod}}\\end{array}\\right\\}}}\\end{array}\\right\\}}}\\\\ {\\omega_{\\parallel}\\left\\{\\left.\\left|\\left\\}\\left|\\end{array}\\right\\}\\right|\\left|\\begin{array}{\\right|\\left<\\right|\\begin{array}{\\right|\\left|\\begin{array}{c}{\\right|\\begin{array}{\\right|\\right|\\right|\\right\\}}{\\right|\\left|\\right\\}}{\\right]}{\\right]}{\\right]}\\\\ {\\left|}{\\left|\\right]}\\\\ {{\\left|\\right]}{\\right)}{{\\left|\\right]\\right]\\right]_{\\right]}{\\left|\\right\\}\\left|^{\\left|_{\\left|\\begin{\\left|\\right)_{\\right\\}}{\\left|\\",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "β1=0",
+    "latex": "\\beta_{I}{=}\\theta",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "vt = βp 2vt−1 + (1 −βp 2)|gt|p",
+    "latex": "\\upsilon_{t}\\,\\underline{{{\\l}}}\\,\\underline{{{\\l}}}\\,{}\\underline{{{\\l}}}_{t}-1\\,\\l^{\\l}+\\underline{{{\\l}}}_{2}^{\\l}\\big)\\big|g_{t}\\big|^{p}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= (1 −βp 2) t X i=1 βp(t−i) 2 · |gi|p",
+    "latex": "\\begin{array}{c}{{\\stackrel{\\circ}{\\longrightarrow}}}\\\\ {{\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\times O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "ut = lim p→∞(vt)1/p = lim p→∞   (1 −βp 2) t X i=1 βp(t−i) 2 · |gi|p !1/p",
+    "latex": "u_{t}=\\operatorname*{lim}_{p\\to\\infty}(v_{t})^{1/p}=\\operatorname*{lim}_{p\\to\\infty}\\left((1-\\beta_{2}^{p})\\sum_{i=1}^{t}\\beta_{2}^{p(t-i)}\\cdot|g_{i}|^{p}\\right)^{1/p}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= lim p→∞(1 −βp 2)1/p   t X i=1 βp(t−i) 2 · |gi|p !1/p",
+    "latex": "\\mathrm{}=\\operatorname*{lim}_{p\\to\\infty}(\\lambda-\\beta_{2}^{p})^{1/p}\\left(\\sum_{i=1}^{t}\\beta_{2}^{p(t-i)}\\cdot|g_{i}|^{p}\\right)^{1/p}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= lim p→∞   t X i=1 \u0010 β(t−i) 2 · |gi| \u0011p !1/p",
+    "latex": "\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\sum\\bigl<\\bigl>\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\ O_{\\textrm{O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= max \u0000βt−1 2 |g1|, βt−2 2 |g2|, . . . , β2|gt−1|, |gt| \u0001 (11)",
+    "latex": "=\\operatorname*{max}\\left(\\beta_{2}^{t-1}|g_{1}|,\\beta_{2}^{t-2}|g_{2}|,\\ldots,\\beta_{2}|g_{t-1}|,|g_{t}|\\right)",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "ut = max(β2 · ut−1, |gt|)",
+    "latex": "\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad(O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "λf(x) + (1 −λ)f(y) ≥f(λx + (1 −λ)y)",
+    "latex": "\\lambda f(x)\\,+\\,\\bigl(1\\,-\\,\\lambda\\bigr)f(y)\\,\\underline{{{\\,\\sim\\,f}}}\\bigl(\\lambda x\\,+\\,\\bigl(1\\,-\\,\\lambda\\bigr)y\\bigr)",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "f(y) ≥f(x) + ∇f(x)T (y −x)",
+    "latex": "f(y)\\ge f(x)+\\overline{{{\\lor}}}f(x)\\vphantom{\\bigwedge}^{\\circ}(y-x)",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "Lemma 10.3. Let gt = ∇ft(θt) and g1:t be deﬁned as above and bounded, ∥gt∥2 ≤G, ∥gt∥∞≤ G Th",
+    "latex": "\\begin{array}{l}{{\\mathbf{Lemma~}\\mathbf{b.3.}\\mathbf{1}\\cdot L e t\\,g_{t}=\\nabla f_{t}(\\theta_{t})\\,\\,a n d\\,g_{1.t}\\,\\,b e\\,d e f i n e d\\,a s\\,a b o v e\\,a n d\\,b o u n d e d.9e d.....}}\\\\ {{\\mathbf{\\delta}\\cdot\\mathbf{\\delta}\\cdot}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "G∞. Then,",
+    "latex": "\\stackrel{\\mathrm{hCathata}}{G_{\\infty}.}T h e n,",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 s g2 t,i t ≤2G∞∥g1:T,i∥2",
+    "latex": "\\sum_{t=1}^{T}\\sqrt{\\frac{g_{t,i}^{2}}{t}}\\leq2G_{\\infty}||g_{1;T,i}||_{2}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "The base case for T = 1, we have q g2 1,i ≤2G∞∥g1,i∥2.",
+    "latex": "\\mathrm{The~base~case~for~}T=1,\\,\\mathrm{we~have}\\;\\sqrt{g_{1,i}^{2}}\\leq2G_{\\infty}||g_{1,i}||_{2}.",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 s g2 t,i t = T −1 X t=1 s g2 t,i t + s g2 T,i T",
+    "latex": "\\sum_{\\begin{array}{l}{{t=1}}\\\\ {{t=1}}\\end{array}\\sqrt{\\frac{g_{t,i}^{2}}{t}}\\underline{{{\\sum_{t=1}^{2}}}}\\sqrt{\\frac{g_{t,i}^{2}}{t}}\\ +\\ \\sqrt{\\frac{g_{T,i}^{2}}{T}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤2G∞∥g1:T −1,i∥2 + s g2 T,i T",
+    "latex": "\\ll\\ 2G\\underbrace{\\left.\\right|}|\\left|g_{1;T-1,i}||_{2}+\\sqrt{\\left\\langle\\frac{g_{T,i}^{2}}{T}\\right.}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= 2G∞ q ∥g1:T,i∥2 2 −g2 T + s g2 T,i T",
+    "latex": "=2G_{\\infty}\\sqrt{\\left|\\left|g_{127,i}\\right|\\right|_{2}^{2}-g_{T}^{2}}+\\sqrt{\\frac{g_{T,i}^{2}}{T}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "From, ∥g1:T,i∥2 2 −g2 T,i + g4 T,i 4∥g1:T,i∥2 2 ≥∥g1:T,i∥2 2 −g2 T,i, we can take square root of both side and have",
+    "latex": "{\\mathrm{Fromm,~}}\\|g_{1;T,i}\\|_{2}^{2}-g_{T,i}^{2}+{\\frac{g_{T,i}^{2}}{4|g_{1},\\tau,i|_{2}^{2}}}\\geq\\left\\|g_{1;T,i}\\right\\|_{2}^{2}-g_{T,i}^{2},{\\mathrm{~we~can~take~square~root~of~bol~side~and}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "q ∥g1:T,i∥2 2 −g2 T,i ≤∥g1:T,i∥2 − g2 T,i 2∥g1:T,i∥2 2",
+    "latex": "\\sqrt{||g_{1;T,i}||_{2}^{2}-g_{T,i}^{2}}\\leq||g_{1;T,i}||_{2}-\\frac{g_{T,i}^{2}}{2||g_{1;T,i}||_{2}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤∥g1:T,i∥2 − g2 T,i 2 p TG2∞",
+    "latex": "\\le||g_{1;T,i}||_{2}-\\frac{g_{T,i}^{2}}{2\\sqrt{T G_{\\infty}^{2}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "G∞ q ∥g1:T,i∥2 2 −g2 T + s g2 T,i T ≤2G∞∥g1:T,i∥2",
+    "latex": "G_{\\infty}\\sqrt{\\left|\\left|g_{1};T,i\\right|_{2}^{2}-g_{T}^{2}}+\\sqrt{\\frac{g_{T,i}^{2}}{T}}\\leq2G_{\\infty}\\left|\\left|g_{1;T,i}\\right|\\right|_{2}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "Lemma 10.4. Let γ ≜ β2 1 √β2 . For β1, β2 ∈[0, 1) that satisfy β2 1 √β2 < 1 and bounded gt, ∥gt∥2 ≤G, ∥gt∥∞≤G∞, the following inequality holds",
+    "latex": "\\begin{array}{l}{{\\mathbf{Lemma}\\ 10.4,\\ L e t\\gamma\\ {\\stackrel{\\widehat{\\delta}}{\\sqrt{\\beta}}}.\\ F o r\\ \\beta_{1},\\ \\beta_{2}\\in[0,1)\\ t h a t{\\mathit{s a t i s f y}}\\ {\\overset{\\widehat{\\beta_{1}^{\\bot}}}{\\sqrt{\\beta_{2}}}}<1\\ a n d\\ b o u n d e d\\ g_{t},\\ \\|_{2}\\leq G.}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 bm2 t,i p tbvt,i ≤ 2 1 −γ 1 √1 −β2 ∥g1:T,i∥2",
+    "latex": "\\begin{array}{l}{{T}}\\\\ {{\\sum_{t=1}\\frac{\\widehat m_{t,i}^{2}}{\\sqrt{t\\widehat v_{t,i}}\\,}\\le\\,\\frac{2}{1-\\gamma\\,\\sqrt{1-\\beta_{2}}}||g_{1;T,i}||2}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 bm2 t,i p tbvt,i = T −1 X t=1 bm2 t,i p tbvt,i + p 1 −βT 2 (1 −βT 1 )2 (PT k=1(1 −β1)βT −k 1 gk,i)2 q T PT j=1(1 −β2)βT −j 2 g2 j,i",
+    "latex": "\\begin{array}{l l}{{\\displaystyle\\sum_{t=1}^{T}\\:\\displaystyle\\frac{\\hat{m}_{t,i}^{2}}{\\sqrt{t\\hat{v}_{t,i}}}=\\sum_{t=1}^{T-1}\\displaystyle\\frac{\\hat{m}_{t,i}^{2}}{\\sqrt{t\\hat{v}_{t,i}}}+\\displaystyle\\frac{\\sqrt{1-\\beta_{2}^{T}}}{(1-\\beta_{1}^{T})^{2}}\\displaystyle\\frac{(\\sum_{k=1}^{T}(1-\\beta_{1})\\beta_{1}^{T-k}g_{k,i})^{2}}{\\sqrt{T\\sum_{j=1}^{T}(1-\\beta_{2})\\beta_{2}^{T-j}g_{j,i}^{2}}}}}\\\\ {{}}&{{}}&{{\\displaystyle\\rightarrow\\displaystyle\\left.\\cdot}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ T −1 X t=1 bm2 t,i p tbvt,i + p 1 −βT 2 (1 −βT 1 )2 T X k=1 T((1 −β1)βT −k 1 gk,i)2 q T PT j=1(1 −β2)βT −j 2 g2 j,i",
+    "latex": "\\leq\\sum_{t=1}^{T-1}\\frac{\\hat{m}_{t,i}^{2}}{\\sqrt{t\\hat{v}_{t,i}}}+\\frac{\\sqrt{1-\\beta_{2}^{T}}}{(1-\\beta_{1}^{T})^{2}}\\sum_{k=1}^{r}\\frac{T((1-\\beta_{1})\\beta_{1}^{T-k}g_{k,i})^{2}}{\\sqrt{T\\sum_{j=1}^{T}(1-\\beta_{2})\\beta_{2}^{T-j}g_{j,i}^{2}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ T −1 X t=1 bm2 t,i p tbvt,i + p 1 −βT 2 (1 −βT 1 )2 T X k=1 T((1 −β1)βT −k 1 gk,i)2 q T(1 −β2)βT −k 2 g2 k,i",
+    "latex": "\\leq\\sum_{t=1}^{T-1}\\frac{\\widehat m_{t,i}^{2}}{\\sqrt{t\\widehat v_{t,i}}}+\\frac{\\sqrt{1-\\beta_{2}^{T}}}{(1-\\beta_{1}^{T})^{2}}\\sum_{k=1}^{r}\\frac{T((1-\\beta_{1})\\beta_{1}^{T-k}g_{k,i})^{2}}{\\sqrt{T(1-\\beta_{2})\\beta_{2}^{T-k}g_{k,i}^{2}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ T −1 X t=1 bm2 t,i p tbvt,i + p 1 −βT 2 (1 −βT 1 )2 (1 −β1)2 p T(1 −β2) T X k=1 T \u0012 β2 1 √β2 \u0013T −k ∥gk,i∥2",
+    "latex": "\\leq\\sum_{i=1}^{T-1}\\frac{\\hat{m}_{t,i}^{2}}{\\sqrt{t\\dot{v}_{t,i}}}+\\frac{\\sqrt{1-\\beta_{1}^{T}}}{(1-\\beta_{1}^{T})^{2}}\\frac{(1-\\beta_{1})^{2}}{\\sqrt{T(1-\\beta_{2})}}\\sum_{k=1}^{T}T\\bigg(\\frac{\\beta_{1}^{2}}{\\sqrt{\\beta_{2}}}\\bigg)^{T-k}||g_{k,i}||2",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ T −1 X t=1 bm2 t,i p tbvt,i + T p T(1 −β2) T X k=1 γT −k∥gk,i∥2",
+    "latex": "\\le\\sum_{t=1}^{T-1}\\frac{\\triangle_{t,i}^{2}}{\\sqrt{t\\hat{v}_{t,i}}}+\\frac{T}{\\sqrt{T(1-\\beta_{2})}}\\sum_{k=1}^{T}\\gamma^{T-k}||g_{k,i}||2",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 bm2 t,i p tbvt,i ≤ T X t=1 ∥gt,i∥2 p t(1 −β2) T −t X j=0 tγj",
+    "latex": "\\begin{array}{l}{{T}}\\\\ {{\\sum_{t=1}\\displaystyle{\\frac{\\sqrt{\\tilde{n}_{t,i}^{2}}}{\\sqrt{t\\widehat{v}_{t,i}}}}\\le\\sum_{t=1}\\displaystyle{\\frac{||g_{t,i}||_{2}}{\\sqrt{t(1-\\beta_{2})}}\\sum_{j=0}^{T-t}t\\gamma^{j}}}\\\\ {{\\vphantom{\\bf\\tilde{\\Lambda}_{t}=1}\\displaystyle{\\bf\\Psi}_{\\not{\\Lambda}_{\\Lambda}}^{2}}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ T X t=1 ∥gt,i∥2 p t(1 −β2) T X j=0 tγj",
+    "latex": "\\ll\\sum_{t=1}^{T}\\frac{\\left|\\left|g_{t,i}\\right|\\right|_{2}}{\\sqrt{t(1-\\bigwedge_{2})}}\\sum_{j=0}^{\\leftarrow}t\\gamma^{j}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 ∥gt,i∥2 p t(1 −β2) T X j=0 tγj ≤ 1 (1 −γ)2√1 −β2 T X t=1 ∥gt,i∥2 √ t",
+    "latex": "\\sum_{t=1}^{T}{\\frac{\\|g_{t,i}\\|_{2}}{\\sqrt{t(1-\\beta_{2})}}}\\sum_{j=0}^{T}t\\gamma^{j}\\leq{\\frac{1}{(1-\\gamma)^{2}\\sqrt{1-\\beta_{2}}}}\\sum_{t=1}^{T}{\\frac{\\|g_{t,i}\\|_{2}}{\\sqrt{t}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "T X t=1 bm2 t,i p tbvt,i ≤ 2G∞ (1 −γ)2√1 −β2 ∥g1:T,i∥2",
+    "latex": "\\sum_{t=1}^{T}\\frac{\\widehat{\\pi}l_{t,i}^{2}}{\\sqrt{t\\sqrt_{t,i}}}\\ \\le\\ \\frac{2G r_{\\infty}}{(1\\ -\\gamma)^{2}\\sqrt{1-\\ /_{2}}}||g_{1;T,i}||_{2}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "∥θm −θn∥∞≤D∞for any m, n ∈{1, ..., T}, and β1, β2 ∈[0, 1) satisfy β2 1 √β2 < 1. Let αt = α √ t and β1,t = β1λt−1, λ ∈(0, 1). Adam achieves the following guarantee, for all T ≥1.",
+    "latex": "\\left.\\begin{array}{l}{{\\left|\\theta_{m}-\\theta_{n}\\right|\\vert_{\\infty}\\leq D_{\\infty}f o r\\,a n y\\,m,n\\in\\left\\{1,..,T\\right\\},\\,a n d\\,\\beta_{1},\\,\\beta_{2}\\in\\left[0,1\\right]\\,s a t i5y\\,\\frac{\\beta_{2}^{2}}{\\sqrt{g_{2}}}\\,<1.}}\\\\ {{a n d\\,\\beta_{1,t}=\\beta_{1}\\lambda^{t-1},\\lambda\\in\\left(0,1\\right).\\,A d a m\\,a e c h e r e g\\,f o l l o w i n g\\,g u u n t e r e.\\,f o r\\,a l l\\,T\\geq1.}}\\end{array}\\right.",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) ≤ D2 2α(1 −β1) d X i=1 p TbvT,i+ α(β1 + 1)G∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2+ d X i=1 D2 ∞G∞ √1 −β2 2α(1 −β1)(1 −λ)2",
+    "latex": "R(T)\\leq{\\frac{D^{2}}{2\\alpha(1-\\beta_{1})}}\\sum_{i=1}^{d}{\\sqrt{T{\\bar{\\nu}}_{T,i}}}+{\\frac{\\alpha(\\beta_{1}+1)G_{\\infty}}{(1-\\beta_{1}){\\sqrt{1-\\beta_{2}}}(1-\\gamma)^{2}}}\\sum_{i=1}^{d}||g_{1,i},t,i||z+\\sum_{i=1}^{d}{\\frac{D_{\\infty}^{2}G_{\\infty}{\\sqrt{1-\\beta_{2}}}}{2\\alpha(1-\\beta_{1})(1-\\lambda)^{2}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "ft(θt) −ft(θ∗) ≤gT t (θt −θ∗) = d X i=1 gt,i(θt,i −θ∗ ,i)",
+    "latex": "f_{t}(\\theta_{t})-f_{t}(\\theta^{*})\\leq g_{t}^{T}(\\theta_{t}-\\theta^{*})=\\sum_{i=1}^{d}g_{t,i}(\\theta_{t,i}-\\theta_{,i}^{*})",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "θt+1 = θt −αt bmt/ p bvt",
+    "latex": "\\theta_{t+1}\\ --\\theta_{t}\\leftarrow\\alpha_{t}{\\mathfrak{T}}_{t}/\\sqrt{\\Big\\langle\\widehat\\upsilon_{t}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "= θt − αt 1 −βt 1 \u0012 β1,t √bvt mt−1 + (1 −β1,t) √bvt gt \u0013",
+    "latex": "\\begin{array}{l}{{\\circ\\qquad\\circ\\qquad\\circ\\qquad\\circ\\qquad\\circ\\qquad\\circ\\qquad\\qquad\\qquad\\qquad\\qquad\\displaystyle\\int\\overbrace{\\mathcal{U}}_{t}}\\ O_{t}\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\times\\times O O^{\\sqrt{\\sqrt}}\\sqrt{\\sqrt{\\sqrt{\\sqrt{1}^{\\sqrt{\\sqrt}^{\\sqrt{\\sqrt{\\sqrt{\\sqrt}^{\\sqrt{\\sqrt{\\sqrt{\\sqrt}^{\\sqrt{\\sqrt{\\sqrt}^{\\sqrt{\\sqrt}^{\\sqrt{\\sqrt{\\sqrt}}^{\\sqrt^{2}^{\\sqrt{\\sqrt}^{\\sqrt^{\\sqrt^{\\sqrt{\\sqrt{\\sqrt^{\\sqrt{\\sqrt{\\sqrt^{\\sqrt{\\sqrt}{\\sqrt{\\sqrt{\\sqrt{\\sqrt",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "(θt+1,i −θ∗ ,i)2 =(θt,i −θ∗ ,i)2 − 2αt 1 −βt 1 ( β1,t p bvt,i mt−1,i + (1 −β1,t) p bvt,i gt,i)(θt,i −θ∗ ,i) + α2 t( bmt,i p bvt,i )2",
+    "latex": "(\\theta_{t+1,i}-\\theta_{,i}^{*})^{2}=(\\theta_{t,i}-\\theta_{,i}^{*})^{2}-\\frac{2\\alpha_{t}}{1-\\beta_{1}^{t}}(\\frac{\\beta_{1,t}}{\\sqrt{\\vec{v}_{t,i}}}m_{t-1,i}+(1-\\frac{\\beta_{1,t}}{\\sqrt{\\vec{v}_{t,i}}}g_{t,i})(\\theta_{t,i}-\\theta_{,i}^{*})+\\alpha_{t}^{2}(\\frac{\\tilde{m}_{t,i}}{\\sqrt{\\vec{v}_{t,i}}})^{2}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "We can rearrange the above equation and use Young’s inequality, ab ≤a2/2 + b2/2. Also, it can be shown that p bvt,i = qPt j=1(1 −β2)βt−j 2 g2 j,i/ p 1 −βt 2 ≤∥g1:t,i∥2 and β1,t ≤β1. Then",
+    "latex": "\\begin{array}{l}{{\\mathrm{we.~ran~ranse~the~abeve~equaito~nand~unse~Yound~}}s=a^{2}/2+b^{2}/2\\cdot\\mathrm{and~}s|.}\\\\ {{\\mathrm{slown~that~}(\\sqrt{v_{t,,t}}=\\sqrt{\\sum_{j=1}^{t}(1-\\beta_{2})\\beta_{2}^{2}-j}g_{j,i}^{2}/\\sqrt{1-\\beta_{2}^{2}\\leq|g_{1,\\,2n d}\\beta_{1,\\,i}\\leq\\beta_{1,\\,2}\\leq\\beta_{1}\\cdot\\mathrm{Iz}\\leq\\beta_{1}\\cdot\\mathrm{Iken}}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "gt,i(θt,i −θ∗ ,i) =(1 −βt 1) p bvt,i 2αt(1 −β1,t) \u0012 (θt,i −θ∗ ,t)2 −(θt+1,i −θ∗ ,i)2 \u0013",
+    "latex": "g_{t,i}(\\theta_{t,i}-\\theta_{,i}^{*})=\\frac{(1-\\beta_{1}^{t})\\sqrt{\\hat{v}_{t,i}}}{2\\alpha_{t}(1-\\beta_{1,t})}\\left((\\theta_{t,i}-\\theta_{,t}^{*})^{2}-(\\theta_{t+1,i}-\\theta_{,i}^{*})^{2}\\right)",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ 1 2αt(1 −β1) \u0012 (θt,i −θ∗ ,t)2 −(θt+1,i −θ∗ ,i)2 \u0013p bvt,i + β1,t 2αt−1(1 −β1,t)(θ∗ ,i −θt,i)2p bvt−1,i",
+    "latex": "\\leq{\\frac{1}{2\\alpha_{t}(1-\\beta_{1})}}\\left((\\theta_{t,i}-\\theta_{,t}^{*})^{2}-(\\theta_{t+1,i}-\\theta_{,i}^{*})^{2}\\right){\\sqrt{\\hat{v}_{t,i}}}+{\\frac{\\beta_{1,t}}{2\\alpha_{t-1}(1-\\beta_{1,t})}}(\\theta_{,i}^{*}-\\theta_{t,i})^{2}{\\sqrt{\\hat{v}_{t-1,i}}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) ≤ d X i=1 1 2α1(1 −β1)(θ1,i −θ∗ ,i)2p bv1,i + d X i=1 T X t=2 1 2(1 −β1)(θt,i −θ∗ ,i)2( p bvt,i αt − p bvt−1,i αt−1 )",
+    "latex": "R(T)\\leq\\sum_{i=1}^{d}{\\frac{1}{2\\alpha_{1}(1-\\beta_{1})}}(\\theta_{1,i}-\\theta_{,i}^{*})^{2}\\sqrt{\\tilde{\\nu}_{1,i}}+\\sum_{i=1}^{d}\\sum_{t=2}^{T}{\\frac{1}{2(1-\\beta_{1})}}(\\theta_{t,i}-\\theta_{,i}^{*})^{2}(\\frac{\\sqrt{\\tilde{\\nu}_{t,i}}}{\\alpha_{t}}-\\frac{\\sqrt{\\widetilde{\\nu}_{t,i}}}{\\alpha_{t-1}})",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "+ β1αG∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2 + αG∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2",
+    "latex": "\\begin{array}{l}{{\\displaystyle{\\left.+\\,\\frac{\\beta_{1}\\alpha G_{\\infty}}{(1-\\beta_{1})\\sqrt{1-\\beta_{2}}(1-\\gamma)^{2}}\\sum_{i=1}^{d}\\left|g_{1;T,i}\\right||_{2}+\\frac{\\alpha G_{\\infty}}{(1-\\beta_{1})\\sqrt{1-\\beta_{2}}(1-\\gamma)^{2}}\\sum_{i=1}^{d}||g_{1;T,i}||_{2}}}\\end{array}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "+ d X i=1 T X t=1 β1,t 2αt(1 −β1,t)(θ∗ ,i −θt,i)2p bvt,i",
+    "latex": "\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\qquad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad{\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\ &{\\ldots\\;\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\quad\\;\\quad\\quad\\quad\\;\\;\\quad\\quad\\quad\\quad\\quad\\quad\\;\\quad\\quad\\quad\\quad\\quad\\ {\\quad\\quad\\quad\\quad\\quad\\ {\\quad\\quad\\;\\;\\;\\;\\;\\;\\quad\\;\\;\\;\\;\\quad\\quad\\quad\\quad\\quad\\;\\;\\;\\;\\;\\;\\;\\;\\quad\\;\\;\\quad\\quad\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;\\;",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "From the assumption, ∥θt −θ∗∥2 ≤D, ∥θm −θn∥∞≤D∞, we have:",
+    "latex": "{\\mathrm{From~the~asampiton}},\\;\\|\\theta_{t}-\\theta^{*}\\|_{2}\\leq D,\\;\\|\\theta_{m}-\\theta_{n}\\|_{\\infty}\\leq D_{\\infty},{\\mathrm{we~have}};",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) ≤ D2 2α(1 −β1) d X i=1 p TbvT,i + α(1 + β1)G∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2 + D2 ∞ 2α d X i=1 t X t=1 β1,t (1 −β1,t) p tbvt,i",
+    "latex": "R(T)\\leq\\!\\frac{D^{2}}{2\\alpha(1-\\beta_{1})}\\sum_{i=1}^{d}\\sqrt{T^{i}T_{i}}+\\frac{\\alpha(1+\\beta_{1})G_{\\infty}}{(1-\\beta_{1})\\sqrt{1-\\beta_{2}(1-\\gamma)^{2}}\\sum_{i=1}^{d}\\sum_{i=1}^{t}\\sum_{i=1}^{t}\\sum_{i=1}^{l}\\frac{\\beta_{1,t}}{(1-\\beta_{1,t})}\\sqrt{t\\bar{t}_{t,0}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ D2 2α(1 −β1) d X i=1 p TbvT,i + α(1 + β1)G∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2",
+    "latex": "\\leq{\\frac{D^{2}}{2\\alpha(1-\\beta_{1})}}\\sum_{i=1}^{*}{\\sqrt{T\\ddot{v}_{T,i}}}+{\\frac{\\alpha(1+\\beta_{1})G_{\\infty}}{(1-\\beta_{1})\\sqrt{1-\\beta_{2}}(1-\\gamma)^{2}}}\\sum_{i=1}^{*}\\vert\\vert g_{1,T,i}\\vert\\vert_{2}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "+ D2 ∞G∞ √1 −β2 2α d X i=1 t X t=1 β1,t (1 −β1,t) √ t",
+    "latex": "\\displaystyle\\left.+\\,\\frac{D_{\\infty}^{2}G_{\\infty}\\displaystyle\\frac{\\displaystyle\\cdot\\quad\\cdot\\quad}d}{2\\displaystyle\\Omega}\\sum_{\\displaystyle\\atop{\\displaystyle i=1}}\\displaystyle\\frac{\\displaystyle\\bigwedge_{1,t}}{\\displaystyle\\left(\\displaystyle\\ 1\\,-\\,\\beta_{1,t}\\right)}\\sqrt{t}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "t X t=1 β1,t (1 −β1,t) √ t ≤ t X t=1 1 (1 −β1)λt−1√ t",
+    "latex": "\\sum_{t=1}^{t}\\frac{\\beta_{1,t}}{\\left(1-\\beta_{1,t}\\right)}\\sqrt{t}\\,\\leq\\,\\sum_{t=1}^{t}\\frac{1}{\\left(1\\,-\\,\\beta_{1}\\right)}\\lambda^{t-1}\\sqrt{t}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ t X t=1 1 (1 −β1)λt−1t",
+    "latex": "\\leq\\sum_{t=1}^{\\circ}{\\frac{1}{\\left(1-\\beta_{1}\\right)}}\\lambda^{t-1}t",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "≤ 1 (1 −β1)(1 −λ)2",
+    "latex": "\\leq\\,\\frac{1}{\\bigl(1-\\beta_{1}\\bigr)\\bigl(1-\\lambda\\bigr)^{2}}",
+    "source": "1412.6980v9"
+  },
+  {
+    "text": "R(T) ≤ D2 2α(1 −β1) d X i=1 p TbvT,i + α(1 + β1)G∞ (1 −β1)√1 −β2(1 −γ)2 d X i=1 ∥g1:T,i∥2 + d X i=1 D2 ∞G∞ √1 −β2 2αβ1(1 −λ)2",
+    "latex": "R(T)\\leq\\!{\\frac{D^{2}}{2\\alpha(1-\\beta_{1})}}\\sum_{i=1}^{d}{\\sqrt{T{\\bar{r}}_{T,i}}}+{\\frac{\\alpha(1+\\beta_{1})G_{\\infty}}{(1-\\beta_{1}){\\sqrt{1-\\beta_{2}}}(1-\\gamma)^{2}}}\\sum_{i=1}^{d}{\\left|g_{1,T,i}\\right|}\\!\\left|z+\\sum_{i=1}^{d}{\\frac{D_{\\infty}^{2}G_{\\infty}{\\sqrt{1-\\beta_{2}}}}{2\\alpha\\beta_{1}(1-\\lambda)^{2}}}\\right|{\\frac{d^{2}}{(1-\\beta_{2})^{2}}}.",
+    "source": "1412.6980v9"
+  }
+]
