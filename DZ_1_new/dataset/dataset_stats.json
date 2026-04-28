@@ -1,37 +1,22 @@
 {
-<<<<<<< HEAD
-  "generated_at": "2026-04-16T19:51:32.185162",
-  "total": 200,
-  "by_class": {
-    "logarithmic": 40,
-    "series_limit": 40,
-    "algebraic": 40,
-    "trigonometric": 40,
-    "combinatorial": 40
-  },
-  "by_source": {
-    "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s": 105,
-    "synthetic": 67,
-    "2102.13459v4": 12,
-    "1412.6980v9": 5,
-    "0707.2723v1": 3,
-    "1709.07343v4": 6,
-    "1303.5948v1": 2
-=======
-  "generated_at": "2026-04-28T04:52:38.284734",
+  "generated_at": "2026-04-28T09:25:53.918360",
   "total": 500,
   "by_class": {
-    "derivative_limit": 100,
-    "equation": 100,
     "integral": 100,
-    "summation": 100,
-    "mixed": 100
+    "equation": 100,
+    "mixed": 100,
+    "derivative_limit": 100,
+    "summation": 100
   },
   "by_source": {
-    "synthetic": 386,
-    "0707.2723v1": 85,
-    "1412.6980v9": 29
->>>>>>> main
+    "synthetic": 254,
+    "1709.07343v4": 61,
+    "2102.13459v4": 132,
+    "1303.5948v1": 16,
+    "1412.6980v9": 8,
+    "0707.2723v1": 22,
+    "1703.04931v1": 6,
+    "2002.02712v3": 1
   },
   "class_descriptions": {
     "integral": "Интегралы (\\int, \\oint)",
