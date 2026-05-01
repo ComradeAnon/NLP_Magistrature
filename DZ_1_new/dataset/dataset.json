@@ -1,129 +1,183 @@
 [
   {
-    "text": "lg (2 -5x)=1",
-    "latex": "\\lg (2 -5x)=1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log_4(64) = 3",
-    "latex": "\\log_{4}(64) = 3",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "lim y, =9",
-    "latex": "\\lim y, =9",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
     "text": "log_10(100) = 2",
     "latex": "\\log_{10}(100) = 2",
     "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "a = 60",
-    "latex": "a = 60",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "tg 2=0",
-    "latex": "\\\\tan 2=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "sin 20 = 2",
-    "latex": "\\sin 20 = 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "log2(8) = 3",
-    "latex": "\\log_{2}(8) = 3",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "lg(1000000) = 6",
-    "latex": "\\lg(1000000) = 6",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "sum C(7,k), k=0..7 = 128",
-    "latex": "\\sum_{k=0}^{7} \\binom{7}{k} = 128",
+    "text": "P(5) = 120",
+    "latex": "P_{5} = 5! = 120",
     "source": "synthetic",
     "class": "combinatorial"
   },
   {
-    "text": "lg(1000000) = 6",
-    "latex": "\\lg(1000000) = 6",
+    "text": "P (AB) = P (A)- P (B) = 107-5 -107*=5- 1077. oud Orpen 5.1077 <J",
+    "latex": "P (AB) = P (A)- P (B) = 107-5 -107*=5- 1077. oud Orpen 5.1077 <J",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sume that n = 1",
+    "latex": "sume that n = 1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "1296 Usnectuo, uro tg 0 + ctg a= 3. Hatitn tg? a + ctg? a.",
+    "latex": "1296 Usnectuo, uro \\\\tan 0 + \\\\cot a= 3. Hatitn \\\\tan? a + \\\\cot? a.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "3) y=tg 2x, T= =; 4) y=sin4%, T=5 x, 2 5 2",
+    "latex": "3) y=\\\\tan 2x, T= =; 4) y=sin4%, T=5 x, 2 5 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log2(128) = 7",
+    "latex": "\\log_{2}(128) = 7",
     "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "sin 60° = 0.866",
-    "latex": "\\sin 60^{\\circ} = 0.866",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "5t-2 = 422",
-    "latex": "5t-2 = 422",
+    "text": "0.23*?-2 = 0.2 2%? +x+4 .",
+    "latex": "0.23*?-2 = 0.2 2%? +x+4 .",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
   {
-    "text": "cos 90° = 0",
-    "latex": "\\cos 90^{\\circ} = 0",
+    "text": "Se 4) 2 cos = = V8; 5) cos («+ 2]=0; 6) cos fex-#]=0.",
+    "latex": "Se 4) 2 \\cos = = V8; 5) \\cos («+ 2]=0; 6) \\cos fex-#]=0.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
   {
-    "text": "Yo = 13",
-    "latex": "Yo = 13",
+    "text": "7x - 30=0",
+    "latex": "7x - 30=0",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
   {
-    "text": "log 3 (y~ x) = 45",
-    "latex": "\\log 3 (y~ x) = 45",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "text": "C(5,2) = 10",
+    "latex": "\\binom{5}{2} = 10",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log2(256) = 8",
+    "latex": "\\log_{2}(256) = 8",
+    "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "LIM PaBeHCTBO: - 1) lim (2x + 1) = 3",
-    "latex": "\\lim PaBeHCTBO: - 1) \\lim (2x + 1) = 3",
+    "text": "1) y=2x-1; 2) y=-5x4+ 4;",
+    "latex": "1) y=2x-1; 2) y=-5x4+ 4;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "3! = 6",
+    "latex": "3! = 6",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "621 1) 2cos?x—sinx+1=0; 2) 3 cos? x —sin x —1=0;",
+    "latex": "621 1) 2cos?x—sinx+1=0; 2) 3 \\cos? x —\\sin x —1=0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "9! = 362880",
+    "latex": "9! = 362880",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "3) a=-7, x= 1, Yo = 13 4) a=-%, X=, y= 1.",
+    "latex": "3) a=-7, x= 1, Yo = 13 4) a=-%, X=, y= 1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lg(10000000) = 7",
+    "latex": "\\lg(10000000) = 7",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "3) 3+ 4 sin (2x +1)=0; 4) 5sin (2x -1)-2=0.",
+    "latex": "3) 3+ 4 \\sin (2x +1)=0; 4) 5sin (2x -1)-2=0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=1..21) i = 231",
+    "latex": "\\sum_{i=1}^{21} i = 231",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "Hanpumep, cos 270° ctg 270°= “= © 20, ctg 22+ =) 21, sin 270° —-1 4 te = 1",
+    "latex": "Hanpumep, \\cos 270^{\\circ} \\\\cot 270^{\\circ}= “= © 20, \\\\cot 22+ =) 21, \\sin 270^{\\circ} —-1 4 te = 1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "|x -—x,|— 0 upa n— oo, unu lim |x —x,|=0 hs OO",
+    "latex": "|x -—x,|— 0 upa n— oo, unu \\lim |x —x,|=0 hs OO",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "series_limit"
   },
   {
-    "text": "sin 270° =-1",
-    "latex": "\\sin 270^{\\circ} =-1",
+    "text": "905 1) y=x— sin 2x; 2) y= 3x + 2 cos 3x.",
+    "latex": "905 1) y=x— \\sin 2x; 2) y= 3x + 2 \\cos 3x.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
   {
-    "text": "C(2,0) = 1",
-    "latex": "\\binom{2}{0} = 1",
+    "text": "lim(n->inf) n/(n+5) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 5} = 1",
     "source": "synthetic",
-    "class": "combinatorial"
+    "class": "series_limit"
   },
   {
-    "text": "ln(e^1) = 1",
-    "latex": "\\ln(e^{1}) = 1",
+    "text": "n = 1",
+    "latex": "n = 1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "ln(e^10) = 10",
+    "latex": "\\ln(e^{10}) = 10",
     "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "0! = 1",
-    "latex": "0! = 1",
+    "text": "668 1) sin 2x + 2 cos 2x =1;",
+    "latex": "668 1) \\sin 2x + 2 \\cos 2x =1;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Sanaya 5* BsrncaiutTs sin 30, ecau sin o = 7",
+    "latex": "Sanaya 5* BsrncaiutTs \\sin 30, ecau \\sin o = 7",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "A(5,3) = 60",
+    "latex": "A_{5}^{3} = 60",
     "source": "synthetic",
     "class": "combinatorial"
+  },
+  {
+    "text": "5) 2 sin? £ 4% sin 2x = 1; 6) 2 cos? x5 sin 4x =1.",
+    "latex": "5) 2 \\sin? £ 4% \\sin 2x = 1; 6) 2 \\cos? x5 \\sin 4x =1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
   },
   {
     "text": "lim x? = 4",
@@ -132,20 +186,680 @@
     "class": "series_limit"
   },
   {
-    "text": "tg 2=4",
-    "latex": "\\\\tan 2=4",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "log2(64) = 6",
-    "latex": "\\log_{2}(64) = 6",
+    "text": "ln(e^9) = 9",
+    "latex": "\\ln(e^{9}) = 9",
     "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "cos 2=2",
-    "latex": "\\cos 2=2",
+    "text": "x3 = 23",
+    "latex": "x3 = 23",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lim(n->inf) n/(n+14) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 14} = 1",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "sume that n   = 0",
+    "latex": "sume that n = 0",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "x=0.01",
+    "latex": "x=0.01",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "P(2) = 2",
+    "latex": "P_{2} = 2! = 2",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "n   = 0",
+    "latex": "n = 0",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "P(5) = 120",
+    "latex": "P_{5} = 5! = 120",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "R  (Spa K × Spa( L, L + ) , j a ! B | U a ) = 0 .",
+    "latex": "R (Spa K \\times Spa( L, L + ) , j a ! B | U a ) = 0 .",
+    "source": "2102.13459v4",
+    "class": "combinatorial"
+  },
+  {
+    "text": "9! = 362880",
+    "latex": "9! = 362880",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) sin 60° = 0.866; 2) cos 45° = 0.707;",
+    "latex": "1) \\sin 60^{\\circ} = 0.866; 2) \\cos 45^{\\circ} = 0.707;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "1) log, 18 + log, 2 = log, 36 = 2;",
+    "latex": "1) \\log, 18 + \\log, 2 = \\log, 36 = 2;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "ln(e^5) = 5",
+    "latex": "\\ln(e^{5}) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "4) y=(14+ €!) x. 890. y=6x+ 2, y = 6x — 54, 891. 8 KB.eq. 892. 2k KB.en.",
+    "latex": "4) y=(14+ €!) x. 890. y=6x+ 2, y = 6x — 54, 891. 8 KB.eq. 892. 2k KB.en.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sin 2 = 0.73",
+    "latex": "\\sin 2 = 0.73",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lim(x->inf) 87/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{87}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "_ F(x+hj—f(x : lim F(et )-7@) ) = lim (2x+h)=2x. h-0 h h->0",
+    "latex": "_ F(x+hj—f(x : \\lim F(et )-7@) ) = \\lim (2x+h)=2x. h-0 h h->0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "ln(e^9) = 9",
+    "latex": "\\ln(e^{9}) = 9",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "LX = 250",
+    "latex": "LX = 250",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2) cos x = -} x = t+arccos (-3] +2in = 185",
+    "latex": "2) \\cos x = -} x = t+\\arccos (-3] +2in = 185",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "P(7) = 5040",
+    "latex": "P_{7} = 7! = 5040",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) 6,=3-(-2)’; 2) 6b, =-5 + 4\";",
+    "latex": "1) 6,=3-(-2)’; 2) 6b, =-5 + 4\";",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sum(i=0..7) 3^i = 3280",
+    "latex": "\\sum_{i=0}^{7} 3^{i} = 3280",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "3) log, ¥x-—3+ log, V38x-7 = 2;",
+    "latex": "3) \\log, ¥x-—3+ \\log, V38x-7 = 2;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log2(32) = 5",
+    "latex": "\\log_{2}(32) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "3) tg a (1 +cos 20) =sin 20; 4) ——~—\"*S9 cig g = 1;",
+    "latex": "3) \\\\tan a (1 +\\cos 20) =\\sin 20; 4) ——~—\"*S9 cig g = 1;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "A(8,7) = 40320",
+    "latex": "A_{8}^{7} = 40320",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "C(12,5) = 792",
+    "latex": "\\binom{12}{5} = 792",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log2(16) = 4",
+    "latex": "\\log_{2}(16) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "A(3,1) = 3",
+    "latex": "A_{3}^{1} = 3",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "4) 10% =——=—; 5) (¥10)* =10*°-*; 6) 100%\" “ =10!-**, 4/10000",
+    "latex": "4) 10% =——=—; 5) (¥10)* =10*^{\\circ}-*; 6) 100%\" “ =10!-**, \\frac{4}{10000}",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sum(i=1..11) i = 66",
+    "latex": "\\sum_{i=1}^{11} i = 66",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_7(49) = 2",
+    "latex": "\\log_{7}(49) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1) 2sina+/2cosa upu a= 15",
+    "latex": "1) 2sina+/2cosa upu a= 15",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "x = 1.82",
+    "latex": "x = 1.82",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "P(4) = 24",
+    "latex": "P_{4} = 4! = 24",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "A(3,3) = 6",
+    "latex": "A_{3}^{3} = 6",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "sum C(2,k), k=0..2 = 4",
+    "latex": "\\sum_{k=0}^{2} \\binom{2}{k} = 4",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "0! = 1",
+    "latex": "0! = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1878 1) 4 sin? x — 8 sin x cos x + 10 cos? x = 3;",
+    "latex": "1878 1) 4 \\sin? x — 8 \\sin x \\cos x + 10 \\cos? x = 3;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "cos2x=0",
+    "latex": "cos2x=0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(8,k), k=0..8 = 256",
+    "latex": "\\sum_{k=0}^{8} \\binom{8}{k} = 256",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "2) sin 20 + sin 2B + sin 2y = 4 sin @ sin B sin y.",
+    "latex": "2) \\sin 20 + \\sin 2B + \\sin 2y = 4 \\sin @ \\sin B \\sin y.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "3) f(x) =sin 2x, k=2; 4) f(x)=x+sinx, k=0.",
+    "latex": "3) f(x) =\\sin 2x, k=2; 4) f(x)=x+sinx, k=0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "i = 1",
+    "latex": "i = 1",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "y = 10",
+    "latex": "y = 10",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "x= 259",
+    "latex": "x= 259",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "36v + 27=0",
+    "latex": "36v + 27=0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "5) 5 sin 2x + 4 cos® x - 8 cos x = 0.",
+    "latex": "5) 5 \\sin 2x + 4 \\cos® x - 8 \\cos x = 0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "P(4) = 24",
+    "latex": "P_{4} = 4! = 24",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "P(7) = 5040",
+    "latex": "P_{7} = 7! = 5040",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_3(3) = 1",
+    "latex": "\\log_{3}(3) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "683 /-4cos xcos2x = 7 sin 2x.",
+    "latex": "683 /-4cos xcos2x = 7 \\sin 2x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "3 9 P 4* = 2438 araq ellHTh ypaBHenHe '",
+    "latex": "3 9 P 4* = 2438 araq ellHTh ypaBHenHe '",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "F ( Y ) = F ( X/Y ) = 2- lim",
+    "latex": "F ( Y ) = F ( X/Y ) = 2- \\lim",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "sum C(3,k), k=0..3 = 8",
+    "latex": "\\sum_{k=0}^{3} \\binom{3}{k} = 8",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "sum C(2,k), k=0..2 = 4",
+    "latex": "\\sum_{k=0}^{2} \\binom{2}{k} = 4",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "657 1) 2sin(8x-)+1=0; 2) 1-sin(#+#)=0;",
+    "latex": "657 1) 2sin(8x-)+1=0; 2) 1-\\sin(#+#)=0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "ane = 50",
+    "latex": "ane = 50",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "ln(e^4) = 4",
+    "latex": "\\ln(e^{4}) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "155 1) Vx-—x=-12; 2) xt+V¥x =2(x-1);",
+    "latex": "155 1) Vx-—x=-12; 2) xt+V¥x =2(x-1);",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log_3(27) = 3",
+    "latex": "\\log_{3}(27) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_2(256) = 8",
+    "latex": "\\log_{2}(256) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lim(n->inf) n/(n+1) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 1} = 1",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "x= 88",
+    "latex": "x= 88",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1-0.64 = -0.6",
+    "latex": "1-0.64 = -0.6",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "A(4,4) = 24",
+    "latex": "A_{4}^{4} = 24",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "sume that N = 1",
+    "latex": "sume that N = 1",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "4) V5x-143x? =3x; 5) 3/x?-17=2; 6) 4/x?+17=3, IIposepp ceéa!",
+    "latex": "4) V5x-143x? =3x; 5) 3/x?-17=2; 6) 4/x?+17=3, IIposepp ceéa!",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "y = 27",
+    "latex": "y = 27",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "3) arctg (2x+1)=-43 4) arctg (2~-3x) = - 4.",
+    "latex": "3) \\\\arctan (2x+1)=-43 4) \\\\arctan (2~-3x) = - 4.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "8! = 40320",
+    "latex": "8! = 40320",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "3) sin 4x = 6 cos? 2x — 4; 4) 2 cos? 3x + sin 5x =1.",
+    "latex": "3) \\sin 4x = 6 \\cos? 2x — 4; 4) 2 \\cos? 3x + \\sin 5x =1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Pe=6!=1-2-3-4-5-6=720. ee Orvner 720 cnoco6amu. <1",
+    "latex": "Pe=6!=1-2-3-4-5-6=720. ee Orvner 720 cnoco6amu. <1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "Y ,f Spa( C, C + ) ∼ = r i =1",
+    "latex": "Y ,f Spa( C, C + ) ∼ = r i =1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "C(7,2) = 21",
+    "latex": "\\binom{7}{2} = 21",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "i   = 0",
+    "latex": "i = 0",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) y=2 sin? x — cos 2x; 2) y=1-8 cos? x sin? x;",
+    "latex": "1) y=2 \\sin? x — \\cos 2x; 2) y=1-8 \\cos? x \\sin? x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "e=1424",
+    "latex": "e=1424",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "10x = 2.181818",
+    "latex": "10x = 2.181818",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "3) cos (-2x) = 1; 4) sin (-2x) = 0;",
+    "latex": "3) \\cos (-2x) = 1; 4) \\sin (-2x) = 0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log_6(216) = 3",
+    "latex": "\\log_{6}(216) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "2) Vxtvxet+ 1l¢yxe—vVet1l =4. ee 0°? Wppalmonanpupie nepanenctna oi :",
+    "latex": "2) Vxtvxet+ 1l¢yxe—vVet1l =4. ee 0^{\\circ}? Wppalmonanpupie nepanenctna oi :",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=1..11) i = 66",
+    "latex": "\\sum_{i=1}^{11} i = 66",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_3(3) = 1",
+    "latex": "\\log_{3}(3) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "2) sin 3x =3 sin x;",
+    "latex": "2) \\sin 3x =3 \\sin x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "n = 0",
+    "latex": "n = 0",
+    "source": "0707.2723v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) 62* = 65; 2) 3% = 27; 3) 79% = 710, 4) 2* +1 = Ba; B) 42**=1.",
+    "latex": "1) 62* = 65; 2) 3% = 27; 3) 79% = 710, 4) 2* +1 = Ba; B) 42**=1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1) sin (-x) = 1; 2) cos (-2x) = 0;",
+    "latex": "1) \\sin (-x) = 1; 2) \\cos (-2x) = 0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "N = 0",
+    "latex": "N = 0",
+    "source": "1303.5948v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "sume that n = 1",
+    "latex": "sume that n = 1",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "lg(10000000) = 7",
+    "latex": "\\lg(10000000) = 7",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1385 1) tg 2x =8 tg x; 2) ctg 2x = 2 ctg x;",
+    "latex": "1385 1) \\\\tan 2x =8 \\\\tan x; 2) \\\\cot 2x = 2 \\\\cot x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Hanupumep, Buunciag lg 13, nomyuaem lg 13 = 1.11394383;",
+    "latex": "Hanupumep, Buunciag \\lg 13, nomyuaem \\lg 13 = 1.11394383;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lg(100) = 2",
+    "latex": "\\lg(100) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_10(100000) = 5",
+    "latex": "\\log_{10}(100000) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum(i=1..18) i = 171",
+    "latex": "\\sum_{i=1}^{18} i = 171",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "log2(16) = 4",
+    "latex": "\\log_{2}(16) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "5) x?-1=0 uw 27-!=0;",
+    "latex": "5) x?-1=0 uw 27-!=0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "Sanaua 2 Brqucnuts cos 20, ecru cos a = 0.3.",
+    "latex": "Sanaua 2 Brqucnuts \\cos 20, ecru \\cos a = 0.3.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "4 2 -— 3 sin 2x sin x; x’ tlt\" 3 ea-3. 4. a=-2.",
+    "latex": "4 2 -— 3 \\sin 2x \\sin x; x’ tlt\" 3 ea-3. 4. a=-2.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "1) y=x?-2x, x9 =3; 2) y=x?2 + 3x, x) = 3;",
+    "latex": "1) y=x?-2x, x9 =3; 2) y=x?2 + 3x, x) = 3;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "then   =   1",
+    "latex": "then = 1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "n = 0",
+    "latex": "n = 0",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "1 i =1",
+    "latex": "1 i =1",
+    "source": "1703.04931v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "lg(100) = 2",
+    "latex": "\\lg(100) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "ln(e^1) = 1",
+    "latex": "\\ln(e^{1}) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "Tax wax x2+9%0, To x7-9=0, oTKygza x, =3, Xo ~ —3. <J",
+    "latex": "Tax wax x2+9%0, To x7-9=0, oTKygza x, =3, Xo ~ —3. <J",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2 y=arcsin x -1 x _= 5 5",
+    "latex": "2 y=\\arcsin x -1 x _= 5 5",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "A(6,3) = 120",
+    "latex": "A_{6}^{3} = 120",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1421 1) 5x—- Ty = 3, 2) 2x—-—y—-18=0, 6x+5y=17; x+2y+1=0. zr¥_ *t¥_19 ZtY XY LG",
+    "latex": "1421 1) 5x—- Ty = 3, 2) 2x—-—y—-18=0, 6x+5y=17; x+2y+1=0. zr¥_ *t¥_{1}9 ZtY XY \\lg",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2) x«<4,x>6; 3) x <-+3, x 2=-2.5. 1892. 2) -1.4<2x<0. 13893. 2) x > -4.",
+    "latex": "2) x«<4,x>6; 3) x <-+3, x 2=-2.5. 1892. 2) -1.4<2x<0. 13893. 2) x > -4.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "Sanaaa 5 Pemuts ypapyenne sin 2x = 1.",
+    "latex": "Sanaaa 5 Pemuts ypapyenne \\sin 2x = 1.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
@@ -156,748 +870,10 @@
     "class": "logarithmic"
   },
   {
-    "text": "log_7(7) = 1",
-    "latex": "\\log_{7}(7) = 1",
+    "text": "lg(100000) = 5",
+    "latex": "\\lg(100000) = 5",
     "source": "synthetic",
     "class": "logarithmic"
-  },
-  {
-    "text": "log,, 12 = 1",
-    "latex": "\\log,, 12 = 1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "10! = 3628800",
-    "latex": "10! = 3628800",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "lim(n,Fn W) O( i=1",
-    "latex": "\\lim(n,Fn W) O( i=1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "V3 =1.7320508",
-    "latex": "V3 =1.7320508",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "∥g1:T,i∥2 + i=1 i=1",
-    "latex": "∥g1:T,i∥2 + i=1 i=1",
-    "source": "1412.6980v9",
-    "class": "series_limit"
-  },
-  {
-    "text": "A(4,4) = 24",
-    "latex": "A_{4}^{4} = 24",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sin(120 degrees) = \\frac{\\sqrt{3}}{2}",
-    "latex": "\\sin(\\frac{2\\pi}{3}) = \\frac{\\sqrt{3}}{2}",
-    "source": "synthetic",
-    "class": "trigonometric"
-  },
-  {
-    "text": "2x = 55",
-    "latex": "2x = 55",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "lg (x -1) + 1g (x +1) =0",
-    "latex": "\\lg (x -1) + 1g (x +1) =0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "n  = 0",
-    "latex": "n = 0",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "Y colim(n,Fn Z/pZ) O( i=1",
-    "latex": "Y colim(n,Fn Z/pZ) O( i=1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "cos 45° = 0.707",
-    "latex": "\\cos 45^{\\circ} = 0.707",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "log 2 9+ log 4 = 2",
-    "latex": "\\log 2 9+ \\log 4 = 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "sum C(2,k), k=0..2 = 4",
-    "latex": "\\sum_{k=0}^{2} \\binom{2}{k} = 4",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "A(6,1) = 6",
-    "latex": "A_{6}^{1} = 6",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "i = 0",
-    "latex": "i = 0",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "2! d V  (s, y)/ =0",
-    "latex": "2! d V (s, y)/ =0",
-    "source": "0707.2723v1",
-    "class": "combinatorial"
-  },
-  {
-    "text": "lg (x7. + 19) ~lg (x + 1)=1",
-    "latex": "\\lg (x7. + 19) ~\\lg (x + 1)=1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log_7(49) = 2",
-    "latex": "\\log_{7}(49) = 2",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "sin 30° = -3",
-    "latex": "\\sin 30^{\\circ} = -3",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "sume n  = 0",
-    "latex": "sume n = 0",
-    "source": "1709.07343v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "38x =-1",
-    "latex": "38x =-1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "lim (Vn +2—-J/n+1)=0",
-    "latex": "\\lim (Vn +2—-J/n+1)=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "Prv= +270",
-    "latex": "Prv= +270",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "9x = 27",
-    "latex": "9x = 27",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "P(5) = 120",
-    "latex": "P_{5} = 5! = 120",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "lg (8x —1) =90",
-    "latex": "\\lg (8x —1) =90",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log 3 —=3",
-    "latex": "\\log 3 —=3",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "A(5,4) = 120",
-    "latex": "A_{5}^{4} = 120",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "tg 44°)= 178",
-    "latex": "\\\\tan 44^{\\circ})= 178",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "C(5,4) = 5",
-    "latex": "\\binom{5}{4} = 5",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sum C(2,k), k=0..2 = 4",
-    "latex": "\\sum_{k=0}^{2} \\binom{2}{k} = 4",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "1) cos (¥-x]=1; 2) sin (S242) = 2 2",
-    "latex": "1) \\cos (¥-x]=1; 2) \\sin (S242) = 2 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "cos 270° = 0",
-    "latex": "\\cos 270^{\\circ} = 0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "gveel = 124",
-    "latex": "gveel = 124",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "k = 41",
-    "latex": "k = 41",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "P(6) = 720",
-    "latex": "P_{6} = 6! = 720",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "ln(e^5) = 5",
-    "latex": "\\ln(e^{5}) = 5",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "118 Jloxasar,, uto V7 +5V2 + V¥7-5V2 = 2, 38",
-    "latex": "118 Jloxasar,, uto V7 +5V2 + V¥7-5V2 = 2, 38",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "arctg +27 =2",
-    "latex": "\\\\arctan +27 =2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "cos 0)= 0",
-    "latex": "\\cos 0)= 0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "lim |x —x,|=0",
-    "latex": "\\lim |x —x,|=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "+ i=1",
-    "latex": "+ i=1",
-    "source": "1412.6980v9",
-    "class": "series_limit"
-  },
-  {
-    "text": "—ReB <&; arctg 13) _ ~4, vax xax tg (-2] = 2 4 2 3 6 6",
-    "latex": "—ReB <&; \\\\arctan 13) _ ~4, vax xax \\\\tan (-2] = 2 4 2 3 6 6",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "ln(e^4) = 4",
-    "latex": "\\ln(e^{4}) = 4",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "ln(e^8) = 8",
-    "latex": "\\ln(e^{8}) = 8",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "tg 36° = 87",
-    "latex": "\\\\tan 36^{\\circ} = 87",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "sin 90° = 1",
-    "latex": "\\sin 90^{\\circ} = 1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "cos(120 degrees) = -\\frac{1}{2}",
-    "latex": "\\cos(\\frac{2\\pi}{3}) = -\\frac{1}{2}",
-    "source": "synthetic",
-    "class": "trigonometric"
-  },
-  {
-    "text": "n = 0",
-    "latex": "n = 0",
-    "source": "1303.5948v1",
-    "class": "series_limit"
-  },
-  {
-    "text": "cos 3 = 2",
-    "latex": "\\cos 3 = 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "log2(256) = 8",
-    "latex": "\\log_{2}(256) = 8",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "fi = 1",
-    "latex": "fi = 1",
-    "source": "1709.07343v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "B = 3.57",
-    "latex": "B = 3.57",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "i = 1",
-    "latex": "i = 1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "+38y = 23",
-    "latex": "+38y = 23",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "lg(10000000) = 7",
-    "latex": "\\lg(10000000) = 7",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "P(8) = 40320",
-    "latex": "P_{8} = 8! = 40320",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "lg(1000000) = 6",
-    "latex": "\\lg(1000000) = 6",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "3x7 = 319",
-    "latex": "3x7 = 319",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "X+ i , X−= i=1",
-    "latex": "X+ i , X−= i=1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "sum C(4,k), k=0..4 = 16",
-    "latex": "\\sum_{k=0}^{4} \\binom{4}{k} = 16",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sin 30° =0",
-    "latex": "\\sin 30^{\\circ} =0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "Qe = 1607",
-    "latex": "Qe = 1607",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "sum C(6,k), k=0..6 = 64",
-    "latex": "\\sum_{k=0}^{6} \\binom{6}{k} = 64",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "log_7(49) = 2",
-    "latex": "\\log_{7}(49) = 2",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "+3x-10=0",
-    "latex": "+3x-10=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "i = 1",
-    "latex": "i = 1",
-    "source": "1303.5948v1",
-    "class": "series_limit"
-  },
-  {
-    "text": "2*+24=6",
-    "latex": "2*+24=6",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "i  = 0",
-    "latex": "i = 0",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "A(6,5) = 720",
-    "latex": "A_{6}^{5} = 720",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "P 1) sina =sin (2-%) = 2 sin® cos = 2 2 2",
-    "latex": "P 1) sina =\\sin (2-%) = 2 \\sin® \\cos = 2 2 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "lim (Jn +2-—Vn+1) =0",
-    "latex": "\\lim (Jn +2-—Vn+1) =0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "n = 1",
-    "latex": "n = 1",
-    "source": "0707.2723v1",
-    "class": "series_limit"
-  },
-  {
-    "text": "ln(e^10) = 10",
-    "latex": "\\ln(e^{10}) = 10",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "8x = -22",
-    "latex": "8x = -22",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "P(4) = 24",
-    "latex": "P_{4} = 4! = 24",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sin6x=1",
-    "latex": "sin6x=1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "lg (8x — 1) -—lg (x + 5) = 1",
-    "latex": "\\lg (8x — 1) -—\\lg (x + 5) = 1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "BO = 50",
-    "latex": "BO = 50",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "y= 10",
-    "latex": "y= 10",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "cos2x =-2",
-    "latex": "cos2x =-2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "P(4) = 24",
-    "latex": "P_{4} = 4! = 24",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sum C(6,k), k=0..6 = 64",
-    "latex": "\\sum_{k=0}^{6} \\binom{6}{k} = 64",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "N = 20",
-    "latex": "N = 20",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "ln(e^2) = 2",
-    "latex": "\\ln(e^{2}) = 2",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log, p0= 7",
-    "latex": "\\log, p0= 7",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sin 2 = 0.73",
-    "latex": "\\sin 2 = 0.73",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "1 y=38",
-    "latex": "1 y=38",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "qg=26",
-    "latex": "qg=26",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "8! = 40320",
-    "latex": "8! = 40320",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sum C(2,k), k=0..2 = 4",
-    "latex": "\\sum_{k=0}^{2} \\binom{2}{k} = 4",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "2 t(1 − 1,t)( ∗ ,i − t,i)2p + bvt,i i=1 t=1",
-    "latex": "2 t(1 − 1,t)( ∗ ,i − t,i)2p + bvt,i i=1 t=1",
-    "source": "1412.6980v9",
-    "class": "series_limit"
-  },
-  {
-    "text": "2) cos x= -} x = +arccos (-3] +2in = 185",
-    "latex": "2) \\cos x= -} x = +\\arccos (-3] +2in = 185",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "4!=+41",
-    "latex": "4!=+41",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "combinatorial"
-  },
-  {
-    "text": "A(4,2) = 12",
-    "latex": "A_{4}^{2} = 12",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "are   = 0.002",
-    "latex": "are = 0.002",
-    "source": "1412.6980v9",
-    "class": "algebraic"
-  },
-  {
-    "text": "limN +∞F(P N) = 0",
-    "latex": "limN +\\inftyF(P N) = 0",
-    "source": "0707.2723v1",
-    "class": "series_limit"
-  },
-  {
-    "text": "N = 1",
-    "latex": "N = 1",
-    "source": "1709.07343v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "Y,f Spa(C, C+) ∼= i=1",
-    "latex": "Y,f Spa(C, C+) ∼= i=1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "X+ = i=1",
-    "latex": "X+ = i=1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "log2(32) = 5",
-    "latex": "\\log_{2}(32) = 5",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "9! = 362880",
-    "latex": "9! = 362880",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "D=5.69",
-    "latex": "D=5.69",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "3*1.44+1.7= 3.1",
-    "latex": "3*1.44+1.7= 3.1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "log_4(64) = 3",
-    "latex": "\\log_{4}(64) = 3",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log_2(128) = 7",
-    "latex": "\\log_{2}(128) = 7",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "lim q\"=0",
-    "latex": "\\lim q\"=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "lg (x+4y) = 21",
-    "latex": "\\lg (x+4y) = 21",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log_3(243) = 5",
-    "latex": "\\log_{3}(243) = 5",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "pn = 0",
-    "latex": "pn = 0",
-    "source": "1709.07343v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "x34=2",
-    "latex": "x34=2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "3) cos (Se+2]=-1 4) sin(2n+x)=-1",
-    "latex": "3) \\cos (Se+2]=-1 4) \\sin(2n+x)=-1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "log_3(9) = 2",
-    "latex": "\\log_{3}(9) = 2",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "P(5) = 120",
-    "latex": "P_{5} = 5! = 120",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "cos 2=0",
-    "latex": "\\cos 2=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "lim g” =0",
-    "latex": "\\lim g” =0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "y=-42",
-    "latex": "y=-42",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "sume that N = 1",
-    "latex": "sume that N = 1",
-    "source": "1709.07343v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "lim S,=1",
-    "latex": "\\lim S,=1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "lim y,=6",
-    "latex": "\\lim y,=6",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "sin2x=-2",
-    "latex": "sin2x=-2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "sin3x=1",
-    "latex": "sin3x=1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
   },
   {
     "text": "5! = 120",
@@ -906,153 +882,207 @@
     "class": "combinatorial"
   },
   {
-    "text": "A(6,5) = 720",
-    "latex": "A_{6}^{5} = 720",
+    "text": "4! = 24",
+    "latex": "4! = 24",
     "source": "synthetic",
     "class": "combinatorial"
   },
   {
-    "text": "lg x*+lg (4x)=24",
-    "latex": "\\lg x*+\\lg (4x)=24",
+    "text": "A(8,4) = 1680",
+    "latex": "A_{8}^{4} = 1680",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "4) Ha mpomexytke (0; +o) dyHKWMA MwMeeT OFHY cTalMoOHapHy!o TOUKY xX = 2.",
+    "latex": "4) Ha mpomexytke (0; +o) dyHKWMA MwMeeT OFHY cTalMoOHapHy!o TOUKY xX = 2.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1 + k i =1",
+    "latex": "1 + k i =1",
+    "source": "0707.2723v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "P(6) = 720",
+    "latex": "P_{6} = 6! = 720",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "E T ( | X s | 2 ) ds + k sup i =1",
+    "latex": "E T ( | X s | 2 ) ds + k sup i =1",
+    "source": "0707.2723v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "3) sin 3x = 0; 4) cos 0.5x = 0;",
+    "latex": "3) \\sin 3x = 0; 4) \\cos 0.5x = 0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(5,k), k=0..5 = 32",
+    "latex": "\\sum_{k=0}^{5} \\binom{5}{k} = 32",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log2(4) = 2",
+    "latex": "\\log_{2}(4) = 2",
+    "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "x= 0402",
-    "latex": "x= 0402",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "n = 0",
-    "latex": "n = 0",
+    "text": "1 i =0",
+    "latex": "1 i =0",
     "source": "2102.13459v4",
     "class": "series_limit"
   },
   {
-    "text": "sume that   P n≥0[cn]pn = 0",
-    "latex": "sume that P n\\geq0[cn]pn = 0",
+    "text": "X = 52",
+    "latex": "X = 52",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "6! = 720",
+    "latex": "6! = 720",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_8(512) = 3",
+    "latex": "\\log_{8}(512) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "Hanpumep, ¥-27 =-3, V¥—-32 =-2.",
+    "latex": "Hanpumep, ¥-27 =-3, V¥—-32 =-2.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "Sanaya 5* HoxasatTp Tox szecTBO sin a cos B = 5 (sin (a + B) + sin (a — B)).",
+    "latex": "Sanaya 5* HoxasatTp Tox szecTBO \\sin a \\cos B = 5 (\\sin (a + B) + \\sin (a — B)).",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(6,k), k=0..6 = 64",
+    "latex": "\\sum_{k=0}^{6} \\binom{6}{k} = 64",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1564 1) Sn 8x, cos 8x _ 2 2) te 2x + ctg x = 8 cos? x. cos2x sin2x sin 3x",
+    "latex": "1564 1) Sn 8x, \\cos 8x _ 2 2) te 2x + \\\\cot x = 8 \\cos? x. cos2x sin2x \\sin 3x",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "A(3,1) = 3",
+    "latex": "A_{3}^{1} = 3",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "i = 0",
+    "latex": "i = 0",
     "source": "1709.07343v4",
     "class": "series_limit"
   },
   {
-    "text": "p= 16",
-    "latex": "p= 16",
+    "text": "3*-2 = 25",
+    "latex": "3*-2 = 25",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
   {
-    "text": "-n=56",
-    "latex": "-n=56",
+    "text": "3) 5° 4+3.-53*-2=140; 4) 27*143.-27-'-5.27+6=0.",
+    "latex": "3) 5^{\\circ} 4+3.-53*-2=140; 4) 27*143.-27-'-5.27+6=0.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
   {
-    "text": "4+2=0",
-    "latex": "4+2=0",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
+    "text": "R  ( Y   /Y , j ! j ∗ A ) = 0 .",
+    "latex": "R ( Y /Y , j ! j ∗ A ) = 0 .",
+    "source": "1709.07343v4",
+    "class": "combinatorial"
   },
   {
-    "text": "C ToMombO sTOK MOpMy IH Nowyaaem sin [a+4)}+ sin («-#)] sin = = 12 12 12",
-    "latex": "C ToMombO sTOK MOpMy IH Nowyaaem \\sin [a+4)}+ \\sin («-#)] \\sin = = 12 12 12",
+    "text": "log2(1024) = 10",
+    "latex": "\\log_{2}(1024) = 10",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "8) 2 cos? x =1+4+4 sin 2x; 4) 2 cos x + cos 2x = 2 sin x.",
+    "latex": "8) 2 \\cos? x =1+4+4 \\sin 2x; 4) 2 \\cos x + \\cos 2x = 2 \\sin x.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
   {
-    "text": "Fi = 0",
-    "latex": "Fi = 0",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "cos 2 = 2",
-    "latex": "\\cos 2 = 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "9! = 362880",
-    "latex": "9! = 362880",
+    "text": "C(2,1) = 2",
+    "latex": "\\binom{2}{1} = 2",
     "source": "synthetic",
     "class": "combinatorial"
   },
   {
-    "text": "C(3,1) = 3",
-    "latex": "\\binom{3}{1} = 3",
+    "text": "1617. (2; 22), (2;10). 1618. k=2. 1619. p=-2, g=0, d=1.",
+    "latex": "1617. (2; 22), (2;10). 1618. k=2. 1619. p=-2, g=0, d=1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "P(3) = 6",
+    "latex": "P_{3} = 3! = 6",
     "source": "synthetic",
     "class": "combinatorial"
   },
   {
-    "text": "-2y = 81",
-    "latex": "-2y = 81",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "log 2 16 — log ;; 7 = 2",
-    "latex": "\\log 2 16 — \\log ;; 7 = 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "logarithmic"
-  },
-  {
-    "text": "xy= 10",
-    "latex": "xy= 10",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "sin 15° = 75",
-    "latex": "\\sin 15^{\\circ} = 75",
+    "text": "Sanayua 11 PemmmtTb ypaBueune sin 7x + sin 3x = 3 cos 2x.",
+    "latex": "Sanayua 11 PemmmtTb ypaBueune \\sin 7x + \\sin 3x = 3 \\cos 2x.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
   {
-    "text": "arctg /3= 3",
-    "latex": "\\\\arctan /3= 3",
+    "text": "1368 1) cos x + cos 2x =0; 2) cos x — cos 5x = 0;",
+    "latex": "1368 1) \\cos x + \\cos 2x =0; 2) \\cos x — \\cos 5x = 0;",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
   {
-    "text": "log, 23-50 = 2",
-    "latex": "\\log, 23-50 = 2",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "algebraic"
-  },
-  {
-    "text": "log_2(256) = 8",
-    "latex": "\\log_{2}(256) = 8",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "A(4,4) = 24",
-    "latex": "A_{4}^{4} = 24",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "lg(100000) = 5",
-    "latex": "\\lg(100000) = 5",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "log_3(81) = 4",
-    "latex": "\\log_{3}(81) = 4",
-    "source": "synthetic",
-    "class": "logarithmic"
-  },
-  {
-    "text": "LIM KOPHH ypaBHeHHa 3 tg x — V3 =0",
-    "latex": "\\lim KOPHH ypaBHeHHa 3 \\\\tan x — V3 =0",
+    "text": "Tlostomy lim a-2] =Lte lim S,=1 n— oO gn n— co",
+    "latex": "Tlostomy \\lim a-2] =Lte \\lim S,=1 n— oO gn n— co",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "series_limit"
   },
   {
-    "text": "lim (2x+h)=2",
-    "latex": "\\lim (2x+h)=2",
+    "text": "1599 1) cos x + cos 2x + cos 3x = 0;",
+    "latex": "1599 1) \\cos x + \\cos 2x + \\cos 3x = 0;",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log_2(128) = 7",
+    "latex": "\\log_{2}(128) = 7",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_3(27) = 3",
+    "latex": "\\log_{3}(27) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum(i=1..12) i^2 = 650",
+    "latex": "\\sum_{i=1}^{12} i^{2} = 650",
+    "source": "synthetic",
     "class": "series_limit"
   },
   {
@@ -1062,104 +1092,44 @@
     "class": "logarithmic"
   },
   {
-    "text": "tg(120 degrees) = -\\sqrt{3}",
-    "latex": "\\tan(\\frac{2\\pi}{3}) = -\\sqrt{3}",
-    "source": "synthetic",
-    "class": "trigonometric"
-  },
-  {
-    "text": "cos 20=1",
-    "latex": "\\cos 20=1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "√ t i=1 t=1",
-    "latex": "\\\\sqrt{t} i=1 t=1",
-    "source": "1412.6980v9",
-    "class": "series_limit"
-  },
-  {
-    "text": "P(7) = 5040",
-    "latex": "P_{7} = 7! = 5040",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sin 930° = -3",
-    "latex": "\\sin 930^{\\circ} = -3",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "log2(64) = 6",
-    "latex": "\\log_{2}(64) = 6",
+    "text": "log_8(64) = 2",
+    "latex": "\\log_{8}(64) = 2",
     "source": "synthetic",
     "class": "logarithmic"
   },
   {
-    "text": "C(8,6) = 28",
-    "latex": "\\binom{8}{6} = 28",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "C(9,2) = 36",
-    "latex": "\\binom{9}{2} = 36",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "tg3x=0",
-    "latex": "tg3x=0",
+    "text": "505 Bsrmuucauts tg 20, ecru tg a = 0.5.",
+    "latex": "505 Bsrmuucauts \\\\tan 20, ecru \\\\tan a = 0.5.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   },
   {
-    "text": "cos 180° = -1",
-    "latex": "\\cos 180^{\\circ} = -1",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "trigonometric"
-  },
-  {
-    "text": "C(10,4) = 210",
-    "latex": "\\binom{10}{4} = 210",
-    "source": "synthetic",
-    "class": "combinatorial"
-  },
-  {
-    "text": "3! =3",
-    "latex": "3! =3",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "combinatorial"
-  },
-  {
-    "text": "sume that n = 1",
-    "latex": "sume that n = 1",
-    "source": "2102.13459v4",
-    "class": "series_limit"
-  },
-  {
-    "text": "lim F(et WT) _ 3x2, 7. @. (x?)' = 8",
-    "latex": "\\lim F(et WT) _ 3x2, 7. @. (x?)' = 8",
-    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
-    "class": "series_limit"
-  },
-  {
-    "text": "T = 140",
-    "latex": "T = 140",
+    "text": "2) log, x -2=0, otnyga log, x = 2, x, = 16.",
+    "latex": "2) \\log, x -2=0, otnyga \\log, x = 2, x, = 16.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
   {
-    "text": "4! = 24",
-    "latex": "4! = 24",
-    "source": "synthetic",
-    "class": "combinatorial"
+    "text": "1) cos* 2x = 1+ sin? 2x; 2) 4 cos? x = 38;",
+    "latex": "1) \\cos* 2x = 1+ \\sin? 2x; 2) 4 \\cos? x = 38;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
   },
   {
-    "text": "y=1.69",
-    "latex": "y=1.69",
+    "text": "LIM KOPHH ypaBHeHua 3 tg x — V3 =0",
+    "latex": "\\lim KOPHH ypaBHeHua 3 \\\\tan x — V3 =0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) y=1-2 sin? x; 2) y= 2 cos? x —1;",
+    "latex": "1) y=1-2 \\sin? x; 2) y= 2 \\cos? x —1;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1) Vx =x? +x -1; 2) x%=2- x?, 179 Haiira o6nacrs olupefjenenua pyHKuMH:",
+    "latex": "1) Vx =x? +x -1; 2) x%=2- x?, 179 Haiira o6nacrs olupefjenenua pyHKuMH:",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
@@ -1170,22 +1140,442 @@
     "class": "combinatorial"
   },
   {
-    "text": "lim x, =1",
-    "latex": "\\lim x, =1",
+    "text": "log2(64) = 6",
+    "latex": "\\log_{2}(64) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "P(7) = 5040",
+    "latex": "P_{7} = 7! = 5040",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "4) 2 sin 3 =/8; 5) sin (+ an) =0; 6) sin (2x+2] =0.",
+    "latex": "4) 2 \\sin 3 =/8; 5) \\sin (+ an) =0; 6) \\sin (2x+2] =0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "[ S/ ( d i =1",
+    "latex": "[ S/ ( d i =1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "log , p0= 7",
+    "latex": "\\log , p0= 7",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "A(4,1) = 4",
+    "latex": "A_{4}^{1} = 4",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "limits to reduce to n = 1",
+    "latex": "limits to reduce to n = 1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) cos (¥-x]=1; 2) sin (S242) =1",
+    "latex": "1) \\cos (¥-x]=1; 2) \\sin (S242) =1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "0! = 1",
+    "latex": "0! = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log, 23-50 = 2",
+    "latex": "\\log, 23-50 = 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2 sina+V3 =2 [sna+2#}=2 (sina + sin | = =4 sin (Z+2) cos («-). <q",
+    "latex": "2 sina+V3 =2 [sna+2#}=2 (sina + \\sin | = =4 \\sin (Z+2) \\cos («-). <q",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "i = 1",
+    "latex": "i = 1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_5(25) = 2",
+    "latex": "\\log_{5}(25) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1595. 2) x=h; x=-8. 1596. x=9. 1597. 2) x=2; 4) x=4.",
+    "latex": "1595. 2) x=h; x=-8. 1596. x=9. 1597. 2) x=2; 4) x=4.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "= Omer’ sin 930° = -3 <J",
+    "latex": "= Omer’ \\sin 930^{\\circ} = -3 <J",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "0! = 1",
+    "latex": "0! = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lg(1000000) = 6",
+    "latex": "\\lg(1000000) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "Tax nak |q|<1, to lim g\"=0, lim —+ g”=0, n> oo n>o l—g",
+    "latex": "Tax nak |q|<1, to \\lim g\"=0, \\lim —+ g”=0, n> oo n>o l—g",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "series_limit"
   },
   {
-    "text": "X = 52",
-    "latex": "X = 52",
+    "text": "ln(e^6) = 6",
+    "latex": "\\ln(e^{6}) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1) tg 2x = 3; 2) tg 3x =-1.",
+    "latex": "1) \\\\tan 2x = 3; 2) \\\\tan 3x =-1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "M, HA yroh X,= -3 a TakoKe Ha yIJIbI -2+492nk, roe k=+1, +2,.... Wax, sce",
+    "latex": "M, HA yroh X,= -3 a TakoKe Ha yIJIbI -2+492nk, roe k=+1, +2,.... Wax, sce",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
   },
   {
-    "text": "nm = 3.1415",
-    "latex": "nm = 3.1415",
+    "text": "sum(i=0..7) 3^i = 3280",
+    "latex": "\\sum_{i=0}^{7} 3^{i} = 3280",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "sum(i=1..22) i = 253",
+    "latex": "\\sum_{i=1}^{22} i = 253",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "102 y y vy °Y, y=log, x _(1\\* (3) y=3* 1",
+    "latex": "102 y y vy ^{\\circ}Y, y=\\log, x _(1\\* (3) y=3* 1",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "algebraic"
+  },
+  {
+    "text": "5) lg x*+ lg (4x)=24+]gx°; 6) Ig x + Ig x? = 1g (9x).",
+    "latex": "5) \\lg x*+ \\lg (4x)=24+]gx^{\\circ}; 6) Ig x + Ig x? = 1g (9x).",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "A(5,2) = 20",
+    "latex": "A_{5}^{2} = 20",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "ln(e^2) = 2",
+    "latex": "\\ln(e^{2}) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sin 2=23",
+    "latex": "\\sin 2=23",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log2(4) = 2",
+    "latex": "\\log_{2}(4) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "arctg /3= 3",
+    "latex": "\\\\arctan /3= 3",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "(Ne P(150) Sanaua 4* PenlurTh ypaBHeHue a x ae (4 cos x — 1) (2 cos 2x + 1) =0.",
+    "latex": "(Ne P(150) Sanaua 4* PenlurTh ypaBHeHue a x ae (4 \\cos x — 1) (2 \\cos 2x + 1) =0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log_4(256) = 4",
+    "latex": "\\log_{4}(256) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "C(2,1) = 2",
+    "latex": "\\binom{2}{1} = 2",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "C(8,2) = 28",
+    "latex": "\\binom{8}{2} = 28",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lg(100000) = 5",
+    "latex": "\\lg(100000) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "2) sin 3x cos 5x — sin 5x cos 3x =-1;",
+    "latex": "2) \\sin 3x \\cos 5x — \\sin 5x \\cos 3x =-1;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "2) (4 sin 3x -— 1) (2 sin x + 3)=0.",
+    "latex": "2) (4 \\sin 3x -— 1) (2 \\sin x + 3)=0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Y Spa( C, C + ) ∼ = r i =1",
+    "latex": "Y Spa( C, C + ) ∼ = r i =1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "lim F(et WT) _ 3x2, T. @. (x9) = 8",
+    "latex": "\\lim F(et WT) _ 3x2, T. @. (x9) = 8",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "149. 2) -2<x<1, x>2, 152. 2) x=27; 3) x=5. 158. 2) x =-7;",
+    "latex": "149. 2) -2<x<1, x>2, 152. 2) x=27; 3) x=5. 158. 2) x =-7;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sume throughout that n   = 0",
+    "latex": "sume throughout that n = 0",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "lim(x->inf) 86/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{86}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "i = 0",
+    "latex": "i = 0",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "A(5,1) = 5",
+    "latex": "A_{5}^{1} = 5",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lg(100000) = 5",
+    "latex": "\\lg(100000) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lim(n->inf) n/(n+7) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 7} = 1",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "C(8,8) = 1",
+    "latex": "\\binom{8}{8} = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "i = 1",
+    "latex": "i = 1",
+    "source": "1303.5948v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "1561 1) 16%™\"* 4 16°\" * = 10;",
+    "latex": "1561 1) 16%™\"* 4 16^{\\circ}\" * = 10;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "x = 35",
+    "latex": "x = 35",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1) f (x) = x4 — 4x? +1; 2) f (x) = 8x4 — 4x3 — 12x? + 8;",
+    "latex": "1) f (x) = x4 — 4x? +1; 2) f (x) = 8x4 — 4x3 — 12x? + 8;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lim(x->inf) 71/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{71}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_3(729) = 6",
+    "latex": "\\log_{3}(729) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "ln(e^8) = 8",
+    "latex": "\\ln(e^{8}) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log2(256) = 8",
+    "latex": "\\log_{2}(256) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "2) f'(xy=1-4, 1-4 =0, x, =-1, x,=1. x x",
+    "latex": "2) f'(xy=1-4, 1-4 =0, x, =-1, x,=1. x x",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "X = { x 0 + x 1 + x 2 = 0 } ⊂ ( P 2",
+    "latex": "X = { x 0 + x 1 + x 2 = 0 } \\subset ( P 2",
+    "source": "1303.5948v1",
+    "class": "combinatorial"
+  },
+  {
+    "text": "HOCTH OKasaTb, uTo: a) lim ——-=1; 6) lim g\" =0 np |q|<1; n>~o nh n— co",
+    "latex": "HOCTH OKasaTb, uTo: a) \\lim ——-=1; 6) \\lim g\" =0 np |q|<1; n>~o nh n— co",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "P(2) = 2",
+    "latex": "P_{2} = 2! = 2",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "2) 8.2-7-2742\"— 3/2, lg (x+4y) =21lg(2-x-2y)-lg x.",
+    "latex": "2) 8.2-7-2742\"— \\frac{3}{2}, \\lg (x+4y) =21lg(2-x-2y)-\\lg x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "logs 37=1",
+    "latex": "logs 37=1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "AB = 12",
+    "latex": "AB = 12",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "n = 1",
+    "latex": "n = 1",
+    "source": "0707.2723v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "Tipu sin a=2 nomyaaem sin 3a = 1 (3- 1) -lq",
+    "latex": "Tipu \\sin a=2 nomyaaem \\sin 3a = 1 (3- 1) -lq",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "679 1) cos x sin 5x =-1; 2) sin x cos 38x =-1.",
+    "latex": "679 1) \\cos x \\sin 5x =-1; 2) \\sin x \\cos 38x =-1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "∗ /W ( ∗ /F n , G )) with O (   n i =1   − 1 (   i ))-modules in",
+    "latex": "∗ /W ( ∗ /F n , G )) with O ( n i =1 − 1 ( i ))-modules in",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "ln(e^2) = 2",
+    "latex": "\\ln(e^{2}) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sume n   = 0",
+    "latex": "sume n = 0",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "0! = 1",
+    "latex": "0! = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "+nx+12=0",
+    "latex": "+nx+12=0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lim(n->inf) n/(n+20) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 20} = 1",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "3) y=sin 3x; 4) y=2 sin x.",
+    "latex": "3) y=\\sin 3x; 4) y=2 \\sin x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "[sin (a+4)+ sin («-2)] sin -~ = 12 12 12",
+    "latex": "[\\sin (a+4)+ \\sin («-2)] \\sin -~ = 12 12 12",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
   },
   {
     "text": "C(5,1) = 5",
@@ -1194,8 +1584,1418 @@
     "class": "combinatorial"
   },
   {
-    "text": "sin2x=-1",
-    "latex": "sin2x=-1",
+    "text": "164 = 168 — y¥2! = 23 =8;",
+    "latex": "164 = 168 — y¥2! = 23 =8;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_5(625) = 4",
+    "latex": "\\log_{5}(625) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "13883 1) sinx+sin 2x+ sin 8x + sin 4x = 0;",
+    "latex": "13883 1) sinx+\\sin 2x+ \\sin 8x + \\sin 4x = 0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log_7(7) = 1",
+    "latex": "\\log_{7}(7) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lim x, =1",
+    "latex": "\\lim x, =1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_8(8) = 1",
+    "latex": "\\log_{8}(8) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum(i=1..8) i^2 = 204",
+    "latex": "\\sum_{i=1}^{8} i^{2} = 204",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "lg(10000000) = 7",
+    "latex": "\\lg(10000000) = 7",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "2) cos 2x cos x + sin 2x sin x = 0.",
+    "latex": "2) \\cos 2x \\cos x + \\sin 2x \\sin x = 0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log2(2) = 1",
+    "latex": "\\log_{2}(2) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "|x,|<+<—+ <e. 910 osnauaer, uro lim g” =0, ecan |q|<1. an aN, n— co",
+    "latex": "|x,|<+<—+ <e. 910 osnauaer, uro \\lim g” =0, ecan |q|<1. an aN, n— co",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "lg(1000) = 3",
+    "latex": "\\lg(1000) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "C(4,4) = 1",
+    "latex": "\\binom{4}{4} = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) y=VI-%; 2) y= 2-22;",
+    "latex": "1) y=VI-%; 2) y= 2-22;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1882 1) 5+ sin 2x = 5 (sin x + cos x);",
+    "latex": "1882 1) 5+ \\sin 2x = 5 (\\sin x + \\cos x);",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "ln(e^2) = 2",
+    "latex": "\\ln(e^{2}) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum C(4,k), k=0..4 = 16",
+    "latex": "\\sum_{k=0}^{4} \\binom{4}{k} = 16",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "4) y= x cos 2; 5) y=x sin x; 6) y=2 sin? x.",
+    "latex": "4) y= x \\cos 2; 5) y=x \\sin x; 6) y=2 \\sin? x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=1..25) i = 325",
+    "latex": "\\sum_{i=1}^{25} i = 325",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_4(64) = 3",
+    "latex": "\\log_{4}(64) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "tg 36° = 87",
+    "latex": "\\\\tan 36^{\\circ} = 87",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "1519. 4/2. 1520. p=-10, qg=26. 1521. 20.03 1522. 3 Vanv2 .",
+    "latex": "1519. \\frac{4}{2}. 1520. p=-10, qg=26. 1521. 20.03 1522. 3 Vanv2 .",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1 1 I t , 4) —+—+——_L._. 806. 2) /’(0)=-2, f’(2)=10: 4) f° (0) =1, f’'(2)=5.",
+    "latex": "1 1 I t , 4) —+—+——_{L}._. 806. 2) /’(0)=-2, f’(2)=10: 4) f^{\\circ} (0) =1, f’'(2)=5.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "3) cos x = cos 3x; 4) sin x sin 5x ~ sin? 5x = 0.",
+    "latex": "3) \\cos x = \\cos 3x; 4) \\sin x \\sin 5x ~ \\sin? 5x = 0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "2) 5% — 7 — 5.1747 -17=0;",
+    "latex": "2) 5% — 7 — 5.1747 -17=0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sum(i=1..6) i^2 = 91",
+    "latex": "\\sum_{i=1}^{6} i^{2} = 91",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "3) fx?24+3x4+12 — x2 43x =2;",
+    "latex": "3) fx?24+3x4+12 — x2 43x =2;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lim(x->inf) 57/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{57}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "349 1) log 2 9 +log 4 = 2; 2) log 2 16 — log ;; 7 = 2.",
+    "latex": "349 1) \\log 2 9 +\\log 4 = 2; 2) \\log 2 16 — \\log ;; 7 = 2.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "6382 1) 1—cos(x—x)+sin (£+2) =0;",
+    "latex": "6382 1) 1—\\cos(x—x)+\\sin (£+2) =0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "C(11,4) = 330",
+    "latex": "\\binom{11}{4} = 330",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "n = 1",
+    "latex": "n = 1",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "sum(i=1..4) i^2 = 30",
+    "latex": "\\sum_{i=1}^{4} i^{2} = 30",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "log2(16) = 4",
+    "latex": "\\log_{2}(16) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "x+12=0",
+    "latex": "x+12=0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "3 (1 — sin? 6x) + 4 sin 6x —4=0, 3 sin? 6x — 4 sin 6x +1=0.",
+    "latex": "3 (1 — \\sin? 6x) + 4 \\sin 6x —4=0, 3 \\sin? 6x — 4 \\sin 6x +1=0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "dx = 1000",
+    "latex": "dx = 1000",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sum(i=1..8) i^2 = 204",
+    "latex": "\\sum_{i=1}^{8} i^{2} = 204",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "t= 707",
+    "latex": "t= 707",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "1) sin a+ sin B sin y=4 sin & sin © cos 3",
+    "latex": "1) \\sin a+ \\sin B \\sin y=4 \\sin & \\sin © \\cos 3",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "5) sin (2x+3n) sin (az+ an) — sin 3x cos 2x = -1;",
+    "latex": "5) \\sin (2x+3n) \\sin (az+ an) — \\sin 3x \\cos 2x = -1;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=0..3) 3^i = 40",
+    "latex": "\\sum_{i=0}^{3} 3^{i} = 40",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "5) cos? (-x) + sin (-x) = 2 — sin? x;",
+    "latex": "5) \\cos? (-x) + \\sin (-x) = 2 — \\sin? x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(8,k), k=0..8 = 256",
+    "latex": "\\sum_{k=0}^{8} \\binom{8}{k} = 256",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1309. 2) 1+—4_. 1320.15. i311. -1. 1321. 2) x=8. 1822. a=-6. cos x qT 2",
+    "latex": "1309. 2) 1+—4_. 1320.15. i311. -1. 1321. 2) x=8. 1822. a=-6. \\cos x qT 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log_3(9) = 2",
+    "latex": "\\log_{3}(9) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "3°-24¥ = 48, un | 4 “48 (4)’_. (4) orKyaa y=2, x=1. i Ormex (1; 2). <I",
+    "latex": "3^{\\circ}-24¥ = 48, un | 4 “48 (4)’_. (4) orKyaa y=2, x=1. i Ormex (1; 2). <I",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "€ lim (Vn +2—-J/n+1)=0. <J nm oo",
+    "latex": "€ \\lim (Vn +2—-J/n+1)=0. <J nm oo",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "lim y,=6",
+    "latex": "\\lim y,=6",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "0! = 1",
+    "latex": "0! = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "cos 0= 1",
+    "latex": "\\cos 0= 1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=0..7) 4^i = 21845",
+    "latex": "\\sum_{i=0}^{7} 4^{i} = 21845",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "887 = 1) log, (x — 5) + log, (x + 2) = 3;",
+    "latex": "887 = 1) \\log, (x — 5) + \\log, (x + 2) = 3;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "3* = 81 apanetca uncao 4, T. e. log, 81 = 4.",
+    "latex": "3* = 81 apanetca uncao 4, T. e. \\log, 81 = 4.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "48 mun. 1590. a=6, b=-11, c=6. Yeasannue. Tak Kak Toukn Au B",
+    "latex": "48 mun. 1590. a=6, b=-11, c=6. Yeasannue. Tak Kak Toukn Au B",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "8) y=2 sin x +3; 4) y=1-4 cos 2x;",
+    "latex": "8) y=2 \\sin x +3; 4) y=1-4 \\cos 2x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "4) V2 si n_2)+ in==1. ) 2 sin( 3 5 sin 5",
+    "latex": "4) V2 si n_{2})+ in==1. ) 2 \\sin( 3 5 \\sin 5",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "» Ilo @opmyne (7) umeem tg? a = 1- cos @ & = 1-0.8 = 0.2 = 1",
+    "latex": "» Ilo @opmyne (7) umeem \\\\tan? a = 1- \\cos @ & = 1-0.8 = 0.2 = 1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2 ) 1 /p t i =1 p ( t − i )",
+    "latex": "2 ) 1 /p t i =1 p ( t − i )",
+    "source": "1412.6980v9",
+    "class": "series_limit"
+  },
+  {
+    "text": "x=324",
+    "latex": "x=324",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lg(100) = 2",
+    "latex": "\\lg(100) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "∥ g 1: T,i ∥ 2 + d i =1",
+    "latex": "∥ g 1: T,i ∥ 2 + d i =1",
+    "source": "1412.6980v9",
+    "class": "series_limit"
+  },
+  {
+    "text": "598 Haiitu sce kopHu ypasHeHua sin 7 = 4a yAoBleTBOpAIOIHe",
+    "latex": "598 Haiitu sce kopHu ypasHeHua \\sin 7 = 4a yAoBleTBOpAIOIHe",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "C(7,6) = 7",
+    "latex": "\\binom{7}{6} = 7",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "59 1) tg(2 +E )a-; 2) t (3 -#)=1, 659 1) e( “+7 ) tg | 3x a)\" 3",
+    "latex": "59 1) \\\\tan(2 +E )a-; 2) t (3 -#)=1, 659 1) e( “+7 ) \\\\tan | 3x a)\" 3",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=1..12) i = 78",
+    "latex": "\\sum_{i=1}^{12} i = 78",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "3! = 6",
+    "latex": "3! = 6",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "A(5,3) = 60",
+    "latex": "A_{5}^{3} = 60",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_9(9) = 1",
+    "latex": "\\log_{9}(9) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "—sin 150° = —-sin (180° — 30°) = —sin 30° = -3.",
+    "latex": "—\\sin 150^{\\circ} = —-\\sin (180^{\\circ} — 30^{\\circ}) = —\\sin 30^{\\circ} = -3.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "3) tg [x+2]+t2 (=-2] =2; 4) tg (2x +1) ctg(x+1)=1.",
+    "latex": "3) \\\\tan [x+2]+t2 (=-2] =2; 4) \\\\tan (2x +1) \\\\cot(x+1)=1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(3,k), k=0..3 = 8",
+    "latex": "\\sum_{k=0}^{3} \\binom{3}{k} = 8",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "Cuejosatembuo, sin 20, =-—1.2 - (-0.8) = 0.96. <J",
+    "latex": "Cuejosatembuo, \\sin 20, =-—1.2 - (-0.8) = 0.96. <J",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Hanpumep, ecau f (x) = (x — 2)? + 3, To lim, f(x)=83. x-—",
+    "latex": "Hanpumep, ecau f (x) = (x — 2)? + 3, To \\lim, f(x)=83. x-—",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "6) a= 4.8; 7) a= -1.31; 8) a=-2.7?",
+    "latex": "6) a= 4.8; 7) a= -1.31; 8) a=-2.7?",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log2(2) = 1",
+    "latex": "\\log_{2}(2) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "CECE = 39 oTkyga x7-—5x+4=0. Kopun no- ayueHHOrTO KBalpaTHOTO aBHeHHA",
+    "latex": "CECE = 39 oTkyga x7-—5x+4=0. Kopun no- ayueHHOrTO KBalpaTHOTO aBHeHHA",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "ln(e^8) = 8",
+    "latex": "\\ln(e^{8}) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "A(5,5) = 120",
+    "latex": "A_{5}^{5} = 120",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) (4+2V8- (4-28 =2;",
+    "latex": "1) (4+2V8- (4-28 =2;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "A(3,1) = 3",
+    "latex": "A_{3}^{1} = 3",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "A(8,4) = 1680",
+    "latex": "A_{8}^{4} = 1680",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_10(10000) = 4",
+    "latex": "\\log_{10}(10000) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "> Tax xax 5!? = (5%), ro V5 = 4/(53)4 = 53 = 125. <J",
+    "latex": "> Tax xax 5!? = (5%), ro V5 = 4/(53)4 = 53 = 125. <J",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "4) lg (x -1) + 1g (x +1) =0.",
+    "latex": "4) \\lg (x -1) + 1g (x +1) =0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "logarithmic"
+  },
+  {
+    "text": "8) Vx-1l=x-3; 4) V64+x—-x? =1-x, 156 1) V2x—-34=1+x; 2) Jbx+J14—-x =8;",
+    "latex": "8) Vx-1l=x-3; 4) V64+x—-x? =1-x, 156 1) V2x—-34=1+x; 2) Jbx+J14—-x =8;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log_3(243) = 5",
+    "latex": "\\log_{3}(243) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "10! = 3628800",
+    "latex": "10! = 3628800",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1 1 f' (x) =3x2-1 -3(2+4] (=-4}.",
+    "latex": "1 1 f' (x) =3x2-1 -3(2+4] (=-4}.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "ln(e^8) = 8",
+    "latex": "\\ln(e^{8}) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "Puc. 63 x? 4 y?=1. Cnenosatenbuo, sin? « + cos? o = 1. (1)",
+    "latex": "Puc. 63 x? 4 y?=1. Cnenosatenbuo, \\sin? « + \\cos? o = 1. (1)",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log_3(9) = 2",
+    "latex": "\\log_{3}(9) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "C(4,1) = 4",
+    "latex": "\\binom{4}{1} = 4",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "C(7,6) = 7",
+    "latex": "\\binom{7}{6} = 7",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) tg (a+), ecnu tg o =-3 u tg B= 2.4;",
+    "latex": "1) \\\\tan (a+), ecnu \\\\tan o =-3 u \\\\tan B= 2.4;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(6,k), k=0..6 = 64",
+    "latex": "\\sum_{k=0}^{6} \\binom{6}{k} = 64",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log, x = 082",
+    "latex": "\\log, x = 082",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "n = 0",
+    "latex": "n = 0",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_2(128) = 7",
+    "latex": "\\log_{2}(128) = 7",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1 ( y ) dyds + k i =1",
+    "latex": "1 ( y ) dyds + k i =1",
+    "source": "0707.2723v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "sum C(4,k), k=0..4 = 16",
+    "latex": "\\sum_{k=0}^{4} \\binom{4}{k} = 16",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "ln(e^4) = 4",
+    "latex": "\\ln(e^{4}) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lim y, =9",
+    "latex": "\\lim y, =9",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) 3it-2l< 9; 2) 4!=+41> 16;",
+    "latex": "1) 3it-2l< 9; 2) 4!=+41> 16;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "ln(e^9) = 9",
+    "latex": "\\ln(e^{9}) = 9",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lg(1000) = 3",
+    "latex": "\\lg(1000) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "ln(e^4) = 4",
+    "latex": "\\ln(e^{4}) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum C(4,k), k=0..4 = 16",
+    "latex": "\\sum_{k=0}^{4} \\binom{4}{k} = 16",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "6) sin (sx- as) cos (2x+4n)— sin (5x+ 7) sin 2x = 0.",
+    "latex": "6) \\sin (sx- as) \\cos (2x+4n)— \\sin (5x+ 7) \\sin 2x = 0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "1) y= sin 2x- V3 cos 2x; 2) y =2 cos 2x + sin? x.",
+    "latex": "1) y= \\sin 2x- V3 \\cos 2x; 2) y =2 \\cos 2x + \\sin? x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "392 1) log, (2 — x) - log, (-x) = 0;",
+    "latex": "392 1) \\log, (2 — x) - \\log, (-x) = 0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "ln(e^5) = 5",
+    "latex": "\\ln(e^{5}) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1269 BuunesrurTs cos 2a, ecau sina = 7",
+    "latex": "1269 BuunesrurTs \\cos 2a, ecau sina = 7",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lim(n->inf) n/(n+6) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 6} = 1",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "Hanpumep, Aj=4-3=12; A?=4-3-2= 24;",
+    "latex": "Hanpumep, Aj=4-3=12; A?=4-3-2= 24;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "Bociloubsyemca TeM, UTO lim a = 1. 9ro yTBepxze- to",
+    "latex": "Bociloubsyemca TeM, UTO \\lim a = 1. 9ro yTBepxze- to",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "ln(e^5) = 5",
+    "latex": "\\ln(e^{5}) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "2 cos (z-z] cos (4x-2} =0.",
+    "latex": "2 \\cos (z-z] \\cos (4x-2} =0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lg(10) = 1",
+    "latex": "\\lg(10) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "3) sina = -¥8 u cos 0, = 128, 4) sina=0.2 u cos a=0.8?",
+    "latex": "3) sina = -¥8 u \\cos 0, = 128, 4) sina=0.2 u \\cos a=0.8?",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Dy = 2.44",
+    "latex": "Dy = 2.44",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "P(2) = 2",
+    "latex": "P_{2} = 2! = 2",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_2(256) = 8",
+    "latex": "\\log_{2}(256) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_3(81) = 4",
+    "latex": "\\log_{3}(81) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "“ 3) sin 2x = cos 3x; 4) sin x + cos 3x = 0.",
+    "latex": "“ 3) \\sin 2x = \\cos 3x; 4) \\sin x + \\cos 3x = 0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log_3(729) = 6",
+    "latex": "\\log_{3}(729) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum(i=1..8) i^2 = 204",
+    "latex": "\\sum_{i=1}^{8} i^{2} = 204",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "4*ty\"= 16.",
+    "latex": "4*ty\"= 16.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "671 1) sin [=+ \"| + cos (x+ 2) =1+ cos 2x;",
+    "latex": "671 1) \\sin [=+ \"| + \\cos (x+ 2) =1+ \\cos 2x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(4,k), k=0..4 = 16",
+    "latex": "\\sum_{k=0}^{4} \\binom{4}{k} = 16",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "660 1) 2 sin? x+sin x=0; 2) 8 sin? x—5 sin x -—2=0;",
+    "latex": "660 1) 2 \\sin? x+\\sin x=0; 2) 8 \\sin? x—5 \\sin x -—2=0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "P(5) = 120",
+    "latex": "P_{5} = 5! = 120",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "sum(i=1..8) i = 36",
+    "latex": "\\sum_{i=1}^{8} i = 36",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "cos 90° = 0",
+    "latex": "\\cos 90^{\\circ} = 0",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "x = 082",
+    "latex": "x = 082",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "5*-14 5Y-1= 30; 2*-3¥= 8, 86",
+    "latex": "5*-14 5Y-1= 30; 2*-3¥= 8, 86",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "a = 60",
+    "latex": "a = 60",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log2(4) = 2",
+    "latex": "\\log_{2}(4) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "675 1) sinx+sin 2x + sin 3x =0;",
+    "latex": "675 1) sinx+\\sin 2x + \\sin 3x =0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lim(x->inf) 80/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{80}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "3) cos (= -«] sin (= -6 | — sin (a — 8);",
+    "latex": "3) \\cos (= -«] \\sin (= -6 | — \\sin (a — 8);",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lim(x->inf) 85/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{85}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "1380 1) sin x +sin 5x =sin 3x; 2) cos 7x ~ cos 8x = 3 sin 5x.",
+    "latex": "1380 1) \\sin x +\\sin 5x =\\sin 3x; 2) \\cos 7x ~ \\cos 8x = 3 \\sin 5x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "P(5) = 120",
+    "latex": "P_{5} = 5! = 120",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "2) f (x) = e8*~2 — In (8x - 1), x= 35",
+    "latex": "2) f (x) = e8*~2 — In (8x - 1), x= 35",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lg(100) = 2",
+    "latex": "\\lg(100) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "—-Rek<&; arctg 13) _ —4, vax xax tg (-2] = 2 4 2 3 6 6",
+    "latex": "—-Rek<&; \\\\arctan 13) _ —4, vax xax \\\\tan (-2] = 2 4 2 3 6 6",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "8) sin 4x + sin? 2x = 0; 4) sin 2x + 2 cos? x =0.",
+    "latex": "8) \\sin 4x + \\sin? 2x = 0; 4) \\sin 2x + 2 \\cos? x =0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "P(7) = 5040",
+    "latex": "P_{7} = 7! = 5040",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_10(1000000) = 6",
+    "latex": "\\log_{10}(1000000) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log2(2) = 1",
+    "latex": "\\log_{2}(2) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum(i=1..6) i^2 = 91",
+    "latex": "\\sum_{i=1}^{6} i^{2} = 91",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "C(10,10) = 1",
+    "latex": "\\binom{10}{10} = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) y=sin 2x, T=; 2) y=cos 5, T= 4;",
+    "latex": "1) y=\\sin 2x, T=; 2) y=\\cos 5, T= 4;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(7,k), k=0..7 = 128",
+    "latex": "\\sum_{k=0}^{7} \\binom{7}{k} = 128",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1563 1) tg x+ctg x= 2 ctg 4x;",
+    "latex": "1563 1) \\\\tan x+\\\\cot x= 2 \\\\cot 4x;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum(i=0..6) 3^i = 1093",
+    "latex": "\\sum_{i=0}^{6} 3^{i} = 1093",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "(cos (3 — 4x))’ = —(—4) sin (3 — 4x) = 4 sin (3 — 4x).",
+    "latex": "(\\cos (3 — 4x))’ = —(—4) \\sin (3 — 4x) = 4 \\sin (3 — 4x).",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lg(10000) = 4",
+    "latex": "\\lg(10000) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lim(x->inf) 75/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{75}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "P(5) = 120",
+    "latex": "P_{5} = 5! = 120",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1357. 2) x,;=-1, x,=3; 8) x=0. 1858. 2) x,= 100, x,=0.1, 4) x=0.",
+    "latex": "1357. 2) x,;=-1, x,=3; 8) x=0. 1858. 2) x,= 100, x,=0.1, 4) x=0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log_2(64) = 6",
+    "latex": "\\log_{2}(64) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lg(100) = 2",
+    "latex": "\\lg(100) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sume that all n i = 1",
+    "latex": "sume that all n i = 1",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_3(6561) = 8",
+    "latex": "\\log_{3}(6561) = 8",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_2(8) = 3",
+    "latex": "\\log_{2}(8) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "1! = 1",
+    "latex": "1! = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "F ( X µ /Y µ ) = 2- lim",
+    "latex": "F ( X µ /Y µ ) = 2- \\lim",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "10! = 3628800",
+    "latex": "10! = 3628800",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log2(16) = 4",
+    "latex": "\\log_{2}(16) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum C(6,k), k=0..6 = 64",
+    "latex": "\\sum_{k=0}^{6} \\binom{6}{k} = 64",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "634 1) 2cos* 2x +3 sin 4x +4 sin” 2x =0;",
+    "latex": "634 1) 2cos* 2x +3 \\sin 4x +4 \\sin” 2x =0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "Takum o6pasom, MomHo sanucaTh ¥5!2 = 125 = 5",
+    "latex": "Takum o6pasom, MomHo sanucaTh ¥5!2 = 125 = 5",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log2(8) = 3",
+    "latex": "\\log_{2}(8) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log2(64) = 6",
+    "latex": "\\log_{2}(64) = 6",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum C(2,k), k=0..2 = 4",
+    "latex": "\\sum_{k=0}^{2} \\binom{2}{k} = 4",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "LIM PaBeHCTBO: - 1) lim (2x + 1) = 3",
+    "latex": "\\lim PaBeHCTBO: - 1) \\lim (2x + 1) = 3",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "n = 0",
+    "latex": "n = 0",
+    "source": "1303.5948v1",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) 0=1; 2) a=38; 3) o=-3.4; 4) ao=-1.3.",
+    "latex": "1) 0=1; 2) a=38; 3) o=-3.4; 4) ao=-1.3.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "lim(x->inf) 71/x = 0",
+    "latex": "\\lim_{x \\to \\infty} \\frac{71}{x} = 0",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "N = 20",
+    "latex": "N = 20",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "X + = n i =1",
+    "latex": "X + = n i =1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "4) cos 38x =0; 5) sin x =0: 6) cos x 0. cos x sin 5x cos 7x",
+    "latex": "4) \\cos 38x =0; 5) \\sin x =0: 6) \\cos x 0. \\cos x \\sin 5x \\cos 7x",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "lg(1000) = 3",
+    "latex": "\\lg(1000) = 3",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "441 x aresin2+ 2, ne Z. 658. 2) x=+ Z+2nn, x=~E+ 2\", ne Z. 659. 2) x= 5 2 A 8 2",
+    "latex": "441 x aresin2+ 2, ne Z. 658. 2) x=+ Z+2nn, x=~E+ 2\", ne Z. 659. 2) x= 5 2 A 8 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "log_3(9) = 2",
+    "latex": "\\log_{3}(9) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "lg(100000) = 5",
+    "latex": "\\lg(100000) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "sum(i=0..7) 3^i = 3280",
+    "latex": "\\sum_{i=0}^{7} 3^{i} = 3280",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "n   = 0",
+    "latex": "n = 0",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "1014 1) TlapaGono% y =(x + 1)*, upamot y=1- x u ocpio Ox;",
+    "latex": "1014 1) TlapaGono% y =(x + 1)*, upamot y=1- x u ocpio Ox;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2) (1- V2 cos x) (1 + 2 sin 2x cos 2x) = 0.",
+    "latex": "2) (1- V2 \\cos x) (1 + 2 \\sin 2x \\cos 2x) = 0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "log_8(4096) = 4",
+    "latex": "\\log_{8}(4096) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "9! = 362880",
+    "latex": "9! = 362880",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "1) 74 -74= 74 4=7%;",
+    "latex": "1) 74 -74= 74 4=7%;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "sum(i=0..4) 4^i = 341",
+    "latex": "\\sum_{i=0}^{4} 4^{i} = 341",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "A(4,3) = 24",
+    "latex": "A_{4}^{3} = 24",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "lgebra, we have n   = 0",
+    "latex": "lgebra, we have n = 0",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "lim(n->inf) n/(n+3) = 1",
+    "latex": "\\lim_{n \\to \\infty} \\frac{n}{n + 3} = 1",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "B) lim (Jn +2~—Vn+1) =0. n— co n+1",
+    "latex": "B) \\lim (Jn +2~—Vn+1) =0. n— co n+1",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "x =38",
+    "latex": "x =38",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "C(8,3) = 56",
+    "latex": "\\binom{8}{3} = 56",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "P(8) = 40320",
+    "latex": "P_{8} = 8! = 40320",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "sum(i=1..9) i^2 = 285",
+    "latex": "\\sum_{i=1}^{9} i^{2} = 285",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "1) cos (z-x}=0. x—-t=2inn, x= 3n4n0n, neZ;",
+    "latex": "1) \\cos (z-x}=0. x—-t=2inn, x= 3n4n0n, neZ;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "ln(e^1) = 1",
+    "latex": "\\ln(e^{1}) = 1",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_10(10000) = 4",
+    "latex": "\\log_{10}(10000) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "5) sin (42\")=1; 6) cos (se+42}=1, 2 3 5",
+    "latex": "5) \\sin (42\")=1; 6) \\cos (se+42}=1, 2 3 5",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sum C(8,k), k=0..8 = 256",
+    "latex": "\\sum_{k=0}^{8} \\binom{8}{k} = 256",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "C(6,6) = 1",
+    "latex": "\\binom{6}{6} = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "431. 2) 0, 1; 4) 1, 0; 6) 0, -1. 482. 2) 2; 4) -1. 433. 2) 0; 4) =1.",
+    "latex": "431. 2) 0, 1; 4) 1, 0; 6) 0, -1. 482. 2) 2; 4) -1. 433. 2) 0; 4) =1.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "ln(e^5) = 5",
+    "latex": "\\ln(e^{5}) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "C(10,6) = 210",
+    "latex": "\\binom{10}{6} = 210",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "Torga sin % lim —2 = 1, h->0 h",
+    "latex": "Torga \\sin % \\lim —2 = 1, h->0 h",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "series_limit"
+  },
+  {
+    "text": "log_7(2401) = 4",
+    "latex": "\\log_{7}(2401) = 4",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "log_3(9) = 2",
+    "latex": "\\log_{3}(9) = 2",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "y= 25",
+    "latex": "y= 25",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "10! = 3628800",
+    "latex": "10! = 3628800",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "X + i , X − = n i =1",
+    "latex": "X + i , X − = n i =1",
+    "source": "2102.13459v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "C(2,0) = 1",
+    "latex": "\\binom{2}{0} = 1",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "log_3(243) = 5",
+    "latex": "\\log_{3}(243) = 5",
+    "source": "synthetic",
+    "class": "logarithmic"
+  },
+  {
+    "text": "8) 3 cos 2x —7 sin x = 4;",
+    "latex": "8) 3 \\cos 2x —7 \\sin x = 4;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "1) log, x = 2 log, 3+ 4 log,, 2; 2) log, x —2 log, x =9;",
+    "latex": "1) \\log, x = 2 \\log, 3+ 4 \\log,, 2; 2) \\log, x —2 \\log, x =9;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "(x + 2) (x? - 2n+4)=0, (x + 2) (x - 1)? + 38) =0.",
+    "latex": "(x + 2) (x? - 2n+4)=0, (x + 2) (x - 1)? + 38) =0.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "Hatizém mpoussogyyw: , _ 36 _ (x+ 6)(x-6) f' (x)=1- ar nT can x x",
+    "latex": "Hatizém mpoussogyyw: , _ 36 _ (x+ 6)(x-6) f' (x)=1- ar nT can x x",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "2 l1+eos a aanagqa 2 Brrancauts tg . ecuu cos 0=0.8 un T<a< 2K.",
+    "latex": "2 l1+eos a aanagqa 2 Brrancauts \\\\tan . ecuu \\cos 0=0.8 un T<a< 2K.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "sume that n ≥ 0 [ c n ] p n = 0",
+    "latex": "sume that n \\geq 0 [ c n ] p n = 0",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": ": 1) F (x)= 8e%, f(x)=e3; 2) F (x) =sin 2x, f (x) =2 cos 2x.",
+    "latex": ": 1) F (x)= 8e%, f(x)=e3; 2) F (x) =\\sin 2x, f (x) =2 \\cos 2x.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "2) cos 2x + 3 sin 2x = 3.",
+    "latex": "2) \\cos 2x + 3 \\sin 2x = 3.",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "A(8,3) = 336",
+    "latex": "A_{8}^{3} = 336",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "= 3 sin (ex +) —sin (x +1))-1(2-(-8)| = 2 4 4 2\\ 2 2",
+    "latex": "= 3 \\sin (ex +) —\\sin (x +1))-1(2-(-8)| = 2 4 4 2\\ 2 2",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "trigonometric"
+  },
+  {
+    "text": "A(7,1) = 7",
+    "latex": "A_{7}^{1} = 7",
+    "source": "synthetic",
+    "class": "combinatorial"
+  },
+  {
+    "text": "sum(i=0..5) 3^i = 364",
+    "latex": "\\sum_{i=0}^{5} 3^{i} = 364",
+    "source": "synthetic",
+    "class": "series_limit"
+  },
+  {
+    "text": "N = 1",
+    "latex": "N = 1",
+    "source": "1709.07343v4",
+    "class": "series_limit"
+  },
+  {
+    "text": "\" 8) x? -8x4+2=0 u x?+3x+2=0;",
+    "latex": "\" 8) x? -8x4+2=0 u x?+3x+2=0;",
+    "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
+    "class": "algebraic"
+  },
+  {
+    "text": "5 2) ctg x- V3 =0, ctg x = V3, tg xo, x =arctg +27 =24nn, V3 V3 6 nedZ.",
+    "latex": "5 2) \\\\cot x- V3 =0, \\\\cot x = V3, \\\\tan xo, x =\\\\arctan +27 =24nn, V3 V3 6 nedZ.",
     "source": "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s",
     "class": "trigonometric"
   }
