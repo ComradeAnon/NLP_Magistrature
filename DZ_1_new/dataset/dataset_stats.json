@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-01T01:11:50.511074",
-  "total": 500,
+  "generated_at": "2026-05-01T14:51:53.639010",
+  "total": 884,
   "by_class": {
-    "logarithmic": 100,
-    "combinatorial": 100,
-    "algebraic": 100,
-    "series_limit": 100,
-    "trigonometric": 100
+    "algebraic": 643,
+    "series_limit": 61,
+    "combinatorial": 12,
+    "trigonometric": 164,
+    "logarithmic": 4
   },
   "by_source": {
-    "synthetic": 223,
-    "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s": 231,
-    "2102.13459v4": 18,
-    "1709.07343v4": 16,
+    "1412.6980v9": 5,
     "0707.2723v1": 5,
+    "1703.04931v1": 2,
     "1303.5948v1": 4,
-    "1703.04931v1": 1,
-    "1412.6980v9": 2
+    "2002.02712v3": 1,
+    "1709.07343v4": 16,
+    "2102.13459v4": 18,
+    "366_2-algebra-i-nach.-mat.-analiza.-10-11kl._alimov-sh.a.-i-dr_2016-464s": 833
   },
   "class_descriptions": {
     "algebraic": "Алгебраические выражения (полиномы, дроби, корни)",

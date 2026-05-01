@@ -16,6 +16,8 @@ from config import (
     DOCS_DIR,
     DATASET_FILE,
     DATASET_STATS_FILE,
+    OUTPUT_FILE,
+    BUILD_BALANCED_DATASET,
     CLASS_KEYS,
     FORMULA_CLASSES,
     MIN_EXAMPLES_PER_CLASS,
@@ -30,11 +32,12 @@ logger = logging.getLogger(__name__)
 
 class DatasetBuilder:
 
-    def __init__(self, seed: int = 42):
-        self.classifier = FormulaClassifier()
-        self.converter  = LaTeXConverter()
-        self.generator  = SyntheticGenerator(seed=seed)
-        self.seed       = seed
+    def __init__(self, seed: int = 42, build_balanced: bool = True):
+        self.classifier    = FormulaClassifier()
+        self.converter     = LaTeXConverter()
+        self.generator     = SyntheticGenerator(seed=seed)
+        self.seed          = seed
+        self.build_balanced = build_balanced
         random.seed(seed)
 
     # ── Шаг 1: Извлечение из PDF ──────────────────────────────────────────────
@@ -163,6 +166,23 @@ class DatasetBuilder:
 
         logger.info("Датасет сохранён: %s (%d элементов)", DATASET_FILE, len(dataset))
 
+    def save_output(self, items: List[Dict]) -> None:
+        """Сохраняет все классифицированные формулы в output.json."""
+        output = [
+            {
+                "text":   item["text"],
+                "latex":  item["latex"],
+                "source": item["source"],
+                "class":  item["class"],
+            }
+            for item in items
+        ]
+
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+
+        logger.info("Output сохранён: %s (%d элементов)", OUTPUT_FILE, len(output))
+
     def save_stats(self, items: List[Dict]) -> Dict:
         """Считает и сохраняет статистику."""
         by_class  = defaultdict(int)
@@ -188,9 +208,12 @@ class DatasetBuilder:
 
     # ── Основной пайплайн ────────────────────────────────────────────────────
 
-    def build(self) -> Tuple[List[Dict], Dict]:
+    def build(self, balance: bool = True) -> Tuple[List[Dict], Dict]:
         """
         Запускает полный пайплайн сборки датасета.
+
+        Args:
+            balance: Если True — балансирует датасет, если False — сохраняет все
 
         Returns:
             (dataset_items, stats_dict)
@@ -202,15 +225,23 @@ class DatasetBuilder:
         # 1. PDF
         pdf_items = self.collect_from_pdfs()
 
-        # 2. Балансировка
-        balanced = self.balance_dataset(pdf_items)
+        # 2. Балансировка (опционально)
+        if balance:
+            items = self.balance_dataset(pdf_items)
+        else:
+            items = pdf_items
+            logger.info("Шаг 2: Балансировка пропущена (режим: все формулы)")
 
         # 3. Валидация
-        valid = self.validate(balanced)
+        valid = self.validate(items)
 
         # 4. Сохранение
-        self.save_dataset(valid)
-        stats = self.save_stats(valid)
+        if balance:
+            self.save_dataset(valid)
+            stats = self.save_stats(valid)
+        else:
+            self.save_output(valid)
+            stats = self.save_stats(valid)
 
         logger.info("=" * 60)
         logger.info("СБОРКА ЗАВЕРШЕНА | Итого: %d примеров", stats["total"])

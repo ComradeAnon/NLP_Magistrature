@@ -14,8 +14,9 @@ LOGS_DIR    = BASE_DIR / "logs"
 
 DATASET_FILE       = DATASET_DIR / "dataset.json"
 DATASET_STATS_FILE = DATASET_DIR / "dataset_stats.json"
+OUTPUT_FILE        = DATASET_DIR / "output.json"
 
-# Создаём директории если не существуют
+# Создаём директории если не Существуют
 for _dir in (DOCS_DIR, DATASET_DIR, LOGS_DIR):
     _dir.mkdir(parents=True, exist_ok=True)
 
@@ -76,3 +77,10 @@ OCR_TEXT_THRESHOLD = 50
 # Порог доли скан-страниц для определения типа документа
 SCAN_RATIO_THRESHOLD  = 0.8   # > 80% картинок → SCAN
 MIXED_RATIO_THRESHOLD = 0.3   # > 30% картинок → MIXED
+
+# ─── Режим сборки датасета ────────────────────────────────────────────────────
+
+BUILD_BALANCED_DATASET = False  # False = сохранить все формулы в output.json
+                                # True  = балансировать и сохранить в dataset.json
+
+OUTPUT_FILE = DATASET_DIR / "output.json"
