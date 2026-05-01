@@ -36,6 +36,8 @@ def _clean_line(line: str) -> str:
     line = re.sub(r" {2,}", " ", line)
     line = re.sub(
         r"[^\x20-\x7E"
+        #r"\u0370-\u03FF"
+        r"\u0370-\u0390"
         r"\u0400-\u04FF"
         r"\u00B0-\u00FF"
         r"\u2200-\u22FF"
@@ -71,6 +73,7 @@ _CYRILLIC_LOOKALIKE_KEYS = set(_CYRILLIC_TO_LATIN.keys())
 
 _MATH_CONTEXT_RE = re.compile(
     r"[+\-*/^=<>≤≥≠±×÷∑∫Π∂∇√∛∜∞²³⁰¹]"
+    r"|[\u0370-\u03FF]"
     r"|[\\](?:frac|sqrt|sum|lim|sin|cos|tan|log|ln|lg|int|binom|prod)"
     r"|[_^{}()]"
     r"|\d+"
@@ -114,7 +117,8 @@ _MATH_INDICATORS = [
         r"[+\-*/^√∑∫π]",
         r"\b(sin|cos|tan|tg|cot|ctg)\s*[\d(°]",
         r"\b(log|ln|lg)\s*[\d_(]",
-        r"\b(lim|sum|sqrt)\b",
+        r"\b(lim|sum|sqrt|mod)\b",
+        r"\b(rank|dim)\b",
         r"\d+\s*[+\-*]\s*\d+",
         r"\d+\s*\^\s*\d+",
         r"\d+\s*!",
@@ -123,17 +127,27 @@ _MATH_INDICATORS = [
         r"[a-zA-Z]\s*\^\s*\d",
         r"\d+[a-zA-Z]\s*[+\-]",
         r"\\frac|\\sqrt|\\sum|\\lim",
+        r"[αβγδεζηθικλμνπρστυφχψωΘΛΣΦΨΩΔ]",
+        r"[Α-Ω]",
+        r"[≠≈≅≡><≥≤±±∥∝∞∘·×⊗⋂⋃⊆⊂⊄⊇⊃⊅⊖¬]",
+        r"[:=]",
+        r"[⌊⌋⌈⌉]"
+        r"[|.{0,30}|]",
+        r"[ₐbcdₑfgₕᵢⱼₖₗₘₙₒₚqᵣₛₜᵤᵥw]",
+        r"[ᵃᵇᶜᵈᵉᶠᵍʰⁱʲᵏˡᵐⁿᵒᵖᑫʳˢᵗᵘᵛᵂ]",
+        r"[ᵦᵩ]",
+        r"[₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹]",
     ]
 ]
 
 _MATH_INDICATORS_EXTENDED = _MATH_INDICATORS + [
     re.compile(p, re.IGNORECASE) for p in [
-        r"[a-zA-Z]\s*[+\-*/]\s*\d",
-        r"\([a-zA-Z\d+\-*/^ ]+\)",
-        r"\d+\s*/\s*\d+",
+        #r"[a-zA-Z]\s*[+\-*/]\s*\d",
+        #r"\([a-zA-Z\d+\-*/^ ]+\)",
+        #r"\d+\s*/\s*\d+",
         r"[∑Σ∫∏∂∇∞]",
         r"[₀₁₂₃₄₅₆₇₈₉⁰¹²³⁴⁵⁶⁷⁸⁹]",
-        r"[⇒⇐→←↔]",
+        r"[⇒⇐⇔→←↔∀∃∄]",
     ]
 ]
 
@@ -147,6 +161,21 @@ _STOP_WORDS = [
     "заметим","покажем","докажем","найдем", "вычислим",
 ]
 _STOP_WORDS_SET = set(_STOP_WORDS)
+
+_ENGLISH_STOP_WORDS = [
+    "therefore", "thus", "hence", "let", "given",
+    "condition", "example", "solution", "answer", "problem",
+    "if", "then", "such", "as", "that", "this",
+    "we", "can", "need", "must", "instead",
+    "for", "with", "without", "into", "onto",
+    "among", "between", "while", "when", "where",
+    "using", "apply", "obtain", "write", "have",
+    "note", "show", "prove", "find", "compute",
+    "see", "consider", "suppose", "assume", "recall",
+    "algorithm", "assuming", "and"
+]
+_ENGLISH_STOP_WORDS_SET = set(_ENGLISH_STOP_WORDS)
+_ALL_STOP_WORDS_SET = _STOP_WORDS_SET | _ENGLISH_STOP_WORDS_SET
 
 
 def _is_formula_line(line: str, mode: str = FORMULA_MODE) -> bool:
@@ -182,7 +211,7 @@ def _is_formula_line(line: str, mode: str = FORMULA_MODE) -> bool:
         return False
 
     line_lower = line.lower()
-    for word in _STOP_WORDS_SET:
+    for word in _ALL_STOP_WORDS_SET:
         if word in line_lower:
             return False
 
