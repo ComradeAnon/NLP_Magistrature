@@ -19,10 +19,12 @@ from config import (
     DOCS_DIR,
     DATASET_FILE,
     DATASET_STATS_FILE,
+    OUTPUT_FILE,
     LOGS_DIR,
     CLASS_KEYS,
     FORMULA_CLASSES,
     MIN_EXAMPLES_PER_CLASS,
+    BUILD_BALANCED_DATASET,
 )
 from dataset_builder import DatasetBuilder
 
@@ -69,13 +71,13 @@ def preflight_check() -> bool:
     return True
 
 
-def show_stats(stats: dict) -> None:
+def show_stats(stats: dict, output_path: Path) -> None:
     """Вывод итоговой статистики."""
     console.print(Panel(
         f"[bold green]Датасет успешно собран![/bold green]\n"
         f"Дата    : {stats['generated_at']}\n"
         f"Всего   : [bold]{stats['total']}[/bold] примеров\n"
-        f"Файл    : {DATASET_FILE}",
+        f"Файл    : {output_path}",
         title="✅ Результат"
     ))
 
@@ -151,21 +153,23 @@ def main():
 
     # ── Запуск сборки
     logger.info("Запуск сборки датасета")
+    logger.info("Режим: %s", "балансировка" if BUILD_BALANCED_DATASET else "без балансировки (все формулы)")
     builder = DatasetBuilder(seed=42)
 
     try:
-        items, stats = builder.build()
+        items, stats = builder.build(balance=BUILD_BALANCED_DATASET)
     except Exception as exc:
         logger.exception("Критическая ошибка сборки: %s", exc)
         console.print(f"\n[red bold]Ошибка: {exc}[/red bold]")
         sys.exit(1)
 
     # ── Вывод результатов
-    show_stats(stats)
+    output_file = DATASET_FILE if BUILD_BALANCED_DATASET else OUTPUT_FILE
+    show_stats(stats, output_file)
 
     # ── Примеры
     try:
-        with open(DATASET_FILE, encoding="utf-8") as f:
+        with open(output_file, encoding="utf-8") as f:
             dataset = json.load(f)
         show_examples(dataset)
     except Exception as exc:

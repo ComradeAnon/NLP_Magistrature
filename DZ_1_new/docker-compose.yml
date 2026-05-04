@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    image: 'math-formulas-pdf-extractor:0.1.1-python-slim'
+    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction'
     build:
       context: .
       dockerfile: Dockerfile
@@ -10,6 +10,7 @@ services:
     restart: no
     volumes:
       - ./dataset:/app/dataset
+      - ./logs:/app/logs
       - ./docs:/app/docs:ro
     working_dir: /app
     tty: true

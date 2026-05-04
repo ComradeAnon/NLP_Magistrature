@@ -5,8 +5,13 @@
 
 import re
 import logging
-from typing import List, Dict, Optional
-from config import CLASS_KEYS
+from typing import Dict, Optional, List, Tuple
+from config import (
+    CLASS_KEYS,
+    CLASSIFICATION_CONFIDENCE_THRESHOLD,
+    CLASS_THRESHOLDS,
+    MATH_DENSITY_THRESHOLD,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -32,6 +37,7 @@ class FormulaClassifier:
             return "derivative_limit"
             
         return "equation"
+
 
     def classify_batch(self, candidates: List[Dict]) -> List[Dict]:
         results = []

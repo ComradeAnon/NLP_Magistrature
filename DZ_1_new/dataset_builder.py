@@ -15,6 +15,8 @@ from config import (
     DATASET_DIR,
     DATASET_FILE,
     DATASET_STATS_FILE,
+    OUTPUT_FILE,
+    BUILD_BALANCED_DATASET,
     CLASS_KEYS,
     FORMULA_CLASSES,
     MIN_EXAMPLES_PER_CLASS,
@@ -36,6 +38,7 @@ class DatasetBuilder:
         
         print("\n[Инициализация] Загрузка нейросети...")
         self.vision_ocr = FormulaOCR()
+
         random.seed(seed)
 
     def collect_from_pdfs(self) -> List[Dict]:
@@ -102,6 +105,25 @@ class DatasetBuilder:
         with open(DATASET_FILE, "w", encoding="utf-8") as f:
             json.dump(dataset, f, ensure_ascii=False, indent=2)
 
+        logger.info("Датасет сохранён: %s (%d элементов)", DATASET_FILE, len(dataset))
+
+    def save_output(self, items: List[Dict]) -> None:
+        """Сохраняет все классифицированные формулы в output.json."""
+        output = [
+            {
+                "text":   item["text"],
+                "latex":  item["latex"],
+                "source": item["source"],
+                "class":  item["class"],
+            }
+            for item in items
+        ]
+
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(output, f, ensure_ascii=False, indent=2)
+
+        logger.info("Output сохранён: %s (%d элементов)", OUTPUT_FILE, len(output))
+
     def save_stats(self, items: List[Dict]) -> Dict:
         by_class, by_source = defaultdict(int), defaultdict(int)
         for item in items:
@@ -119,10 +141,43 @@ class DatasetBuilder:
             json.dump(stats, f, ensure_ascii=False, indent=2)
         return stats
 
-    def build(self) -> Tuple[List[Dict], Dict]:
+    def build(self, balance: bool = True) -> Tuple[List[Dict], Dict]:
+        """
+        Запускает полный пайплайн сборки датасета.
+
+        Args:
+            balance: Если True — балансирует датасет, если False — сохраняет все
+
+        Returns:
+            (dataset_items, stats_dict)
+        """
+        logger.info("=" * 60)
+        logger.info("НАЧАЛО СБОРКИ ДАТАСЕТА")
+        logger.info("=" * 60)
+
+        # 1. PDF
         pdf_items = self.collect_from_pdfs()
-        balanced = self.balance_dataset(pdf_items)
-        valid = self.validate(balanced)
-        self.save_dataset(valid)
-        stats = self.save_stats(valid)
+
+        # 2. Балансировка (опционально)
+        if balance:
+            items = self.balance_dataset(pdf_items)
+        else:
+            items = pdf_items
+            logger.info("Шаг 2: Балансировка пропущена (режим: все формулы)")
+
+        # 3. Валидация
+        valid = self.validate(items)
+
+        # 4. Сохранение
+        if balance:
+            self.save_dataset(valid)
+            stats = self.save_stats(valid)
+        else:
+            self.save_output(valid)
+            stats = self.save_stats(valid)
+
+        logger.info("=" * 60)
+        logger.info("СБОРКА ЗАВЕРШЕНА | Итого: %d примеров", stats["total"])
+        logger.info("=" * 60)
+
         return valid, stats
