@@ -8,6 +8,8 @@ DOCS_DIR    = BASE_DIR / "docs"
 DATASET_DIR = BASE_DIR / "dataset"
 LOGS_DIR    = BASE_DIR / "logs"
 
+DPI_ZOOM = 2.125 # Проверено опытным путём
+
 DATASET_FILE       = DATASET_DIR / "dataset.json"
 DATASET_STATS_FILE = DATASET_DIR / "dataset_stats.json"
 

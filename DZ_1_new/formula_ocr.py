@@ -13,6 +13,8 @@ import cv2
 import numpy as np
 from PIL import Image
 
+from config import DPI_ZOOM
+
 # Глушим системный спам
 warnings.filterwarnings("ignore")
 logging.getLogger("albumentations").setLevel(logging.ERROR)
@@ -96,7 +98,7 @@ class FormulaOCR:
         doc = fitz.open(str(pdf_path))
 
         for page_num, page in enumerate(doc):
-            dpi_zoom = 3.0
+            dpi_zoom = DPI_ZOOM
             matrix = fitz.Matrix(dpi_zoom, dpi_zoom)
             pix = page.get_pixmap(matrix=matrix, colorspace=fitz.csGRAY)
             

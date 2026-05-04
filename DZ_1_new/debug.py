@@ -8,35 +8,35 @@ import re
 def is_math_text(text: str) -> tuple[bool, str]:
     text = text.strip()
     if not text:
-        return False, "Пустой текст"
+        return False, "Empty text"
         
     clean_text = text.replace(" ", "").replace("\n", "")
     total_chars = len(clean_text)
     
     # Отбрасываем номера формул (1), [2], (A1) и т.д.
     if re.fullmatch(r"^[\(\[]?[A-Za-z]?\d+([.,\-]\d+)*[\)\]]?[.,]?$", clean_text):
-        return False, "Номер формулы или число"
+        return False, "Formula number or digit"
         
     letters = len(re.findall(r'[a-zA-Zа-яА-Я]', text))
     
     if total_chars > 30 and letters / total_chars > 0.7:
-        return False, "Сплошной текст (много букв)"
+        return False, "Continuous text (lots of letters)"
         
     math_symbols = ['∫', '∑', '∂', '∆', '∇', 'lim', 'max', 'min', 'dx', 'dy', '∈', '⊂', '∞', '≈', '≠', '≤', '≥']
     if any(sym in text for sym in math_symbols):
-        return True, "Найден спецсимвол вышмата"
+        return True, "Found special symbol of Advanced Mathematics"
         
     if any(sym in text for sym in ['=', '<', '>', '≈']):
         if letters / (total_chars + 1) < 0.6:
-            return True, "Найдено уравнение (=)"
+            return True, "Found equation (=)"
             
     operators = set("+-/*^|") 
     op_count = sum(1 for c in clean_text if c in operators)
     
     if total_chars > 5 and (op_count / total_chars) > 0.10:
-        return True, "Много математических операторов"
+        return True, "A lot of mathematical operators"
         
-    return False, "Нет явных признаков формулы"
+    return False, "No formula signs"
 
 def merge_horizontal_boxes(boxes, max_gap=120):
     """
@@ -154,7 +154,7 @@ def process_debug_pdf(pdf_path, max_pages):
     
     for i in range(pages_to_process):
         page = doc[i]
-        boxes_info = analyze_page_boxes(page)
+        boxes_info = analyze_page_boxes(page, 2.125)
         
         for info in boxes_info:
             rect = info["rect"]
