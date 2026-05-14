@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-05-04T20:07:11.087783",
-  "total": 1692,
+  "generated_at": "2026-05-06T00:41:41.757557",
+  "total": 1691,
   "by_class": {
-    "equation": 1643,
-    "derivative_limit": 21,
-    "mixed": 5,
-    "integral": 10,
-    "summation": 13
+    "equation": 1635,
+    "integral": 16,
+    "derivative_limit": 25,
+    "summation": 14,
+    "mixed": 1
   },
   "by_source": {
     "0707.2723v1": 168,
     "1303.5948v1": 103,
     "1412.6980v9": 53,
     "1703.04931v1": 62,
-    "1709.07343v4": 377,
+    "1709.07343v4": 376,
     "2002.02712v3": 4,
     "2102.13459v4": 925
   },

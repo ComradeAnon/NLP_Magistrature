@@ -1,18 +1,97 @@
 version: '3.8'
 
+x-app-common: &app-common
+  restart: no
+  volumes:
+    - ./dataset:/app/dataset
+    - ./logs:/app/logs
+    - ./docs:/app/docs:ro
+  working_dir: /app
+  tty: true
+  stdin_open: true
+  command: python3 -m main
+
 services:
-  app:
-    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction'
+  app-cpu:
+    <<: *app-common
+    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction-cpu'
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: math-formulas-pdf-extractor
-    restart: no
-    volumes:
-      - ./dataset:/app/dataset
-      - ./logs:/app/logs
-      - ./docs:/app/docs:ro
-    working_dir: /app
-    tty: true
-    stdin_open: true
-    command: python main.py
+      args:
+        BUILD_TYPE: cpu
+    container_name: math-formulas-pdf-extractor-cpu
+    profiles:
+      - cpu
+
+  app-cuda126:
+    <<: *app-common
+    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction-cuda126'
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_TYPE: cuda126
+    container_name: math-formulas-pdf-extractor-cuda126
+    profiles:
+      - cuda126
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  app-cuda128:
+    <<: *app-common
+    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction-cuda128'
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_TYPE: cuda128
+    container_name: math-formulas-pdf-extractor-cuda128
+    profiles:
+      - cuda128
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  app-cuda13:
+    <<: *app-common
+    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction-cuda13'
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_TYPE: cuda13
+    container_name: math-formulas-pdf-extractor-cuda13
+    profiles:
+      - cuda13
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+  app-rocm72:
+    <<: *app-common
+    image: 'math-formulas-pdf-extractor:0.1.1-text-extraction-rocm72'
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_TYPE: rocm72
+    container_name: math-formulas-pdf-extractor-rocm72
+    profiles:
+      - rocm72
+    devices:
+      - /dev/kfd
+      - /dev/dri
