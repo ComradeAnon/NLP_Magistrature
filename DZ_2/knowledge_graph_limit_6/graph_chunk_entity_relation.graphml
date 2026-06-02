@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Формула (LaTeX)">
+      <data key="d0">Формула (LaTeX)</data>
+      <data key="d1">concept</data>
+      <data key="d2">Формула (LaTeX) is the title or name of a mathematical equation.&lt;SEP&gt;A mathematical formula represented in LaTeX format.&lt;SEP&gt;A mathematical formula in LaTeX format.&lt;SEP&gt;A mathematical formula represented in LaTeX notation.</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-c56198a0794567b8a66b9441de3390aa-chunk-000&lt;SEP&gt;doc-d819daef2870109e4e331743885c4fcd-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392967</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_0">
+      <data key="d0">formula_0</data>
+      <data key="d1">concept</data>
+      <data key="d2">Formula_0 represents a specific mathematical formula.</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392937</data>
+      <data key="d6" />
+    </node>
+    <node id="x">
+      <data key="d0">x</data>
+      <data key="d1">concept</data>
+      <data key="d2">x is an unknown variable in the quadratic equation.&lt;SEP&gt;The variable x represents the solution to the quadratic equation.</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392952</data>
+      <data key="d6" />
+    </node>
+    <node id="b">
+      <data key="d0">b</data>
+      <data key="d1">data</data>
+      <data key="d2">b is an unknown coefficient in the quadratic equation.&lt;SEP&gt;b is one of the coefficients in a quadratic equation, used for calculating the discriminant.&lt;SEP&gt;The variable b is one of the coefficients in the quadratic equation.&lt;SEP&gt;The variable 'b' represents a numerical value in the equation.</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000&lt;SEP&gt;doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-c56198a0794567b8a66b9441de3390aa-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392957</data>
+      <data key="d6" />
+    </node>
+    <node id="c">
+      <data key="d0">c</data>
+      <data key="d1">concept</data>
+      <data key="d2">c is another unknown coefficient in the quadratic equation.&lt;SEP&gt;c is yet another coefficient in a quadratic equation, used alongside b and a to calculate the discriminant.</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000&lt;SEP&gt;doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392944</data>
+      <data key="d6" />
+    </node>
+    <node id="x^2 + bx + c = 0">
+      <data key="d0">x^2 + bx + c = 0</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d2">The quadratic equation x^2 + bx + c = 0 is represented by formula_0.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392937</data>
+      <data key="d6" />
+    </node>
+    <node id="x^2">
+      <data key="d0">x^2</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d2">x is squared in the equation.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392937</data>
+      <data key="d6" />
+    </node>
+    <node id="x = 0">
+      <data key="d0">x = 0</data>
+      <data key="d3">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d2">The statement x equals 0 is asserted for formula_0.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392937</data>
+      <data key="d6" />
+    </node>
+    <node id="D">
+      <data key="d0">D</data>
+      <data key="d1">concept</data>
+      <data key="d2">D represents the discriminant in a quadratic equation.&lt;SEP&gt;The variable D represents the discriminant, which determines the nature of the roots of a quadratic equation.</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392952</data>
+      <data key="d6" />
+    </node>
+    <node id="a">
+      <data key="d0">a</data>
+      <data key="d1">person</data>
+      <data key="d2">a is another coefficient in a quadratic equation, used alongside b and c to calculate the discriminant.&lt;SEP&gt;The variable a is another coefficient in the quadratic equation and part of the denominator.&lt;SEP&gt;The variable 'a' represents a value that equals 1 according to the assertion.</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-d819daef2870109e4e331743885c4fcd-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392967</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_1">
+      <data key="d0">formula_1</data>
+      <data key="d1">concept</data>
+      <data key="d2">Formula_1 represents a specific mathematical formula.</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392944</data>
+      <data key="d6" />
+    </node>
+    <node id="b^2">
+      <data key="d0">b^2</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d2">b is raised to the power of 2 before being subtracted from D.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392944</data>
+      <data key="d6" />
+    </node>
+    <node id="4ac">
+      <data key="d0">4ac</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d2">4 times a times c is subtracted from D.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392944</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_2">
+      <data key="d0">formula_2</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier for a specific mathematical formula.</data>
+      <data key="d3">doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392952</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_3">
+      <data key="d0">formula_3</data>
+      <data key="d1">content</data>
+      <data key="d2">A document identifier for the formula "b = 12".</data>
+      <data key="d3">doc-c56198a0794567b8a66b9441de3390aa-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392957</data>
+      <data key="d6" />
+    </node>
+    <node id="с">
+      <data key="d0">с</data>
+      <data key="d1">data</data>
+      <data key="d2">с represents a data point in the context of the given mathematical expression.</data>
+      <data key="d3">doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392961</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_4">
+      <data key="d0">formula_4</data>
+      <data key="d1">content</data>
+      <data key="d2">A document identifier for a specific formula or equation.</data>
+      <data key="d3">doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392961</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_5">
+      <data key="d0">formula_5</data>
+      <data key="d1">content</data>
+      <data key="d2">A mathematical formula identified as "formula_5".</data>
+      <data key="d3">doc-d819daef2870109e4e331743885c4fcd-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392967</data>
+      <data key="d6" />
+    </node>
+    <node id="a = 1">
+      <data key="d0">a = 1</data>
+      <data key="d3">doc-d819daef2870109e4e331743885c4fcd-chunk-000</data>
+      <data key="d2">The formula "formula_5" refers to and is asserted by the equation a = 1.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1780392967</data>
+      <data key="d6" />
+    </node>
+    <edge source="formula_0" target="x^2 + bx + c = 0">
+      <data key="d7">1.0</data>
+      <data key="d8">The quadratic equation x^2 + bx + c = 0 is represented by formula_0.</data>
+      <data key="d9">equation,mathematical expression</data>
+      <data key="d10">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392937</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_0" target="x = 0">
+      <data key="d7">1.0</data>
+      <data key="d8">The statement x equals 0 is asserted for formula_0.</data>
+      <data key="d9">equality,solution assertion</data>
+      <data key="d10">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392937</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="x^2">
+      <data key="d7">1.0</data>
+      <data key="d8">x is squared in the equation.</data>
+      <data key="d9">exponentiation,operation</data>
+      <data key="d10">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392937</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="b">
+      <data key="d7">2.0</data>
+      <data key="d8">x is added to b in the equation.&lt;SEP&gt;b is added to x in the equation.</data>
+      <data key="d9">addition,coefficient addition</data>
+      <data key="d10">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392937</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="c">
+      <data key="d7">1.0</data>
+      <data key="d8">x and c are added together in the equation.</data>
+      <data key="d9">addition,constant addition</data>
+      <data key="d10">doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392937</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="formula_2">
+      <data key="d7">1.0</data>
+      <data key="d8">The solution x equals the formula represented by formula_2, which is \(\frac{-b \pm \sqrt{D}}{2a}\).</data>
+      <data key="d9">equals</data>
+      <data key="d10">doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392952</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b" target="D">
+      <data key="d7">1.0</data>
+      <data key="d8">The value of D equals the value of b after applying the operations described in the formula.</data>
+      <data key="d9">equality</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392944</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="b^2">
+      <data key="d7">1.0</data>
+      <data key="d8">b is raised to the power of 2 before being subtracted from D.</data>
+      <data key="d9">exponentiation</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392944</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="4ac">
+      <data key="d7">1.0</data>
+      <data key="d8">4 times a times c is subtracted from D.</data>
+      <data key="d9">multiplication,subtraction</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392944</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="formula_1">
+      <data key="d7">1.0</data>
+      <data key="d8">The value of D is equal to the result of the formula represented by formula_1 (LaTeX: D = b^2 - 4ac).</data>
+      <data key="d9">LaTeX representation,equality</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392944</data>
+      <data key="d13" />
+    </edge>
+    <edge source="с" target="formula_4">
+      <data key="d7">1.0</data>
+      <data key="d8">The value 3 is represented by с in the formula identified as formula_4.</data>
+      <data key="d9">reference,representation</data>
+      <data key="d10">doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392961</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_5" target="a = 1">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula "formula_5" refers to and is asserted by the equation a = 1.</data>
+      <data key="d9">assertion,referencing</data>
+      <data key="d10">doc-d819daef2870109e4e331743885c4fcd-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1780392967</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

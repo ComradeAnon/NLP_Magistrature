@@ -1,0 +1,110 @@
+{
+  "formula_0<SEP>x^2 + bx + c = 0": {
+    "chunk_ids": [
+      "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "formula_0<SEP>x^2 + bx + c = 0"
+  },
+  "x<SEP>x^2": {
+    "chunk_ids": [
+      "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "x<SEP>x^2"
+  },
+  "b<SEP>x": {
+    "chunk_ids": [
+      "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "b<SEP>x"
+  },
+  "c<SEP>x": {
+    "chunk_ids": [
+      "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "c<SEP>x"
+  },
+  "formula_0<SEP>x = 0": {
+    "chunk_ids": [
+      "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "formula_0<SEP>x = 0"
+  },
+  "D<SEP>b^2": {
+    "chunk_ids": [
+      "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392944,
+    "update_time": 1780392944,
+    "_id": "D<SEP>b^2"
+  },
+  "4ac<SEP>D": {
+    "chunk_ids": [
+      "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392944,
+    "update_time": 1780392944,
+    "_id": "4ac<SEP>D"
+  },
+  "D<SEP>b": {
+    "chunk_ids": [
+      "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392944,
+    "update_time": 1780392944,
+    "_id": "D<SEP>b"
+  },
+  "D<SEP>formula_1": {
+    "chunk_ids": [
+      "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392944,
+    "update_time": 1780392944,
+    "_id": "D<SEP>formula_1"
+  },
+  "formula_2<SEP>x": {
+    "chunk_ids": [
+      "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392952,
+    "update_time": 1780392952,
+    "_id": "formula_2<SEP>x"
+  },
+  "formula_4<SEP>с": {
+    "chunk_ids": [
+      "doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392961,
+    "update_time": 1780392961,
+    "_id": "formula_4<SEP>с"
+  },
+  "a = 1<SEP>formula_5": {
+    "chunk_ids": [
+      "doc-d819daef2870109e4e331743885c4fcd-chunk-000"
+    ],
+    "count": 1,
+    "create_time": 1780392967,
+    "update_time": 1780392967,
+    "_id": "a = 1<SEP>formula_5"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "doc-aeab57fd22d9f58874a6b009381a44e6": {
+    "entity_names": [
+      "c",
+      "formula_0",
+      "x^2",
+      "x^2 + bx + c = 0",
+      "b",
+      "Формула (LaTeX)",
+      "x",
+      "x = 0"
+    ],
+    "count": 8,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "doc-aeab57fd22d9f58874a6b009381a44e6"
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38": {
+    "entity_names": [
+      "a",
+      "c",
+      "formula_1",
+      "D",
+      "b",
+      "4ac",
+      "b^2"
+    ],
+    "count": 7,
+    "create_time": 1780392944,
+    "update_time": 1780392944,
+    "_id": "doc-93b6acd960d94a31188c3d66a7ec9b38"
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2": {
+    "entity_names": [
+      "a",
+      "formula_2",
+      "D",
+      "b",
+      "Формула (LaTeX)",
+      "x"
+    ],
+    "count": 6,
+    "create_time": 1780392952,
+    "update_time": 1780392952,
+    "_id": "doc-e104e211de2f2d77ed73269623c39fd2"
+  },
+  "doc-c56198a0794567b8a66b9441de3390aa": {
+    "entity_names": [
+      "b",
+      "Формула (LaTeX)",
+      "formula_3"
+    ],
+    "count": 3,
+    "create_time": 1780392957,
+    "update_time": 1780392957,
+    "_id": "doc-c56198a0794567b8a66b9441de3390aa"
+  },
+  "doc-85ca1e6b92ca10ac8e732c9b65383f68": {
+    "entity_names": [
+      "formula_4",
+      "с"
+    ],
+    "count": 2,
+    "create_time": 1780392961,
+    "update_time": 1780392961,
+    "_id": "doc-85ca1e6b92ca10ac8e732c9b65383f68"
+  },
+  "doc-d819daef2870109e4e331743885c4fcd": {
+    "entity_names": [
+      "a",
+      "Формула (LaTeX)",
+      "formula_5",
+      "a = 1"
+    ],
+    "count": 4,
+    "create_time": 1780392967,
+    "update_time": 1780392967,
+    "_id": "doc-d819daef2870109e4e331743885c4fcd"
+  }
+}

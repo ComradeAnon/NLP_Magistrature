@@ -1,0 +1,9 @@
+# requirements.txt
+lightrag-hku
+ollama
+sympy
+latex2sympy2
+networkx
+matplotlib
+python-dotenv
+asyncio

@@ -1,0 +1,86 @@
+{
+  "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000": {
+    "tokens": 132,
+    "content": "Формула (LaTeX): x^2 + bx + c = 0\nИдентификатор: formula_0\n\nПеременные: x, b, c.\nЧисла: 2, 0.\n\nМатематические отношения:\n  - x возводится в степень 2\n  - x прибавляется к b\n  - b прибавляется к x\n  - x и c стоят рядом в выражении\n  - x равно 0\n\nУтверждение: x равно 0 (формула formula_0, LaTeX: x^2 + bx + c = 0).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-aeab57fd22d9f58874a6b009381a44e6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5eb08e04756403c5febda954aff3dce1",
+      "default:extract:9e5bf63d9248987274e1e4dab5e64491"
+    ],
+    "create_time": 1780392919,
+    "update_time": 1780392937,
+    "_id": "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000": {
+    "tokens": 135,
+    "content": "Формула (LaTeX): D = b^2 - 4ac\nИдентификатор: formula_1\n\nПеременные: D, b, a, c.\nЧисла: 2, 4.\n\nМатематические отношения:\n  - b возводится в степень 2\n  - b вычитается из 4\n  - 4 и a стоят рядом в выражении\n  - a и c стоят рядом в выражении\n  - D равно b\n\nУтверждение: D равно b (формула formula_1, LaTeX: D = b^2 - 4ac).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-93b6acd960d94a31188c3d66a7ec9b38",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4aea7ebc47ccefdea5d2b33a53e89a7c",
+      "default:extract:2d11953a6b31846c785f18f363a44749"
+    ],
+    "create_time": 1780392937,
+    "update_time": 1780392944,
+    "_id": "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000": {
+    "tokens": 153,
+    "content": "Формула (LaTeX): x = \\frac{-b \\pm \\sqrt{D}}{2a}\nИдентификатор: formula_2\n\nПеременные: x, b, D, a.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к D\n  - b вычитается из √\n  - √ делится на 2\n  - 2 и a стоят рядом в выражении\n  - x равно √\n\nУтверждение: x равно √ (формула formula_2, LaTeX: x = \\frac{-b \\pm \\sqrt{D}}{2a}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e104e211de2f2d77ed73269623c39fd2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:dffb340709771d4f9b8dcbb02194f1f2",
+      "default:extract:f02640e80d63c2512158c263c395f6de"
+    ],
+    "create_time": 1780392945,
+    "update_time": 1780392952,
+    "_id": "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000"
+  },
+  "doc-c56198a0794567b8a66b9441de3390aa-chunk-000": {
+    "tokens": 73,
+    "content": "Формула (LaTeX): b = 12\nИдентификатор: formula_3\n\nПеременные: b.\nЧисла: 12.\n\nМатематические отношения:\n  - b равно 12\n\nУтверждение: b равно 12 (формула formula_3, LaTeX: b = 12).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c56198a0794567b8a66b9441de3390aa",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6609c6ff36eda65eea418e3ee938073a",
+      "default:extract:abb4af3b92873da878e6fdaaacd7b852"
+    ],
+    "create_time": 1780392952,
+    "update_time": 1780392957,
+    "_id": "doc-c56198a0794567b8a66b9441de3390aa-chunk-000"
+  },
+  "doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000": {
+    "tokens": 73,
+    "content": "Формула (LaTeX): с = 3\nИдентификатор: formula_4\n\nПеременные: с.\nЧисла: 3.\n\nМатематические отношения:\n  - с равно 3\n\nУтверждение: с равно 3 (формула formula_4, LaTeX: с = 3).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-85ca1e6b92ca10ac8e732c9b65383f68",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a4c6963f5f8d7782996fef3226525be0",
+      "default:extract:c0e3eaa08e1b00a34c59a58b97cb7850"
+    ],
+    "create_time": 1780392957,
+    "update_time": 1780392961,
+    "_id": "doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000"
+  },
+  "doc-d819daef2870109e4e331743885c4fcd-chunk-000": {
+    "tokens": 73,
+    "content": "Формула (LaTeX): a = 1\nИдентификатор: formula_5\n\nПеременные: a.\nЧисла: 1.\n\nМатематические отношения:\n  - a равно 1\n\nУтверждение: a равно 1 (формула formula_5, LaTeX: a = 1).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d819daef2870109e4e331743885c4fcd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d167ba8a239272b9eb8a42ae502c973f",
+      "default:extract:76caceab4671f53ef25675737b5f82d2"
+    ],
+    "create_time": 1780392962,
+    "update_time": 1780392967,
+    "_id": "doc-d819daef2870109e4e331743885c4fcd-chunk-000"
+  }
+}

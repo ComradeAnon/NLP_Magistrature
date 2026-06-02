@@ -1,0 +1,90 @@
+{
+  "doc-aeab57fd22d9f58874a6b009381a44e6": {
+    "relation_pairs": [
+      [
+        "x",
+        "x^2"
+      ],
+      [
+        "c",
+        "x"
+      ],
+      [
+        "formula_0",
+        "x = 0"
+      ],
+      [
+        "b",
+        "x"
+      ],
+      [
+        "formula_0",
+        "x^2 + bx + c = 0"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1780392937,
+    "update_time": 1780392937,
+    "_id": "doc-aeab57fd22d9f58874a6b009381a44e6"
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38": {
+    "relation_pairs": [
+      [
+        "4ac",
+        "D"
+      ],
+      [
+        "D",
+        "b"
+      ],
+      [
+        "D",
+        "b^2"
+      ],
+      [
+        "D",
+        "formula_1"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1780392944,
+    "update_time": 1780392944,
+    "_id": "doc-93b6acd960d94a31188c3d66a7ec9b38"
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2": {
+    "relation_pairs": [
+      [
+        "formula_2",
+        "x"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1780392952,
+    "update_time": 1780392952,
+    "_id": "doc-e104e211de2f2d77ed73269623c39fd2"
+  },
+  "doc-85ca1e6b92ca10ac8e732c9b65383f68": {
+    "relation_pairs": [
+      [
+        "formula_4",
+        "с"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1780392961,
+    "update_time": 1780392961,
+    "_id": "doc-85ca1e6b92ca10ac8e732c9b65383f68"
+  },
+  "doc-d819daef2870109e4e331743885c4fcd": {
+    "relation_pairs": [
+      [
+        "a = 1",
+        "formula_5"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1780392967,
+    "update_time": 1780392967,
+    "_id": "doc-d819daef2870109e4e331743885c4fcd"
+  }
+}

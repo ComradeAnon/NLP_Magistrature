@@ -1,0 +1,158 @@
+{
+  "doc-aeab57fd22d9f58874a6b009381a44e6": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): x^2 + bx + c = 0\nИдентификатор: formula_0\n\nПеременные: x, b, c.\nЧисла: 2, 0.\n\nМатематические отношения:\n  - x возводится в степень 2\n  - x прибавляется к b\n  - b прибавляется к x\n  - x и c стоят рядом в выражении\n  - x равно 0\n\nУтвер...",
+    "content_length": 313,
+    "created_at": "2026-06-02T09:35:19.096696+00:00",
+    "updated_at": "2026-06-02T09:35:37.146694+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260602_123519_dbc89388",
+    "content_hash": "aeab57fd22d9f58874a6b009381a44e6",
+    "metadata": {
+      "parsing_start_time": 1780392919,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1780392919,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1780392919,
+      "processing_end_time": 1780392937,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-aeab57fd22d9f58874a6b009381a44e6-chunk-000"
+    ]
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): D = b^2 - 4ac\nИдентификатор: formula_1\n\nПеременные: D, b, a, c.\nЧисла: 2, 4.\n\nМатематические отношения:\n  - b возводится в степень 2\n  - b вычитается из 4\n  - 4 и a стоят рядом в выражении\n  - a и c стоят рядом в выражении\n  - D равн...",
+    "content_length": 320,
+    "created_at": "2026-06-02T09:35:37.611478+00:00",
+    "updated_at": "2026-06-02T09:35:44.818034+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260602_123537_53a9e8b8",
+    "content_hash": "93b6acd960d94a31188c3d66a7ec9b38",
+    "metadata": {
+      "parsing_start_time": 1780392937,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1780392937,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1780392937,
+      "processing_end_time": 1780392944,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+    ]
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): x = \\frac{-b \\pm \\sqrt{D}}{2a}\nИдентификатор: formula_2\n\nПеременные: x, b, D, a.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к D\n  - b вычитается из √\n  - √ делится на 2\n...",
+    "content_length": 381,
+    "created_at": "2026-06-02T09:35:45.254163+00:00",
+    "updated_at": "2026-06-02T09:35:52.356942+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260602_123545_659daab0",
+    "content_hash": "e104e211de2f2d77ed73269623c39fd2",
+    "metadata": {
+      "parsing_start_time": 1780392945,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1780392945,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1780392945,
+      "processing_end_time": 1780392952,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000"
+    ]
+  },
+  "doc-c56198a0794567b8a66b9441de3390aa": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): b = 12\nИдентификатор: formula_3\n\nПеременные: b.\nЧисла: 12.\n\nМатематические отношения:\n  - b равно 12\n\nУтверждение: b равно 12 (формула formula_3, LaTeX: b = 12).",
+    "content_length": 178,
+    "created_at": "2026-06-02T09:35:52.646024+00:00",
+    "updated_at": "2026-06-02T09:35:57.330963+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260602_123552_55771011",
+    "content_hash": "c56198a0794567b8a66b9441de3390aa",
+    "metadata": {
+      "parsing_start_time": 1780392952,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1780392952,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1780392952,
+      "processing_end_time": 1780392957,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-c56198a0794567b8a66b9441de3390aa-chunk-000"
+    ]
+  },
+  "doc-85ca1e6b92ca10ac8e732c9b65383f68": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): с = 3\nИдентификатор: formula_4\n\nПеременные: с.\nЧисла: 3.\n\nМатематические отношения:\n  - с равно 3\n\nУтверждение: с равно 3 (формула formula_4, LaTeX: с = 3).",
+    "content_length": 173,
+    "created_at": "2026-06-02T09:35:57.632063+00:00",
+    "updated_at": "2026-06-02T09:36:01.923045+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260602_123557_81a2f4f3",
+    "content_hash": "85ca1e6b92ca10ac8e732c9b65383f68",
+    "metadata": {
+      "parsing_start_time": 1780392957,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1780392957,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1780392957,
+      "processing_end_time": 1780392961,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-85ca1e6b92ca10ac8e732c9b65383f68-chunk-000"
+    ]
+  },
+  "doc-d819daef2870109e4e331743885c4fcd": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): a = 1\nИдентификатор: formula_5\n\nПеременные: a.\nЧисла: 1.\n\nМатематические отношения:\n  - a равно 1\n\nУтверждение: a равно 1 (формула formula_5, LaTeX: a = 1).",
+    "content_length": 173,
+    "created_at": "2026-06-02T09:36:02.210799+00:00",
+    "updated_at": "2026-06-02T09:36:07.933799+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260602_123602_ade8c80b",
+    "content_hash": "d819daef2870109e4e331743885c4fcd",
+    "metadata": {
+      "parsing_start_time": 1780392962,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1780392962,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1780392962,
+      "processing_end_time": 1780392967,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-d819daef2870109e4e331743885c4fcd-chunk-000"
+    ]
+  }
+}

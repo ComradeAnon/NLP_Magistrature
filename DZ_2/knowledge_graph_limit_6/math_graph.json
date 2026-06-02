@@ -1,0 +1,259 @@
+{
+  "nodes": [
+    {
+      "id": "x_1",
+      "label": "x",
+      "node_type": "variable",
+      "latex": "x",
+      "description": "Переменная x",
+      "formula_id": "formula_2"
+    },
+    {
+      "id": "2_2",
+      "label": "2",
+      "node_type": "number",
+      "latex": "2",
+      "description": "Число 2",
+      "formula_id": "formula_2"
+    },
+    {
+      "id": "b_3",
+      "label": "b",
+      "node_type": "variable",
+      "latex": "b",
+      "description": "Переменная b",
+      "formula_id": "formula_3"
+    },
+    {
+      "id": "c_4",
+      "label": "c",
+      "node_type": "variable",
+      "latex": "c",
+      "description": "Переменная c",
+      "formula_id": "formula_1"
+    },
+    {
+      "id": "0_5",
+      "label": "0",
+      "node_type": "number",
+      "latex": "0",
+      "description": "Число 0",
+      "formula_id": "formula_0"
+    },
+    {
+      "id": "D_6",
+      "label": "D",
+      "node_type": "variable",
+      "latex": "D",
+      "description": "Переменная D",
+      "formula_id": "formula_2"
+    },
+    {
+      "id": "4_7",
+      "label": "4",
+      "node_type": "number",
+      "latex": "4",
+      "description": "Число 4",
+      "formula_id": "formula_1"
+    },
+    {
+      "id": "a_8",
+      "label": "a",
+      "node_type": "variable",
+      "latex": "a",
+      "description": "Переменная a",
+      "formula_id": "formula_5"
+    },
+    {
+      "id": "__9",
+      "label": "√",
+      "node_type": "operator",
+      "latex": "\\sqrt",
+      "description": "Оператор квадратного корня",
+      "formula_id": "formula_2"
+    },
+    {
+      "id": "12_10",
+      "label": "12",
+      "node_type": "number",
+      "latex": "12",
+      "description": "Число 12",
+      "formula_id": "formula_3"
+    },
+    {
+      "id": "__11",
+      "label": "с",
+      "node_type": "variable",
+      "latex": "с",
+      "description": "Переменная с",
+      "formula_id": "formula_4"
+    },
+    {
+      "id": "3_12",
+      "label": "3",
+      "node_type": "number",
+      "latex": "3",
+      "description": "Число 3",
+      "formula_id": "formula_4"
+    },
+    {
+      "id": "1_13",
+      "label": "1",
+      "node_type": "number",
+      "latex": "1",
+      "description": "Число 1",
+      "formula_id": "formula_5"
+    }
+  ],
+  "edges": [
+    {
+      "source": "x_1",
+      "target": "2_2",
+      "operation": "power",
+      "description": "x --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_1",
+      "target": "b_3",
+      "operation": "addition",
+      "description": "x --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_1",
+      "target": "c_4",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> c",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_1",
+      "target": "0_5",
+      "operation": "equals",
+      "description": "x --[equals]--> 0",
+      "weight": 2.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_1",
+      "target": "__9",
+      "operation": "equals",
+      "description": "x --[equals]--> √",
+      "weight": 2.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "2_2",
+      "target": "a_8",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "b_3",
+      "target": "x_1",
+      "operation": "addition",
+      "description": "b --[addition]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "b_3",
+      "target": "2_2",
+      "operation": "power",
+      "description": "b --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "b_3",
+      "target": "4_7",
+      "operation": "subtraction",
+      "description": "b --[subtraction]--> 4",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "b_3",
+      "target": "__9",
+      "operation": "subtraction",
+      "description": "b --[subtraction]--> √",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "b_3",
+      "target": "12_10",
+      "operation": "equals",
+      "description": "b --[equals]--> 12",
+      "weight": 2.0,
+      "formula_id": "formula_3"
+    },
+    {
+      "source": "D_6",
+      "target": "b_3",
+      "operation": "equals",
+      "description": "D --[equals]--> b",
+      "weight": 2.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "4_7",
+      "target": "a_8",
+      "operation": "adjacent",
+      "description": "4 --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "a_8",
+      "target": "c_4",
+      "operation": "adjacent",
+      "description": "a --[adjacent]--> c",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "a_8",
+      "target": "1_13",
+      "operation": "equals",
+      "description": "a --[equals]--> 1",
+      "weight": 2.0,
+      "formula_id": "formula_5"
+    },
+    {
+      "source": "__9",
+      "target": "D_6",
+      "operation": "applied_to",
+      "description": "√ --[applied_to]--> D",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "__9",
+      "target": "2_2",
+      "operation": "division",
+      "description": "√ --[division]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "__11",
+      "target": "3_12",
+      "operation": "equals",
+      "description": "с --[equals]--> 3",
+      "weight": 2.0,
+      "formula_id": "formula_4"
+    }
+  ],
+  "stats": {
+    "total_nodes": 13,
+    "total_edges": 18,
+    "total_formulas": 6
+  }
+}
