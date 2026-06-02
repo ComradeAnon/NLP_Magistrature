@@ -1,0 +1,80 @@
+[
+  {
+    "text": "Квадратное уравнение: сумма корней равна минус b/a, произведение корней равна c/a",
+    "latex": "x^2 + bx + c = 0",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Формула дискриминанта квадратного уравнения ax^2 + bx + c = 0",
+    "latex": "D = b^2 - 4ac",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Корни квадратного уравнения через дискриминант",
+    "latex": "x = \\frac{-b \\pm \\sqrt{D}}{2a}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Значение переменной и равно 12",
+    "latex": "b = 12",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Значение переменной c равно 3",
+    "latex": "с = 3",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Значение переменной a равно 1",
+    "latex": "a = 1",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Частная производная функции f по x плюс частная производная по y равна нулю",
+    "latex": "\\frac{\\partial f}{\\partial x} + \\frac{\\partial f}{\\partial y} = 0",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Предел числа e: предел выражения (1 + 1/n) в степени n при n стремящемся к бесконечности равен e",
+    "latex": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Формула Ньютона-Лейбница: определённый интеграл от a до b равен F(b) минус F(a)",
+    "latex": "\\int_{a}^{b} f(x)\\, dx = F(b) - F(a)",
+    "source": "calculus_basics",
+    "class": "integral"
+  },
+  {
+    "text": "Теорема Пифагора: сумма квадратов катетов равна квадрату гипотенузы",
+    "latex": "a^2 + b^2 = c^2",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Формула длины окружности через радиус",
+    "latex": "L = 2 \\pi r",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Формула Эйлера: e в степени i*pi плюс единица равна нулю",
+    "latex": "e^{i \\pi} + 1 = 0",
+    "source": "complex_analysis",
+    "class": "equation"
+  },
+  {
+    "text": "Нормальное распределение: плотность вероятности гауссовой функции",
+    "latex": "f(x) = \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-\\frac{(x - \\mu)^2}{2\\sigma^2}}",
+    "source": "probability_theory",
+    "class": "equation"
+  }
+]
