@@ -1,0 +1,730 @@
+{
+  "doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000": {
+    "tokens": 145,
+    "content": "Формула (LaTeX): ax^2 + bx + c = 0\nИдентификатор: formula_0\n\nПеременные: a, x, b, c.\nЧисла: 2, 0.\n\nМатематические отношения:\n  - x возводится в степень 2\n  - a прибавляется к x\n  - x прибавляется к b\n  - b и x стоят рядом в выражении\n  - x и c стоят рядом в выражении\n  - a равно 0\n\nУтверждение: a равно 0 (формула formula_0, LaTeX: ax^2 + bx + c = 0).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2a0888349718f5f2a20c6800cad13bbc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:44800bccbd2c89b865d2e49fc9aa7814",
+      "default:extract:0aeb0dce4e00205bdd83953076925e06"
+    ],
+    "create_time": 1781007324,
+    "update_time": 1781007343,
+    "_id": "doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000"
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000": {
+    "tokens": 135,
+    "content": "Формула (LaTeX): D = b^2 - 4ac\nИдентификатор: formula_1\n\nПеременные: D, b, a, c.\nЧисла: 2, 4.\n\nМатематические отношения:\n  - b возводится в степень 2\n  - b вычитается из 4\n  - 4 и a стоят рядом в выражении\n  - a и c стоят рядом в выражении\n  - D равно b\n\nУтверждение: D равно b (формула formula_1, LaTeX: D = b^2 - 4ac).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-93b6acd960d94a31188c3d66a7ec9b38",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4aea7ebc47ccefdea5d2b33a53e89a7c",
+      "default:extract:2234fe0877f8ebef7af016d30859021f"
+    ],
+    "create_time": 1781007343,
+    "update_time": 1781007354,
+    "_id": "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000": {
+    "tokens": 153,
+    "content": "Формула (LaTeX): x = \\frac{-b \\pm \\sqrt{D}}{2a}\nИдентификатор: formula_2\n\nПеременные: x, b, D, a.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к D\n  - b вычитается из √\n  - √ делится на 2\n  - 2 и a стоят рядом в выражении\n  - x равно √\n\nУтверждение: x равно √ (формула formula_2, LaTeX: x = \\frac{-b \\pm \\sqrt{D}}{2a}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e104e211de2f2d77ed73269623c39fd2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:dffb340709771d4f9b8dcbb02194f1f2",
+      "default:extract:a438d46bacb0f783fe53f42b173c06ab"
+    ],
+    "create_time": 1781007354,
+    "update_time": 1781007362,
+    "_id": "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000"
+  },
+  "doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000": {
+    "tokens": 130,
+    "content": "Формула (LaTeX): x_1 + x_2 = -\\frac{b}{a}\nИдентификатор: formula_3\n\nПеременные: x, b, a.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - x имеет нижний индекс 1\n  - x имеет нижний индекс 2\n  - b вычитается из a\n  - x равно b\n\nУтверждение: x равно b (формула formula_3, LaTeX: x_1 + x_2 = -\\frac{b}{a}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-600a0c78af3d801d6496e749bbc4d6d3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:07df6f0a3c7e158f0c9a0bbea2f80239",
+      "default:extract:c8b6ed31a9d27eb6287da966ad2c2806"
+    ],
+    "create_time": 1781007363,
+    "update_time": 1781007371,
+    "_id": "doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000"
+  },
+  "doc-0d651681504c3b0d71951fb02e88df36-chunk-000": {
+    "tokens": 130,
+    "content": "Формула (LaTeX): x_1 \\cdot x_2 = \\frac{c}{a}\nИдентификатор: formula_4\n\nПеременные: x, c, a.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - x имеет нижний индекс 1\n  - x имеет нижний индекс 2\n  - c делится на a\n  - x равно c\n\nУтверждение: x равно c (формула formula_4, LaTeX: x_1 \\cdot x_2 = \\frac{c}{a}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-0d651681504c3b0d71951fb02e88df36",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:84f5ffb60609384c1ffd691dfe377cb7",
+      "default:extract:92d01b6defe89c78ef0c8b9db943fc12"
+    ],
+    "create_time": 1781007371,
+    "update_time": 1781007379,
+    "_id": "doc-0d651681504c3b0d71951fb02e88df36-chunk-000"
+  },
+  "doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000": {
+    "tokens": 131,
+    "content": "Формула (LaTeX): a^2 + b^2 = c^2\nИдентификатор: formula_5\n\nПеременные: a, b, c.\nЧисла: 2.\n\nМатематические отношения:\n  - a возводится в степень 2\n  - b возводится в степень 2\n  - a прибавляется к b\n  - c возводится в степень 2\n  - a равно c\n\nУтверждение: a равно c (формула formula_5, LaTeX: a^2 + b^2 = c^2).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-2b2765c1dc3c0924781f469247feb1d3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:60ad32a7c4483cc1294f3f826a43738e",
+      "default:extract:a866fd38a9a37e250947a4c3cd0a7685"
+    ],
+    "create_time": 1781007380,
+    "update_time": 1781007392,
+    "_id": "doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000"
+  },
+  "doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000": {
+    "tokens": 143,
+    "content": "Формула (LaTeX): c = \\sqrt{a^2 + b^2}\nИдентификатор: formula_6\n\nПеременные: c, a, b.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к a\n  - √ возводится в степень 2\n  - b возводится в степень 2\n  - √ прибавляется к b\n  - c равно √\n\nУтверждение: c равно √ (формула formula_6, LaTeX: c = \\sqrt{a^2 + b^2}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-21f9ab7d714dddb9ee9e81d79d4dec8e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:291dd64ab457834daafafd4467135e92",
+      "default:extract:6b0785130e9116cc367b66503a7ea9a1"
+    ],
+    "create_time": 1781007393,
+    "update_time": 1781007398,
+    "_id": "doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000"
+  },
+  "doc-3686830df420ce5a2ede2561e500fcdd-chunk-000": {
+    "tokens": 127,
+    "content": "Формула (LaTeX): S = \\frac{1}{2} a h\nИдентификатор: formula_7\n\nПеременные: S, a, h.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - 1 делится на 2\n  - 2 и a стоят рядом в выражении\n  - a и h стоят рядом в выражении\n  - S равно 1\n\nУтверждение: S равно 1 (формула formula_7, LaTeX: S = \\frac{1}{2} a h).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3686830df420ce5a2ede2561e500fcdd",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5a8b7d878ddd66463b198a468957384a",
+      "default:extract:9a1343116c2f0200a7f815069e804528"
+    ],
+    "create_time": 1781007399,
+    "update_time": 1781007405,
+    "_id": "doc-3686830df420ce5a2ede2561e500fcdd-chunk-000"
+  },
+  "doc-30bb8cabb1c868341358d6696111eff8-chunk-000": {
+    "tokens": 103,
+    "content": "Формула (LaTeX): S = \\pi r^2\nИдентификатор: formula_8\n\nПеременные: S, π, r.\nЧисла: 2.\n\nМатематические отношения:\n  - r возводится в степень 2\n  - π и r стоят рядом в выражении\n  - S равно π\n\nУтверждение: S равно π (формула formula_8, LaTeX: S = \\pi r^2).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-30bb8cabb1c868341358d6696111eff8",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:e25ab49d0a7b2dfc55fc5763763433e2",
+      "default:extract:7728c07d98391481f7d8aa1d7b2ab786"
+    ],
+    "create_time": 1781007407,
+    "update_time": 1781007421,
+    "_id": "doc-30bb8cabb1c868341358d6696111eff8-chunk-000"
+  },
+  "doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000": {
+    "tokens": 106,
+    "content": "Формула (LaTeX): L = 2 \\pi r\nИдентификатор: formula_9\n\nПеременные: L, π, r.\nЧисла: 2.\n\nМатематические отношения:\n  - 2 и π стоят рядом в выражении\n  - π и r стоят рядом в выражении\n  - L равно 2\n\nУтверждение: L равно 2 (формула formula_9, LaTeX: L = 2 \\pi r).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f5be1dcdffe74abbdfd357496fb974c9",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6a1b6e292a39b7ba9e1586e2a2fadc42",
+      "default:extract:37b155c0e10056508d59d1b8094334c8"
+    ],
+    "create_time": 1781007421,
+    "update_time": 1781007427,
+    "_id": "doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000"
+  },
+  "doc-bc9595f22b1371816d927469e4892b2d-chunk-000": {
+    "tokens": 81,
+    "content": "Формула (LaTeX): L = \\pi d\nИдентификатор: formula_10\n\nПеременные: L, π, d.\n\nМатематические отношения:\n  - π и d стоят рядом в выражении\n  - L равно π\n\nУтверждение: L равно π (формула formula_10, LaTeX: L = \\pi d).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-bc9595f22b1371816d927469e4892b2d",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d776cf918a8a9034d76ed42b75b3a477",
+      "default:extract:b74eb621862fc38442a7ebeb3e05bb94"
+    ],
+    "create_time": 1781007428,
+    "update_time": 1781007429,
+    "_id": "doc-bc9595f22b1371816d927469e4892b2d-chunk-000"
+  },
+  "doc-106004f57852517ecd8ca29edb181bb6-chunk-000": {
+    "tokens": 89,
+    "content": "Формула (LaTeX): d = 2r\nИдентификатор: formula_11\n\nПеременные: d, r.\nЧисла: 2.\n\nМатематические отношения:\n  - 2 и r стоят рядом в выражении\n  - d равно 2\n\nУтверждение: d равно 2 (формула formula_11, LaTeX: d = 2r).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-106004f57852517ecd8ca29edb181bb6",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:0c53c5ffb879672858f6271e91b2fa80",
+      "default:extract:b02ec3aa5e8459dd434eea5c2f013382"
+    ],
+    "create_time": 1781007429,
+    "update_time": 1781007434,
+    "_id": "doc-106004f57852517ecd8ca29edb181bb6-chunk-000"
+  },
+  "doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000": {
+    "tokens": 124,
+    "content": "Формула (LaTeX): S = 4 \\pi r^2\nИдентификатор: formula_13\n\nПеременные: S, π, r.\nЧисла: 4, 2.\n\nМатематические отношения:\n  - r возводится в степень 2\n  - 4 и π стоят рядом в выражении\n  - π и r стоят рядом в выражении\n  - S равно 4\n\nУтверждение: S равно 4 (формула formula_13, LaTeX: S = 4 \\pi r^2).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8338d84cbfe7914211255ac9d9e4b49b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5a9b6696cf16813faf5a6dd5380c91ea",
+      "default:extract:85b92e7448399ac151abda45b5424b19"
+    ],
+    "create_time": 1781007794,
+    "update_time": 1781007811,
+    "_id": "doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000"
+  },
+  "doc-619df480f7f496293a883f5ec6e99477-chunk-000": {
+    "tokens": 144,
+    "content": "Формула (LaTeX): V = \\frac{4}{3} \\pi r^3\nИдентификатор: formula_12\n\nПеременные: V, π, r.\nЧисла: 4, 3.\n\nМатематические отношения:\n  - r возводится в степень 3\n  - 4 делится на 3\n  - 3 и π стоят рядом в выражении\n  - π и r стоят рядом в выражении\n  - V равно 4\n\nУтверждение: V равно 4 (формула formula_12, LaTeX: V = \\frac{4}{3} \\pi r^3).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-619df480f7f496293a883f5ec6e99477",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:9d5f8a70b5052e3faa197f67490d1114",
+      "default:extract:b7a711b837c7f22445ec728550be5323"
+    ],
+    "create_time": 1781007795,
+    "update_time": 1781007814,
+    "_id": "doc-619df480f7f496293a883f5ec6e99477-chunk-000"
+  },
+  "doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000": {
+    "tokens": 121,
+    "content": "Формула (LaTeX): (x^n)' = n x^{n-1}\nИдентификатор: formula_14\n\nПеременные: x, n.\nЧисла: 1.\n\nМатематические отношения:\n  - x возводится в степень n\n  - n вычитается из x\n  - x и 1 стоят рядом в выражении\n  - x равно n\n\nУтверждение: x равно n (формула formula_14, LaTeX: (x^n)' = n x^{n-1}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-d4241bc197dcc704273a7b7e735b97ac",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3f1b6ab627b5438f09742c2cee70656b",
+      "default:extract:b0f85afb8970f66c58e459aac33ef295"
+    ],
+    "create_time": 1781007815,
+    "update_time": 1781007820,
+    "_id": "doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000"
+  },
+  "doc-7f645bfc48e2bff517d113970e099f3a-chunk-000": {
+    "tokens": 69,
+    "content": "Формула (LaTeX): (f \\cdot g)' = f' \\cdot g + f \\cdot g'\nИдентификатор: formula_15\n\nПеременные: f, g.\n\nМатематические отношения:\n  - f умножается на g\n  - g прибавляется к f",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7f645bfc48e2bff517d113970e099f3a",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:35d1810a53dc26141af85b440a5c53ae",
+      "default:extract:01d574d25be82bfa8cc48cad061436f6"
+    ],
+    "create_time": 1781007820,
+    "update_time": 1781007822,
+    "_id": "doc-7f645bfc48e2bff517d113970e099f3a-chunk-000"
+  },
+  "doc-7bfc174e21f4323485b564b4ffe791be-chunk-000": {
+    "tokens": 161,
+    "content": "Формула (LaTeX): \\left(\\frac{f}{g}\\right)' = \\frac{f' g - f g'}{g^2}\nИдентификатор: formula_16\n\nПеременные: f, g.\nЧисла: 2.\nФункции: f.\n\nМатематические отношения:\n  - f делится на g\n  - f является функцией от g\n  - g возводится в степень 2\n  - f вычитается из g\n  - f равно f\n\nУтверждение: f равно f (формула formula_16, LaTeX: \\left(\\frac{f}{g}\\right)' = \\frac{f' g - f g'}{g^2}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7bfc174e21f4323485b564b4ffe791be",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:fdf664a7435caace45ed262927774811",
+      "default:extract:e9581f2507d839b02a8711a3cc7e1b05"
+    ],
+    "create_time": 1781007822,
+    "update_time": 1781007831,
+    "_id": "doc-7bfc174e21f4323485b564b4ffe791be-chunk-000"
+  },
+  "doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000": {
+    "tokens": 84,
+    "content": "Формула (LaTeX): (f(g(x)))' = f'(g(x)) \\cdot g'(x)\nИдентификатор: formula_17\n\nПеременные: x.\nФункции: f, g.\n\nМатематические отношения:\n  - g является функцией от x\n  - f и g стоят рядом в выражении\n  - f умножается на g",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-e199e2c6f7381d60c9ac07baabe0b381",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1de83e644e56a2acfb3ceed8225a7b5d",
+      "default:extract:95cbd2d946d434cd6e1f04dfd7eb400a"
+    ],
+    "create_time": 1781007831,
+    "update_time": 1781007838,
+    "_id": "doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000"
+  },
+  "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000": {
+    "tokens": 98,
+    "content": "Формула (LaTeX): (\\sin x)' = \\cos x\nИдентификатор: formula_18\n\nПеременные: x.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin является функцией от x\n  - cos является функцией от x\n  - sin равно cos\n\nУтверждение: sin равно cos (формула formula_18, LaTeX: (\\sin x)' = \\cos x).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:2f4bd8c26aef8a564a394896f4093b8a",
+      "default:extract:6ff8623b7aaa8677bda0197c0dbdaf55"
+    ],
+    "create_time": 1781007838,
+    "update_time": 1781007847,
+    "_id": "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000"
+  },
+  "doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000": {
+    "tokens": 100,
+    "content": "Формула (LaTeX): (\\cos x)' = -\\sin x\nИдентификатор: formula_19\n\nПеременные: x.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от x\n  - sin является функцией от x\n  - cos равно sin\n\nУтверждение: cos равно sin (формула formula_19, LaTeX: (\\cos x)' = -\\sin x).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b43fc5cd8aa611e5651d7cf5010dcc6b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6606ef74b9f7e10d380bdcce4db8fb04",
+      "default:extract:3b8f42ad3626f4ea9bc38f2bf41ee547"
+    ],
+    "create_time": 1781007847,
+    "update_time": 1781007858,
+    "_id": "doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000"
+  },
+  "doc-adbab909c1a29fac98d1bc30d1ba94c3-chunk-000": {
+    "tokens": 50,
+    "content": "Формула (LaTeX): (e^x)' = e^x\nИдентификатор: formula_20\n\nПеременные: e, x.\n\nМатематические отношения:\n  - e возводится в степень x",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-adbab909c1a29fac98d1bc30d1ba94c3",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4003fcb5fdc010a9cf5bef8be9760cf0",
+      "default:extract:2c226509755870ea5b68bb7fbc675964"
+    ],
+    "create_time": 1781007862,
+    "update_time": 1781007870,
+    "_id": "doc-adbab909c1a29fac98d1bc30d1ba94c3-chunk-000"
+  },
+  "doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000": {
+    "tokens": 111,
+    "content": "Формула (LaTeX): (\\ln x)' = \\frac{1}{x}\nИдентификатор: formula_21\n\nПеременные: x.\nЧисла: 1.\nФункции: ln.\n\nМатематические отношения:\n  - ln является функцией от x\n  - 1 делится на x\n  - ln равно 1\n\nУтверждение: ln равно 1 (формула formula_21, LaTeX: (\\ln x)' = \\frac{1}{x}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-03a5738df2fb27efe596a610bf0b8dfe",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:cfc7eebe153c91169960c9ceb949b4cc",
+      "default:extract:62776a327443d2313c69503d93671d18"
+    ],
+    "create_time": 1781007870,
+    "update_time": 1781007876,
+    "_id": "doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000"
+  },
+  "doc-4bb262ebbff0da390377af441dcb84fa-chunk-000": {
+    "tokens": 184,
+    "content": "Формула (LaTeX): \\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e\nИдентификатор: formula_22\n\nПеременные: n, e.\nЧисла: 1.\nКонстанты: ∞ (Константа ∞).\nОператоры: lim (Оператор предела).\n\nМатематические отношения:\n  - n является параметром оператора lim\n  - ∞ прибавляется к 1\n  - 1 делится на n\n  - lim стремится к ∞\n  - ∞ равно e\n\nУтверждение: ∞ равно e (формула formula_22, LaTeX: \\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4bb262ebbff0da390377af441dcb84fa",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4a4ae22da3a95ff7a3a90fb5d36c6146",
+      "default:extract:11e7e05de8a5140ed8f230ddbcbd72b2"
+    ],
+    "create_time": 1781007876,
+    "update_time": 1781007882,
+    "_id": "doc-4bb262ebbff0da390377af441dcb84fa-chunk-000"
+  },
+  "doc-7b176d9daac368c608373bc3d18f28da-chunk-000": {
+    "tokens": 175,
+    "content": "Формула (LaTeX): \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\nИдентификатор: formula_23\n\nПеременные: x.\nЧисла: 0, 1.\nФункции: sin.\nОператоры: lim (Оператор предела).\n\nМатематические отношения:\n  - x является параметром оператора lim\n  - sin является функцией от x\n  - 0 делится на sin\n  - sin и x стоят рядом в выражении\n  - lim стремится к 0\n  - 0 равно 1\n\nУтверждение: 0 равно 1 (формула formula_23, LaTeX: \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-7b176d9daac368c608373bc3d18f28da",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b57f01bf6c5ab11487dd5ab6535dcbe3",
+      "default:extract:480e4761d869b8bc8823159c5fbcff7d"
+    ],
+    "create_time": 1781007883,
+    "update_time": 1781007891,
+    "_id": "doc-7b176d9daac368c608373bc3d18f28da-chunk-000"
+  },
+  "doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000": {
+    "tokens": 192,
+    "content": "Формула (LaTeX): \\int_{a}^{b} f(x) dx = F(b) - F(a)\nИдентификатор: formula_24\n\nПеременные: a, b, x, d.\nФункции: f, F.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - a является параметром оператора ∫\n  - ∫ возводится в степень b\n  - f является функцией от x\n  - f и d стоят рядом в выражении\n  - d и x стоят рядом в выражении\n  - F является функцией от b\n  - F является функцией от a\n  - ∫ равно F\n\nУтверждение: ∫ равно F (формула formula_24, LaTeX: \\int_{a}^{b} f(x) dx = F(b) - F(a)).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-952ae85bc165a99a8207d50d0e4db44c",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:3f957731ae2ded346fb0e933814d6341",
+      "default:extract:49d6fbfa7bd09ab6b3824863eaf80fcf"
+    ],
+    "create_time": 1781007892,
+    "update_time": 1781007904,
+    "_id": "doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000"
+  },
+  "doc-6e77e8f1038fc3340df12fa49e91cbcc-chunk-000": {
+    "tokens": 208,
+    "content": "Формула (LaTeX): \\int x^n dx = \\frac{x^{n+1}}{n+1} + C\nИдентификатор: formula_25\n\nПеременные: x, n, d, C.\nЧисла: 1.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к x\n  - ∫ возводится в степень n\n  - d и x стоят рядом в выражении\n  - x возводится в степень n\n  - x прибавляется к 1\n  - 1 делится на n\n  - n прибавляется к 1\n  - 1 прибавляется к C\n  - ∫ равно x\n\nУтверждение: ∫ равно x (формула formula_25, LaTeX: \\int x^n dx = \\frac{x^{n+1}}{n+1} + C).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-6e77e8f1038fc3340df12fa49e91cbcc",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:bd3a521acecaa1618f13238d6e14f03b",
+      "default:extract:85e8e067d6eb1c848c06d4bc6902a103"
+    ],
+    "create_time": 1781007904,
+    "update_time": 1781007906,
+    "_id": "doc-6e77e8f1038fc3340df12fa49e91cbcc-chunk-000"
+  },
+  "doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000": {
+    "tokens": 151,
+    "content": "Формула (LaTeX): \\int e^x dx = e^x + C\nИдентификатор: formula_26\n\nПеременные: e, x, d, C.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к e\n  - ∫ возводится в степень x\n  - d и x стоят рядом в выражении\n  - e возводится в степень x\n  - e прибавляется к C\n  - ∫ равно e\n\nУтверждение: ∫ равно e (формула formula_26, LaTeX: \\int e^x dx = e^x + C).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-93205e0c8c751a55081db85cf6bc6a62",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:a1a368713afc4c50a0a77142e300b9ba",
+      "default:extract:68e1dc83cacf0bf0fe5f33b753ed1472"
+    ],
+    "create_time": 1781007906,
+    "update_time": 1781007914,
+    "_id": "doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000"
+  },
+  "doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000": {
+    "tokens": 159,
+    "content": "Формула (LaTeX): \\int \\sin x dx = -\\cos x + C\nИдентификатор: formula_27\n\nПеременные: x, d, C.\nФункции: sin, cos.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к sin\n  - x и d стоят рядом в выражении\n  - d и x стоят рядом в выражении\n  - cos является функцией от x\n  - cos вычитается из C\n  - ∫ равно cos\n\nУтверждение: ∫ равно cos (формула formula_27, LaTeX: \\int \\sin x dx = -\\cos x + C).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-946f7f65b47d02934ef52ad10ee466e5",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4497485df3436e248f357f2e2c55d6dd",
+      "default:extract:d7c31981a8bab51846554da914c26c74"
+    ],
+    "create_time": 1781007914,
+    "update_time": 1781007928,
+    "_id": "doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000"
+  },
+  "doc-b0522860145c2ef82958731f8d13ec3e-chunk-000": {
+    "tokens": 156,
+    "content": "Формула (LaTeX): \\int \\cos x dx = \\sin x + C\nИдентификатор: formula_28\n\nПеременные: x, d, C.\nФункции: cos, sin.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к cos\n  - x и d стоят рядом в выражении\n  - d и x стоят рядом в выражении\n  - sin является функцией от x\n  - sin прибавляется к C\n  - ∫ равно sin\n\nУтверждение: ∫ равно sin (формула formula_28, LaTeX: \\int \\cos x dx = \\sin x + C).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b0522860145c2ef82958731f8d13ec3e",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:42f1b3cf95821e34ca29e9674130dfaa",
+      "default:extract:8cea7ac3d9eb301e7163a59477470964"
+    ],
+    "create_time": 1781007929,
+    "update_time": 1781007938,
+    "_id": "doc-b0522860145c2ef82958731f8d13ec3e-chunk-000"
+  },
+  "doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000": {
+    "tokens": 157,
+    "content": "Формула (LaTeX): \\sin^2 x + \\cos^2 x = 1\nИдентификатор: formula_29\n\nПеременные: x.\nЧисла: 2, 1.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin возводится в степень 2\n  - cos возводится в степень 2\n  - sin прибавляется к x\n  - x и cos стоят рядом в выражении\n  - cos и x стоят рядом в выражении\n  - sin равно 1\n\nУтверждение: sin равно 1 (формула formula_29, LaTeX: \\sin^2 x + \\cos^2 x = 1).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3b5a606db4a1d6eb64b1b4f497a8a132",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f4c6f3e7116dc45d15471cf7ff790a3d",
+      "default:extract:05147a18f3d01461f285cc66c36c8557"
+    ],
+    "create_time": 1781007938,
+    "update_time": 1781007950,
+    "_id": "doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000"
+  },
+  "doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000": {
+    "tokens": 163,
+    "content": "Формула (LaTeX): \\sin 2x = 2 \\sin x \\cos x\nИдентификатор: formula_30\n\nПеременные: x.\nЧисла: 2.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin является функцией от 2\n  - sin и x стоят рядом в выражении\n  - sin является функцией от x\n  - cos является функцией от x\n  - 2 и sin стоят рядом в выражении\n  - sin и cos стоят рядом в выражении\n  - sin равно 2\n\nУтверждение: sin равно 2 (формула formula_30, LaTeX: \\sin 2x = 2 \\sin x \\cos x).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a0dbd6564ebc2644ef1cc840ebfe51a2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:dfc780f3b8673146c0fd210aca0a1885",
+      "default:extract:a5e15a011f1ceff35f3966a1556fc9d7"
+    ],
+    "create_time": 1781007956,
+    "update_time": 1781007971,
+    "_id": "doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000"
+  },
+  "doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000": {
+    "tokens": 136,
+    "content": "Формула (LaTeX): \\cos 2x = \\cos^2 x - \\sin^2 x\nИдентификатор: formula_31\n\nПеременные: x.\nЧисла: 2.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от 2\n  - cos и x стоят рядом в выражении\n  - cos возводится в степень 2\n  - sin возводится в степень 2\n  - cos вычитается из x\n  - x и sin стоят рядом в выражении\n  - sin и x стоят рядом в выражении",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-a83710e679a36bae4dc9d13ef1fef596",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f7438a9afa71b22a3be9127dede1cea6",
+      "default:extract:26bd44215bec1958de75333fbb6d8d9f"
+    ],
+    "create_time": 1781007972,
+    "update_time": 1781007979,
+    "_id": "doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000"
+  },
+  "doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000": {
+    "tokens": 161,
+    "content": "Формула (LaTeX): \\cos 2x = 2\\cos^2 x - 1\nИдентификатор: formula_32\n\nПеременные: x.\nЧисла: 2, 1.\nФункции: cos.\n\nМатематические отношения:\n  - cos является функцией от 2\n  - cos и x стоят рядом в выражении\n  - cos возводится в степень 2\n  - 2 вычитается из cos\n  - x и 1 стоят рядом в выражении\n  - cos равно 2\n\nУтверждение: cos равно 2 (формула formula_32, LaTeX: \\cos 2x = 2\\cos^2 x - 1).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-77e6c803852efe2c5d828dcee4d05d91",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:7364d10e74041b701dbb4b281e55e261",
+      "default:extract:5344a85831dfd2d2b59d73717186c1ba"
+    ],
+    "create_time": 1781007979,
+    "update_time": 1781007988,
+    "_id": "doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000"
+  },
+  "doc-b1de46266243c31cf0c96ded454f6a13-chunk-000": {
+    "tokens": 175,
+    "content": "Формула (LaTeX): \\cos 2x = 1 - 2\\sin^2 x\nИдентификатор: formula_33\n\nПеременные: x.\nЧисла: 2, 1.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от 2\n  - cos и x стоят рядом в выражении\n  - sin возводится в степень 2\n  - 1 вычитается из 2\n  - 2 и sin стоят рядом в выражении\n  - sin и x стоят рядом в выражении\n  - cos равно 1\n\nУтверждение: cos равно 1 (формула formula_33, LaTeX: \\cos 2x = 1 - 2\\sin^2 x).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b1de46266243c31cf0c96ded454f6a13",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:82200583f70dd120d63e67623f7f88bf",
+      "default:extract:159c8f227590435cc6fd1db99c35d480"
+    ],
+    "create_time": 1781007988,
+    "update_time": 1781007997,
+    "_id": "doc-b1de46266243c31cf0c96ded454f6a13-chunk-000"
+  },
+  "doc-93a94f006c522d695912e86f3a1ab972-chunk-000": {
+    "tokens": 127,
+    "content": "Формула (LaTeX): \\tan x = \\frac{\\sin x}{\\cos x}\nИдентификатор: formula_34\n\nПеременные: x.\nФункции: tan, sin, cos.\n\nМатематические отношения:\n  - tan является функцией от x\n  - sin является функцией от x\n  - cos является функцией от x\n  - sin делится на cos\n  - tan равно sin\n\nУтверждение: tan равно sin (формула formula_34, LaTeX: \\tan x = \\frac{\\sin x}{\\cos x}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-93a94f006c522d695912e86f3a1ab972",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5b32ff91970cdf55dfbd2b29805f4dd0",
+      "default:extract:4e55aaf6c113b3a6d0dafe98c3041347"
+    ],
+    "create_time": 1781008001,
+    "update_time": 1781008017,
+    "_id": "doc-93a94f006c522d695912e86f3a1ab972-chunk-000"
+  },
+  "doc-11de9f184a1af74ecd6088c319b89229-chunk-000": {
+    "tokens": 129,
+    "content": "Формула (LaTeX): 1 + \\tan^2 x = \\frac{1}{\\cos^2 x}\nИдентификатор: formula_35\n\nПеременные: x.\nЧисла: 1, 2.\nФункции: tan, cos.\n\nМатематические отношения:\n  - tan возводится в степень 2\n  - 1 прибавляется к tan\n  - tan и x стоят рядом в выражении\n  - cos возводится в степень 2\n  - 1 делится на cos\n  - cos и x стоят рядом в выражении",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-11de9f184a1af74ecd6088c319b89229",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:f807c9c70a8feb026db1366657274af1",
+      "default:extract:0f895021dd3a66c149d4842ba421b8b9"
+    ],
+    "create_time": 1781008017,
+    "update_time": 1781008023,
+    "_id": "doc-11de9f184a1af74ecd6088c319b89229-chunk-000"
+  },
+  "doc-94da1740dcc7e8d296b09b1290b5ec61-chunk-000": {
+    "tokens": 130,
+    "content": "Формула (LaTeX): \\sin(\\alpha + \\beta) = \\sin\\alpha \\cos\\beta + \\cos\\alpha \\sin\\beta\nИдентификатор: formula_36\n\nПеременные: α, β.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin является функцией от α\n  - sin прибавляется к β\n  - cos является функцией от β\n  - cos является функцией от α\n  - sin является функцией от β\n  - sin прибавляется к cos\n  - cos и sin стоят рядом в выражении",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-94da1740dcc7e8d296b09b1290b5ec61",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d6481d774a779bccd9697624c2a742bb",
+      "default:extract:3d7b2cb4cefdd3430a969d43995d1293"
+    ],
+    "create_time": 1781008023,
+    "update_time": 1781008024,
+    "_id": "doc-94da1740dcc7e8d296b09b1290b5ec61-chunk-000"
+  },
+  "doc-c8c9796bf85e75351a72d699f58d06a2-chunk-000": {
+    "tokens": 120,
+    "content": "Формула (LaTeX): \\cos(\\alpha + \\beta) = \\cos\\alpha \\cos\\beta - \\sin\\alpha \\sin\\beta\nИдентификатор: formula_37\n\nПеременные: α, β.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от α\n  - cos прибавляется к β\n  - cos является функцией от β\n  - sin является функцией от α\n  - sin является функцией от β\n  - cos вычитается из sin",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c8c9796bf85e75351a72d699f58d06a2",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:acc577c764aec3929a46f592c625c7c0",
+      "default:extract:e84d3bec490c7d8243538ce62112cb5e"
+    ],
+    "create_time": 1781008024,
+    "update_time": 1781008026,
+    "_id": "doc-c8c9796bf85e75351a72d699f58d06a2-chunk-000"
+  },
+  "doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000": {
+    "tokens": 207,
+    "content": "Формула (LaTeX): c^2 = a^2 + b^2 - 2ab\\cos C\nИдентификатор: formula_38\n\nПеременные: c, a, b, C.\nЧисла: 2.\nФункции: cos.\n\nМатематические отношения:\n  - c возводится в степень 2\n  - a возводится в степень 2\n  - b возводится в степень 2\n  - cos является функцией от C\n  - a прибавляется к b\n  - b вычитается из 2\n  - 2 и a стоят рядом в выражении\n  - a и b стоят рядом в выражении\n  - b и cos стоят рядом в выражении\n  - c равно a\n\nУтверждение: c равно a (формула formula_38, LaTeX: c^2 = a^2 + b^2 - 2ab\\cos C).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-0c3cc366d264792a0e1c16b5d3be0262",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:738bb50a21229af7b7efd95dbe20dc81",
+      "default:extract:2936441ec221f834b9d8ec91ea0ce76a"
+    ],
+    "create_time": 1781008026,
+    "update_time": 1781008038,
+    "_id": "doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000"
+  },
+  "doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000": {
+    "tokens": 330,
+    "content": "Формула (LaTeX): \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R\nИдентификатор: formula_39\n\nПеременные: a, A, b, B, c, C, R.\nЧисла: 2.\nФункции: sin.\n\nМатематические отношения:\n  - sin является функцией от A\n  - a делится на sin\n  - sin является функцией от B\n  - b делится на sin\n  - a равно b\n  - sin является функцией от C\n  - c делится на sin\n  - b равно c\n  - 2 и R стоят рядом в выражении\n  - c равно 2\n\nУтверждение: a равно b (формула formula_39, LaTeX: \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R).\nУтверждение: b равно c (формула formula_39, LaTeX: \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R).\nУтверждение: c равно 2 (формула formula_39, LaTeX: \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-23ec8458fb7fe841de5f228bb737b76f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:53bc6d827277c5be250ba065b5a66bde",
+      "default:extract:f986cb2a9427f37ee4d21e1e8e6707ea"
+    ],
+    "create_time": 1781008041,
+    "update_time": 1781008062,
+    "_id": "doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000"
+  },
+  "doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000": {
+    "tokens": 167,
+    "content": "Формула (LaTeX): e^{i\\varphi} = \\cos\\varphi + i\\sin\\varphi\nИдентификатор: formula_40\n\nПеременные: e, i, φ.\nФункции: cos, sin.\n\nМатематические отношения:\n  - e возводится в степень i\n  - e и φ стоят рядом в выражении\n  - cos является функцией от φ\n  - sin является функцией от φ\n  - cos прибавляется к i\n  - i и sin стоят рядом в выражении\n  - e равно cos\n\nУтверждение: e равно cos (формула formula_40, LaTeX: e^{i\\varphi} = \\cos\\varphi + i\\sin\\varphi).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c5ba0dcacc2438267b920d857cb7d2c1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1bb12a80cf4c0715afcf49ae6e2191b2",
+      "default:extract:3ec901033022abecb64437482531b91a"
+    ],
+    "create_time": 1781008062,
+    "update_time": 1781008071,
+    "_id": "doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000"
+  },
+  "doc-f0395eac2737141afd769deb5c6140ea-chunk-000": {
+    "tokens": 147,
+    "content": "Формула (LaTeX): |z| = \\sqrt{a^2 + b^2}\nИдентификатор: formula_41\n\nПеременные: z, a, b.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к a\n  - √ возводится в степень 2\n  - b возводится в степень 2\n  - √ прибавляется к b\n  - z равно √\n\nУтверждение: z равно √ (формула formula_41, LaTeX: |z| = \\sqrt{a^2 + b^2}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f0395eac2737141afd769deb5c6140ea",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:ee86729ff2b56669d7c6daae3356ce6d",
+      "default:extract:b303e6cd4013515dde0857805e919f4b"
+    ],
+    "create_time": 1781008071,
+    "update_time": 1781008078,
+    "_id": "doc-f0395eac2737141afd769deb5c6140ea-chunk-000"
+  },
+  "doc-8c091683f1ff28f8a1559ba1d6748e78-chunk-000": {
+    "tokens": 168,
+    "content": "Формула (LaTeX): (\\cos\\varphi + i\\sin\\varphi)^n = \\cos(n\\varphi) + i\\sin(n\\varphi)\nИдентификатор: formula_42\n\nПеременные: φ, i, n.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от φ\n  - sin является функцией от φ\n  - sin возводится в степень n\n  - cos прибавляется к i\n  - i и sin стоят рядом в выражении\n  - cos является функцией от n\n  - sin является функцией от n\n  - cos прибавляется к φ\n  - φ и i стоят рядом в выражении\n  - sin и φ стоят рядом в выражении",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-8c091683f1ff28f8a1559ba1d6748e78",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d872feba3739eb887a48b14a856bc4cf",
+      "default:extract:7b6fcd16b5d8ec6696488a1faae176c1"
+    ],
+    "create_time": 1781008078,
+    "update_time": 1781008080,
+    "_id": "doc-8c091683f1ff28f8a1559ba1d6748e78-chunk-000"
+  },
+  "doc-f205ae5d73886267042a8e0600bd6703-chunk-000": {
+    "tokens": 170,
+    "content": "Формула (LaTeX): S_n = a_1 \\cdot \\frac{1 - q^n}{1 - q}\nИдентификатор: formula_43\n\nПеременные: S, n, a, q.\nЧисла: 1.\n\nМатематические отношения:\n  - S имеет нижний индекс n\n  - a имеет нижний индекс 1\n  - q возводится в степень n\n  - a умножается на 1\n  - 1 вычитается из q\n  - q делится на 1\n  - S равно a\n\nУтверждение: S равно a (формула formula_43, LaTeX: S_n = a_1 \\cdot \\frac{1 - q^n}{1 - q}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-f205ae5d73886267042a8e0600bd6703",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5589f4fce568568ad7e2951ad67bdd09",
+      "default:extract:38ce1d2d3b57418f14b9e206e647d20f"
+    ],
+    "create_time": 1781008080,
+    "update_time": 1781008089,
+    "_id": "doc-f205ae5d73886267042a8e0600bd6703-chunk-000"
+  },
+  "doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000": {
+    "tokens": 121,
+    "content": "Формула (LaTeX): S = \\frac{a_1}{1 - q}\nИдентификатор: formula_44\n\nПеременные: S, a, q.\nЧисла: 1.\n\nМатематические отношения:\n  - a имеет нижний индекс 1\n  - a делится на 1\n  - 1 вычитается из q\n  - S равно a\n\nУтверждение: S равно a (формула formula_44, LaTeX: S = \\frac{a_1}{1 - q}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-c2dfa7e1e54f19c7c0d453b57e49d569",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:6a317ff500a0e08f4e55f07aab3a43a4",
+      "default:extract:f3fbbb39d5eaff9d9f882ca78f7c101d"
+    ],
+    "create_time": 1781008089,
+    "update_time": 1781008096,
+    "_id": "doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000"
+  },
+  "doc-5282baba97f5840152810a0ed807df86-chunk-000": {
+    "tokens": 103,
+    "content": "Формула (LaTeX): a_n = a_1 + (n-1)d\nИдентификатор: formula_45\n\nПеременные: a, n, d.\nЧисла: 1.\n\nМатематические отношения:\n  - a имеет нижний индекс n\n  - a имеет нижний индекс 1\n  - a прибавляется к n\n  - n вычитается из 1\n  - 1 и d стоят рядом в выражении",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5282baba97f5840152810a0ed807df86",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:68e222ca255c8ae8ea17a2654f74c5b1",
+      "default:extract:05ef46d691627e216ea96a5f494ad55f"
+    ],
+    "create_time": 1781008096,
+    "update_time": 1781008098,
+    "_id": "doc-5282baba97f5840152810a0ed807df86-chunk-000"
+  },
+  "doc-6cf4854854a42f4041e73060e773058f-chunk-000": {
+    "tokens": 157,
+    "content": "Формула (LaTeX): S_n = \\frac{(a_1 + a_n) \\cdot n}{2}\nИдентификатор: formula_46\n\nПеременные: S, n, a.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - S имеет нижний индекс n\n  - a имеет нижний индекс 1\n  - a имеет нижний индекс n\n  - a прибавляется к n\n  - n умножается на 2\n  - S равно a\n\nУтверждение: S равно a (формула formula_46, LaTeX: S_n = \\frac{(a_1 + a_n) \\cdot n}{2}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-6cf4854854a42f4041e73060e773058f",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:d8bee16579841e0a09b0998aebb7a423",
+      "default:extract:05b29241f9a78311b153f85c8c730f6e"
+    ],
+    "create_time": 1781008098,
+    "update_time": 1781008105,
+    "_id": "doc-6cf4854854a42f4041e73060e773058f-chunk-000"
+  },
+  "doc-4b57750366502afaf6ed0544066b1957-chunk-000": {
+    "tokens": 320,
+    "content": "Формула (LaTeX): (a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k\nИдентификатор: formula_47\n\nПеременные: a, b, n, k.\nЧисла: 0.\nОператоры: Σ (Оператор суммирования).\n\nМатематические отношения:\n  - b возводится в степень n\n  - a прибавляется к b\n  - k является параметром оператора Σ\n  - a равно Σ\n  - 0 возводится в степень n\n  - a возводится в степень n\n  - b возводится в степень k\n  - 0 вычитается из n\n  - n и k стоят рядом в выражении\n  - k и a стоят рядом в выражении\n  - a и k стоят рядом в выражении\n  - k и b стоят рядом в выражении\n  - Σ равно 0\n\nУтверждение: a равно Σ (формула formula_47, LaTeX: (a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k).\nУтверждение: Σ равно 0 (формула formula_47, LaTeX: (a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-4b57750366502afaf6ed0544066b1957",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:4680743cf74438cf4e5b88f21a559b5f",
+      "default:extract:f46c01ef1638fb5baef3e614a2d4d28c"
+    ],
+    "create_time": 1781008110,
+    "update_time": 1781008118,
+    "_id": "doc-4b57750366502afaf6ed0544066b1957-chunk-000"
+  },
+  "doc-400da6c18d3d0076396c2f96874fe29b-chunk-000": {
+    "tokens": 80,
+    "content": "Формула (LaTeX): \\binom{n}{k} = \\frac{n!}{k!(n-k)!}\nИдентификатор: formula_48\n\nПеременные: n, k.\n\nМатематические отношения:\n  - n и k стоят рядом в выражении\n  - n делится на k\n  - k вычитается из n",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-400da6c18d3d0076396c2f96874fe29b",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:b6529fb3e02592d88d33f392651c77fa",
+      "default:extract:11c2c12109ae24fad6eed3a553ee5a84"
+    ],
+    "create_time": 1781008118,
+    "update_time": 1781008119,
+    "_id": "doc-400da6c18d3d0076396c2f96874fe29b-chunk-000"
+  },
+  "doc-5eab720b58413b7fad3f9f5faf4c2638-chunk-000": {
+    "tokens": 117,
+    "content": "Формула (LaTeX): \\log_a(xy) = \\log_a x + \\log_a y\nИдентификатор: formula_49\n\nПеременные: a, x, y.\nФункции: log.\n\nМатематические отношения:\n  - log имеет нижний индекс a\n  - log и x стоят рядом в выражении\n  - x и y стоят рядом в выражении\n  - log прибавляется к x\n  - x и log стоят рядом в выражении\n  - log и y стоят рядом в выражении",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-5eab720b58413b7fad3f9f5faf4c2638",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:5bd4f4571984b6bc0590ad5a56dbd90f",
+      "default:extract:9a104f24099d82d5246012f2b1579388"
+    ],
+    "create_time": 1781008120,
+    "update_time": 1781008121,
+    "_id": "doc-5eab720b58413b7fad3f9f5faf4c2638-chunk-000"
+  },
+  "doc-3b1ab6c6a39b3b3db11cf428b628aba1-chunk-000": {
+    "tokens": 133,
+    "content": "Формула (LaTeX): \\log_a(x^n) = n \\log_a x\nИдентификатор: formula_50\n\nПеременные: a, x, n.\nФункции: log.\n\nМатематические отношения:\n  - log имеет нижний индекс a\n  - x возводится в степень n\n  - log и x стоят рядом в выражении\n  - n и log стоят рядом в выражении\n  - log равно n\n\nУтверждение: log равно n (формула formula_50, LaTeX: \\log_a(x^n) = n \\log_a x).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-3b1ab6c6a39b3b3db11cf428b628aba1",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:90b25cb309c9d03dd5a6cfd087dfb358",
+      "default:extract:93a4f145dabb5b60d9901fc020eee3d3"
+    ],
+    "create_time": 1781008121,
+    "update_time": 1781008123,
+    "_id": "doc-3b1ab6c6a39b3b3db11cf428b628aba1-chunk-000"
+  },
+  "doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000": {
+    "tokens": 132,
+    "content": "Формула (LaTeX): \\log_a x = \\frac{\\ln x}{\\ln a}\nИдентификатор: formula_51\n\nПеременные: a, x.\nФункции: log, ln.\n\nМатематические отношения:\n  - log имеет нижний индекс a\n  - log и x стоят рядом в выражении\n  - ln является функцией от x\n  - ln является функцией от a\n  - log равно ln\n\nУтверждение: log равно ln (формула formula_51, LaTeX: \\log_a x = \\frac{\\ln x}{\\ln a}).",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-b1e4448e5c567fada0f6d4ba573209ab",
+    "file_path": "unknown_source",
+    "llm_cache_list": [
+      "default:extract:1575d9f122a558ec196b6ca91f6858de",
+      "default:extract:bc5e8fd7893349f0662bbf1de8225985"
+    ],
+    "create_time": 1781008123,
+    "update_time": 1781008131,
+    "_id": "doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000"
+  }
+}

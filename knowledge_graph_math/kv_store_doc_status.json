@@ -1,0 +1,1354 @@
+{
+  "doc-2a0888349718f5f2a20c6800cad13bbc": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): ax^2 + bx + c = 0\nИдентификатор: formula_0\n\nПеременные: a, x, b, c.\nЧисла: 2, 0.\n\nМатематические отношения:\n  - x возводится в степень 2\n  - a прибавляется к x\n  - x прибавляется к b\n  - b и x стоят рядом в выражении\n  - x и c стоят ...",
+    "content_length": 352,
+    "created_at": "2026-06-09T12:15:24.555392+00:00",
+    "updated_at": "2026-06-09T12:15:43.257233+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151524_36fd2a05",
+    "content_hash": "2a0888349718f5f2a20c6800cad13bbc",
+    "metadata": {
+      "parsing_start_time": 1781007324,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007324,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007324,
+      "processing_end_time": 1781007343,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000"
+    ]
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): D = b^2 - 4ac\nИдентификатор: formula_1\n\nПеременные: D, b, a, c.\nЧисла: 2, 4.\n\nМатематические отношения:\n  - b возводится в степень 2\n  - b вычитается из 4\n  - 4 и a стоят рядом в выражении\n  - a и c стоят рядом в выражении\n  - D равн...",
+    "content_length": 320,
+    "created_at": "2026-06-09T12:15:43.668001+00:00",
+    "updated_at": "2026-06-09T12:15:54.449153+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151543_41e5ce65",
+    "content_hash": "93b6acd960d94a31188c3d66a7ec9b38",
+    "metadata": {
+      "parsing_start_time": 1781007343,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007343,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007343,
+      "processing_end_time": 1781007354,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000"
+    ]
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): x = \\frac{-b \\pm \\sqrt{D}}{2a}\nИдентификатор: formula_2\n\nПеременные: x, b, D, a.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к D\n  - b вычитается из √\n  - √ делится на 2\n...",
+    "content_length": 381,
+    "created_at": "2026-06-09T12:15:54.879412+00:00",
+    "updated_at": "2026-06-09T12:16:02.826808+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151554_a299697b",
+    "content_hash": "e104e211de2f2d77ed73269623c39fd2",
+    "metadata": {
+      "parsing_start_time": 1781007354,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007354,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007354,
+      "processing_end_time": 1781007362,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-e104e211de2f2d77ed73269623c39fd2-chunk-000"
+    ]
+  },
+  "doc-600a0c78af3d801d6496e749bbc4d6d3": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): x_1 + x_2 = -\\frac{b}{a}\nИдентификатор: formula_3\n\nПеременные: x, b, a.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - x имеет нижний индекс 1\n  - x имеет нижний индекс 2\n  - b вычитается из a\n  - x равно b\n\nУтверждение: x равно b (форм...",
+    "content_length": 298,
+    "created_at": "2026-06-09T12:16:03.291712+00:00",
+    "updated_at": "2026-06-09T12:16:11.164230+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151603_a48ae909",
+    "content_hash": "600a0c78af3d801d6496e749bbc4d6d3",
+    "metadata": {
+      "parsing_start_time": 1781007363,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007363,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007363,
+      "processing_end_time": 1781007371,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000"
+    ]
+  },
+  "doc-0d651681504c3b0d71951fb02e88df36": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): x_1 \\cdot x_2 = \\frac{c}{a}\nИдентификатор: formula_4\n\nПеременные: x, c, a.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - x имеет нижний индекс 1\n  - x имеет нижний индекс 2\n  - c делится на a\n  - x равно c\n\nУтверждение: x равно c (форм...",
+    "content_length": 301,
+    "created_at": "2026-06-09T12:16:11.314779+00:00",
+    "updated_at": "2026-06-09T12:16:19.777884+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151611_7fc67235",
+    "content_hash": "0d651681504c3b0d71951fb02e88df36",
+    "metadata": {
+      "parsing_start_time": 1781007371,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007371,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007371,
+      "processing_end_time": 1781007379,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-0d651681504c3b0d71951fb02e88df36-chunk-000"
+    ]
+  },
+  "doc-2b2765c1dc3c0924781f469247feb1d3": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): a^2 + b^2 = c^2\nИдентификатор: formula_5\n\nПеременные: a, b, c.\nЧисла: 2.\n\nМатематические отношения:\n  - a возводится в степень 2\n  - b возводится в степень 2\n  - a прибавляется к b\n  - c возводится в степень 2\n  - a равно c\n\nУтвержде...",
+    "content_length": 309,
+    "created_at": "2026-06-09T12:16:20.173806+00:00",
+    "updated_at": "2026-06-09T12:16:32.791471+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151620_7fff70e5",
+    "content_hash": "2b2765c1dc3c0924781f469247feb1d3",
+    "metadata": {
+      "parsing_start_time": 1781007380,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007380,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007380,
+      "processing_end_time": 1781007392,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000"
+    ]
+  },
+  "doc-21f9ab7d714dddb9ee9e81d79d4dec8e": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): c = \\sqrt{a^2 + b^2}\nИдентификатор: formula_6\n\nПеременные: c, a, b.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к a\n  - √ возводится в степень 2\n  - b возводится в степен...",
+    "content_length": 364,
+    "created_at": "2026-06-09T12:16:33.174222+00:00",
+    "updated_at": "2026-06-09T12:16:38.902935+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151633_91c2cd9a",
+    "content_hash": "21f9ab7d714dddb9ee9e81d79d4dec8e",
+    "metadata": {
+      "parsing_start_time": 1781007393,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007393,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007393,
+      "processing_end_time": 1781007398,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000"
+    ]
+  },
+  "doc-3686830df420ce5a2ede2561e500fcdd": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): S = \\frac{1}{2} a h\nИдентификатор: formula_7\n\nПеременные: S, a, h.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - 1 делится на 2\n  - 2 и a стоят рядом в выражении\n  - a и h стоят рядом в выражении\n  - S равно 1\n\nУтверждение: S равно 1 (...",
+    "content_length": 297,
+    "created_at": "2026-06-09T12:16:39.193548+00:00",
+    "updated_at": "2026-06-09T12:16:47.639651+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151639_5044bec6",
+    "content_hash": "3686830df420ce5a2ede2561e500fcdd",
+    "metadata": {
+      "parsing_start_time": 1781007399,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007399,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007399,
+      "processing_end_time": 1781007407,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-3686830df420ce5a2ede2561e500fcdd-chunk-000"
+    ]
+  },
+  "doc-30bb8cabb1c868341358d6696111eff8": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): S = \\pi r^2\nИдентификатор: formula_8\n\nПеременные: S, π, r.\nЧисла: 2.\n\nМатематические отношения:\n  - r возводится в степень 2\n  - π и r стоят рядом в выражении\n  - S равно π\n\nУтверждение: S равно π (формула formula_8, LaTeX: S = \\pi r...",
+    "content_length": 254,
+    "created_at": "2026-06-09T12:16:47.839949+00:00",
+    "updated_at": "2026-06-09T12:17:01.484662+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151647_3b8de3ea",
+    "content_hash": "30bb8cabb1c868341358d6696111eff8",
+    "metadata": {
+      "parsing_start_time": 1781007407,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007407,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007407,
+      "processing_end_time": 1781007421,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-30bb8cabb1c868341358d6696111eff8-chunk-000"
+    ]
+  },
+  "doc-f5be1dcdffe74abbdfd357496fb974c9": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): L = 2 \\pi r\nИдентификатор: formula_9\n\nПеременные: L, π, r.\nЧисла: 2.\n\nМатематические отношения:\n  - 2 и π стоят рядом в выражении\n  - π и r стоят рядом в выражении\n  - L равно 2\n\nУтверждение: L равно 2 (формула formula_9, LaTeX: L = ...",
+    "content_length": 259,
+    "created_at": "2026-06-09T12:17:01.862618+00:00",
+    "updated_at": "2026-06-09T12:17:07.802312+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151701_f4978af9",
+    "content_hash": "f5be1dcdffe74abbdfd357496fb974c9",
+    "metadata": {
+      "parsing_start_time": 1781007421,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007421,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007421,
+      "processing_end_time": 1781007427,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000"
+    ]
+  },
+  "doc-bc9595f22b1371816d927469e4892b2d": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): L = \\pi d\nИдентификатор: formula_10\n\nПеременные: L, π, d.\n\nМатематические отношения:\n  - π и d стоят рядом в выражении\n  - L равно π\n\nУтверждение: L равно π (формула formula_10, LaTeX: L = \\pi d).",
+    "content_length": 213,
+    "created_at": "2026-06-09T12:17:08.132736+00:00",
+    "updated_at": "2026-06-09T12:17:09.524458+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151708_6c6ccea3",
+    "content_hash": "bc9595f22b1371816d927469e4892b2d",
+    "metadata": {
+      "parsing_start_time": 1781007428,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007428,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007428,
+      "processing_end_time": 1781007429,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-bc9595f22b1371816d927469e4892b2d-chunk-000"
+    ]
+  },
+  "doc-106004f57852517ecd8ca29edb181bb6": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): d = 2r\nИдентификатор: formula_11\n\nПеременные: d, r.\nЧисла: 2.\n\nМатематические отношения:\n  - 2 и r стоят рядом в выражении\n  - d равно 2\n\nУтверждение: d равно 2 (формула formula_11, LaTeX: d = 2r).",
+    "content_length": 214,
+    "created_at": "2026-06-09T12:17:09.636505+00:00",
+    "updated_at": "2026-06-09T12:17:14.394032+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151709_8f5832ce",
+    "content_hash": "106004f57852517ecd8ca29edb181bb6",
+    "metadata": {
+      "parsing_start_time": 1781007429,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007429,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007429,
+      "processing_end_time": 1781007434,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-106004f57852517ecd8ca29edb181bb6-chunk-000"
+    ]
+  },
+  "doc-619df480f7f496293a883f5ec6e99477": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): V = \\frac{4}{3} \\pi r^3\nИдентификатор: formula_12\n\nПеременные: V, π, r.\nЧисла: 4, 3.\n\nМатематические отношения:\n  - r возводится в степень 3\n  - 4 делится на 3\n  - 3 и π стоят рядом в выражении\n  - π и r стоят рядом в выражении\n  - V...",
+    "content_length": 336,
+    "created_at": "2026-06-09T12:17:14.741289+00:00",
+    "updated_at": "2026-06-09T12:23:34.912495+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_151714_8a530bd5",
+    "content_hash": "619df480f7f496293a883f5ec6e99477",
+    "metadata": {
+      "parsing_start_time": 1781007794,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007794,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007795,
+      "processing_end_time": 1781007814,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-619df480f7f496293a883f5ec6e99477-chunk-000"
+    ]
+  },
+  "doc-8338d84cbfe7914211255ac9d9e4b49b": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): S = 4 \\pi r^2\nИдентификатор: formula_13\n\nПеременные: S, π, r.\nЧисла: 4, 2.\n\nМатематические отношения:\n  - r возводится в степень 2\n  - 4 и π стоят рядом в выражении\n  - π и r стоят рядом в выражении\n  - S равно 4\n\nУтверждение: S равн...",
+    "content_length": 297,
+    "created_at": "2026-06-09T12:23:14.779206+00:00",
+    "updated_at": "2026-06-09T12:23:31.948405+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152314_8bdc87dc",
+    "content_hash": "8338d84cbfe7914211255ac9d9e4b49b",
+    "metadata": {
+      "parsing_start_time": 1781007794,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007794,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007794,
+      "processing_end_time": 1781007811,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000"
+    ]
+  },
+  "doc-d4241bc197dcc704273a7b7e735b97ac": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (x^n)' = n x^{n-1}\nИдентификатор: formula_14\n\nПеременные: x, n.\nЧисла: 1.\n\nМатематические отношения:\n  - x возводится в степень n\n  - n вычитается из x\n  - x и 1 стоят рядом в выражении\n  - x равно n\n\nУтверждение: x равно n (формула ...",
+    "content_length": 289,
+    "created_at": "2026-06-09T12:23:35.030981+00:00",
+    "updated_at": "2026-06-09T12:23:40.663163+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152335_ad236b78",
+    "content_hash": "d4241bc197dcc704273a7b7e735b97ac",
+    "metadata": {
+      "parsing_start_time": 1781007815,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007815,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007815,
+      "processing_end_time": 1781007820,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000"
+    ]
+  },
+  "doc-7f645bfc48e2bff517d113970e099f3a": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (f \\cdot g)' = f' \\cdot g + f \\cdot g'\nИдентификатор: formula_15\n\nПеременные: f, g.\n\nМатематические отношения:\n  - f умножается на g\n  - g прибавляется к f",
+    "content_length": 172,
+    "created_at": "2026-06-09T12:23:40.977798+00:00",
+    "updated_at": "2026-06-09T12:23:42.330574+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152340_1aaa9fd9",
+    "content_hash": "7f645bfc48e2bff517d113970e099f3a",
+    "metadata": {
+      "parsing_start_time": 1781007820,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007820,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007820,
+      "processing_end_time": 1781007822,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-7f645bfc48e2bff517d113970e099f3a-chunk-000"
+    ]
+  },
+  "doc-7bfc174e21f4323485b564b4ffe791be": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\left(\\frac{f}{g}\\right)' = \\frac{f' g - f g'}{g^2}\nИдентификатор: formula_16\n\nПеременные: f, g.\nЧисла: 2.\nФункции: f.\n\nМатематические отношения:\n  - f делится на g\n  - f является функцией от g\n  - g возводится в степень 2\n  - f вычи...",
+    "content_length": 381,
+    "created_at": "2026-06-09T12:23:42.422300+00:00",
+    "updated_at": "2026-06-09T12:23:51.159420+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152342_16f9c777",
+    "content_hash": "7bfc174e21f4323485b564b4ffe791be",
+    "metadata": {
+      "parsing_start_time": 1781007822,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007822,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007822,
+      "processing_end_time": 1781007831,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-7bfc174e21f4323485b564b4ffe791be-chunk-000"
+    ]
+  },
+  "doc-e199e2c6f7381d60c9ac07baabe0b381": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (f(g(x)))' = f'(g(x)) \\cdot g'(x)\nИдентификатор: formula_17\n\nПеременные: x.\nФункции: f, g.\n\nМатематические отношения:\n  - g является функцией от x\n  - f и g стоят рядом в выражении\n  - f умножается на g",
+    "content_length": 219,
+    "created_at": "2026-06-09T12:23:51.518053+00:00",
+    "updated_at": "2026-06-09T12:23:58.647700+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152351_902b0c5f",
+    "content_hash": "e199e2c6f7381d60c9ac07baabe0b381",
+    "metadata": {
+      "parsing_start_time": 1781007831,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007831,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007831,
+      "processing_end_time": 1781007838,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000"
+    ]
+  },
+  "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (\\sin x)' = \\cos x\nИдентификатор: formula_18\n\nПеременные: x.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin является функцией от x\n  - cos является функцией от x\n  - sin равно cos\n\nУтверждение: sin равно cos (формула formula_1...",
+    "content_length": 280,
+    "created_at": "2026-06-09T12:23:58.964811+00:00",
+    "updated_at": "2026-06-09T12:24:07.315184+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152358_f4209e2b",
+    "content_hash": "9d0dd84a0be328b9a9b4a65c28c5d2ec",
+    "metadata": {
+      "parsing_start_time": 1781007838,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007838,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007838,
+      "processing_end_time": 1781007847,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000"
+    ]
+  },
+  "doc-b43fc5cd8aa611e5651d7cf5010dcc6b": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (\\cos x)' = -\\sin x\nИдентификатор: formula_19\n\nПеременные: x.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от x\n  - sin является функцией от x\n  - cos равно sin\n\nУтверждение: cos равно sin (формула formula_...",
+    "content_length": 282,
+    "created_at": "2026-06-09T12:24:07.561378+00:00",
+    "updated_at": "2026-06-09T12:24:22.295958+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152407_18fd20b4",
+    "content_hash": "b43fc5cd8aa611e5651d7cf5010dcc6b",
+    "metadata": {
+      "parsing_start_time": 1781007847,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007847,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007847,
+      "processing_end_time": 1781007862,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000"
+    ]
+  },
+  "doc-adbab909c1a29fac98d1bc30d1ba94c3": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (e^x)' = e^x\nИдентификатор: formula_20\n\nПеременные: e, x.\n\nМатематические отношения:\n  - e возводится в степень x",
+    "content_length": 130,
+    "created_at": "2026-06-09T12:24:22.655261+00:00",
+    "updated_at": "2026-06-09T12:24:30.176268+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152422_ec8c3158",
+    "content_hash": "adbab909c1a29fac98d1bc30d1ba94c3",
+    "metadata": {
+      "parsing_start_time": 1781007862,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007862,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007862,
+      "processing_end_time": 1781007870,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-adbab909c1a29fac98d1bc30d1ba94c3-chunk-000"
+    ]
+  },
+  "doc-03a5738df2fb27efe596a610bf0b8dfe": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (\\ln x)' = \\frac{1}{x}\nИдентификатор: formula_21\n\nПеременные: x.\nЧисла: 1.\nФункции: ln.\n\nМатематические отношения:\n  - ln является функцией от x\n  - 1 делится на x\n  - ln равно 1\n\nУтверждение: ln равно 1 (формула formula_21, LaTeX: (...",
+    "content_length": 273,
+    "created_at": "2026-06-09T12:24:30.493075+00:00",
+    "updated_at": "2026-06-09T12:24:36.025721+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152430_9cfbe4ba",
+    "content_hash": "03a5738df2fb27efe596a610bf0b8dfe",
+    "metadata": {
+      "parsing_start_time": 1781007870,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007870,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007870,
+      "processing_end_time": 1781007876,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000"
+    ]
+  },
+  "doc-4bb262ebbff0da390377af441dcb84fa": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e\nИдентификатор: formula_22\n\nПеременные: n, e.\nЧисла: 1.\nКонстанты: ∞ (Константа ∞).\nОператоры: lim (Оператор предела).\n\nМатематические отношения:\n  - n является параметром операто...",
+    "content_length": 443,
+    "created_at": "2026-06-09T12:24:36.408281+00:00",
+    "updated_at": "2026-06-09T12:24:42.980906+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152436_65931c06",
+    "content_hash": "4bb262ebbff0da390377af441dcb84fa",
+    "metadata": {
+      "parsing_start_time": 1781007876,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007876,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007876,
+      "processing_end_time": 1781007882,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-4bb262ebbff0da390377af441dcb84fa-chunk-000"
+    ]
+  },
+  "doc-7b176d9daac368c608373bc3d18f28da": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\lim_{x \\to 0} \\frac{\\sin x}{x} = 1\nИдентификатор: formula_23\n\nПеременные: x.\nЧисла: 0, 1.\nФункции: sin.\nОператоры: lim (Оператор предела).\n\nМатематические отношения:\n  - x является параметром оператора lim\n  - sin является функцией ...",
+    "content_length": 437,
+    "created_at": "2026-06-09T12:24:43.271913+00:00",
+    "updated_at": "2026-06-09T12:24:51.934375+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152443_33bfa8c9",
+    "content_hash": "7b176d9daac368c608373bc3d18f28da",
+    "metadata": {
+      "parsing_start_time": 1781007883,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007883,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007883,
+      "processing_end_time": 1781007891,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-7b176d9daac368c608373bc3d18f28da-chunk-000"
+    ]
+  },
+  "doc-952ae85bc165a99a8207d50d0e4db44c": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\int_{a}^{b} f(x) dx = F(b) - F(a)\nИдентификатор: formula_24\n\nПеременные: a, b, x, d.\nФункции: f, F.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - a является параметром оператора ∫\n  - ∫ возводится в степень ...",
+    "content_length": 509,
+    "created_at": "2026-06-09T12:24:52.267918+00:00",
+    "updated_at": "2026-06-09T12:25:04.043390+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152452_1e51b1fe",
+    "content_hash": "952ae85bc165a99a8207d50d0e4db44c",
+    "metadata": {
+      "parsing_start_time": 1781007892,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007892,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007892,
+      "processing_end_time": 1781007904,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000"
+    ]
+  },
+  "doc-6e77e8f1038fc3340df12fa49e91cbcc": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\int x^n dx = \\frac{x^{n+1}}{n+1} + C\nИдентификатор: formula_25\n\nПеременные: x, n, d, C.\nЧисла: 1.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к x\n  - ∫ возводится в степень n\n  - d и...",
+    "content_length": 499,
+    "created_at": "2026-06-09T12:25:04.473368+00:00",
+    "updated_at": "2026-06-09T12:25:06.058369+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152504_74f4b5ca",
+    "content_hash": "6e77e8f1038fc3340df12fa49e91cbcc",
+    "metadata": {
+      "parsing_start_time": 1781007904,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007904,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007904,
+      "processing_end_time": 1781007906,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-6e77e8f1038fc3340df12fa49e91cbcc-chunk-000"
+    ]
+  },
+  "doc-93205e0c8c751a55081db85cf6bc6a62": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\int e^x dx = e^x + C\nИдентификатор: formula_26\n\nПеременные: e, x, d, C.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к e\n  - ∫ возводится в степень x\n  - d и x стоят рядом в выражении...",
+    "content_length": 392,
+    "created_at": "2026-06-09T12:25:06.155010+00:00",
+    "updated_at": "2026-06-09T12:25:14.586410+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152506_372db957",
+    "content_hash": "93205e0c8c751a55081db85cf6bc6a62",
+    "metadata": {
+      "parsing_start_time": 1781007906,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007906,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007906,
+      "processing_end_time": 1781007914,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000"
+    ]
+  },
+  "doc-946f7f65b47d02934ef52ad10ee466e5": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\int \\sin x dx = -\\cos x + C\nИдентификатор: formula_27\n\nПеременные: x, d, C.\nФункции: sin, cos.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к sin\n  - x и d стоят рядом в выражении\n  -...",
+    "content_length": 436,
+    "created_at": "2026-06-09T12:25:14.938964+00:00",
+    "updated_at": "2026-06-09T12:25:28.850163+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152514_ebc8ee5b",
+    "content_hash": "946f7f65b47d02934ef52ad10ee466e5",
+    "metadata": {
+      "parsing_start_time": 1781007914,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007914,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007914,
+      "processing_end_time": 1781007928,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000"
+    ]
+  },
+  "doc-b0522860145c2ef82958731f8d13ec3e": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\int \\cos x dx = \\sin x + C\nИдентификатор: formula_28\n\nПеременные: x, d, C.\nФункции: cos, sin.\nОператоры: ∫ (Оператор интегрирования).\n\nМатематические отношения:\n  - оператор ∫ применяется к cos\n  - x и d стоят рядом в выражении\n  - ...",
+    "content_length": 435,
+    "created_at": "2026-06-09T12:25:29.231861+00:00",
+    "updated_at": "2026-06-09T12:25:38.396814+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152529_d9a70add",
+    "content_hash": "b0522860145c2ef82958731f8d13ec3e",
+    "metadata": {
+      "parsing_start_time": 1781007929,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007929,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007929,
+      "processing_end_time": 1781007938,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-b0522860145c2ef82958731f8d13ec3e-chunk-000"
+    ]
+  },
+  "doc-3b5a606db4a1d6eb64b1b4f497a8a132": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\sin^2 x + \\cos^2 x = 1\nИдентификатор: formula_29\n\nПеременные: x.\nЧисла: 2, 1.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin возводится в степень 2\n  - cos возводится в степень 2\n  - sin прибавляется к x\n  - x и cos стоят ряд...",
+    "content_length": 396,
+    "created_at": "2026-06-09T12:25:38.769421+00:00",
+    "updated_at": "2026-06-09T12:25:56.023889+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152538_d871d370",
+    "content_hash": "3b5a606db4a1d6eb64b1b4f497a8a132",
+    "metadata": {
+      "parsing_start_time": 1781007938,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007938,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007938,
+      "processing_end_time": 1781007956,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000"
+    ]
+  },
+  "doc-a0dbd6564ebc2644ef1cc840ebfe51a2": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\sin 2x = 2 \\sin x \\cos x\nИдентификатор: formula_30\n\nПеременные: x.\nЧисла: 2.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin является функцией от 2\n  - sin и x стоят рядом в выражении\n  - sin является функцией от x\n  - cos явл...",
+    "content_length": 441,
+    "created_at": "2026-06-09T12:25:56.482753+00:00",
+    "updated_at": "2026-06-09T12:26:11.800163+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152556_ab7f2642",
+    "content_hash": "a0dbd6564ebc2644ef1cc840ebfe51a2",
+    "metadata": {
+      "parsing_start_time": 1781007956,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007956,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007956,
+      "processing_end_time": 1781007971,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000"
+    ]
+  },
+  "doc-a83710e679a36bae4dc9d13ef1fef596": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\cos 2x = \\cos^2 x - \\sin^2 x\nИдентификатор: formula_31\n\nПеременные: x.\nЧисла: 2.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от 2\n  - cos и x стоят рядом в выражении\n  - cos возводится в степень 2\n  - sin...",
+    "content_length": 369,
+    "created_at": "2026-06-09T12:26:12.188235+00:00",
+    "updated_at": "2026-06-09T12:26:19.216308+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152612_09dd5ad9",
+    "content_hash": "a83710e679a36bae4dc9d13ef1fef596",
+    "metadata": {
+      "parsing_start_time": 1781007972,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007972,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007972,
+      "processing_end_time": 1781007979,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000"
+    ]
+  },
+  "doc-77e6c803852efe2c5d828dcee4d05d91": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\cos 2x = 2\\cos^2 x - 1\nИдентификатор: formula_32\n\nПеременные: x.\nЧисла: 2, 1.\nФункции: cos.\n\nМатематические отношения:\n  - cos является функцией от 2\n  - cos и x стоят рядом в выражении\n  - cos возводится в степень 2\n  - 2 вычитаетс...",
+    "content_length": 388,
+    "created_at": "2026-06-09T12:26:19.641309+00:00",
+    "updated_at": "2026-06-09T12:26:28.225484+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152619_24ee84f2",
+    "content_hash": "77e6c803852efe2c5d828dcee4d05d91",
+    "metadata": {
+      "parsing_start_time": 1781007979,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007979,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007979,
+      "processing_end_time": 1781007988,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000"
+    ]
+  },
+  "doc-b1de46266243c31cf0c96ded454f6a13": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\cos 2x = 1 - 2\\sin^2 x\nИдентификатор: formula_33\n\nПеременные: x.\nЧисла: 2, 1.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от 2\n  - cos и x стоят рядом в выражении\n  - sin возводится в степень 2\n  - 1 вычи...",
+    "content_length": 429,
+    "created_at": "2026-06-09T12:26:28.635611+00:00",
+    "updated_at": "2026-06-09T12:26:41.388246+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152628_f67dd3da",
+    "content_hash": "b1de46266243c31cf0c96ded454f6a13",
+    "metadata": {
+      "parsing_start_time": 1781007988,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781007988,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781007988,
+      "processing_end_time": 1781008001,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-b1de46266243c31cf0c96ded454f6a13-chunk-000"
+    ]
+  },
+  "doc-93a94f006c522d695912e86f3a1ab972": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\tan x = \\frac{\\sin x}{\\cos x}\nИдентификатор: formula_34\n\nПеременные: x.\nФункции: tan, sin, cos.\n\nМатематические отношения:\n  - tan является функцией от x\n  - sin является функцией от x\n  - cos является функцией от x\n  - sin делится ...",
+    "content_length": 363,
+    "created_at": "2026-06-09T12:26:41.783362+00:00",
+    "updated_at": "2026-06-09T12:26:57.113148+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152641_3b5c35ac",
+    "content_hash": "93a94f006c522d695912e86f3a1ab972",
+    "metadata": {
+      "parsing_start_time": 1781008001,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008001,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008001,
+      "processing_end_time": 1781008017,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-93a94f006c522d695912e86f3a1ab972-chunk-000"
+    ]
+  },
+  "doc-11de9f184a1af74ecd6088c319b89229": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): 1 + \\tan^2 x = \\frac{1}{\\cos^2 x}\nИдентификатор: formula_35\n\nПеременные: x.\nЧисла: 1, 2.\nФункции: tan, cos.\n\nМатематические отношения:\n  - tan возводится в степень 2\n  - 1 прибавляется к tan\n  - tan и x стоят рядом в выражении\n  - co...",
+    "content_length": 331,
+    "created_at": "2026-06-09T12:26:57.637586+00:00",
+    "updated_at": "2026-06-09T12:27:03.069112+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152657_b129bddc",
+    "content_hash": "11de9f184a1af74ecd6088c319b89229",
+    "metadata": {
+      "parsing_start_time": 1781008017,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008017,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008017,
+      "processing_end_time": 1781008023,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-11de9f184a1af74ecd6088c319b89229-chunk-000"
+    ]
+  },
+  "doc-94da1740dcc7e8d296b09b1290b5ec61": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\sin(\\alpha + \\beta) = \\sin\\alpha \\cos\\beta + \\cos\\alpha \\sin\\beta\nИдентификатор: formula_36\n\nПеременные: α, β.\nФункции: sin, cos.\n\nМатематические отношения:\n  - sin является функцией от α\n  - sin прибавляется к β\n  - cos является фу...",
+    "content_length": 388,
+    "created_at": "2026-06-09T12:27:03.426606+00:00",
+    "updated_at": "2026-06-09T12:27:04.889465+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152703_733e53e6",
+    "content_hash": "94da1740dcc7e8d296b09b1290b5ec61",
+    "metadata": {
+      "parsing_start_time": 1781008023,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008023,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008023,
+      "processing_end_time": 1781008024,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-94da1740dcc7e8d296b09b1290b5ec61-chunk-000"
+    ]
+  },
+  "doc-c8c9796bf85e75351a72d699f58d06a2": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\cos(\\alpha + \\beta) = \\cos\\alpha \\cos\\beta - \\sin\\alpha \\sin\\beta\nИдентификатор: formula_37\n\nПеременные: α, β.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от α\n  - cos прибавляется к β\n  - cos является фу...",
+    "content_length": 349,
+    "created_at": "2026-06-09T12:27:04.969694+00:00",
+    "updated_at": "2026-06-09T12:27:06.411032+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152704_504b4601",
+    "content_hash": "c8c9796bf85e75351a72d699f58d06a2",
+    "metadata": {
+      "parsing_start_time": 1781008024,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008024,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008024,
+      "processing_end_time": 1781008026,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-c8c9796bf85e75351a72d699f58d06a2-chunk-000"
+    ]
+  },
+  "doc-0c3cc366d264792a0e1c16b5d3be0262": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): c^2 = a^2 + b^2 - 2ab\\cos C\nИдентификатор: formula_38\n\nПеременные: c, a, b, C.\nЧисла: 2.\nФункции: cos.\n\nМатематические отношения:\n  - c возводится в степень 2\n  - a возводится в степень 2\n  - b возводится в степень 2\n  - cos является...",
+    "content_length": 509,
+    "created_at": "2026-06-09T12:27:06.511799+00:00",
+    "updated_at": "2026-06-09T12:27:20.616495+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152706_6c620fa1",
+    "content_hash": "0c3cc366d264792a0e1c16b5d3be0262",
+    "metadata": {
+      "parsing_start_time": 1781008026,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008026,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008026,
+      "processing_end_time": 1781008040,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000"
+    ]
+  },
+  "doc-23ec8458fb7fe841de5f228bb737b76f": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R\nИдентификатор: formula_39\n\nПеременные: a, A, b, B, c, C, R.\nЧисла: 2.\nФункции: sin.\n\nМатематические отношения:\n  - sin является функцией от A\n  - a делится на sin\n  - sin яв...",
+    "content_length": 759,
+    "created_at": "2026-06-09T12:27:21.144082+00:00",
+    "updated_at": "2026-06-09T12:27:42.259914+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152721_f7cea74e",
+    "content_hash": "23ec8458fb7fe841de5f228bb737b76f",
+    "metadata": {
+      "parsing_start_time": 1781008041,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008041,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008041,
+      "processing_end_time": 1781008062,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000"
+    ]
+  },
+  "doc-c5ba0dcacc2438267b920d857cb7d2c1": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): e^{i\\varphi} = \\cos\\varphi + i\\sin\\varphi\nИдентификатор: formula_40\n\nПеременные: e, i, φ.\nФункции: cos, sin.\n\nМатематические отношения:\n  - e возводится в степень i\n  - e и φ стоят рядом в выражении\n  - cos является функцией от φ\n  -...",
+    "content_length": 452,
+    "created_at": "2026-06-09T12:27:42.804616+00:00",
+    "updated_at": "2026-06-09T12:27:51.541937+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152742_76a9c76b",
+    "content_hash": "c5ba0dcacc2438267b920d857cb7d2c1",
+    "metadata": {
+      "parsing_start_time": 1781008062,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008062,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008062,
+      "processing_end_time": 1781008071,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000"
+    ]
+  },
+  "doc-f0395eac2737141afd769deb5c6140ea": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): |z| = \\sqrt{a^2 + b^2}\nИдентификатор: formula_41\n\nПеременные: z, a, b.\nЧисла: 2.\nОператоры: √ (Оператор квадратного корня).\n\nМатематические отношения:\n  - оператор √ применяется к a\n  - √ возводится в степень 2\n  - b возводится в сте...",
+    "content_length": 370,
+    "created_at": "2026-06-09T12:27:51.916560+00:00",
+    "updated_at": "2026-06-09T12:27:58.607728+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152751_abf33efe",
+    "content_hash": "f0395eac2737141afd769deb5c6140ea",
+    "metadata": {
+      "parsing_start_time": 1781008071,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008071,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008071,
+      "processing_end_time": 1781008078,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-f0395eac2737141afd769deb5c6140ea-chunk-000"
+    ]
+  },
+  "doc-8c091683f1ff28f8a1559ba1d6748e78": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (\\cos\\varphi + i\\sin\\varphi)^n = \\cos(n\\varphi) + i\\sin(n\\varphi)\nИдентификатор: formula_42\n\nПеременные: φ, i, n.\nФункции: cos, sin.\n\nМатематические отношения:\n  - cos является функцией от φ\n  - sin является функцией от φ\n  - sin воз...",
+    "content_length": 487,
+    "created_at": "2026-06-09T12:27:58.989674+00:00",
+    "updated_at": "2026-06-09T12:28:00.522118+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152758_00fe69a7",
+    "content_hash": "8c091683f1ff28f8a1559ba1d6748e78",
+    "metadata": {
+      "parsing_start_time": 1781008078,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008078,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008078,
+      "processing_end_time": 1781008080,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-8c091683f1ff28f8a1559ba1d6748e78-chunk-000"
+    ]
+  },
+  "doc-f205ae5d73886267042a8e0600bd6703": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): S_n = a_1 \\cdot \\frac{1 - q^n}{1 - q}\nИдентификатор: formula_43\n\nПеременные: S, n, a, q.\nЧисла: 1.\n\nМатематические отношения:\n  - S имеет нижний индекс n\n  - a имеет нижний индекс 1\n  - q возводится в степень n\n  - a умножается на 1\n...",
+    "content_length": 396,
+    "created_at": "2026-06-09T12:28:00.629048+00:00",
+    "updated_at": "2026-06-09T12:28:09.700382+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152800_a64ca2b5",
+    "content_hash": "f205ae5d73886267042a8e0600bd6703",
+    "metadata": {
+      "parsing_start_time": 1781008080,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008080,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008080,
+      "processing_end_time": 1781008089,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-f205ae5d73886267042a8e0600bd6703-chunk-000"
+    ]
+  },
+  "doc-c2dfa7e1e54f19c7c0d453b57e49d569": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): S = \\frac{a_1}{1 - q}\nИдентификатор: formula_44\n\nПеременные: S, a, q.\nЧисла: 1.\n\nМатематические отношения:\n  - a имеет нижний индекс 1\n  - a делится на 1\n  - 1 вычитается из q\n  - S равно a\n\nУтверждение: S равно a (формула formula_44...",
+    "content_length": 282,
+    "created_at": "2026-06-09T12:28:09.903557+00:00",
+    "updated_at": "2026-06-09T12:28:16.457618+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152809_00a904c0",
+    "content_hash": "c2dfa7e1e54f19c7c0d453b57e49d569",
+    "metadata": {
+      "parsing_start_time": 1781008089,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008089,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008089,
+      "processing_end_time": 1781008096,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000"
+    ]
+  },
+  "doc-5282baba97f5840152810a0ed807df86": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): a_n = a_1 + (n-1)d\nИдентификатор: formula_45\n\nПеременные: a, n, d.\nЧисла: 1.\n\nМатематические отношения:\n  - a имеет нижний индекс n\n  - a имеет нижний индекс 1\n  - a прибавляется к n\n  - n вычитается из 1\n  - 1 и d стоят рядом в выра...",
+    "content_length": 255,
+    "created_at": "2026-06-09T12:28:16.836198+00:00",
+    "updated_at": "2026-06-09T12:28:18.268608+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152816_ba379442",
+    "content_hash": "5282baba97f5840152810a0ed807df86",
+    "metadata": {
+      "parsing_start_time": 1781008096,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008096,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008096,
+      "processing_end_time": 1781008098,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-5282baba97f5840152810a0ed807df86-chunk-000"
+    ]
+  },
+  "doc-6cf4854854a42f4041e73060e773058f": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): S_n = \\frac{(a_1 + a_n) \\cdot n}{2}\nИдентификатор: formula_46\n\nПеременные: S, n, a.\nЧисла: 1, 2.\n\nМатематические отношения:\n  - S имеет нижний индекс n\n  - a имеет нижний индекс 1\n  - a имеет нижний индекс n\n  - a прибавляется к n\n  ...",
+    "content_length": 373,
+    "created_at": "2026-06-09T12:28:18.381395+00:00",
+    "updated_at": "2026-06-09T12:28:29.684158+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152818_b8f94cb9",
+    "content_hash": "6cf4854854a42f4041e73060e773058f",
+    "metadata": {
+      "parsing_start_time": 1781008098,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008098,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008098,
+      "processing_end_time": 1781008109,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-6cf4854854a42f4041e73060e773058f-chunk-000"
+    ]
+  },
+  "doc-4b57750366502afaf6ed0544066b1957": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): (a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k\nИдентификатор: formula_47\n\nПеременные: a, b, n, k.\nЧисла: 0.\nОператоры: Σ (Оператор суммирования).\n\nМатематические отношения:\n  - b возводится в степень n\n  - a прибавляется к b\n  -...",
+    "content_length": 768,
+    "created_at": "2026-06-09T12:28:30.090326+00:00",
+    "updated_at": "2026-06-09T12:28:38.096909+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152830_1e98f6a1",
+    "content_hash": "4b57750366502afaf6ed0544066b1957",
+    "metadata": {
+      "parsing_start_time": 1781008110,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008110,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008110,
+      "processing_end_time": 1781008118,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-4b57750366502afaf6ed0544066b1957-chunk-000"
+    ]
+  },
+  "doc-400da6c18d3d0076396c2f96874fe29b": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\binom{n}{k} = \\frac{n!}{k!(n-k)!}\nИдентификатор: formula_48\n\nПеременные: n, k.\n\nМатематические отношения:\n  - n и k стоят рядом в выражении\n  - n делится на k\n  - k вычитается из n",
+    "content_length": 198,
+    "created_at": "2026-06-09T12:28:38.432204+00:00",
+    "updated_at": "2026-06-09T12:28:39.795070+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152838_794b87ac",
+    "content_hash": "400da6c18d3d0076396c2f96874fe29b",
+    "metadata": {
+      "parsing_start_time": 1781008118,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008118,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008118,
+      "processing_end_time": 1781008119,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-400da6c18d3d0076396c2f96874fe29b-chunk-000"
+    ]
+  },
+  "doc-5eab720b58413b7fad3f9f5faf4c2638": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\log_a(xy) = \\log_a x + \\log_a y\nИдентификатор: formula_49\n\nПеременные: a, x, y.\nФункции: log.\n\nМатематические отношения:\n  - log имеет нижний индекс a\n  - log и x стоят рядом в выражении\n  - x и y стоят рядом в выражении\n  - log при...",
+    "content_length": 335,
+    "created_at": "2026-06-09T12:28:40.046836+00:00",
+    "updated_at": "2026-06-09T12:28:41.505127+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152840_1e246f07",
+    "content_hash": "5eab720b58413b7fad3f9f5faf4c2638",
+    "metadata": {
+      "parsing_start_time": 1781008120,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008120,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008120,
+      "processing_end_time": 1781008121,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-5eab720b58413b7fad3f9f5faf4c2638-chunk-000"
+    ]
+  },
+  "doc-3b1ab6c6a39b3b3db11cf428b628aba1": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\log_a(x^n) = n \\log_a x\nИдентификатор: formula_50\n\nПеременные: a, x, n.\nФункции: log.\n\nМатематические отношения:\n  - log имеет нижний индекс a\n  - x возводится в степень n\n  - log и x стоят рядом в выражении\n  - n и log стоят рядом ...",
+    "content_length": 358,
+    "created_at": "2026-06-09T12:28:41.623537+00:00",
+    "updated_at": "2026-06-09T12:28:43.109560+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152841_2103345f",
+    "content_hash": "3b1ab6c6a39b3b3db11cf428b628aba1",
+    "metadata": {
+      "parsing_start_time": 1781008121,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008121,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008121,
+      "processing_end_time": 1781008123,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-3b1ab6c6a39b3b3db11cf428b628aba1-chunk-000"
+    ]
+  },
+  "doc-b1e4448e5c567fada0f6d4ba573209ab": {
+    "status": "processed",
+    "content_summary": "Формула (LaTeX): \\log_a x = \\frac{\\ln x}{\\ln a}\nИдентификатор: formula_51\n\nПеременные: a, x.\nФункции: log, ln.\n\nМатематические отношения:\n  - log имеет нижний индекс a\n  - log и x стоят рядом в выражении\n  - ln является функцией от x\n  - ln является ...",
+    "content_length": 368,
+    "created_at": "2026-06-09T12:28:43.215111+00:00",
+    "updated_at": "2026-06-09T12:28:54.001254+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260609_152843_98138f80",
+    "content_hash": "b1e4448e5c567fada0f6d4ba573209ab",
+    "metadata": {
+      "parsing_start_time": 1781008123,
+      "parse_stage_skipped": true,
+      "analyzing_start_time": 1781008123,
+      "analyzing_stage_skipped": true,
+      "processing_start_time": 1781008123,
+      "processing_end_time": 1781008134,
+      "parse_format": "raw",
+      "parse_engine": "legacy",
+      "chunking_method": "legacy_chunking_func",
+      "chunk_opts": "size=512, split_only=False, overlap=50"
+    },
+    "chunks_count": 1,
+    "chunks_list": [
+      "doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000"
+    ]
+  }
+}

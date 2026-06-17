@@ -1,0 +1,2619 @@
+{
+  "nodes": [
+    {
+      "id": "a_1",
+      "label": "a",
+      "node_type": "variable",
+      "latex": "a",
+      "description": "Переменная a",
+      "formula_id": "formula_51"
+    },
+    {
+      "id": "x_2",
+      "label": "x",
+      "node_type": "variable",
+      "latex": "x",
+      "description": "Переменная x",
+      "formula_id": "formula_51"
+    },
+    {
+      "id": "2_3",
+      "label": "2",
+      "node_type": "number",
+      "latex": "2",
+      "description": "Число 2",
+      "formula_id": "formula_46"
+    },
+    {
+      "id": "b_4",
+      "label": "b",
+      "node_type": "variable",
+      "latex": "b",
+      "description": "Переменная b",
+      "formula_id": "formula_47"
+    },
+    {
+      "id": "c_5",
+      "label": "c",
+      "node_type": "variable",
+      "latex": "c",
+      "description": "Переменная c",
+      "formula_id": "formula_39"
+    },
+    {
+      "id": "0_6",
+      "label": "0",
+      "node_type": "number",
+      "latex": "0",
+      "description": "Число 0",
+      "formula_id": "formula_47"
+    },
+    {
+      "id": "D_7",
+      "label": "D",
+      "node_type": "variable",
+      "latex": "D",
+      "description": "Переменная D",
+      "formula_id": "formula_2"
+    },
+    {
+      "id": "4_8",
+      "label": "4",
+      "node_type": "number",
+      "latex": "4",
+      "description": "Число 4",
+      "formula_id": "formula_13"
+    },
+    {
+      "id": "__9",
+      "label": "√",
+      "node_type": "operator",
+      "latex": "\\sqrt",
+      "description": "Оператор квадратного корня",
+      "formula_id": "formula_41"
+    },
+    {
+      "id": "1_10",
+      "label": "1",
+      "node_type": "number",
+      "latex": "1",
+      "description": "Число 1",
+      "formula_id": "formula_46"
+    },
+    {
+      "id": "S_11",
+      "label": "S",
+      "node_type": "variable",
+      "latex": "S",
+      "description": "Переменная S",
+      "formula_id": "formula_46"
+    },
+    {
+      "id": "h_12",
+      "label": "h",
+      "node_type": "variable",
+      "latex": "h",
+      "description": "Переменная h",
+      "formula_id": "formula_7"
+    },
+    {
+      "id": "__13",
+      "label": "π",
+      "node_type": "variable",
+      "latex": "\\pi",
+      "description": "Переменная π",
+      "formula_id": "formula_13"
+    },
+    {
+      "id": "r_14",
+      "label": "r",
+      "node_type": "variable",
+      "latex": "r",
+      "description": "Переменная r",
+      "formula_id": "formula_13"
+    },
+    {
+      "id": "L_15",
+      "label": "L",
+      "node_type": "variable",
+      "latex": "L",
+      "description": "Переменная L",
+      "formula_id": "formula_10"
+    },
+    {
+      "id": "d_16",
+      "label": "d",
+      "node_type": "variable",
+      "latex": "d",
+      "description": "Переменная d",
+      "formula_id": "formula_45"
+    },
+    {
+      "id": "V_17",
+      "label": "V",
+      "node_type": "variable",
+      "latex": "V",
+      "description": "Переменная V",
+      "formula_id": "formula_12"
+    },
+    {
+      "id": "3_18",
+      "label": "3",
+      "node_type": "number",
+      "latex": "3",
+      "description": "Число 3",
+      "formula_id": "formula_12"
+    },
+    {
+      "id": "n_19",
+      "label": "n",
+      "node_type": "variable",
+      "latex": "n",
+      "description": "Переменная n",
+      "formula_id": "formula_50"
+    },
+    {
+      "id": "f_20",
+      "label": "f",
+      "node_type": "variable",
+      "latex": "f",
+      "description": "Переменная f",
+      "formula_id": "formula_16"
+    },
+    {
+      "id": "g_21",
+      "label": "g",
+      "node_type": "variable",
+      "latex": "g",
+      "description": "Переменная g",
+      "formula_id": "formula_16"
+    },
+    {
+      "id": "f_22",
+      "label": "f",
+      "node_type": "function",
+      "latex": "f",
+      "description": "Функция f",
+      "formula_id": "formula_24"
+    },
+    {
+      "id": "g_23",
+      "label": "g",
+      "node_type": "function",
+      "latex": "g",
+      "description": "Функция g",
+      "formula_id": "formula_17"
+    },
+    {
+      "id": "sin_24",
+      "label": "sin",
+      "node_type": "function",
+      "latex": "\\sin",
+      "description": "Функция sin",
+      "formula_id": "formula_42"
+    },
+    {
+      "id": "cos_25",
+      "label": "cos",
+      "node_type": "function",
+      "latex": "\\cos",
+      "description": "Функция cos",
+      "formula_id": "formula_42"
+    },
+    {
+      "id": "e_26",
+      "label": "e",
+      "node_type": "variable",
+      "latex": "e",
+      "description": "Переменная e",
+      "formula_id": "formula_40"
+    },
+    {
+      "id": "ln_27",
+      "label": "ln",
+      "node_type": "function",
+      "latex": "\\ln",
+      "description": "Функция ln",
+      "formula_id": "formula_51"
+    },
+    {
+      "id": "lim_28",
+      "label": "lim",
+      "node_type": "operator",
+      "latex": "\\lim",
+      "description": "Оператор предела",
+      "formula_id": "formula_23"
+    },
+    {
+      "id": "__29",
+      "label": "∞",
+      "node_type": "constant",
+      "latex": "\\infty",
+      "description": "Константа ∞",
+      "formula_id": "formula_22"
+    },
+    {
+      "id": "__30",
+      "label": "∫",
+      "node_type": "operator",
+      "latex": "\\int",
+      "description": "Оператор интегрирования",
+      "formula_id": "formula_28"
+    },
+    {
+      "id": "F_31",
+      "label": "F",
+      "node_type": "function",
+      "latex": "F",
+      "description": "Функция F",
+      "formula_id": "formula_24"
+    },
+    {
+      "id": "C_32",
+      "label": "C",
+      "node_type": "variable",
+      "latex": "C",
+      "description": "Переменная C",
+      "formula_id": "formula_39"
+    },
+    {
+      "id": "tan_33",
+      "label": "tan",
+      "node_type": "function",
+      "latex": "\\tan",
+      "description": "Функция tan",
+      "formula_id": "formula_35"
+    },
+    {
+      "id": "__34",
+      "label": "α",
+      "node_type": "variable",
+      "latex": "\\alpha",
+      "description": "Переменная α",
+      "formula_id": "formula_37"
+    },
+    {
+      "id": "__35",
+      "label": "β",
+      "node_type": "variable",
+      "latex": "\\beta",
+      "description": "Переменная β",
+      "formula_id": "formula_37"
+    },
+    {
+      "id": "A_36",
+      "label": "A",
+      "node_type": "variable",
+      "latex": "A",
+      "description": "Переменная A",
+      "formula_id": "formula_39"
+    },
+    {
+      "id": "B_37",
+      "label": "B",
+      "node_type": "variable",
+      "latex": "B",
+      "description": "Переменная B",
+      "formula_id": "formula_39"
+    },
+    {
+      "id": "R_38",
+      "label": "R",
+      "node_type": "variable",
+      "latex": "R",
+      "description": "Переменная R",
+      "formula_id": "formula_39"
+    },
+    {
+      "id": "i_39",
+      "label": "i",
+      "node_type": "variable",
+      "latex": "i",
+      "description": "Переменная i",
+      "formula_id": "formula_42"
+    },
+    {
+      "id": "__40",
+      "label": "φ",
+      "node_type": "variable",
+      "latex": "\\varphi",
+      "description": "Переменная φ",
+      "formula_id": "formula_42"
+    },
+    {
+      "id": "z_41",
+      "label": "z",
+      "node_type": "variable",
+      "latex": "z",
+      "description": "Переменная z",
+      "formula_id": "formula_41"
+    },
+    {
+      "id": "q_42",
+      "label": "q",
+      "node_type": "variable",
+      "latex": "q",
+      "description": "Переменная q",
+      "formula_id": "formula_44"
+    },
+    {
+      "id": "__43",
+      "label": "Σ",
+      "node_type": "operator",
+      "latex": "\\sum",
+      "description": "Оператор суммирования",
+      "formula_id": "formula_47"
+    },
+    {
+      "id": "k_44",
+      "label": "k",
+      "node_type": "variable",
+      "latex": "k",
+      "description": "Переменная k",
+      "formula_id": "formula_48"
+    },
+    {
+      "id": "log_45",
+      "label": "log",
+      "node_type": "function",
+      "latex": "\\log",
+      "description": "Функция log",
+      "formula_id": "formula_51"
+    },
+    {
+      "id": "y_46",
+      "label": "y",
+      "node_type": "variable",
+      "latex": "y",
+      "description": "Переменная y",
+      "formula_id": "formula_49"
+    }
+  ],
+  "edges": [
+    {
+      "source": "a_1",
+      "target": "x_2",
+      "operation": "addition",
+      "description": "a --[addition]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "a_1",
+      "target": "0_6",
+      "operation": "equals",
+      "description": "a --[equals]--> 0",
+      "weight": 2.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "a_1",
+      "target": "c_5",
+      "operation": "adjacent",
+      "description": "a --[adjacent]--> c",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "a_1",
+      "target": "c_5",
+      "operation": "equals",
+      "description": "a --[equals]--> c",
+      "weight": 2.0,
+      "formula_id": "formula_5"
+    },
+    {
+      "source": "a_1",
+      "target": "2_3",
+      "operation": "power",
+      "description": "a --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_5"
+    },
+    {
+      "source": "a_1",
+      "target": "2_3",
+      "operation": "power",
+      "description": "a --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "a_1",
+      "target": "b_4",
+      "operation": "addition",
+      "description": "a --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_5"
+    },
+    {
+      "source": "a_1",
+      "target": "b_4",
+      "operation": "addition",
+      "description": "a --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "a_1",
+      "target": "b_4",
+      "operation": "adjacent",
+      "description": "a --[adjacent]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "a_1",
+      "target": "b_4",
+      "operation": "equals",
+      "description": "a --[equals]--> b",
+      "weight": 2.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "a_1",
+      "target": "b_4",
+      "operation": "addition",
+      "description": "a --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "a_1",
+      "target": "h_12",
+      "operation": "adjacent",
+      "description": "a --[adjacent]--> h",
+      "weight": 1.0,
+      "formula_id": "formula_7"
+    },
+    {
+      "source": "a_1",
+      "target": "sin_24",
+      "operation": "division",
+      "description": "a --[division]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "a_1",
+      "target": "1_10",
+      "operation": "subscript",
+      "description": "a --[subscript]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "a_1",
+      "target": "1_10",
+      "operation": "multiplication",
+      "description": "a --[multiplication]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "a_1",
+      "target": "1_10",
+      "operation": "subscript",
+      "description": "a --[subscript]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_44"
+    },
+    {
+      "source": "a_1",
+      "target": "1_10",
+      "operation": "division",
+      "description": "a --[division]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_44"
+    },
+    {
+      "source": "a_1",
+      "target": "1_10",
+      "operation": "subscript",
+      "description": "a --[subscript]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_45"
+    },
+    {
+      "source": "a_1",
+      "target": "1_10",
+      "operation": "subscript",
+      "description": "a --[subscript]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_46"
+    },
+    {
+      "source": "a_1",
+      "target": "n_19",
+      "operation": "subscript",
+      "description": "a --[subscript]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_45"
+    },
+    {
+      "source": "a_1",
+      "target": "n_19",
+      "operation": "addition",
+      "description": "a --[addition]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_45"
+    },
+    {
+      "source": "a_1",
+      "target": "n_19",
+      "operation": "subscript",
+      "description": "a --[subscript]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_46"
+    },
+    {
+      "source": "a_1",
+      "target": "n_19",
+      "operation": "addition",
+      "description": "a --[addition]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_46"
+    },
+    {
+      "source": "a_1",
+      "target": "n_19",
+      "operation": "power",
+      "description": "a --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "a_1",
+      "target": "__43",
+      "operation": "equals",
+      "description": "a --[equals]--> Σ",
+      "weight": 2.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "a_1",
+      "target": "k_44",
+      "operation": "adjacent",
+      "description": "a --[adjacent]--> k",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "x_2",
+      "target": "2_3",
+      "operation": "power",
+      "description": "x --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_2",
+      "target": "2_3",
+      "operation": "subscript",
+      "description": "x --[subscript]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_3"
+    },
+    {
+      "source": "x_2",
+      "target": "2_3",
+      "operation": "subscript",
+      "description": "x --[subscript]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_4"
+    },
+    {
+      "source": "x_2",
+      "target": "b_4",
+      "operation": "addition",
+      "description": "x --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_2",
+      "target": "b_4",
+      "operation": "equals",
+      "description": "x --[equals]--> b",
+      "weight": 2.0,
+      "formula_id": "formula_3"
+    },
+    {
+      "source": "x_2",
+      "target": "c_5",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> c",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "x_2",
+      "target": "c_5",
+      "operation": "equals",
+      "description": "x --[equals]--> c",
+      "weight": 2.0,
+      "formula_id": "formula_4"
+    },
+    {
+      "source": "x_2",
+      "target": "__9",
+      "operation": "equals",
+      "description": "x --[equals]--> √",
+      "weight": 2.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "x_2",
+      "target": "1_10",
+      "operation": "subscript",
+      "description": "x --[subscript]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_3"
+    },
+    {
+      "source": "x_2",
+      "target": "1_10",
+      "operation": "subscript",
+      "description": "x --[subscript]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_4"
+    },
+    {
+      "source": "x_2",
+      "target": "1_10",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_14"
+    },
+    {
+      "source": "x_2",
+      "target": "1_10",
+      "operation": "addition",
+      "description": "x --[addition]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "x_2",
+      "target": "1_10",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_32"
+    },
+    {
+      "source": "x_2",
+      "target": "n_19",
+      "operation": "power",
+      "description": "x --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_14"
+    },
+    {
+      "source": "x_2",
+      "target": "n_19",
+      "operation": "equals",
+      "description": "x --[equals]--> n",
+      "weight": 2.0,
+      "formula_id": "formula_14"
+    },
+    {
+      "source": "x_2",
+      "target": "n_19",
+      "operation": "power",
+      "description": "x --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "x_2",
+      "target": "n_19",
+      "operation": "power",
+      "description": "x --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_50"
+    },
+    {
+      "source": "x_2",
+      "target": "d_16",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> d",
+      "weight": 1.0,
+      "formula_id": "formula_27"
+    },
+    {
+      "source": "x_2",
+      "target": "d_16",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> d",
+      "weight": 1.0,
+      "formula_id": "formula_28"
+    },
+    {
+      "source": "x_2",
+      "target": "cos_25",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_29"
+    },
+    {
+      "source": "x_2",
+      "target": "sin_24",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "x_2",
+      "target": "y_46",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> y",
+      "weight": 1.0,
+      "formula_id": "formula_49"
+    },
+    {
+      "source": "x_2",
+      "target": "log_45",
+      "operation": "adjacent",
+      "description": "x --[adjacent]--> log",
+      "weight": 1.0,
+      "formula_id": "formula_49"
+    },
+    {
+      "source": "2_3",
+      "target": "a_1",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "2_3",
+      "target": "a_1",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_7"
+    },
+    {
+      "source": "2_3",
+      "target": "a_1",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "2_3",
+      "target": "__13",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> π",
+      "weight": 1.0,
+      "formula_id": "formula_9"
+    },
+    {
+      "source": "2_3",
+      "target": "r_14",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> r",
+      "weight": 1.0,
+      "formula_id": "formula_11"
+    },
+    {
+      "source": "2_3",
+      "target": "sin_24",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "2_3",
+      "target": "sin_24",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "2_3",
+      "target": "cos_25",
+      "operation": "subtraction",
+      "description": "2 --[subtraction]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_32"
+    },
+    {
+      "source": "2_3",
+      "target": "R_38",
+      "operation": "adjacent",
+      "description": "2 --[adjacent]--> R",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "b_4",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "b --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_0"
+    },
+    {
+      "source": "b_4",
+      "target": "2_3",
+      "operation": "power",
+      "description": "b --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "b_4",
+      "target": "2_3",
+      "operation": "power",
+      "description": "b --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_5"
+    },
+    {
+      "source": "b_4",
+      "target": "2_3",
+      "operation": "power",
+      "description": "b --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_6"
+    },
+    {
+      "source": "b_4",
+      "target": "2_3",
+      "operation": "power",
+      "description": "b --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "b_4",
+      "target": "2_3",
+      "operation": "subtraction",
+      "description": "b --[subtraction]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "b_4",
+      "target": "2_3",
+      "operation": "power",
+      "description": "b --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_41"
+    },
+    {
+      "source": "b_4",
+      "target": "4_8",
+      "operation": "subtraction",
+      "description": "b --[subtraction]--> 4",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "b_4",
+      "target": "__9",
+      "operation": "subtraction",
+      "description": "b --[subtraction]--> √",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "b_4",
+      "target": "a_1",
+      "operation": "subtraction",
+      "description": "b --[subtraction]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_3"
+    },
+    {
+      "source": "b_4",
+      "target": "cos_25",
+      "operation": "adjacent",
+      "description": "b --[adjacent]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "b_4",
+      "target": "sin_24",
+      "operation": "division",
+      "description": "b --[division]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "b_4",
+      "target": "c_5",
+      "operation": "equals",
+      "description": "b --[equals]--> c",
+      "weight": 2.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "b_4",
+      "target": "n_19",
+      "operation": "power",
+      "description": "b --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "b_4",
+      "target": "k_44",
+      "operation": "power",
+      "description": "b --[power]--> k",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "c_5",
+      "target": "a_1",
+      "operation": "division",
+      "description": "c --[division]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_4"
+    },
+    {
+      "source": "c_5",
+      "target": "a_1",
+      "operation": "equals",
+      "description": "c --[equals]--> a",
+      "weight": 2.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "c_5",
+      "target": "2_3",
+      "operation": "power",
+      "description": "c --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_5"
+    },
+    {
+      "source": "c_5",
+      "target": "2_3",
+      "operation": "power",
+      "description": "c --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "c_5",
+      "target": "2_3",
+      "operation": "equals",
+      "description": "c --[equals]--> 2",
+      "weight": 2.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "c_5",
+      "target": "__9",
+      "operation": "equals",
+      "description": "c --[equals]--> √",
+      "weight": 2.0,
+      "formula_id": "formula_6"
+    },
+    {
+      "source": "c_5",
+      "target": "sin_24",
+      "operation": "division",
+      "description": "c --[division]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "0_6",
+      "target": "sin_24",
+      "operation": "division",
+      "description": "0 --[division]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_23"
+    },
+    {
+      "source": "0_6",
+      "target": "1_10",
+      "operation": "equals",
+      "description": "0 --[equals]--> 1",
+      "weight": 2.0,
+      "formula_id": "formula_23"
+    },
+    {
+      "source": "0_6",
+      "target": "n_19",
+      "operation": "power",
+      "description": "0 --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "0_6",
+      "target": "n_19",
+      "operation": "subtraction",
+      "description": "0 --[subtraction]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "D_7",
+      "target": "b_4",
+      "operation": "equals",
+      "description": "D --[equals]--> b",
+      "weight": 2.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "4_8",
+      "target": "a_1",
+      "operation": "adjacent",
+      "description": "4 --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_1"
+    },
+    {
+      "source": "4_8",
+      "target": "3_18",
+      "operation": "division",
+      "description": "4 --[division]--> 3",
+      "weight": 1.0,
+      "formula_id": "formula_12"
+    },
+    {
+      "source": "4_8",
+      "target": "__13",
+      "operation": "adjacent",
+      "description": "4 --[adjacent]--> π",
+      "weight": 1.0,
+      "formula_id": "formula_13"
+    },
+    {
+      "source": "__9",
+      "target": "D_7",
+      "operation": "applied_to",
+      "description": "√ --[applied_to]--> D",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "__9",
+      "target": "2_3",
+      "operation": "division",
+      "description": "√ --[division]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_2"
+    },
+    {
+      "source": "__9",
+      "target": "2_3",
+      "operation": "power",
+      "description": "√ --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_6"
+    },
+    {
+      "source": "__9",
+      "target": "2_3",
+      "operation": "power",
+      "description": "√ --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_41"
+    },
+    {
+      "source": "__9",
+      "target": "a_1",
+      "operation": "applied_to",
+      "description": "√ --[applied_to]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_6"
+    },
+    {
+      "source": "__9",
+      "target": "a_1",
+      "operation": "applied_to",
+      "description": "√ --[applied_to]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_41"
+    },
+    {
+      "source": "__9",
+      "target": "b_4",
+      "operation": "addition",
+      "description": "√ --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_6"
+    },
+    {
+      "source": "__9",
+      "target": "b_4",
+      "operation": "addition",
+      "description": "√ --[addition]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_41"
+    },
+    {
+      "source": "1_10",
+      "target": "2_3",
+      "operation": "division",
+      "description": "1 --[division]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_7"
+    },
+    {
+      "source": "1_10",
+      "target": "2_3",
+      "operation": "subtraction",
+      "description": "1 --[subtraction]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "1_10",
+      "target": "x_2",
+      "operation": "division",
+      "description": "1 --[division]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_21"
+    },
+    {
+      "source": "1_10",
+      "target": "n_19",
+      "operation": "division",
+      "description": "1 --[division]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_22"
+    },
+    {
+      "source": "1_10",
+      "target": "n_19",
+      "operation": "division",
+      "description": "1 --[division]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "1_10",
+      "target": "C_32",
+      "operation": "addition",
+      "description": "1 --[addition]--> C",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "1_10",
+      "target": "tan_33",
+      "operation": "addition",
+      "description": "1 --[addition]--> tan",
+      "weight": 1.0,
+      "formula_id": "formula_35"
+    },
+    {
+      "source": "1_10",
+      "target": "cos_25",
+      "operation": "division",
+      "description": "1 --[division]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_35"
+    },
+    {
+      "source": "1_10",
+      "target": "q_42",
+      "operation": "subtraction",
+      "description": "1 --[subtraction]--> q",
+      "weight": 1.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "1_10",
+      "target": "q_42",
+      "operation": "subtraction",
+      "description": "1 --[subtraction]--> q",
+      "weight": 1.0,
+      "formula_id": "formula_44"
+    },
+    {
+      "source": "1_10",
+      "target": "d_16",
+      "operation": "adjacent",
+      "description": "1 --[adjacent]--> d",
+      "weight": 1.0,
+      "formula_id": "formula_45"
+    },
+    {
+      "source": "S_11",
+      "target": "1_10",
+      "operation": "equals",
+      "description": "S --[equals]--> 1",
+      "weight": 2.0,
+      "formula_id": "formula_7"
+    },
+    {
+      "source": "S_11",
+      "target": "__13",
+      "operation": "equals",
+      "description": "S --[equals]--> π",
+      "weight": 2.0,
+      "formula_id": "formula_8"
+    },
+    {
+      "source": "S_11",
+      "target": "4_8",
+      "operation": "equals",
+      "description": "S --[equals]--> 4",
+      "weight": 2.0,
+      "formula_id": "formula_13"
+    },
+    {
+      "source": "S_11",
+      "target": "n_19",
+      "operation": "subscript",
+      "description": "S --[subscript]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "S_11",
+      "target": "n_19",
+      "operation": "subscript",
+      "description": "S --[subscript]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_46"
+    },
+    {
+      "source": "S_11",
+      "target": "a_1",
+      "operation": "equals",
+      "description": "S --[equals]--> a",
+      "weight": 2.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "S_11",
+      "target": "a_1",
+      "operation": "equals",
+      "description": "S --[equals]--> a",
+      "weight": 2.0,
+      "formula_id": "formula_44"
+    },
+    {
+      "source": "S_11",
+      "target": "a_1",
+      "operation": "equals",
+      "description": "S --[equals]--> a",
+      "weight": 2.0,
+      "formula_id": "formula_46"
+    },
+    {
+      "source": "__13",
+      "target": "r_14",
+      "operation": "adjacent",
+      "description": "π --[adjacent]--> r",
+      "weight": 1.0,
+      "formula_id": "formula_8"
+    },
+    {
+      "source": "__13",
+      "target": "r_14",
+      "operation": "adjacent",
+      "description": "π --[adjacent]--> r",
+      "weight": 1.0,
+      "formula_id": "formula_9"
+    },
+    {
+      "source": "__13",
+      "target": "r_14",
+      "operation": "adjacent",
+      "description": "π --[adjacent]--> r",
+      "weight": 1.0,
+      "formula_id": "formula_12"
+    },
+    {
+      "source": "__13",
+      "target": "r_14",
+      "operation": "adjacent",
+      "description": "π --[adjacent]--> r",
+      "weight": 1.0,
+      "formula_id": "formula_13"
+    },
+    {
+      "source": "__13",
+      "target": "d_16",
+      "operation": "adjacent",
+      "description": "π --[adjacent]--> d",
+      "weight": 1.0,
+      "formula_id": "formula_10"
+    },
+    {
+      "source": "r_14",
+      "target": "2_3",
+      "operation": "power",
+      "description": "r --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_8"
+    },
+    {
+      "source": "r_14",
+      "target": "2_3",
+      "operation": "power",
+      "description": "r --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_13"
+    },
+    {
+      "source": "r_14",
+      "target": "3_18",
+      "operation": "power",
+      "description": "r --[power]--> 3",
+      "weight": 1.0,
+      "formula_id": "formula_12"
+    },
+    {
+      "source": "L_15",
+      "target": "2_3",
+      "operation": "equals",
+      "description": "L --[equals]--> 2",
+      "weight": 2.0,
+      "formula_id": "formula_9"
+    },
+    {
+      "source": "L_15",
+      "target": "__13",
+      "operation": "equals",
+      "description": "L --[equals]--> π",
+      "weight": 2.0,
+      "formula_id": "formula_10"
+    },
+    {
+      "source": "d_16",
+      "target": "2_3",
+      "operation": "equals",
+      "description": "d --[equals]--> 2",
+      "weight": 2.0,
+      "formula_id": "formula_11"
+    },
+    {
+      "source": "d_16",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "d --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "d_16",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "d --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "d_16",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "d --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_26"
+    },
+    {
+      "source": "d_16",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "d --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_27"
+    },
+    {
+      "source": "d_16",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "d --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_28"
+    },
+    {
+      "source": "V_17",
+      "target": "4_8",
+      "operation": "equals",
+      "description": "V --[equals]--> 4",
+      "weight": 2.0,
+      "formula_id": "formula_12"
+    },
+    {
+      "source": "3_18",
+      "target": "__13",
+      "operation": "adjacent",
+      "description": "3 --[adjacent]--> π",
+      "weight": 1.0,
+      "formula_id": "formula_12"
+    },
+    {
+      "source": "n_19",
+      "target": "x_2",
+      "operation": "subtraction",
+      "description": "n --[subtraction]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_14"
+    },
+    {
+      "source": "n_19",
+      "target": "1_10",
+      "operation": "addition",
+      "description": "n --[addition]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "n_19",
+      "target": "1_10",
+      "operation": "subtraction",
+      "description": "n --[subtraction]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_45"
+    },
+    {
+      "source": "n_19",
+      "target": "2_3",
+      "operation": "multiplication",
+      "description": "n --[multiplication]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_46"
+    },
+    {
+      "source": "n_19",
+      "target": "k_44",
+      "operation": "adjacent",
+      "description": "n --[adjacent]--> k",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "n_19",
+      "target": "k_44",
+      "operation": "adjacent",
+      "description": "n --[adjacent]--> k",
+      "weight": 1.0,
+      "formula_id": "formula_48"
+    },
+    {
+      "source": "n_19",
+      "target": "k_44",
+      "operation": "division",
+      "description": "n --[division]--> k",
+      "weight": 1.0,
+      "formula_id": "formula_48"
+    },
+    {
+      "source": "n_19",
+      "target": "log_45",
+      "operation": "adjacent",
+      "description": "n --[adjacent]--> log",
+      "weight": 1.0,
+      "formula_id": "formula_50"
+    },
+    {
+      "source": "f_20",
+      "target": "g_21",
+      "operation": "multiplication",
+      "description": "f --[multiplication]--> g",
+      "weight": 1.0,
+      "formula_id": "formula_15"
+    },
+    {
+      "source": "f_20",
+      "target": "g_21",
+      "operation": "division",
+      "description": "f --[division]--> g",
+      "weight": 1.0,
+      "formula_id": "formula_16"
+    },
+    {
+      "source": "f_20",
+      "target": "f_22",
+      "operation": "equals",
+      "description": "f --[equals]--> f",
+      "weight": 2.0,
+      "formula_id": "formula_16"
+    },
+    {
+      "source": "g_21",
+      "target": "f_20",
+      "operation": "addition",
+      "description": "g --[addition]--> f",
+      "weight": 1.0,
+      "formula_id": "formula_15"
+    },
+    {
+      "source": "g_21",
+      "target": "2_3",
+      "operation": "power",
+      "description": "g --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_16"
+    },
+    {
+      "source": "f_22",
+      "target": "g_21",
+      "operation": "function_of",
+      "description": "f --[function_of]--> g",
+      "weight": 1.0,
+      "formula_id": "formula_16"
+    },
+    {
+      "source": "f_22",
+      "target": "g_21",
+      "operation": "subtraction",
+      "description": "f --[subtraction]--> g",
+      "weight": 1.0,
+      "formula_id": "formula_16"
+    },
+    {
+      "source": "f_22",
+      "target": "g_23",
+      "operation": "adjacent",
+      "description": "f --[adjacent]--> g",
+      "weight": 1.0,
+      "formula_id": "formula_17"
+    },
+    {
+      "source": "f_22",
+      "target": "g_23",
+      "operation": "multiplication",
+      "description": "f --[multiplication]--> g",
+      "weight": 1.0,
+      "formula_id": "formula_17"
+    },
+    {
+      "source": "f_22",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "f --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "f_22",
+      "target": "d_16",
+      "operation": "adjacent",
+      "description": "f --[adjacent]--> d",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "g_23",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "g --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_17"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_18"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_19"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_23"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "sin --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_23"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_28"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "addition",
+      "description": "sin --[addition]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_29"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "sin --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "sin --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "sin --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "sin_24",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_34"
+    },
+    {
+      "source": "sin_24",
+      "target": "cos_25",
+      "operation": "equals",
+      "description": "sin --[equals]--> cos",
+      "weight": 2.0,
+      "formula_id": "formula_18"
+    },
+    {
+      "source": "sin_24",
+      "target": "cos_25",
+      "operation": "adjacent",
+      "description": "sin --[adjacent]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "sin_24",
+      "target": "cos_25",
+      "operation": "division",
+      "description": "sin --[division]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_34"
+    },
+    {
+      "source": "sin_24",
+      "target": "cos_25",
+      "operation": "addition",
+      "description": "sin --[addition]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "sin_24",
+      "target": "C_32",
+      "operation": "addition",
+      "description": "sin --[addition]--> C",
+      "weight": 1.0,
+      "formula_id": "formula_28"
+    },
+    {
+      "source": "sin_24",
+      "target": "C_32",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> C",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "sin_24",
+      "target": "2_3",
+      "operation": "power",
+      "description": "sin --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_29"
+    },
+    {
+      "source": "sin_24",
+      "target": "2_3",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "sin_24",
+      "target": "2_3",
+      "operation": "equals",
+      "description": "sin --[equals]--> 2",
+      "weight": 2.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "sin_24",
+      "target": "2_3",
+      "operation": "power",
+      "description": "sin --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "sin_24",
+      "target": "2_3",
+      "operation": "power",
+      "description": "sin --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "sin_24",
+      "target": "1_10",
+      "operation": "equals",
+      "description": "sin --[equals]--> 1",
+      "weight": 2.0,
+      "formula_id": "formula_29"
+    },
+    {
+      "source": "sin_24",
+      "target": "__34",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> α",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "sin_24",
+      "target": "__34",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> α",
+      "weight": 1.0,
+      "formula_id": "formula_37"
+    },
+    {
+      "source": "sin_24",
+      "target": "__35",
+      "operation": "addition",
+      "description": "sin --[addition]--> β",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "sin_24",
+      "target": "__35",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> β",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "sin_24",
+      "target": "__35",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> β",
+      "weight": 1.0,
+      "formula_id": "formula_37"
+    },
+    {
+      "source": "sin_24",
+      "target": "A_36",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> A",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "sin_24",
+      "target": "B_37",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> B",
+      "weight": 1.0,
+      "formula_id": "formula_39"
+    },
+    {
+      "source": "sin_24",
+      "target": "__40",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "sin_24",
+      "target": "__40",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "sin_24",
+      "target": "__40",
+      "operation": "adjacent",
+      "description": "sin --[adjacent]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "sin_24",
+      "target": "n_19",
+      "operation": "power",
+      "description": "sin --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "sin_24",
+      "target": "n_19",
+      "operation": "function_of",
+      "description": "sin --[function_of]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_18"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_19"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_27"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "cos --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_29"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_30"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "cos --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "subtraction",
+      "description": "cos --[subtraction]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "cos --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_32"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "cos --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_34"
+    },
+    {
+      "source": "cos_25",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "cos --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_35"
+    },
+    {
+      "source": "cos_25",
+      "target": "sin_24",
+      "operation": "equals",
+      "description": "cos --[equals]--> sin",
+      "weight": 2.0,
+      "formula_id": "formula_19"
+    },
+    {
+      "source": "cos_25",
+      "target": "sin_24",
+      "operation": "adjacent",
+      "description": "cos --[adjacent]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "cos_25",
+      "target": "sin_24",
+      "operation": "subtraction",
+      "description": "cos --[subtraction]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_37"
+    },
+    {
+      "source": "cos_25",
+      "target": "C_32",
+      "operation": "subtraction",
+      "description": "cos --[subtraction]--> C",
+      "weight": 1.0,
+      "formula_id": "formula_27"
+    },
+    {
+      "source": "cos_25",
+      "target": "C_32",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> C",
+      "weight": 1.0,
+      "formula_id": "formula_38"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "power",
+      "description": "cos --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_29"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "power",
+      "description": "cos --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_31"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_32"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "power",
+      "description": "cos --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_32"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "equals",
+      "description": "cos --[equals]--> 2",
+      "weight": 2.0,
+      "formula_id": "formula_32"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "cos_25",
+      "target": "2_3",
+      "operation": "power",
+      "description": "cos --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_35"
+    },
+    {
+      "source": "cos_25",
+      "target": "1_10",
+      "operation": "equals",
+      "description": "cos --[equals]--> 1",
+      "weight": 2.0,
+      "formula_id": "formula_33"
+    },
+    {
+      "source": "cos_25",
+      "target": "__35",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> β",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "cos_25",
+      "target": "__35",
+      "operation": "addition",
+      "description": "cos --[addition]--> β",
+      "weight": 1.0,
+      "formula_id": "formula_37"
+    },
+    {
+      "source": "cos_25",
+      "target": "__35",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> β",
+      "weight": 1.0,
+      "formula_id": "formula_37"
+    },
+    {
+      "source": "cos_25",
+      "target": "__34",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> α",
+      "weight": 1.0,
+      "formula_id": "formula_36"
+    },
+    {
+      "source": "cos_25",
+      "target": "__34",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> α",
+      "weight": 1.0,
+      "formula_id": "formula_37"
+    },
+    {
+      "source": "cos_25",
+      "target": "__40",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "cos_25",
+      "target": "__40",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "cos_25",
+      "target": "__40",
+      "operation": "addition",
+      "description": "cos --[addition]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "cos_25",
+      "target": "i_39",
+      "operation": "addition",
+      "description": "cos --[addition]--> i",
+      "weight": 1.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "cos_25",
+      "target": "i_39",
+      "operation": "addition",
+      "description": "cos --[addition]--> i",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "cos_25",
+      "target": "n_19",
+      "operation": "function_of",
+      "description": "cos --[function_of]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "e_26",
+      "target": "x_2",
+      "operation": "power",
+      "description": "e --[power]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_20"
+    },
+    {
+      "source": "e_26",
+      "target": "x_2",
+      "operation": "power",
+      "description": "e --[power]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_26"
+    },
+    {
+      "source": "e_26",
+      "target": "C_32",
+      "operation": "addition",
+      "description": "e --[addition]--> C",
+      "weight": 1.0,
+      "formula_id": "formula_26"
+    },
+    {
+      "source": "e_26",
+      "target": "i_39",
+      "operation": "power",
+      "description": "e --[power]--> i",
+      "weight": 1.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "e_26",
+      "target": "__40",
+      "operation": "adjacent",
+      "description": "e --[adjacent]--> φ",
+      "weight": 1.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "e_26",
+      "target": "cos_25",
+      "operation": "equals",
+      "description": "e --[equals]--> cos",
+      "weight": 2.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "ln_27",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "ln --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_21"
+    },
+    {
+      "source": "ln_27",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "ln --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_51"
+    },
+    {
+      "source": "ln_27",
+      "target": "1_10",
+      "operation": "equals",
+      "description": "ln --[equals]--> 1",
+      "weight": 2.0,
+      "formula_id": "formula_21"
+    },
+    {
+      "source": "ln_27",
+      "target": "a_1",
+      "operation": "function_of",
+      "description": "ln --[function_of]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_51"
+    },
+    {
+      "source": "lim_28",
+      "target": "n_19",
+      "operation": "parameter",
+      "description": "lim --[parameter]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_22"
+    },
+    {
+      "source": "lim_28",
+      "target": "__29",
+      "operation": "maps_to",
+      "description": "lim --[maps_to]--> ∞",
+      "weight": 2.0,
+      "formula_id": "formula_22"
+    },
+    {
+      "source": "lim_28",
+      "target": "x_2",
+      "operation": "parameter",
+      "description": "lim --[parameter]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_23"
+    },
+    {
+      "source": "lim_28",
+      "target": "0_6",
+      "operation": "maps_to",
+      "description": "lim --[maps_to]--> 0",
+      "weight": 2.0,
+      "formula_id": "formula_23"
+    },
+    {
+      "source": "__29",
+      "target": "1_10",
+      "operation": "addition",
+      "description": "∞ --[addition]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_22"
+    },
+    {
+      "source": "__29",
+      "target": "e_26",
+      "operation": "equals",
+      "description": "∞ --[equals]--> e",
+      "weight": 2.0,
+      "formula_id": "formula_22"
+    },
+    {
+      "source": "__30",
+      "target": "a_1",
+      "operation": "parameter",
+      "description": "∫ --[parameter]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "__30",
+      "target": "b_4",
+      "operation": "power",
+      "description": "∫ --[power]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "__30",
+      "target": "F_31",
+      "operation": "equals",
+      "description": "∫ --[equals]--> F",
+      "weight": 2.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "__30",
+      "target": "x_2",
+      "operation": "applied_to",
+      "description": "∫ --[applied_to]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "__30",
+      "target": "x_2",
+      "operation": "equals",
+      "description": "∫ --[equals]--> x",
+      "weight": 2.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "__30",
+      "target": "x_2",
+      "operation": "power",
+      "description": "∫ --[power]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_26"
+    },
+    {
+      "source": "__30",
+      "target": "n_19",
+      "operation": "power",
+      "description": "∫ --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_25"
+    },
+    {
+      "source": "__30",
+      "target": "e_26",
+      "operation": "applied_to",
+      "description": "∫ --[applied_to]--> e",
+      "weight": 1.0,
+      "formula_id": "formula_26"
+    },
+    {
+      "source": "__30",
+      "target": "e_26",
+      "operation": "equals",
+      "description": "∫ --[equals]--> e",
+      "weight": 2.0,
+      "formula_id": "formula_26"
+    },
+    {
+      "source": "__30",
+      "target": "sin_24",
+      "operation": "applied_to",
+      "description": "∫ --[applied_to]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_27"
+    },
+    {
+      "source": "__30",
+      "target": "sin_24",
+      "operation": "equals",
+      "description": "∫ --[equals]--> sin",
+      "weight": 2.0,
+      "formula_id": "formula_28"
+    },
+    {
+      "source": "__30",
+      "target": "cos_25",
+      "operation": "equals",
+      "description": "∫ --[equals]--> cos",
+      "weight": 2.0,
+      "formula_id": "formula_27"
+    },
+    {
+      "source": "__30",
+      "target": "cos_25",
+      "operation": "applied_to",
+      "description": "∫ --[applied_to]--> cos",
+      "weight": 1.0,
+      "formula_id": "formula_28"
+    },
+    {
+      "source": "F_31",
+      "target": "b_4",
+      "operation": "function_of",
+      "description": "F --[function_of]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "F_31",
+      "target": "a_1",
+      "operation": "function_of",
+      "description": "F --[function_of]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_24"
+    },
+    {
+      "source": "tan_33",
+      "target": "x_2",
+      "operation": "function_of",
+      "description": "tan --[function_of]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_34"
+    },
+    {
+      "source": "tan_33",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "tan --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_35"
+    },
+    {
+      "source": "tan_33",
+      "target": "sin_24",
+      "operation": "equals",
+      "description": "tan --[equals]--> sin",
+      "weight": 2.0,
+      "formula_id": "formula_34"
+    },
+    {
+      "source": "tan_33",
+      "target": "2_3",
+      "operation": "power",
+      "description": "tan --[power]--> 2",
+      "weight": 1.0,
+      "formula_id": "formula_35"
+    },
+    {
+      "source": "i_39",
+      "target": "sin_24",
+      "operation": "adjacent",
+      "description": "i --[adjacent]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_40"
+    },
+    {
+      "source": "i_39",
+      "target": "sin_24",
+      "operation": "adjacent",
+      "description": "i --[adjacent]--> sin",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "__40",
+      "target": "i_39",
+      "operation": "adjacent",
+      "description": "φ --[adjacent]--> i",
+      "weight": 1.0,
+      "formula_id": "formula_42"
+    },
+    {
+      "source": "z_41",
+      "target": "__9",
+      "operation": "equals",
+      "description": "z --[equals]--> √",
+      "weight": 2.0,
+      "formula_id": "formula_41"
+    },
+    {
+      "source": "q_42",
+      "target": "n_19",
+      "operation": "power",
+      "description": "q --[power]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "q_42",
+      "target": "1_10",
+      "operation": "division",
+      "description": "q --[division]--> 1",
+      "weight": 1.0,
+      "formula_id": "formula_43"
+    },
+    {
+      "source": "__43",
+      "target": "k_44",
+      "operation": "parameter",
+      "description": "Σ --[parameter]--> k",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "__43",
+      "target": "0_6",
+      "operation": "equals",
+      "description": "Σ --[equals]--> 0",
+      "weight": 2.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "k_44",
+      "target": "a_1",
+      "operation": "adjacent",
+      "description": "k --[adjacent]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "k_44",
+      "target": "b_4",
+      "operation": "adjacent",
+      "description": "k --[adjacent]--> b",
+      "weight": 1.0,
+      "formula_id": "formula_47"
+    },
+    {
+      "source": "k_44",
+      "target": "n_19",
+      "operation": "subtraction",
+      "description": "k --[subtraction]--> n",
+      "weight": 1.0,
+      "formula_id": "formula_48"
+    },
+    {
+      "source": "log_45",
+      "target": "a_1",
+      "operation": "subscript",
+      "description": "log --[subscript]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_49"
+    },
+    {
+      "source": "log_45",
+      "target": "a_1",
+      "operation": "subscript",
+      "description": "log --[subscript]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_50"
+    },
+    {
+      "source": "log_45",
+      "target": "a_1",
+      "operation": "subscript",
+      "description": "log --[subscript]--> a",
+      "weight": 1.0,
+      "formula_id": "formula_51"
+    },
+    {
+      "source": "log_45",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "log --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_49"
+    },
+    {
+      "source": "log_45",
+      "target": "x_2",
+      "operation": "addition",
+      "description": "log --[addition]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_49"
+    },
+    {
+      "source": "log_45",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "log --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_50"
+    },
+    {
+      "source": "log_45",
+      "target": "x_2",
+      "operation": "adjacent",
+      "description": "log --[adjacent]--> x",
+      "weight": 1.0,
+      "formula_id": "formula_51"
+    },
+    {
+      "source": "log_45",
+      "target": "y_46",
+      "operation": "adjacent",
+      "description": "log --[adjacent]--> y",
+      "weight": 1.0,
+      "formula_id": "formula_49"
+    },
+    {
+      "source": "log_45",
+      "target": "n_19",
+      "operation": "equals",
+      "description": "log --[equals]--> n",
+      "weight": 2.0,
+      "formula_id": "formula_50"
+    },
+    {
+      "source": "log_45",
+      "target": "ln_27",
+      "operation": "equals",
+      "description": "log --[equals]--> ln",
+      "weight": 2.0,
+      "formula_id": "formula_51"
+    }
+  ],
+  "stats": {
+    "total_nodes": 46,
+    "total_edges": 280,
+    "total_formulas": 52
+  }
+}

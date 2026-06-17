@@ -1,0 +1,314 @@
+[
+  {
+    "text": "Квадратное уравнение общего вида",
+    "latex": "ax^2 + bx + c = 0",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Дискриминант квадратного уравнения",
+    "latex": "D = b^2 - 4ac",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Корни квадратного уравнения через дискриминант",
+    "latex": "x = \\frac{-b \\pm \\sqrt{D}}{2a}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Сумма корней квадратного уравнения (формула Виета)",
+    "latex": "x_1 + x_2 = -\\frac{b}{a}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Произведение корней квадратного уравнения (формула Виета)",
+    "latex": "x_1 \\cdot x_2 = \\frac{c}{a}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Теорема Пифагора: сумма квадратов катетов равна квадрату гипотенузы",
+    "latex": "a^2 + b^2 = c^2",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Длина гипотенузы через катеты",
+    "latex": "c = \\sqrt{a^2 + b^2}",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Площадь треугольника через основание и высоту",
+    "latex": "S = \\frac{1}{2} a h",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Площадь круга через радиус",
+    "latex": "S = \\pi r^2",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Длина окружности через радиус",
+    "latex": "L = 2 \\pi r",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Длина окружности через диаметр",
+    "latex": "L = \\pi d",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Связь радиуса и диаметра",
+    "latex": "d = 2r",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Объём шара через радиус",
+    "latex": "V = \\frac{4}{3} \\pi r^3",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Площадь поверхности шара",
+    "latex": "S = 4 \\pi r^2",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Производная степенной функции",
+    "latex": "(x^n)' = n x^{n-1}",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная произведения двух функций",
+    "latex": "(f \\cdot g)' = f' \\cdot g + f \\cdot g'",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная частного двух функций",
+    "latex": "\\left(\\frac{f}{g}\\right)' = \\frac{f' g - f g'}{g^2}",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная сложной функции (цепное правило)",
+    "latex": "(f(g(x)))' = f'(g(x)) \\cdot g'(x)",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная синуса",
+    "latex": "(\\sin x)' = \\cos x",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная косинуса",
+    "latex": "(\\cos x)' = -\\sin x",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная экспоненты",
+    "latex": "(e^x)' = e^x",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Производная натурального логарифма",
+    "latex": "(\\ln x)' = \\frac{1}{x}",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Второй замечательный предел",
+    "latex": "\\lim_{n \\to \\infty} \\left(1 + \\frac{1}{n}\\right)^n = e",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Первый замечательный предел",
+    "latex": "\\lim_{x \\to 0} \\frac{\\sin x}{x} = 1",
+    "source": "calculus_basics",
+    "class": "derivative_limit"
+  },
+  {
+    "text": "Формула Ньютона-Лейбница",
+    "latex": "\\int_{a}^{b} f(x) dx = F(b) - F(a)",
+    "source": "calculus_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Интеграл степенной функции",
+    "latex": "\\int x^n dx = \\frac{x^{n+1}}{n+1} + C",
+    "source": "calculus_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Интеграл экспоненты",
+    "latex": "\\int e^x dx = e^x + C",
+    "source": "calculus_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Интеграл синуса",
+    "latex": "\\int \\sin x dx = -\\cos x + C",
+    "source": "calculus_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Интеграл косинуса",
+    "latex": "\\int \\cos x dx = \\sin x + C",
+    "source": "calculus_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Основное тригонометрическое тождество",
+    "latex": "\\sin^2 x + \\cos^2 x = 1",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Синус двойного угла",
+    "latex": "\\sin 2x = 2 \\sin x \\cos x",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Косинус двойного угла через синус и косинус",
+    "latex": "\\cos 2x = \\cos^2 x - \\sin^2 x",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Косинус двойного угла через косинус",
+    "latex": "\\cos 2x = 2\\cos^2 x - 1",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Косинус двойного угла через синус",
+    "latex": "\\cos 2x = 1 - 2\\sin^2 x",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Тангенс через синус и косинус",
+    "latex": "\\tan x = \\frac{\\sin x}{\\cos x}",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Основное тригонометрическое тождество через тангенс",
+    "latex": "1 + \\tan^2 x = \\frac{1}{\\cos^2 x}",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Формула суммы синусов",
+    "latex": "\\sin(\\alpha + \\beta) = \\sin\\alpha \\cos\\beta + \\cos\\alpha \\sin\\beta",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Формула суммы косинусов",
+    "latex": "\\cos(\\alpha + \\beta) = \\cos\\alpha \\cos\\beta - \\sin\\alpha \\sin\\beta",
+    "source": "trigonometry",
+    "class": "equation"
+  },
+  {
+    "text": "Закон косинусов",
+    "latex": "c^2 = a^2 + b^2 - 2ab\\cos C",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Закон синусов",
+    "latex": "\\frac{a}{\\sin A} = \\frac{b}{\\sin B} = \\frac{c}{\\sin C} = 2R",
+    "source": "geometry_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Формула Эйлера для комплексных чисел",
+    "latex": "e^{i\\varphi} = \\cos\\varphi + i\\sin\\varphi",
+    "source": "complex_analysis",
+    "class": "equation"
+  },
+  {
+    "text": "Модуль комплексного числа z = a + bi",
+    "latex": "|z| = \\sqrt{a^2 + b^2}",
+    "source": "complex_analysis",
+    "class": "equation"
+  },
+  {
+    "text": "Формула Муавра для степени комплексного числа",
+    "latex": "(\\cos\\varphi + i\\sin\\varphi)^n = \\cos(n\\varphi) + i\\sin(n\\varphi)",
+    "source": "complex_analysis",
+    "class": "equation"
+  },
+  {
+    "text": "Геометрическая прогрессия: сумма n первых членов",
+    "latex": "S_n = a_1 \\cdot \\frac{1 - q^n}{1 - q}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Сумма бесконечной геометрической прогрессии при |q| < 1",
+    "latex": "S = \\frac{a_1}{1 - q}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Арифметическая прогрессия: n-й член",
+    "latex": "a_n = a_1 + (n-1)d",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Арифметическая прогрессия: сумма n первых членов",
+    "latex": "S_n = \\frac{(a_1 + a_n) \\cdot n}{2}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Формула бинома Ньютона",
+    "latex": "(a + b)^n = \\sum_{k=0}^{n} \\binom{n}{k} a^{n-k} b^k",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Биномиальный коэффициент",
+    "latex": "\\binom{n}{k} = \\frac{n!}{k!(n-k)!}",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Логарифм произведения",
+    "latex": "\\log_a(xy) = \\log_a x + \\log_a y",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Логарифм степени",
+    "latex": "\\log_a(x^n) = n \\log_a x",
+    "source": "algebra_basics",
+    "class": "equation"
+  },
+  {
+    "text": "Формула перехода между логарифмами",
+    "latex": "\\log_a x = \\frac{\\ln x}{\\ln a}",
+    "source": "algebra_basics",
+    "class": "equation"
+  }
+]

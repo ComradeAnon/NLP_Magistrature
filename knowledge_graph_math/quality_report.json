@@ -1,0 +1,231 @@
+{
+  "graph": "knowledge_graph_math/math_graph.json",
+  "structural": {
+    "total_nodes": 46,
+    "total_edges": 280,
+    "density": 0.1353,
+    "avg_degree": 12.174,
+    "max_degree": 62,
+    "min_degree": 1,
+    "isolated_nodes": 0,
+    "isolated_ratio": 0.0,
+    "connected_components": 1,
+    "largest_component": 46,
+    "largest_component_fraction": 1.0,
+    "node_type_distribution": {
+      "variable": 28,
+      "number": 5,
+      "operator": 4,
+      "function": 8,
+      "constant": 1
+    },
+    "node_type_entropy": 0.7103,
+    "edge_operation_distribution": {
+      "addition": 25,
+      "equals": 44,
+      "adjacent": 65,
+      "power": 39,
+      "division": 17,
+      "subscript": 15,
+      "multiplication": 4,
+      "subtraction": 16,
+      "applied_to": 7,
+      "function_of": 42,
+      "parameter": 4,
+      "maps_to": 2
+    },
+    "edge_operation_entropy": 0.8628
+  },
+  "coverage": {
+    "coverage_operators": 0.2667,
+    "coverage_functions": 0.3846,
+    "coverage_constants": 0.1667,
+    "coverage_operations": 0.3636,
+    "formula_coverage": 1.0,
+    "_detail": {
+      "operators": "4/15",
+      "functions": "5/13",
+      "constants": "1/6",
+      "operations": "12/33",
+      "formulas": "52/52"
+    }
+  },
+  "consistency": {
+    "type_consistency": 1.0,
+    "edges_with_signature": 53,
+    "conformant_edges": 53,
+    "self_loops": 0,
+    "duplicate_edges": 0,
+    "dangling_operators": 1,
+    "dangling_ratio": 0.0833
+  },
+  "error_detection": {
+    "type_anomalies": {
+      "distinct_patterns": 63,
+      "suspicious_patterns": 34,
+      "suspicious_edge_ratio": 0.2321,
+      "threshold": 0.05,
+      "examples": [
+        {
+          "pattern": "variable —[subtraction]→ operator",
+          "count": 1,
+          "conditional_prob": 0.008,
+          "sample": "b —[subtraction]→ √"
+        },
+        {
+          "pattern": "variable —[multiplication]→ variable",
+          "count": 1,
+          "conditional_prob": 0.008,
+          "sample": "f —[multiplication]→ g"
+        },
+        {
+          "pattern": "function —[multiplication]→ function",
+          "count": 1,
+          "conditional_prob": 0.0102,
+          "sample": "f —[multiplication]→ g"
+        },
+        {
+          "pattern": "function —[division]→ function",
+          "count": 1,
+          "conditional_prob": 0.0102,
+          "sample": "sin —[division]→ cos"
+        },
+        {
+          "pattern": "function —[addition]→ function",
+          "count": 1,
+          "conditional_prob": 0.0102,
+          "sample": "sin —[addition]→ cos"
+        },
+        {
+          "pattern": "function —[power]→ variable",
+          "count": 1,
+          "conditional_prob": 0.0102,
+          "sample": "sin —[power]→ n"
+        },
+        {
+          "pattern": "function —[subtraction]→ function",
+          "count": 1,
+          "conditional_prob": 0.0102,
+          "sample": "cos —[subtraction]→ sin"
+        },
+        {
+          "pattern": "function —[equals]→ variable",
+          "count": 1,
+          "conditional_prob": 0.0102,
+          "sample": "log —[equals]→ n"
+        },
+        {
+          "pattern": "variable —[multiplication]→ number",
+          "count": 2,
+          "conditional_prob": 0.016,
+          "sample": "a —[multiplication]→ 1"
+        },
+        {
+          "pattern": "variable —[division]→ number",
+          "count": 2,
+          "conditional_prob": 0.016,
+          "sample": "a —[division]→ 1"
+        }
+      ]
+    },
+    "cardinality": {
+      "operators_without_args": 0,
+      "functions_without_args": 1,
+      "violation_ratio": 0.0833,
+      "examples": [
+        "log"
+      ]
+    },
+    "acyclicity": {
+      "checked_operations": 5,
+      "operations_with_cycles": 0,
+      "acyclicity_score": 1.0,
+      "cyclic_operations": []
+    },
+    "association_rules": {
+      "rules_found": 13,
+      "min_support": 2,
+      "min_confidence": 0.5,
+      "top_rules": [
+        {
+          "rule": "addition ∧ function_of → function_of",
+          "support": 7,
+          "confidence": 0.875
+        },
+        {
+          "rule": "function_of ∧ multiplication → equals",
+          "support": 3,
+          "confidence": 0.75
+        },
+        {
+          "rule": "applied_to ∧ subtraction → equals",
+          "support": 2,
+          "confidence": 0.667
+        },
+        {
+          "rule": "applied_to ∧ subtraction → applied_to",
+          "support": 2,
+          "confidence": 0.667
+        },
+        {
+          "rule": "parameter ∧ addition → power",
+          "support": 3,
+          "confidence": 0.6
+        },
+        {
+          "rule": "division ∧ power → power",
+          "support": 7,
+          "confidence": 0.583
+        },
+        {
+          "rule": "power ∧ multiplication → power",
+          "support": 4,
+          "confidence": 0.571
+        },
+        {
+          "rule": "addition ∧ power → power",
+          "support": 7,
+          "confidence": 0.5
+        },
+        {
+          "rule": "applied_to ∧ power → power",
+          "support": 3,
+          "confidence": 0.5
+        },
+        {
+          "rule": "multiplication ∧ division → power",
+          "support": 2,
+          "confidence": 0.5
+        },
+        {
+          "rule": "multiplication ∧ division → addition",
+          "support": 2,
+          "confidence": 0.5
+        },
+        {
+          "rule": "function_of ∧ multiplication → power",
+          "support": 2,
+          "confidence": 0.5
+        },
+        {
+          "rule": "function_of ∧ multiplication → function_of",
+          "support": 2,
+          "confidence": 0.5
+        }
+      ]
+    }
+  },
+  "composite": {
+    "precision_proxy": 1.0,
+    "recall_proxy": 0.5037,
+    "connectivity": 1.0,
+    "f1_score": 0.6699,
+    "weighted_quality": 0.8346,
+    "weights": {
+      "alpha": 0.3333333333333333,
+      "beta": 0.3333333333333333,
+      "gamma": 0.3333333333333333
+    },
+    "_note": "precision/recall — прокси-оценки (нет эталонной разметки): precision ≈ согласованность типов, recall ≈ покрытие онтологии, connectivity ≈ доля крупнейшей компоненты."
+  }
+}

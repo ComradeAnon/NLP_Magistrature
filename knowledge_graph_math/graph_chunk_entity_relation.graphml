@@ -1,0 +1,2093 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d13" for="edge" attr.name="truncate" attr.type="string" />
+  <key id="d12" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d11" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d10" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d9" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d8" for="edge" attr.name="description" attr.type="string" />
+  <key id="d7" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d6" for="node" attr.name="truncate" attr.type="string" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="Формула (LaTeX)">
+      <data key="d0">Формула (LaTeX)</data>
+      <data key="d1">content</data>
+      <data key="d2">Формула (LaTeX) represents a mathematical equation or expression written in LaTeX format. It involves variables and constants, and can be presented as "Formula (LaTeX): a^2 + b^2 = c^2". The entity is consistently described as a mathematical formula represented using LaTeX notation. Despite multiple mentions of the same description, no conflicting information was found regarding its nature or components.</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-0d651681504c3b0d71951fb02e88df36-chunk-000&lt;SEP&gt;doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000&lt;SEP&gt;doc-7bfc174e21f4323485b564b4ffe791be-chunk-000&lt;SEP&gt;doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000&lt;SEP&gt;doc-7b176d9daac368c608373bc3d18f28da-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000&lt;SEP&gt;doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000&lt;SEP&gt;doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000&lt;SEP&gt;doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000&lt;SEP&gt;doc-11de9f184a1af74ecd6088c319b89229-chunk-000&lt;SEP&gt;doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000&lt;SEP&gt;doc-f0395eac2737141afd769deb5c6140ea-chunk-000&lt;SEP&gt;doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008133</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_0">
+      <data key="d0">formula_0</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_0 is the title or identifier of the given quadratic formula.</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007343</data>
+      <data key="d6" />
+    </node>
+    <node id="a">
+      <data key="d0">a</data>
+      <data key="d1">data</data>
+      <data key="d2">a is a coefficient in quadratic equations and formulas. It appears alongside another coefficient (often denoted as b) within the quadratic formula. In some contexts, it's multiplied by 2 and placed next to √ symbol. Additionally, a represents a numerical value used in various equations, including right triangles where it functions as one leg of a right triangle. Furthermore, a is recognized as a constant or variable representing an unknown value or measurement within the equation.
+
+a also serves as a parameter of the integration operator. In another context, a represents another variable used in the formula, which is added to and subtracted from b. Additionally, a is one of the sides of a triangle in trigonometry. Furthermore, a is a variable in the mathematical expression. It can also be a base value or part of an index 1 value within the expression.
+
+Moreover, a denotes a term in the sequence or series with subscripts indicating different terms. However, there are some inconsistencies and overlaps among these descriptions that need further clarification to avoid redundancy.&lt;SEP&gt;a is a variable used as the base in logarithmic expressions.</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000&lt;SEP&gt;doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-0d651681504c3b0d71951fb02e88df36-chunk-000&lt;SEP&gt;doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000&lt;SEP&gt;doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000&lt;SEP&gt;doc-3686830df420ce5a2ede2561e500fcdd-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000&lt;SEP&gt;doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000&lt;SEP&gt;doc-f0395eac2737141afd769deb5c6140ea-chunk-000&lt;SEP&gt;doc-f205ae5d73886267042a8e0600bd6703-chunk-000&lt;SEP&gt;doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000&lt;SEP&gt;doc-6cf4854854a42f4041e73060e773058f-chunk-000&lt;SEP&gt;doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008131</data>
+      <data key="d6" />
+    </node>
+    <node id="x">
+      <data key="d0">x</data>
+      <data key="d1">data</data>
+      <data key="d2">x represents an unknown quantity or variable in various equations and expressions. It can be part of a quadratic equation where it denotes the solution, or simply any unknown value within an equation. Additionally, x is used as an independent variable in certain mathematical expressions and functions such as trigonometric functions like sine (sin) and cosine (cos). Furthermore, x also appears in the derivative of the cosine function, indicating its role in calculus contexts. It is the independent variable in the natural logarithm function. In limits, x serves as a parameter for the limit operator. The sine function uses x as an argument. x is used as the variable of integration. Additionally, x functions as the exponent in the exponential function and appears in various mathematical expressions.&lt;SEP&gt;x is a variable used in the mathematical expression.&lt;SEP&gt;x is a variable used in the formula.&lt;SEP&gt;x is a variable used in the mathematical expression.&lt;SEP&gt;x is a variable in the given formula.&lt;SEP&gt;x is a variable in the mathematical expression involving trigonometric functions.&lt;SEP&gt;x is the argument of the logarithm and natural logarithm functions.</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-0d651681504c3b0d71951fb02e88df36-chunk-000&lt;SEP&gt;doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000&lt;SEP&gt;doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000&lt;SEP&gt;doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000&lt;SEP&gt;doc-7b176d9daac368c608373bc3d18f28da-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000&lt;SEP&gt;doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000&lt;SEP&gt;doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000&lt;SEP&gt;doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000&lt;SEP&gt;doc-b1de46266243c31cf0c96ded454f6a13-chunk-000&lt;SEP&gt;doc-93a94f006c522d695912e86f3a1ab972-chunk-000&lt;SEP&gt;doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008131</data>
+      <data key="d6" />
+    </node>
+    <node id="b">
+      <data key="d0">b</data>
+      <data key="d1">variable</data>
+      <data key="d2">Entity b is a numerical value used in quadratic equations and formulas. It appears twice within the quadratic formula, specifically subtracted from the square root of D. Additionally, in certain contexts, such as right triangles or integral expressions, b can represent another variable involved in subtraction with c.&lt;SEP&gt;b represents another side of a triangle in trigonometry.&lt;SEP&gt;b is another variable in the mathematical expression.</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000&lt;SEP&gt;doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000&lt;SEP&gt;doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000&lt;SEP&gt;doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000&lt;SEP&gt;doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000&lt;SEP&gt;doc-f0395eac2737141afd769deb5c6140ea-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008078</data>
+      <data key="d6" />
+    </node>
+    <node id="c">
+      <data key="d0">c</data>
+      <data key="d1">data</data>
+      <data key="d2">c is a constant term in the quadratic equation.&lt;SEP&gt;c is yet another coefficient in a quadratic equation, present in the formula as well.&lt;SEP&gt;The number c is a constant in the equation.&lt;SEP&gt;The third variable in the equation, also representing a numerical value.&lt;SEP&gt;c represents the hypotenuse in the context of the Pythagorean theorem.&lt;SEP&gt;c represents one of the variables used in the formula, which are squared and compared to other terms.&lt;SEP&gt;c represents yet another side of a triangle in trigonometry.</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000&lt;SEP&gt;doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-0d651681504c3b0d71951fb02e88df36-chunk-000&lt;SEP&gt;doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000&lt;SEP&gt;doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000&lt;SEP&gt;doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000&lt;SEP&gt;doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="x^2">
+      <data key="d0">x^2</data>
+      <data key="d3">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000</data>
+      <data key="d2">a is added to x^2.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007343</data>
+      <data key="d6" />
+    </node>
+    <node id="D">
+      <data key="d0">D</data>
+      <data key="d1">concept</data>
+      <data key="d2">D represents the discriminant in a quadratic equation.&lt;SEP&gt;D is under the square root symbol and represents the discriminant in a quadratic equation.</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007362</data>
+      <data key="d6" />
+    </node>
+    <node id="b^2">
+      <data key="d0">b^2</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d2">b is raised to the power of 2 before being subtracted from D.&lt;SEP&gt;The b squared term is subtracted from D in the given formula.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007354</data>
+      <data key="d6" />
+    </node>
+    <node id="4a">
+      <data key="d0">4a</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d2">4 times a is added to the result of b squared before being subtracted from D to form the discriminant.&lt;SEP&gt;4 times a is subtracted from b squared to form D.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007354</data>
+      <data key="d6" />
+    </node>
+    <node id="b^2-4ac">
+      <data key="d0">b^2-4ac</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d2">The entire expression b squared minus 4 times a times c equals D in the given formula.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007354</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_1">
+      <data key="d0">formula_1</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d2">The formula D = b^2 - 4ac is represented as "formula_1" in the document.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007354</data>
+      <data key="d6" />
+    </node>
+    <node id="LaTeX">
+      <data key="d0">LaTeX</data>
+      <data key="d3">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000&lt;SEP&gt;doc-3686830df420ce5a2ede2561e500fcdd-chunk-000&lt;SEP&gt;doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-b1de46266243c31cf0c96ded454f6a13-chunk-000&lt;SEP&gt;doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000&lt;SEP&gt;doc-f205ae5d73886267042a8e0600bd6703-chunk-000</data>
+      <data key="d2">The formula D = b^2 - 4ac is written using LaTeX notation.&lt;SEP&gt;LaTeX refers to a document preparation system used for typesetting mathematical expressions.&lt;SEP&gt;A mathematical formula represented by the identifier "formula_14".&lt;SEP&gt;LaTeX refers to a document preparation system used for the given mathematical formula.&lt;SEP&gt;LaTeX refers to a document preparation system used for typesetting.&lt;SEP&gt;LaTeX refers to a document preparation system used for formatting the mathematical formula.</data>
+      <data key="d1">content</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008089</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_2">
+      <data key="d0">formula_2</data>
+      <data key="d1">artifact</data>
+      <data key="d2">An identifier for a specific mathematical formula.</data>
+      <data key="d3">doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007362</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_3">
+      <data key="d0">formula_3</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_3 is the title or identifier of a specific mathematical formula.</data>
+      <data key="d3">doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007371</data>
+      <data key="d6" />
+    </node>
+    <node id="x_1">
+      <data key="d0">x_1</data>
+      <data key="d1">variable</data>
+      <data key="d2">x_1 represents a lower index instance of x.</data>
+      <data key="d3">doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007371</data>
+      <data key="d6" />
+    </node>
+    <node id="x_2">
+      <data key="d0">x_2</data>
+      <data key="d1">variable</data>
+      <data key="d2">x_2 represents another lower index instance of x.</data>
+      <data key="d3">doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007371</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_4">
+      <data key="d0">formula_4</data>
+      <data key="d1">content</data>
+      <data key="d2">The identifier for the mathematical formula x_1 \cdot x_2 = \frac{c}{a}.</data>
+      <data key="d3">doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007379</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_5">
+      <data key="d0">formula_5</data>
+      <data key="d1">content</data>
+      <data key="d2">The document's identifier for the formula, "a^2 + b^2 = c^2".</data>
+      <data key="d3">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007392</data>
+      <data key="d6" />
+    </node>
+    <node id="a^2 + b^2 = c^2">
+      <data key="d0">a^2 + b^2 = c^2</data>
+      <data key="d3">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000</data>
+      <data key="d2">The mathematical relationship "a^2 + b^2 = c^2" is represented by the identifier formula_5.&lt;SEP&gt;Formula_5 is used as an identifier for the mathematical statement "a^2 + b^2 = c^2".</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007392</data>
+      <data key="d6" />
+    </node>
+    <node id="c^2">
+      <data key="d0">c^2</data>
+      <data key="d3">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000&lt;SEP&gt;doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d2">The square of a plus the square of b equals the square of c in the equation.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007392</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_6">
+      <data key="d0">Formula_6</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_6 is a mathematical expression representing the Pythagorean theorem.</data>
+      <data key="d3">doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007398</data>
+      <data key="d6" />
+    </node>
+    <node id="S">
+      <data key="d0">S</data>
+      <data key="d1">concept</data>
+      <data key="d2">The result of the mathematical expression.&lt;SEP&gt;S represents the surface area of a circle.&lt;SEP&gt;S represents the surface area of a sphere in the given formula.&lt;SEP&gt;S represents a variable in the mathematical expression.&lt;SEP&gt;S represents the result of the mathematical expression.&lt;SEP&gt;S represents the sum in the mathematical context.</data>
+      <data key="d3">doc-3686830df420ce5a2ede2561e500fcdd-chunk-000&lt;SEP&gt;doc-30bb8cabb1c868341358d6696111eff8-chunk-000&lt;SEP&gt;doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000&lt;SEP&gt;doc-f205ae5d73886267042a8e0600bd6703-chunk-000&lt;SEP&gt;doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000&lt;SEP&gt;doc-6cf4854854a42f4041e73060e773058f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008105</data>
+      <data key="d6" />
+    </node>
+    <node id="h">
+      <data key="d0">h</data>
+      <data key="d1">variable</data>
+      <data key="d2">Another variable in the formula, also representing an unknown value or measurement.</data>
+      <data key="d3">doc-3686830df420ce5a2ede2561e500fcdd-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007405</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_7">
+      <data key="d0">formula_7</data>
+      <data key="d3">doc-3686830df420ce5a2ede2561e500fcdd-chunk-000</data>
+      <data key="d2">The result of S is stated to be 1 according to the assertion.&lt;SEP&gt;The assertion states that S equals 1, which is associated with the formula formula_7.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007407</data>
+      <data key="d6" />
+    </node>
+    <node id="π">
+      <data key="d0">π</data>
+      <data key="d1">concept</data>
+      <data key="d2">π (Pi) is a mathematical constant representing the ratio of a circle's circumference to its diameter.&lt;SEP&gt;Represents the mathematical constant pi (π).&lt;SEP&gt;π is the mathematical constant representing pi, used in the formula for calculating the surface area of a sphere.&lt;SEP&gt;π stands for Pi, an irrational number used in the formula.</data>
+      <data key="d3">doc-30bb8cabb1c868341358d6696111eff8-chunk-000&lt;SEP&gt;doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000&lt;SEP&gt;doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000&lt;SEP&gt;doc-619df480f7f496293a883f5ec6e99477-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007814</data>
+      <data key="d6" />
+    </node>
+    <node id="r">
+      <data key="d0">r</data>
+      <data key="d1">variable</data>
+      <data key="d2">r stands for the radius of a circle in the formula.&lt;SEP&gt;Represents the radius of a circle.&lt;SEP&gt;r represents the radius in the mathematical expression.&lt;SEP&gt;r stands for the radius of a sphere and appears alongside π in the given formula.&lt;SEP&gt;r denotes the radius of a sphere in the formula.</data>
+      <data key="d3">doc-30bb8cabb1c868341358d6696111eff8-chunk-000&lt;SEP&gt;doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000&lt;SEP&gt;doc-106004f57852517ecd8ca29edb181bb6-chunk-000&lt;SEP&gt;doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000&lt;SEP&gt;doc-619df480f7f496293a883f5ec6e99477-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007814</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_8">
+      <data key="d0">formula_8</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula 8 represents the equation S = πr^2.</data>
+      <data key="d3">doc-30bb8cabb1c868341358d6696111eff8-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007421</data>
+      <data key="d6" />
+    </node>
+    <node id="r^2">
+      <data key="d0">r^2</data>
+      <data key="d3">doc-30bb8cabb1c868341358d6696111eff8-chunk-000&lt;SEP&gt;doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000</data>
+      <data key="d2">The surface area S is calculated by multiplying π and r squared.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007421</data>
+      <data key="d6" />
+    </node>
+    <node id="L">
+      <data key="d0">L</data>
+      <data key="d1">data</data>
+      <data key="d2">Represents the length of a circle's circumference.</data>
+      <data key="d3">doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007427</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_9">
+      <data key="d0">formula_9</data>
+      <data key="d1">content</data>
+      <data key="d2">Represents a mathematical formula that defines L.</data>
+      <data key="d3">doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007427</data>
+      <data key="d6" />
+    </node>
+    <node id="d">
+      <data key="d0">d</data>
+      <data key="d1">variable</data>
+      <data key="d2">d represents the diameter in the mathematical expression.&lt;SEP&gt;d is a variable that appears together with x in the expression.&lt;SEP&gt;Another variable used in the integral expression.&lt;SEP&gt;d is an infinitesimal change or differential, often used alongside x in integration.&lt;SEP&gt;d is a variable that appears alongside x in the integral expression.</data>
+      <data key="d3">doc-106004f57852517ecd8ca29edb181bb6-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007938</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_11">
+      <data key="d0">formula_11</data>
+      <data key="d1">concept</data>
+      <data key="d2">Formula_11 represents the mathematical expression d = 2r.</data>
+      <data key="d3">doc-106004f57852517ecd8ca29edb181bb6-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007434</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_13">
+      <data key="d0">formula_13</data>
+      <data key="d1">content</data>
+      <data key="d2">The formula formula_13 asserts that S equals 4.</data>
+      <data key="d3">doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007811</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_12">
+      <data key="d0">Formula_12</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_12 is a mathematical expression representing the volume of a sphere.</data>
+      <data key="d3">doc-619df480f7f496293a883f5ec6e99477-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007814</data>
+      <data key="d6" />
+    </node>
+    <node id="V">
+      <data key="d0">V</data>
+      <data key="d1">variable</data>
+      <data key="d2">V represents the volume in the formula.</data>
+      <data key="d3">doc-619df480f7f496293a883f5ec6e99477-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007814</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_14">
+      <data key="d0">Formula_14</data>
+      <data key="d1">content</data>
+      <data key="d2">A mathematical formula represented by the identifier "formula_14".</data>
+      <data key="d3">doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007820</data>
+      <data key="d6" />
+    </node>
+    <node id="n">
+      <data key="d0">n</data>
+      <data key="d1">concept</data>
+      <data key="d2">The variable n is used in the expression and represents an exponent or coefficient.&lt;SEP&gt;n is a variable used in the mathematical expression representing a sequence approaching infinity.&lt;SEP&gt;n is an index or exponent in the mathematical expression.&lt;SEP&gt;n is an index used to denote a term in the sequence or series.</data>
+      <data key="d3">doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000&lt;SEP&gt;doc-4bb262ebbff0da390377af441dcb84fa-chunk-000&lt;SEP&gt;doc-f205ae5d73886267042a8e0600bd6703-chunk-000&lt;SEP&gt;doc-6cf4854854a42f4041e73060e773058f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008105</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_16">
+      <data key="d0">formula_16</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier "formula_16" represents a specific mathematical formula or concept.</data>
+      <data key="d3">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007831</data>
+      <data key="d6" />
+    </node>
+    <node id="f">
+      <data key="d0">f</data>
+      <data key="d1">function</data>
+      <data key="d2">f is described as a function of g, indicating it's an input to the relationship with g.&lt;SEP&gt;f represents a function that operates on x within the provided context.&lt;SEP&gt;f represents a function to be integrated with respect to x.</data>
+      <data key="d3">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000&lt;SEP&gt;doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000&lt;SEP&gt;doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007904</data>
+      <data key="d6" />
+    </node>
+    <node id="g">
+      <data key="d0">g</data>
+      <data key="d1">function</data>
+      <data key="d2">g is also described as a function where f is divided by it and raised to the power of 2.&lt;SEP&gt;g represents another function that also operates on x within the provided context.</data>
+      <data key="d3">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000&lt;SEP&gt;doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007838</data>
+      <data key="d6" />
+    </node>
+    <node id="g^2">
+      <data key="d0">g^2</data>
+      <data key="d3">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000</data>
+      <data key="d2">g raised to the power of 2 is part of the denominator in the formula for "formula_16".</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007831</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_17">
+      <data key="d0">Formula_17</data>
+      <data key="d1">concept</data>
+      <data key="d2">Formula_17 is a mathematical formula represented in LaTeX format.</data>
+      <data key="d3">doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007838</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_18">
+      <data key="d0">formula_18</data>
+      <data key="d1">concept</data>
+      <data key="d2">An identifier for a specific mathematical formula.</data>
+      <data key="d3">doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007847</data>
+      <data key="d6" />
+    </node>
+    <node id="sin">
+      <data key="d0">sin</data>
+      <data key="d1">function</data>
+      <data key="d2">Sin is a trigonometric function that takes an angle (represented by x) as its argument. It also appears within integrands and functions derived through integration processes such as integrating cos(x). The sine function results in squaring the cosine of x and then subtracting it from 2, indicating its role in certain formulas. Additionally, sin is a component used in equations and trigonometric relationships.&lt;SEP&gt;sin is a trigonometric function representing sine of an angle.</data>
+      <data key="d3">doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-7b176d9daac368c608373bc3d18f28da-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000&lt;SEP&gt;doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000&lt;SEP&gt;doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000&lt;SEP&gt;doc-b1de46266243c31cf0c96ded454f6a13-chunk-000&lt;SEP&gt;doc-93a94f006c522d695912e86f3a1ab972-chunk-000&lt;SEP&gt;doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="cos">
+      <data key="d0">cos</data>
+      <data key="d1">function</data>
+      <data key="d2">Cosine (cos) is a trigonometric function that depends on the variable x. It is used in integrals and formulas, often alongside sine (sin). The cosine function represents an angle and is related to its derivative, which is negative sine (sin). It appears as a key component in mathematical expressions.&lt;SEP&gt;cos is a trigonometric function representing cosine of an angle.</data>
+      <data key="d3">doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000&lt;SEP&gt;doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000&lt;SEP&gt;doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000&lt;SEP&gt;doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000&lt;SEP&gt;doc-b1de46266243c31cf0c96ded454f6a13-chunk-000&lt;SEP&gt;doc-93a94f006c522d695912e86f3a1ab972-chunk-000&lt;SEP&gt;doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_19">
+      <data key="d0">formula_19</data>
+      <data key="d1">concept</data>
+      <data key="d2">An identifier for a specific mathematical formula or concept.</data>
+      <data key="d3">doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007858</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_21">
+      <data key="d0">formula_21</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for a specific mathematical formula.</data>
+      <data key="d3">doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007876</data>
+      <data key="d6" />
+    </node>
+    <node id="ln">
+      <data key="d0">ln</data>
+      <data key="d1">function</data>
+      <data key="d2">ln represents the natural logarithmic function, which is differentiated to yield 1/x.&lt;SEP&gt;The natural logarithm function.</data>
+      <data key="d3">doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000&lt;SEP&gt;doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008131</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_22">
+      <data key="d0">Formula_22</data>
+      <data key="d1">content</data>
+      <data key="d2">The formula represents the limit as n approaches infinity of (1 + 1/n) to the power of n equals the constant e.</data>
+      <data key="d3">doc-4bb262ebbff0da390377af441dcb84fa-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007882</data>
+      <data key="d6" />
+    </node>
+    <node id="e">
+      <data key="d0">e</data>
+      <data key="d1">concept</data>
+      <data key="d2">The constant e represents Euler's number, which is approximately equal to 2.71828 and is crucial in calculus and analysis.&lt;SEP&gt;Euler's number, a fundamental constant in mathematics and calculus.&lt;SEP&gt;e is a mathematical constant representing the base of natural logarithm.</data>
+      <data key="d3">doc-4bb262ebbff0da390377af441dcb84fa-chunk-000&lt;SEP&gt;doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000&lt;SEP&gt;doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="∞">
+      <data key="d0">∞</data>
+      <data key="d1">constant</data>
+      <data key="d2">The constant ∞ represents infinity.</data>
+      <data key="d3">doc-4bb262ebbff0da390377af441dcb84fa-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007882</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_23">
+      <data key="d0">formula_23</data>
+      <data key="d1">concept</data>
+      <data key="d2">An identifier for a specific mathematical formula.</data>
+      <data key="d3">doc-7b176d9daac368c608373bc3d18f28da-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007891</data>
+      <data key="d6" />
+    </node>
+    <node id="lim">
+      <data key="d0">lim</data>
+      <data key="d3">doc-7b176d9daac368c608373bc3d18f28da-chunk-000</data>
+      <data key="d2">The limit operator lim is applied as x approaches 0 in the formula.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007891</data>
+      <data key="d6" />
+    </node>
+    <node id="x-&gt;0">
+      <data key="d0">x-&gt;0</data>
+      <data key="d3">doc-7b176d9daac368c608373bc3d18f28da-chunk-000</data>
+      <data key="d2">The limit operator lim is applied as x approaches 0 in the formula.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007891</data>
+      <data key="d6" />
+    </node>
+    <node id="sin(x)/x=1">
+      <data key="d0">sin(x)/x=1</data>
+      <data key="d3">doc-7b176d9daac368c608373bc3d18f28da-chunk-000</data>
+      <data key="d2">The equality sin(x)/x = 1 asserts that the ratio of sine to x, as x approaches 0, equals 1.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007891</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_24">
+      <data key="d0">formula_24</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier "formula_24" refers to a specific mathematical formula.</data>
+      <data key="d3">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007904</data>
+      <data key="d6" />
+    </node>
+    <node id="F">
+      <data key="d0">F</data>
+      <data key="d1">function</data>
+      <data key="d2">F is an antiderivative of f, used as the upper and lower limits in the integral.</data>
+      <data key="d3">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007904</data>
+      <data key="d6" />
+    </node>
+    <node id="∫">
+      <data key="d0">∫</data>
+      <data key="d3">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d2">a serves as a parameter for the integration operator ∫.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007904</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_26">
+      <data key="d0">formula_26</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the given mathematical formula.</data>
+      <data key="d3">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007914</data>
+      <data key="d6" />
+    </node>
+    <node id="C">
+      <data key="d0">C</data>
+      <data key="d1">concept</data>
+      <data key="d2">The constant of integration, a term added to indefinite integrals.&lt;SEP&gt;C represents the constant of integration in the formula.&lt;SEP&gt;C represents an integration constant.&lt;SEP&gt;C denotes an angle within the formula, where cosine (cos) of C is applied to the calculation.&lt;SEP&gt;C denotes an angle in a triangle, with C being the reference angle in this context.</data>
+      <data key="d3">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000&lt;SEP&gt;doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000&lt;SEP&gt;doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000&lt;SEP&gt;doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="e^x dx">
+      <data key="d0">e^x dx</data>
+      <data key="d3">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000</data>
+      <data key="d2">The identifier for the formula corresponds to the integral expression of e^x with respect to x.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007914</data>
+      <data key="d6" />
+    </node>
+    <node id="e^x + C">
+      <data key="d0">e^x + C</data>
+      <data key="d3">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000</data>
+      <data key="d2">The result of integrating e^x is e^x + C, as stated in the formula.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007914</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_27">
+      <data key="d0">formula_27</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the given mathematical formula.</data>
+      <data key="d3">doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007928</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_28">
+      <data key="d0">formula_28</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the given mathematical formula.</data>
+      <data key="d3">doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007938</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_29">
+      <data key="d0">formula_29</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the given mathematical formula.</data>
+      <data key="d3">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007950</data>
+      <data key="d6" />
+    </node>
+    <node id="sin^2 x + cos^2 x = 1">
+      <data key="d0">sin^2 x + cos^2 x = 1</data>
+      <data key="d3">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d2">The equality sin²(x) + cos²(x) = 1 represents the given formula.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007956</data>
+      <data key="d6" />
+    </node>
+    <node id="x and cos">
+      <data key="d0">x and cos</data>
+      <data key="d3">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d2">Both x and cos are used together in the formula, with x being squared by sine and cos being squared separately.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007956</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_30">
+      <data key="d0">formula_30</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the given mathematical formula.</data>
+      <data key="d3">doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007971</data>
+      <data key="d6" />
+    </node>
+    <node id="2x">
+      <data key="d0">2x</data>
+      <data key="d1">concept</data>
+      <data key="d2">2x represents a mathematical expression where x appears twice.</data>
+      <data key="d3">doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007971</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_31">
+      <data key="d0">formula_31</data>
+      <data key="d1">concept</data>
+      <data key="d2">An identifier for a specific mathematical formula.</data>
+      <data key="d3">doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007979</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_32">
+      <data key="d0">formula_32</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the given mathematical formula.</data>
+      <data key="d3">doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007988</data>
+      <data key="d6" />
+    </node>
+    <node id="cos^2">
+      <data key="d0">cos^2</data>
+      <data key="d1">function</data>
+      <data key="d2">The square of the cosine function appears as a separate entity.</data>
+      <data key="d3">doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007988</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_33">
+      <data key="d0">Formula_33</data>
+      <data key="d1">content</data>
+      <data key="d2">The identifier for the mathematical expression is Formula_33.</data>
+      <data key="d3">doc-b1de46266243c31cf0c96ded454f6a13-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781007997</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_34">
+      <data key="d0">Formula_34</data>
+      <data key="d1">content</data>
+      <data key="d2">A mathematical formula representing the equality between tangent and sine functions.</data>
+      <data key="d3">doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008017</data>
+      <data key="d6" />
+    </node>
+    <node id="tan">
+      <data key="d0">tan</data>
+      <data key="d3">doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d2">Tangent function applied to x.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008017</data>
+      <data key="d6" />
+    </node>
+    <node id="x.">
+      <data key="d0">x.</data>
+      <data key="d1">variable</data>
+      <data key="d2">x is a variable used in the mathematical expression.</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="1 + \tan^2 x">
+      <data key="d0">1 + \tan^2 x</data>
+      <data key="d1">data</data>
+      <data key="d2">This represents a data point or value derived from the mathematical expression.</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="1 + tan^2 x">
+      <data key="d0">1 + tan^2 x</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d2">tan squared of x is added to 1.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="1/(cos^2 x)">
+      <data key="d0">1/(cos^2 x)</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d2">cos squared of x is divided into 1.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="tan^2 x">
+      <data key="d0">tan^2 x</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d2">tan squared of x is added to 1.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="cos^2 x">
+      <data key="d0">cos^2 x</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d2">cos squared of x is divided into 1.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_35">
+      <data key="d0">formula_35</data>
+      <data key="d3">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d2">The value 1 plus tan squared of x is referenced by the identifier formula_35.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008023</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_38">
+      <data key="d0">Formula_38</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_38 is the name of a mathematical formula represented in LaTeX format.</data>
+      <data key="d3">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008038</data>
+      <data key="d6" />
+    </node>
+    <node id="cos(C)">
+      <data key="d0">cos(C)</data>
+      <data key="d1">function</data>
+      <data key="d2">cos(C) represents a trigonometric function applied to angle C.</data>
+      <data key="d3">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008038</data>
+      <data key="d6" />
+    </node>
+    <node id="a^2">
+      <data key="d0">a^2</data>
+      <data key="d3">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d2">a squared is added to the expression.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008040</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_39">
+      <data key="d0">formula_39</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_39 is the identifier for the given mathematical formula.</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="A">
+      <data key="d0">A</data>
+      <data key="d1">concept</data>
+      <data key="d2">A denotes an angle in a triangle, with A being the reference angle in this context.</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="B">
+      <data key="d0">B</data>
+      <data key="d1">concept</data>
+      <data key="d2">B denotes an angle in a triangle, with B being the reference angle in this context.</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="R">
+      <data key="d0">R</data>
+      <data key="d1">data</data>
+      <data key="d2">R is the circumradius of a triangle.</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="sin A">
+      <data key="d0">sin A</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d2">sin(A) divides a by sin(A).</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="sin B">
+      <data key="d0">sin B</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d2">sin(B) divides b by sin(B).</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="sin C">
+      <data key="d0">sin C</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d2">sin(C) divides c by sin(C).</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="2R">
+      <data key="d0">2R</data>
+      <data key="d3">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d2">formula_39 is equal to 2R.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008062</data>
+      <data key="d6" />
+    </node>
+    <node id="i">
+      <data key="d0">i</data>
+      <data key="d1">concept</data>
+      <data key="d2">i represents the imaginary unit in complex numbers.</data>
+      <data key="d3">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="φ">
+      <data key="d0">φ</data>
+      <data key="d1">concept</data>
+      <data key="d2">φ is a variable often used to represent an angle in trigonometry and complex analysis.</data>
+      <data key="d3">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="e^{i\varphi}">
+      <data key="d0">e^{i\varphi}</data>
+      <data key="d3">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d2">The LaTeX formula e^{i\varphi} is equal to the identifier formula_40.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_40">
+      <data key="d0">formula_40</data>
+      <data key="d3">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d2">The LaTeX formula e^{i\varphi} is equal to the identifier formula_40.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008071</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_41">
+      <data key="d0">formula_41</data>
+      <data key="d1">concept</data>
+      <data key="d2">Formula_41 represents the mathematical formula |z| = √(a² + b²).</data>
+      <data key="d3">doc-f0395eac2737141afd769deb5c6140ea-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008078</data>
+      <data key="d6" />
+    </node>
+    <node id="z">
+      <data key="d0">z</data>
+      <data key="d1">variable</data>
+      <data key="d2">z is one of the variables used in the mathematical expression.</data>
+      <data key="d3">doc-f0395eac2737141afd769deb5c6140ea-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008078</data>
+      <data key="d6" />
+    </node>
+    <node id="a²">
+      <data key="d0">a²</data>
+      <data key="d1">data</data>
+      <data key="d2">a² represents a squared value used in the mathematical expression.</data>
+      <data key="d3">doc-f0395eac2737141afd769deb5c6140ea-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008078</data>
+      <data key="d6" />
+    </node>
+    <node id="b²">
+      <data key="d0">b²</data>
+      <data key="d1">data</data>
+      <data key="d2">b² represents another squared value used in the mathematical expression.</data>
+      <data key="d3">doc-f0395eac2737141afd769deb5c6140ea-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008078</data>
+      <data key="d6" />
+    </node>
+    <node id="Formula_43">
+      <data key="d0">Formula_43</data>
+      <data key="d1">content</data>
+      <data key="d2">The identifier for the mathematical formula is Formula_43.</data>
+      <data key="d3">doc-f205ae5d73886267042a8e0600bd6703-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008089</data>
+      <data key="d6" />
+    </node>
+    <node id="q">
+      <data key="d0">q</data>
+      <data key="d1">data</data>
+      <data key="d2">q is a variable that is raised to the power of n and subtracted from q.&lt;SEP&gt;q is another value used in the formula.</data>
+      <data key="d3">doc-f205ae5d73886267042a8e0600bd6703-chunk-000&lt;SEP&gt;doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008096</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_44">
+      <data key="d0">formula_44</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_44 is the title or identifier for the mathematical expression S = \frac{a_1}{1 - q}.</data>
+      <data key="d3">doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008096</data>
+      <data key="d6" />
+    </node>
+    <node id="a_1">
+      <data key="d0">a_1</data>
+      <data key="d3">doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000&lt;SEP&gt;doc-6cf4854854a42f4041e73060e773058f-chunk-000</data>
+      <data key="d2">S is calculated by dividing a_1 by the result of subtracting q from 1.&lt;SEP&gt;a_1 represents a term in the sequence or series with an index of 1.</data>
+      <data key="d1">concept</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008105</data>
+      <data key="d6" />
+    </node>
+    <node id="1-q">
+      <data key="d0">1-q</data>
+      <data key="d3">doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000</data>
+      <data key="d2">S is calculated by dividing a_1 by (1 - q).</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008096</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_46">
+      <data key="d0">formula_46</data>
+      <data key="d1">content</data>
+      <data key="d2">Formula_46 is the name given to the mathematical formula S_n = \frac{(a_1 + a_n) \cdot n}{2}.</data>
+      <data key="d3">doc-6cf4854854a42f4041e73060e773058f-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008105</data>
+      <data key="d6" />
+    </node>
+    <node id="formula_51">
+      <data key="d0">formula_51</data>
+      <data key="d1">concept</data>
+      <data key="d2">The identifier for the mathematical formula \log_a x = \frac{\ln x}{\ln a}.</data>
+      <data key="d3">doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008131</data>
+      <data key="d6" />
+    </node>
+    <node id="log">
+      <data key="d0">log</data>
+      <data key="d3">doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d2">The lower index a indicates that log is a base-a logarithm function.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">unknown_source</data>
+      <data key="d5">1781008133</data>
+      <data key="d6" />
+    </node>
+    <edge source="Формула (LaTeX)" target="formula_0">
+      <data key="d7">2.0</data>
+      <data key="d8">The LaTeX formula is associated with the identifier Formula_0.&lt;SEP&gt;Formula_0 is identified as a LaTeX-formatted equation.</data>
+      <data key="d9">identifier,mathematical expression</data>
+      <data key="d10">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007343</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Формула (LaTeX)" target="formula_26">
+      <data key="d7">1.0</data>
+      <data key="d8">The LaTeX notation represents the given mathematical formula.</data>
+      <data key="d9">representation</data>
+      <data key="d10">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007914</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Формула (LaTeX)" target="formula_27">
+      <data key="d7">1.0</data>
+      <data key="d8">The LaTeX formula represents and identifies the concept "formula_27".</data>
+      <data key="d9">identifier,representation</data>
+      <data key="d10">doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007928</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Формула (LaTeX)" target="formula_30">
+      <data key="d7">2.0</data>
+      <data key="d8">The LaTeX formula represents the concept identified by the identifier.&lt;SEP&gt;The formula is represented by the given identifier.</data>
+      <data key="d9">identifier,represents</data>
+      <data key="d10">doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007971</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Формула (LaTeX)" target="x">
+      <data key="d7">1.0</data>
+      <data key="d8">The variable x is used in the formula.</data>
+      <data key="d9">variable usage</data>
+      <data key="d10">doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007979</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Формула (LaTeX)" target="cos">
+      <data key="d7">1.0</data>
+      <data key="d8">Cosine function cos is applied to x in the formula.</data>
+      <data key="d9">function application</data>
+      <data key="d10">doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007979</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Формула (LaTeX)" target="sin">
+      <data key="d7">1.0</data>
+      <data key="d8">Sine function sin is applied to x in the formula.</data>
+      <data key="d9">function application</data>
+      <data key="d10">doc-a83710e679a36bae4dc9d13ef1fef596-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007979</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="x^2">
+      <data key="d7">1.0</data>
+      <data key="d8">a is added to x^2.</data>
+      <data key="d9">addition,mathematical operation</data>
+      <data key="d10">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007343</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="D">
+      <data key="d7">1.0</data>
+      <data key="d8">The square root of D is divided by 2 and then multiplied by a.</data>
+      <data key="d9">division,multiplication</data>
+      <data key="d10">doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007362</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="b">
+      <data key="d7">2.0</data>
+      <data key="d8">The subtraction relationship between b and a is correctly formatted but not previously mentioned.&lt;SEP&gt;a is equal to b.</data>
+      <data key="d9">equality,subtraction</data>
+      <data key="d10">doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000&lt;SEP&gt;doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="c">
+      <data key="d7">1.0</data>
+      <data key="d8">c is divided by a.</data>
+      <data key="d9">constant,divided by</data>
+      <data key="d10">doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007379</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="formula_5">
+      <data key="d7">1.0</data>
+      <data key="d8">In formula_5, a equals the square of c.</data>
+      <data key="d9">equals,square operation</data>
+      <data key="d10">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007392</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="h">
+      <data key="d7">1.0</data>
+      <data key="d8">In the formula, a and h are positioned side by side.</data>
+      <data key="d9">paired in expression</data>
+      <data key="d10">doc-3686830df420ce5a2ede2561e500fcdd-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007407</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="∫">
+      <data key="d7">1.0</data>
+      <data key="d8">a serves as a parameter for the integration operator ∫.</data>
+      <data key="d9">integration limit,parameter</data>
+      <data key="d10">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="Formula_38">
+      <data key="d7">1.0</data>
+      <data key="d8">c equals a, as stated in the assertion formula.</data>
+      <data key="d9">equals</data>
+      <data key="d10">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008040</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="sin A">
+      <data key="d7">1.0</data>
+      <data key="d8">sin(A) divides a by sin(A).</data>
+      <data key="d9">division,function application</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="formula_39">
+      <data key="d7">1.0</data>
+      <data key="d8">a divided by sin(A) equals formula_39.</data>
+      <data key="d9">division,equality</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="S">
+      <data key="d7">2.0</data>
+      <data key="d8">a multiplied by a fraction equals S.&lt;SEP&gt;S is calculated by dividing a (with an index of 1) by the result of subtracting q from 1.</data>
+      <data key="d9">division,equality,multiplication,subtraction</data>
+      <data key="d10">doc-f205ae5d73886267042a8e0600bd6703-chunk-000&lt;SEP&gt;doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008096</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="log">
+      <data key="d7">1.0</data>
+      <data key="d8">The lower index a indicates that log is a base-a logarithm function.</data>
+      <data key="d9">lower index,mathematical relationship</data>
+      <data key="d10">doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008133</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a" target="ln">
+      <data key="d7">1.0</data>
+      <data key="d8">The natural logarithm ln is also applied to a.</data>
+      <data key="d9">function application,mathematical relationship</data>
+      <data key="d10">doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008133</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="b">
+      <data key="d7">1.0</data>
+      <data key="d8">x is added to b.</data>
+      <data key="d9">addition,mathematical operation</data>
+      <data key="d10">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007343</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="c">
+      <data key="d7">1.0</data>
+      <data key="d8">x is added to c.</data>
+      <data key="d9">addition,mathematical operation</data>
+      <data key="d10">doc-2a0888349718f5f2a20c6800cad13bbc-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007343</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="formula_2">
+      <data key="d7">1.0</data>
+      <data key="d8">The variable x equals the expression given by the formula formula_2.</data>
+      <data key="d9">equals,mathematical representation</data>
+      <data key="d10">doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007362</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="formula_3">
+      <data key="d7">2.0</data>
+      <data key="d8">The lower index 1 and 2 on x are related to formula_3, indicating two different instances of x.&lt;SEP&gt;The value of x in formula_3 is equal to the value of b.</data>
+      <data key="d9">assertion,equality,lower index</data>
+      <data key="d10">doc-600a0c78af3d801d6496e749bbc4d6d3-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007371</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="x_1">
+      <data key="d7">1.0</data>
+      <data key="d8">x has an index of 1.</data>
+      <data key="d9">lower index,variable</data>
+      <data key="d10">doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007379</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="x_2">
+      <data key="d7">1.0</data>
+      <data key="d8">x has an index of 2.</data>
+      <data key="d9">lower index,variable</data>
+      <data key="d10">doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007379</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="formula_4">
+      <data key="d7">2.0</data>
+      <data key="d8">x equals the value represented by formula_4 (x_1 \cdot x_2 = \frac{c}{a}).&lt;SEP&gt;The identifier formula_4 asserts that x is equal to c.</data>
+      <data key="d9">assertion,equals</data>
+      <data key="d10">doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007379</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="Formula_14">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula "formula_14" (LaTeX: (x^n)' = n x^{n-1}) states that x equals n.</data>
+      <data key="d9">equals,mathematical representation</data>
+      <data key="d10">doc-d4241bc197dcc704273a7b7e735b97ac-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007820</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="f">
+      <data key="d7">1.0</data>
+      <data key="d8">x is the input to the function f.</data>
+      <data key="d9">function application,input</data>
+      <data key="d10">doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007838</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="g">
+      <data key="d7">1.0</data>
+      <data key="d8">g operates on x as its argument.</data>
+      <data key="d9">argument,function input</data>
+      <data key="d10">doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007838</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="sin">
+      <data key="d7">5.0</data>
+      <data key="d8">The sine function is a function of the variable x.&lt;SEP&gt;Sine is also a function of x.&lt;SEP&gt;x is used as an argument to the sine function in the formula.&lt;SEP&gt;The sine of x appears as a direct input into the function.&lt;SEP&gt;Sine function applied to x.</data>
+      <data key="d9">function application,function dependency,function input,input,input parameter,x input</data>
+      <data key="d10">doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-7b176d9daac368c608373bc3d18f28da-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000&lt;SEP&gt;doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008017</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="cos">
+      <data key="d7">5.0</data>
+      <data key="d8">The cosine function is also a function of the variable x.&lt;SEP&gt;Cosine is a function of x.&lt;SEP&gt;Cosine is also applied to x in the formula.&lt;SEP&gt;Variable x appears alongside the cosine function in the expression.&lt;SEP&gt;Cosine function applied to x.</data>
+      <data key="d9">function application,function dependency,function input,input,input parameter,related variables,x input</data>
+      <data key="d10">doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000&lt;SEP&gt;doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000&lt;SEP&gt;doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008017</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="ln">
+      <data key="d7">2.0</data>
+      <data key="d8">The natural logarithm function ln is a function of x and its derivative yields 1/x.&lt;SEP&gt;The natural logarithm ln is applied to x.</data>
+      <data key="d9">derivative result,function application,function of,mathematical relationship</data>
+      <data key="d10">doc-03a5738df2fb27efe596a610bf0b8dfe-chunk-000&lt;SEP&gt;doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008133</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="d">
+      <data key="d7">3.0</data>
+      <data key="d8">The infinitesimal change d is related to the variable x in the context of integration.&lt;SEP&gt;x and d are paired together in the expression.</data>
+      <data key="d9">coefficient,differential,pairing,variable,variables pairing</data>
+      <data key="d10">doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007938</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="∫">
+      <data key="d7">1.0</data>
+      <data key="d8">The integral operator ∫ pairs with the variable x.</data>
+      <data key="d9">pairing,variables pairing</data>
+      <data key="d10">doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007938</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="sin^2 x + cos^2 x = 1">
+      <data key="d7">1.0</data>
+      <data key="d8">In the expression, x is used as a variable in both sine and cosine functions.</data>
+      <data key="d9">dependency,variable usage</data>
+      <data key="d10">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007956</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="formula_32">
+      <data key="d7">1.0</data>
+      <data key="d8">The equality "cos" equals 2 is asserted by the formula formula_32 and x is one of the related variables in the expression.</data>
+      <data key="d9">equality assertion,related variables</data>
+      <data key="d10">doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007988</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="tan">
+      <data key="d7">1.0</data>
+      <data key="d8">Tangent function applied to x.</data>
+      <data key="d9">function application,x input</data>
+      <data key="d10">doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008017</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x" target="log">
+      <data key="d7">1.0</data>
+      <data key="d8">Logarithm and x are directly involved in the formula as arguments of the log function.</data>
+      <data key="d9">directly related,expression component</data>
+      <data key="d10">doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008133</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b" target="D">
+      <data key="d7">1.0</data>
+      <data key="d8">b is subtracted from √(D) in the formula.</data>
+      <data key="d9">square root application,subtraction</data>
+      <data key="d10">doc-e104e211de2f2d77ed73269623c39fd2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007362</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b" target="∫">
+      <data key="d7">1.0</data>
+      <data key="d8">b is the upper limit of the integration interval [a, b].</data>
+      <data key="d9">integration interval,upper limit</data>
+      <data key="d10">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b" target="sin B">
+      <data key="d7">1.0</data>
+      <data key="d8">sin(B) divides b by sin(B).</data>
+      <data key="d9">division,function application</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b" target="c">
+      <data key="d7">1.0</data>
+      <data key="d8">b is equal to c.</data>
+      <data key="d9">equality</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b" target="formula_39">
+      <data key="d7">1.0</data>
+      <data key="d8">b divided by sin(B) equals formula_39.</data>
+      <data key="d9">division,equality</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="c" target="D">
+      <data key="d7">1.0</data>
+      <data key="d8">c is added to the result of 4 times a to complete the formula for D.</data>
+      <data key="d9">addition,multiplication</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="c" target="formula_5">
+      <data key="d7">1.0</data>
+      <data key="d8">In formula_5, c equals the square of a.</data>
+      <data key="d9">equals,square operation</data>
+      <data key="d10">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007392</data>
+      <data key="d13" />
+    </edge>
+    <edge source="c" target="Formula_6">
+      <data key="d7">1.0</data>
+      <data key="d8">The value of c is determined by applying the Pythagorean theorem to variables a and b.</data>
+      <data key="d9">equals,mathematical representation</data>
+      <data key="d10">doc-21f9ab7d714dddb9ee9e81d79d4dec8e-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007398</data>
+      <data key="d13" />
+    </edge>
+    <edge source="c" target="sin C">
+      <data key="d7">1.0</data>
+      <data key="d8">sin(C) divides c by sin(C).</data>
+      <data key="d9">division,function application</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="c" target="formula_39">
+      <data key="d7">1.0</data>
+      <data key="d8">c divided by sin(C) equals formula_39.</data>
+      <data key="d9">division,equality</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="b^2">
+      <data key="d7">2.0</data>
+      <data key="d8">b is raised to the power of 2 before being subtracted from D.&lt;SEP&gt;The b squared term is subtracted from D in the given formula.</data>
+      <data key="d9">exponentiation,subtraction</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="4a">
+      <data key="d7">2.0</data>
+      <data key="d8">4 times a is added to the result of b squared before being subtracted from D to form the discriminant.&lt;SEP&gt;4 times a is subtracted from b squared to form D.</data>
+      <data key="d9">addition,multiplication,subtraction</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="b^2-4ac">
+      <data key="d7">1.0</data>
+      <data key="d8">The entire expression b squared minus 4 times a times c equals D in the given formula.</data>
+      <data key="d9">subtraction</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="formula_1">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula D = b^2 - 4ac is represented as "formula_1" in the document.</data>
+      <data key="d9">LaTeX,equation representation</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="D" target="LaTeX">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula D = b^2 - 4ac is written using LaTeX notation.</data>
+      <data key="d9">formula,representation method</data>
+      <data key="d10">doc-93b6acd960d94a31188c3d66a7ec9b38-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007354</data>
+      <data key="d13" />
+    </edge>
+    <edge source="b^2" target="Formula_38">
+      <data key="d7">1.0</data>
+      <data key="d8">b squared is subtracted from the expression.</data>
+      <data key="d9">minus</data>
+      <data key="d10">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008040</data>
+      <data key="d13" />
+    </edge>
+    <edge source="LaTeX" target="formula_24">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula is also represented in LaTeX format: \int_{a}^{b} f(x) dx = F(b) - F(a).</data>
+      <data key="d9">LaTeX notation,representation</data>
+      <data key="d10">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="x_1" target="formula_4">
+      <data key="d7">1.0</data>
+      <data key="d8">x_1 represents the lower index of formula_4.</data>
+      <data key="d9">identifier,lower index</data>
+      <data key="d10">doc-0d651681504c3b0d71951fb02e88df36-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007379</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_5" target="a^2 + b^2 = c^2">
+      <data key="d7">2.0</data>
+      <data key="d8">The mathematical relationship "a^2 + b^2 = c^2" is represented by the identifier formula_5.&lt;SEP&gt;Formula_5 is used as an identifier for the mathematical statement "a^2 + b^2 = c^2".</data>
+      <data key="d9">equation representation,identifier,mathematical statement</data>
+      <data key="d10">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007392</data>
+      <data key="d13" />
+    </edge>
+    <edge source="a^2 + b^2 = c^2" target="c^2">
+      <data key="d7">1.0</data>
+      <data key="d8">The square of a plus the square of b equals the square of c in the equation.</data>
+      <data key="d9">addition,square operation</data>
+      <data key="d10">doc-2b2765c1dc3c0924781f469247feb1d3-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007392</data>
+      <data key="d13" />
+    </edge>
+    <edge source="c^2" target="Formula_38">
+      <data key="d7">1.0</data>
+      <data key="d8">The square of c equals a squared plus b squared minus two times a and b multiplied by cos(C).</data>
+      <data key="d9">equals</data>
+      <data key="d10">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008040</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="formula_7">
+      <data key="d7">2.0</data>
+      <data key="d8">The result of S is stated to be 1 according to the assertion.&lt;SEP&gt;The assertion states that S equals 1, which is associated with the formula formula_7.</data>
+      <data key="d9">equals</data>
+      <data key="d10">doc-3686830df420ce5a2ede2561e500fcdd-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007407</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="r^2">
+      <data key="d7">1.0</data>
+      <data key="d8">The surface area S is calculated by multiplying π and r squared.</data>
+      <data key="d9">exponentiation,multiplication</data>
+      <data key="d10">doc-30bb8cabb1c868341358d6696111eff8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007421</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="π">
+      <data key="d7">1.0</data>
+      <data key="d8">The value of S is equal to the value of π in the given formula.</data>
+      <data key="d9">equality</data>
+      <data key="d10">doc-30bb8cabb1c868341358d6696111eff8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007421</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="formula_8">
+      <data key="d7">1.0</data>
+      <data key="d8">Formula 8 represents the equation S = πr^2.</data>
+      <data key="d9">equivalence,representation</data>
+      <data key="d10">doc-30bb8cabb1c868341358d6696111eff8-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007421</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="formula_13">
+      <data key="d7">2.0</data>
+      <data key="d8">The value of S is asserted to be 4 based on the provided formula.&lt;SEP&gt;The formula formula_13 asserts that S equals 4.</data>
+      <data key="d9">equals,mathematical assertion</data>
+      <data key="d10">doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007811</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="n">
+      <data key="d7">2.0</data>
+      <data key="d8">S has an index or exponent of n.&lt;SEP&gt;S is indexed by n and represents the sum of terms from a_1 to a_n.</data>
+      <data key="d9">exponent,indexing,lower index,summation</data>
+      <data key="d10">doc-f205ae5d73886267042a8e0600bd6703-chunk-000&lt;SEP&gt;doc-6cf4854854a42f4041e73060e773058f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008109</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="Formula_43">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier Formula_43 is equal to S with an n exponent.</data>
+      <data key="d9">equality,lower index</data>
+      <data key="d10">doc-f205ae5d73886267042a8e0600bd6703-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008089</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="a_1">
+      <data key="d7">1.0</data>
+      <data key="d8">S is calculated by dividing a_1 by the result of subtracting q from 1.</data>
+      <data key="d9">division,equality</data>
+      <data key="d10">doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008096</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="1-q">
+      <data key="d7">1.0</data>
+      <data key="d8">S is calculated by dividing a_1 by (1 - q).</data>
+      <data key="d9">division,equality,subtraction</data>
+      <data key="d10">doc-c2dfa7e1e54f19c7c0d453b57e49d569-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008096</data>
+      <data key="d13" />
+    </edge>
+    <edge source="S" target="formula_46">
+      <data key="d7">1.0</data>
+      <data key="d8">The assertion states that S equals the expression represented by formula_46.</data>
+      <data key="d9">equivalence,representation</data>
+      <data key="d10">doc-6cf4854854a42f4041e73060e773058f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008109</data>
+      <data key="d13" />
+    </edge>
+    <edge source="π" target="r^2">
+      <data key="d7">2.0</data>
+      <data key="d8">In the formula, π is multiplied with r squared to determine the surface area S.&lt;SEP&gt;In the formula, π and r are multiplied with r raised to the power of 2.</data>
+      <data key="d9">exponentiation,multiplication</data>
+      <data key="d10">doc-30bb8cabb1c868341358d6696111eff8-chunk-000&lt;SEP&gt;doc-8338d84cbfe7914211255ac9d9e4b49b-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007811</data>
+      <data key="d13" />
+    </edge>
+    <edge source="π" target="r">
+      <data key="d7">1.0</data>
+      <data key="d8">π and r are proportional in the formula.</data>
+      <data key="d9">mathematical relationship,proportional</data>
+      <data key="d10">doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007427</data>
+      <data key="d13" />
+    </edge>
+    <edge source="L" target="formula_9">
+      <data key="d7">1.0</data>
+      <data key="d8">The length L is represented by the formula formula_9: L = 2 \pi r.</data>
+      <data key="d9">mathematical expression,represents</data>
+      <data key="d10">doc-f5be1dcdffe74abbdfd357496fb974c9-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007427</data>
+      <data key="d13" />
+    </edge>
+    <edge source="d" target="formula_11">
+      <data key="d7">2.0</data>
+      <data key="d8">The formula represents the relationship where d equals 2r.&lt;SEP&gt;The variable d is represented by the formula formula_11.</data>
+      <data key="d9">equality,represents</data>
+      <data key="d10">doc-106004f57852517ecd8ca29edb181bb6-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007434</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Formula_12" target="V">
+      <data key="d7">1.0</data>
+      <data key="d8">The value of V is equal to the result of the formula Formula_12.</data>
+      <data key="d9">equals</data>
+      <data key="d10">doc-619df480f7f496293a883f5ec6e99477-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007814</data>
+      <data key="d13" />
+    </edge>
+    <edge source="n" target="Formula_22">
+      <data key="d7">1.0</data>
+      <data key="d8">Re-emphasizing the relationship between Formula_22 and n as a parameter.</data>
+      <data key="d9">mathematical expression,parameter</data>
+      <data key="d10">doc-4bb262ebbff0da390377af441dcb84fa-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007882</data>
+      <data key="d13" />
+    </edge>
+    <edge source="n" target="q">
+      <data key="d7">2.0</data>
+      <data key="d8">q raised to the power of n multiplies a and forms part of the numerator.&lt;SEP&gt;q is raised to the power of n in the expression.</data>
+      <data key="d9">exponent,exponentiation,multiplication,power</data>
+      <data key="d10">doc-f205ae5d73886267042a8e0600bd6703-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008089</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_16" target="f">
+      <data key="d7">3.0</data>
+      <data key="d8">The function f is used to derive the formula represented by "formula_16".&lt;SEP&gt;f subtracted from g as seen in the numerator of the formula.&lt;SEP&gt;The assertion states that "formula_16" is equal to f.</data>
+      <data key="d9">derivation,difference,equality,function application,identity,subtraction</data>
+      <data key="d10">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_16" target="g^2">
+      <data key="d7">1.0</data>
+      <data key="d8">g raised to the power of 2 is part of the denominator in the formula for "formula_16".</data>
+      <data key="d9">exponentiation,power</data>
+      <data key="d10">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007831</data>
+      <data key="d13" />
+    </edge>
+    <edge source="f" target="g">
+      <data key="d7">2.0</data>
+      <data key="d8">f divides g in the context of the formula.&lt;SEP&gt;The function f operates on g(x), indicating that f and g are composed sequentially in this expression.</data>
+      <data key="d9">composition,divides,division,sequential operation</data>
+      <data key="d10">doc-7bfc174e21f4323485b564b4ffe791be-chunk-000&lt;SEP&gt;doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007838</data>
+      <data key="d13" />
+    </edge>
+    <edge source="f" target="Formula_17">
+      <data key="d7">1.0</data>
+      <data key="d8">f is multiplied by the result of g(x) to produce Formula_17.</data>
+      <data key="d9">application,multiplication</data>
+      <data key="d10">doc-e199e2c6f7381d60c9ac07baabe0b381-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007838</data>
+      <data key="d13" />
+    </edge>
+    <edge source="f" target="∫">
+      <data key="d7">1.0</data>
+      <data key="d8">The function f(x) is integrated with respect to x within the integral.</data>
+      <data key="d9">function to be integrated,integration operation</data>
+      <data key="d10">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="cos">
+      <data key="d7">3.0</data>
+      <data key="d8">The derivative of sin(x) equals cos(x), as stated by the formula.&lt;SEP&gt;The derivative of cosine (cos) with respect to x equals the negative sine (sin).&lt;SEP&gt;Sine and cosine are used together in the formula.</data>
+      <data key="d9">derivative relationship,equality,function composition,input,mathematical relationship</data>
+      <data key="d10">doc-9d0dd84a0be328b9a9b4a65c28c5d2ec-chunk-000&lt;SEP&gt;doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000&lt;SEP&gt;doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007971</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="formula_19">
+      <data key="d7">1.0</data>
+      <data key="d8">The same identifier also references the sine function in its derivative form.</data>
+      <data key="d9">function reference,identifier</data>
+      <data key="d10">doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="∫">
+      <data key="d7">2.0</data>
+      <data key="d8">The integral operator ∫ is applied to the sin function as its integrand.&lt;SEP&gt;The result of the integral ∫ cos(x) dx is equal to sin(x).</data>
+      <data key="d9">equals,integrand,operator,result of integral equals</data>
+      <data key="d10">doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007938</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="C">
+      <data key="d7">1.0</data>
+      <data key="d8">The sine function is added to C after integration.</data>
+      <data key="d9">addition,resulting addition</data>
+      <data key="d10">doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007938</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="sin^2 x + cos^2 x = 1">
+      <data key="d7">1.0</data>
+      <data key="d8">The equality sin²(x) + cos²(x) = 1 is true due to the Pythagorean identity in trigonometry.</data>
+      <data key="d9">equality,function usage</data>
+      <data key="d10">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007956</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="2x">
+      <data key="d7">1.0</data>
+      <data key="d8">Sine function is applied to 2x in the formula.</data>
+      <data key="d9">argument,function application</data>
+      <data key="d10">doc-a0dbd6564ebc2644ef1cc840ebfe51a2-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007971</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="tan">
+      <data key="d7">1.0</data>
+      <data key="d8">Tangent is equal to the division of sine by cosine.</data>
+      <data key="d9">division,equality</data>
+      <data key="d10">doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008017</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin" target="i">
+      <data key="d7">1.0</data>
+      <data key="d8">i and sin appear side by side in the expression.</data>
+      <data key="d9">co-occurrence,presence together</data>
+      <data key="d10">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="formula_19">
+      <data key="d7">1.0</data>
+      <data key="d8">Formula_19 is an identifier for a formula that includes the cosine function.</data>
+      <data key="d9">function reference,identifier</data>
+      <data key="d10">doc-b43fc5cd8aa611e5651d7cf5010dcc6b-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007862</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="C">
+      <data key="d7">1.0</data>
+      <data key="d8">Cosine subtracts from C, which could represent a constant of integration.</data>
+      <data key="d9">constant,subtraction</data>
+      <data key="d10">doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007928</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="∫">
+      <data key="d7">2.0</data>
+      <data key="d8">The result of the integral (cos) is derived from the original integrand (sin).&lt;SEP&gt;The integral operator ∫ is applied to the cosine function.</data>
+      <data key="d9">applies to,derivative,integration operator applied to,result</data>
+      <data key="d10">doc-946f7f65b47d02934ef52ad10ee466e5-chunk-000&lt;SEP&gt;doc-b0522860145c2ef82958731f8d13ec3e-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007938</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="sin^2 x + cos^2 x = 1">
+      <data key="d7">1.0</data>
+      <data key="d8">In the expression, cos is used alongside x to form the trigonometric functions.</data>
+      <data key="d9">dependency,variable usage</data>
+      <data key="d10">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007956</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="formula_32">
+      <data key="d7">2.0</data>
+      <data key="d8">The cosine function is a function in the formula and relates to variable x.&lt;SEP&gt;The equality "cos" equals 2 is asserted by the formula formula_32.</data>
+      <data key="d9">equality assertion,function,related to x</data>
+      <data key="d10">doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007988</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="Formula_33">
+      <data key="d7">2.0</data>
+      <data key="d8">The cosine function (cos) equals 1 according to the given formula.&lt;SEP&gt;The cosine function (cos) is applied to the expression 2x.</data>
+      <data key="d9">equality,function application,value</data>
+      <data key="d10">doc-b1de46266243c31cf0c96ded454f6a13-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008001</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="φ">
+      <data key="d7">1.0</data>
+      <data key="d8">The function cos is applied to φ.</data>
+      <data key="d9">function argument,input parameter</data>
+      <data key="d10">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="cos" target="e">
+      <data key="d7">1.0</data>
+      <data key="d8">The assertion states that e is equal to cos (formula formula_40).</data>
+      <data key="d9">equality,mathematical equivalence</data>
+      <data key="d10">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="ln" target="log">
+      <data key="d7">1.0</data>
+      <data key="d8">The log function is equivalent to the ratio of two ln functions in this formula.</data>
+      <data key="d9">equivalent,mathematical assertion</data>
+      <data key="d10">doc-b1e4448e5c567fada0f6d4ba573209ab-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008133</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Formula_22" target="e">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula asserts that e is equal to the limit of (1 + 1/n) raised to the power of n as n approaches infinity.</data>
+      <data key="d9">constant representation,equal to</data>
+      <data key="d10">doc-4bb262ebbff0da390377af441dcb84fa-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007882</data>
+      <data key="d13" />
+    </edge>
+    <edge source="e" target="i">
+      <data key="d7">1.0</data>
+      <data key="d8">e is raised to the power of i in the formula.</data>
+      <data key="d9">exponentiation,mathematical operation</data>
+      <data key="d10">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="e" target="φ">
+      <data key="d7">1.0</data>
+      <data key="d8">e and φ appear side by side in the expression.</data>
+      <data key="d9">co-occurrence,presence together</data>
+      <data key="d10">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_23" target="sin(x)/x=1">
+      <data key="d7">1.0</data>
+      <data key="d8">The equality sin(x)/x = 1 asserts that the ratio of sine to x, as x approaches 0, equals 1.</data>
+      <data key="d9">equality assertion</data>
+      <data key="d10">doc-7b176d9daac368c608373bc3d18f28da-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007891</data>
+      <data key="d13" />
+    </edge>
+    <edge source="lim" target="x-&gt;0">
+      <data key="d7">1.0</data>
+      <data key="d8">The limit operator lim is applied as x approaches 0 in the formula.</data>
+      <data key="d9">limit application</data>
+      <data key="d10">doc-7b176d9daac368c608373bc3d18f28da-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007891</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_24" target="∫">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier "formula_24" represents the integral expression ∫_{a}^{b} f(x) dx = F(b) - F(a).</data>
+      <data key="d9">mathematical formula,representation</data>
+      <data key="d10">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="F" target="∫">
+      <data key="d7">1.0</data>
+      <data key="d8">F(b) - F(a) evaluates the antiderivative at b and a respectively.</data>
+      <data key="d9">antiderivative,evaluation function</data>
+      <data key="d10">doc-952ae85bc165a99a8207d50d0e4db44c-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007904</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_26" target="e^x dx">
+      <data key="d7">1.0</data>
+      <data key="d8">The identifier for the formula corresponds to the integral expression of e^x with respect to x.</data>
+      <data key="d9">correspondence,integral expression</data>
+      <data key="d10">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007914</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_26" target="e^x + C">
+      <data key="d7">1.0</data>
+      <data key="d8">The result of integrating e^x is e^x + C, as stated in the formula.</data>
+      <data key="d9">integration outcome,result</data>
+      <data key="d10">doc-93205e0c8c751a55081db85cf6bc6a62-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007914</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_29" target="sin^2 x + cos^2 x = 1">
+      <data key="d7">1.0</data>
+      <data key="d8">The equality sin²(x) + cos²(x) = 1 represents the given formula.</data>
+      <data key="d9">equality,mathematical statement</data>
+      <data key="d10">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007956</data>
+      <data key="d13" />
+    </edge>
+    <edge source="sin^2 x + cos^2 x = 1" target="x and cos">
+      <data key="d7">1.0</data>
+      <data key="d8">Both x and cos are used together in the formula, with x being squared by sine and cos being squared separately.</data>
+      <data key="d9">dependency,simultaneous use</data>
+      <data key="d10">doc-3b5a606db4a1d6eb64b1b4f497a8a132-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007956</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_32" target="cos^2">
+      <data key="d7">1.0</data>
+      <data key="d8">The square of the cosine function is an operation within the formula and relates to the cosine function itself.</data>
+      <data key="d9">operation,related to cos</data>
+      <data key="d10">doc-77e6c803852efe2c5d828dcee4d05d91-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781007988</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Formula_34" target="tan">
+      <data key="d7">1.0</data>
+      <data key="d8">The formula represents the relationship between tangent and sine functions as stated in Formula_34.</data>
+      <data key="d9">mathematical formula,representation</data>
+      <data key="d10">doc-93a94f006c522d695912e86f3a1ab972-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008017</data>
+      <data key="d13" />
+    </edge>
+    <edge source="1 + \tan^2 x" target="formula_35">
+      <data key="d7">1.0</data>
+      <data key="d8">The value 1 plus tan squared of x is referenced by the identifier formula_35.</data>
+      <data key="d9">formula reference,value</data>
+      <data key="d10">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008023</data>
+      <data key="d13" />
+    </edge>
+    <edge source="1 + tan^2 x" target="tan^2 x">
+      <data key="d7">1.0</data>
+      <data key="d8">tan squared of x is added to 1.</data>
+      <data key="d9">addition,composition</data>
+      <data key="d10">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008023</data>
+      <data key="d13" />
+    </edge>
+    <edge source="1/(cos^2 x)" target="cos^2 x">
+      <data key="d7">1.0</data>
+      <data key="d8">cos squared of x is divided into 1.</data>
+      <data key="d9">division,inverse</data>
+      <data key="d10">doc-11de9f184a1af74ecd6088c319b89229-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008023</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Formula_38" target="a^2">
+      <data key="d7">1.0</data>
+      <data key="d8">a squared is added to the expression.</data>
+      <data key="d9">plus</data>
+      <data key="d10">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008040</data>
+      <data key="d13" />
+    </edge>
+    <edge source="Formula_38" target="cos(C)">
+      <data key="d7">1.0</data>
+      <data key="d8">The cosine of angle C is multiplied by 2ab and subtracted from the expression.</data>
+      <data key="d9">minus</data>
+      <data key="d10">doc-0c3cc366d264792a0e1c16b5d3be0262-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008040</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_39" target="2R">
+      <data key="d7">1.0</data>
+      <data key="d8">formula_39 is equal to 2R.</data>
+      <data key="d9">equality</data>
+      <data key="d10">doc-23ec8458fb7fe841de5f228bb737b76f-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008062</data>
+      <data key="d13" />
+    </edge>
+    <edge source="e^{i\varphi}" target="formula_40">
+      <data key="d7">1.0</data>
+      <data key="d8">The LaTeX formula e^{i\varphi} is equal to the identifier formula_40.</data>
+      <data key="d9">equality,mathematical equivalence</data>
+      <data key="d10">doc-c5ba0dcacc2438267b920d857cb7d2c1-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008071</data>
+      <data key="d13" />
+    </edge>
+    <edge source="formula_41" target="z">
+      <data key="d7">1.0</data>
+      <data key="d8">Formula_41 represents z as √(a² + b²).</data>
+      <data key="d9">equals,mathematical representation</data>
+      <data key="d10">doc-f0395eac2737141afd769deb5c6140ea-chunk-000</data>
+      <data key="d11">unknown_source</data>
+      <data key="d12">1781008078</data>
+      <data key="d13" />
+    </edge>
+  </graph>
+</graphml>

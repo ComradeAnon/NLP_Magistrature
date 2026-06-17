@@ -1,0 +1,878 @@
+{
+  "doc-2a0888349718f5f2a20c6800cad13bbc": {
+    "relation_pairs": [
+      [
+        "formula_0",
+        "Формула (LaTeX)"
+      ],
+      [
+        "a",
+        "x^2"
+      ],
+      [
+        "c",
+        "x"
+      ],
+      [
+        "b",
+        "x"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781007343,
+    "update_time": 1781007343,
+    "_id": "doc-2a0888349718f5f2a20c6800cad13bbc"
+  },
+  "doc-93b6acd960d94a31188c3d66a7ec9b38": {
+    "relation_pairs": [
+      [
+        "D",
+        "formula_1"
+      ],
+      [
+        "D",
+        "LaTeX"
+      ],
+      [
+        "D",
+        "b^2"
+      ],
+      [
+        "D",
+        "c"
+      ],
+      [
+        "D",
+        "b^2-4ac"
+      ],
+      [
+        "4a",
+        "D"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1781007354,
+    "update_time": 1781007354,
+    "_id": "doc-93b6acd960d94a31188c3d66a7ec9b38"
+  },
+  "doc-e104e211de2f2d77ed73269623c39fd2": {
+    "relation_pairs": [
+      [
+        "D",
+        "b"
+      ],
+      [
+        "D",
+        "a"
+      ],
+      [
+        "formula_2",
+        "x"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781007362,
+    "update_time": 1781007362,
+    "_id": "doc-e104e211de2f2d77ed73269623c39fd2"
+  },
+  "doc-600a0c78af3d801d6496e749bbc4d6d3": {
+    "relation_pairs": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "formula_3",
+        "x"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781007371,
+    "update_time": 1781007371,
+    "_id": "doc-600a0c78af3d801d6496e749bbc4d6d3"
+  },
+  "doc-0d651681504c3b0d71951fb02e88df36": {
+    "relation_pairs": [
+      [
+        "formula_4",
+        "x_1"
+      ],
+      [
+        "x",
+        "x_2"
+      ],
+      [
+        "formula_4",
+        "x"
+      ],
+      [
+        "x",
+        "x_1"
+      ],
+      [
+        "a",
+        "c"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781007379,
+    "update_time": 1781007379,
+    "_id": "doc-0d651681504c3b0d71951fb02e88df36"
+  },
+  "doc-2b2765c1dc3c0924781f469247feb1d3": {
+    "relation_pairs": [
+      [
+        "c",
+        "formula_5"
+      ],
+      [
+        "a^2 + b^2 = c^2",
+        "formula_5"
+      ],
+      [
+        "a^2 + b^2 = c^2",
+        "c^2"
+      ],
+      [
+        "a",
+        "formula_5"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781007392,
+    "update_time": 1781007392,
+    "_id": "doc-2b2765c1dc3c0924781f469247feb1d3"
+  },
+  "doc-21f9ab7d714dddb9ee9e81d79d4dec8e": {
+    "relation_pairs": [
+      [
+        "Formula_6",
+        "c"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781007398,
+    "update_time": 1781007398,
+    "_id": "doc-21f9ab7d714dddb9ee9e81d79d4dec8e"
+  },
+  "doc-3686830df420ce5a2ede2561e500fcdd": {
+    "relation_pairs": [
+      [
+        "a",
+        "h"
+      ],
+      [
+        "S",
+        "formula_7"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781007407,
+    "update_time": 1781007407,
+    "_id": "doc-3686830df420ce5a2ede2561e500fcdd"
+  },
+  "doc-30bb8cabb1c868341358d6696111eff8": {
+    "relation_pairs": [
+      [
+        "r^2",
+        "π"
+      ],
+      [
+        "S",
+        "formula_8"
+      ],
+      [
+        "S",
+        "π"
+      ],
+      [
+        "S",
+        "r^2"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781007421,
+    "update_time": 1781007421,
+    "_id": "doc-30bb8cabb1c868341358d6696111eff8"
+  },
+  "doc-f5be1dcdffe74abbdfd357496fb974c9": {
+    "relation_pairs": [
+      [
+        "r",
+        "π"
+      ],
+      [
+        "L",
+        "formula_9"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781007427,
+    "update_time": 1781007427,
+    "_id": "doc-f5be1dcdffe74abbdfd357496fb974c9"
+  },
+  "doc-106004f57852517ecd8ca29edb181bb6": {
+    "relation_pairs": [
+      [
+        "d",
+        "formula_11"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781007434,
+    "update_time": 1781007434,
+    "_id": "doc-106004f57852517ecd8ca29edb181bb6"
+  },
+  "doc-8338d84cbfe7914211255ac9d9e4b49b": {
+    "relation_pairs": [
+      [
+        "r^2",
+        "π"
+      ],
+      [
+        "S",
+        "formula_13"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781007811,
+    "update_time": 1781007811,
+    "_id": "doc-8338d84cbfe7914211255ac9d9e4b49b"
+  },
+  "doc-619df480f7f496293a883f5ec6e99477": {
+    "relation_pairs": [
+      [
+        "Formula_12",
+        "V"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781007814,
+    "update_time": 1781007814,
+    "_id": "doc-619df480f7f496293a883f5ec6e99477"
+  },
+  "doc-d4241bc197dcc704273a7b7e735b97ac": {
+    "relation_pairs": [
+      [
+        "Formula_14",
+        "x"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781007820,
+    "update_time": 1781007820,
+    "_id": "doc-d4241bc197dcc704273a7b7e735b97ac"
+  },
+  "doc-7bfc174e21f4323485b564b4ffe791be": {
+    "relation_pairs": [
+      [
+        "f",
+        "formula_16"
+      ],
+      [
+        "formula_16",
+        "g^2"
+      ],
+      [
+        "f",
+        "g"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781007831,
+    "update_time": 1781007831,
+    "_id": "doc-7bfc174e21f4323485b564b4ffe791be"
+  },
+  "doc-e199e2c6f7381d60c9ac07baabe0b381": {
+    "relation_pairs": [
+      [
+        "f",
+        "x"
+      ],
+      [
+        "f",
+        "g"
+      ],
+      [
+        "g",
+        "x"
+      ],
+      [
+        "Formula_17",
+        "f"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781007838,
+    "update_time": 1781007838,
+    "_id": "doc-e199e2c6f7381d60c9ac07baabe0b381"
+  },
+  "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec": {
+    "relation_pairs": [
+      [
+        "cos",
+        "sin"
+      ],
+      [
+        "sin",
+        "x"
+      ],
+      [
+        "cos",
+        "x"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781007847,
+    "update_time": 1781007847,
+    "_id": "doc-9d0dd84a0be328b9a9b4a65c28c5d2ec"
+  },
+  "doc-b43fc5cd8aa611e5651d7cf5010dcc6b": {
+    "relation_pairs": [
+      [
+        "sin",
+        "x"
+      ],
+      [
+        "cos",
+        "formula_19"
+      ],
+      [
+        "cos",
+        "x"
+      ],
+      [
+        "cos",
+        "sin"
+      ],
+      [
+        "formula_19",
+        "sin"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781007862,
+    "update_time": 1781007862,
+    "_id": "doc-b43fc5cd8aa611e5651d7cf5010dcc6b"
+  },
+  "doc-03a5738df2fb27efe596a610bf0b8dfe": {
+    "relation_pairs": [
+      [
+        "ln",
+        "x"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781007876,
+    "update_time": 1781007876,
+    "_id": "doc-03a5738df2fb27efe596a610bf0b8dfe"
+  },
+  "doc-4bb262ebbff0da390377af441dcb84fa": {
+    "relation_pairs": [
+      [
+        "Formula_22",
+        "e"
+      ],
+      [
+        "Formula_22",
+        "n"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781007882,
+    "update_time": 1781007882,
+    "_id": "doc-4bb262ebbff0da390377af441dcb84fa"
+  },
+  "doc-7b176d9daac368c608373bc3d18f28da": {
+    "relation_pairs": [
+      [
+        "sin",
+        "x"
+      ],
+      [
+        "lim",
+        "x->0"
+      ],
+      [
+        "formula_23",
+        "sin(x)/x=1"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781007891,
+    "update_time": 1781007891,
+    "_id": "doc-7b176d9daac368c608373bc3d18f28da"
+  },
+  "doc-952ae85bc165a99a8207d50d0e4db44c": {
+    "relation_pairs": [
+      [
+        "LaTeX",
+        "formula_24"
+      ],
+      [
+        "a",
+        "∫"
+      ],
+      [
+        "f",
+        "∫"
+      ],
+      [
+        "F",
+        "∫"
+      ],
+      [
+        "b",
+        "∫"
+      ],
+      [
+        "formula_24",
+        "∫"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1781007904,
+    "update_time": 1781007904,
+    "_id": "doc-952ae85bc165a99a8207d50d0e4db44c"
+  },
+  "doc-93205e0c8c751a55081db85cf6bc6a62": {
+    "relation_pairs": [
+      [
+        "e^x + C",
+        "formula_26"
+      ],
+      [
+        "formula_26",
+        "Формула (LaTeX)"
+      ],
+      [
+        "e^x dx",
+        "formula_26"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781007914,
+    "update_time": 1781007914,
+    "_id": "doc-93205e0c8c751a55081db85cf6bc6a62"
+  },
+  "doc-946f7f65b47d02934ef52ad10ee466e5": {
+    "relation_pairs": [
+      [
+        "sin",
+        "∫"
+      ],
+      [
+        "formula_27",
+        "Формула (LaTeX)"
+      ],
+      [
+        "d",
+        "x"
+      ],
+      [
+        "cos",
+        "∫"
+      ],
+      [
+        "C",
+        "cos"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781007928,
+    "update_time": 1781007928,
+    "_id": "doc-946f7f65b47d02934ef52ad10ee466e5"
+  },
+  "doc-b0522860145c2ef82958731f8d13ec3e": {
+    "relation_pairs": [
+      [
+        "d",
+        "x"
+      ],
+      [
+        "C",
+        "sin"
+      ],
+      [
+        "x",
+        "∫"
+      ],
+      [
+        "cos",
+        "∫"
+      ],
+      [
+        "sin",
+        "∫"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781007938,
+    "update_time": 1781007938,
+    "_id": "doc-b0522860145c2ef82958731f8d13ec3e"
+  },
+  "doc-3b5a606db4a1d6eb64b1b4f497a8a132": {
+    "relation_pairs": [
+      [
+        "cos",
+        "sin^2 x + cos^2 x = 1"
+      ],
+      [
+        "sin^2 x + cos^2 x = 1",
+        "x"
+      ],
+      [
+        "sin^2 x + cos^2 x = 1",
+        "x and cos"
+      ],
+      [
+        "sin",
+        "sin^2 x + cos^2 x = 1"
+      ],
+      [
+        "formula_29",
+        "sin^2 x + cos^2 x = 1"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781007956,
+    "update_time": 1781007956,
+    "_id": "doc-3b5a606db4a1d6eb64b1b4f497a8a132"
+  },
+  "doc-a0dbd6564ebc2644ef1cc840ebfe51a2": {
+    "relation_pairs": [
+      [
+        "sin",
+        "x"
+      ],
+      [
+        "2x",
+        "sin"
+      ],
+      [
+        "cos",
+        "x"
+      ],
+      [
+        "cos",
+        "sin"
+      ],
+      [
+        "formula_30",
+        "Формула (LaTeX)"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781007971,
+    "update_time": 1781007971,
+    "_id": "doc-a0dbd6564ebc2644ef1cc840ebfe51a2"
+  },
+  "doc-a83710e679a36bae4dc9d13ef1fef596": {
+    "relation_pairs": [
+      [
+        "cos",
+        "Формула (LaTeX)"
+      ],
+      [
+        "x",
+        "Формула (LaTeX)"
+      ],
+      [
+        "sin",
+        "Формула (LaTeX)"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781007979,
+    "update_time": 1781007979,
+    "_id": "doc-a83710e679a36bae4dc9d13ef1fef596"
+  },
+  "doc-77e6c803852efe2c5d828dcee4d05d91": {
+    "relation_pairs": [
+      [
+        "formula_32",
+        "x"
+      ],
+      [
+        "cos^2",
+        "formula_32"
+      ],
+      [
+        "cos",
+        "x"
+      ],
+      [
+        "cos",
+        "formula_32"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781007988,
+    "update_time": 1781007988,
+    "_id": "doc-77e6c803852efe2c5d828dcee4d05d91"
+  },
+  "doc-b1de46266243c31cf0c96ded454f6a13": {
+    "relation_pairs": [
+      [
+        "Formula_33",
+        "cos"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781008001,
+    "update_time": 1781008001,
+    "_id": "doc-b1de46266243c31cf0c96ded454f6a13"
+  },
+  "doc-93a94f006c522d695912e86f3a1ab972": {
+    "relation_pairs": [
+      [
+        "sin",
+        "x"
+      ],
+      [
+        "Formula_34",
+        "tan"
+      ],
+      [
+        "sin",
+        "tan"
+      ],
+      [
+        "cos",
+        "x"
+      ],
+      [
+        "tan",
+        "x"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781008017,
+    "update_time": 1781008017,
+    "_id": "doc-93a94f006c522d695912e86f3a1ab972"
+  },
+  "doc-11de9f184a1af74ecd6088c319b89229": {
+    "relation_pairs": [
+      [
+        "1/(cos^2 x)",
+        "cos^2 x"
+      ],
+      [
+        "1 + \\tan^2 x",
+        "formula_35"
+      ],
+      [
+        "1 + tan^2 x",
+        "tan^2 x"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781008023,
+    "update_time": 1781008023,
+    "_id": "doc-11de9f184a1af74ecd6088c319b89229"
+  },
+  "doc-0c3cc366d264792a0e1c16b5d3be0262": {
+    "relation_pairs": [
+      [
+        "Formula_38",
+        "c^2"
+      ],
+      [
+        "Formula_38",
+        "a^2"
+      ],
+      [
+        "Formula_38",
+        "b^2"
+      ],
+      [
+        "Formula_38",
+        "a"
+      ],
+      [
+        "Formula_38",
+        "cos(C)"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781008040,
+    "update_time": 1781008040,
+    "_id": "doc-0c3cc366d264792a0e1c16b5d3be0262"
+  },
+  "doc-23ec8458fb7fe841de5f228bb737b76f": {
+    "relation_pairs": [
+      [
+        "c",
+        "sin C"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "a",
+        "formula_39"
+      ],
+      [
+        "b",
+        "c"
+      ],
+      [
+        "c",
+        "formula_39"
+      ],
+      [
+        "b",
+        "sin B"
+      ],
+      [
+        "b",
+        "formula_39"
+      ],
+      [
+        "2R",
+        "formula_39"
+      ],
+      [
+        "a",
+        "sin A"
+      ]
+    ],
+    "count": 9,
+    "create_time": 1781008062,
+    "update_time": 1781008062,
+    "_id": "doc-23ec8458fb7fe841de5f228bb737b76f"
+  },
+  "doc-c5ba0dcacc2438267b920d857cb7d2c1": {
+    "relation_pairs": [
+      [
+        "cos",
+        "φ"
+      ],
+      [
+        "e",
+        "φ"
+      ],
+      [
+        "cos",
+        "e"
+      ],
+      [
+        "e^{i\\varphi}",
+        "formula_40"
+      ],
+      [
+        "e",
+        "i"
+      ],
+      [
+        "i",
+        "sin"
+      ]
+    ],
+    "count": 6,
+    "create_time": 1781008071,
+    "update_time": 1781008071,
+    "_id": "doc-c5ba0dcacc2438267b920d857cb7d2c1"
+  },
+  "doc-f0395eac2737141afd769deb5c6140ea": {
+    "relation_pairs": [
+      [
+        "formula_41",
+        "z"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1781008078,
+    "update_time": 1781008078,
+    "_id": "doc-f0395eac2737141afd769deb5c6140ea"
+  },
+  "doc-f205ae5d73886267042a8e0600bd6703": {
+    "relation_pairs": [
+      [
+        "S",
+        "a"
+      ],
+      [
+        "n",
+        "q"
+      ],
+      [
+        "S",
+        "n"
+      ],
+      [
+        "Formula_43",
+        "S"
+      ]
+    ],
+    "count": 4,
+    "create_time": 1781008089,
+    "update_time": 1781008089,
+    "_id": "doc-f205ae5d73886267042a8e0600bd6703"
+  },
+  "doc-c2dfa7e1e54f19c7c0d453b57e49d569": {
+    "relation_pairs": [
+      [
+        "S",
+        "a"
+      ],
+      [
+        "1-q",
+        "S"
+      ],
+      [
+        "S",
+        "a_1"
+      ]
+    ],
+    "count": 3,
+    "create_time": 1781008096,
+    "update_time": 1781008096,
+    "_id": "doc-c2dfa7e1e54f19c7c0d453b57e49d569"
+  },
+  "doc-6cf4854854a42f4041e73060e773058f": {
+    "relation_pairs": [
+      [
+        "S",
+        "formula_46"
+      ],
+      [
+        "S",
+        "n"
+      ]
+    ],
+    "count": 2,
+    "create_time": 1781008109,
+    "update_time": 1781008109,
+    "_id": "doc-6cf4854854a42f4041e73060e773058f"
+  },
+  "doc-b1e4448e5c567fada0f6d4ba573209ab": {
+    "relation_pairs": [
+      [
+        "ln",
+        "log"
+      ],
+      [
+        "a",
+        "ln"
+      ],
+      [
+        "log",
+        "x"
+      ],
+      [
+        "a",
+        "log"
+      ],
+      [
+        "ln",
+        "x"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1781008134,
+    "update_time": 1781008134,
+    "_id": "doc-b1e4448e5c567fada0f6d4ba573209ab"
+  }
+}

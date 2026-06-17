@@ -1,0 +1,1008 @@
+2026-05-31 21:28:12,302 [INFO] __main__: ============================================================
+2026-05-31 21:28:12,302 [INFO] __main__: Запуск построения графовой базы знаний
+2026-05-31 21:28:12,302 [INFO] __main__: Датасет: /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:28:12,302 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:28:12,302 [INFO] __main__: ============================================================
+2026-05-31 21:28:12,302 [ERROR] __main__: Критическая ошибка: LightRAG.__init__() got an unexpected keyword argument 'llm_model_max_token_size'
+Traceback (most recent call last):
+  File "/Users/antonalekseev/nlp_mage/DZ_2/main.py", line 185, in main
+    rag_manager = await build_knowledge_graph()
+  File "/Users/antonalekseev/nlp_mage/DZ_2/main.py", line 44, in build_knowledge_graph
+    rag_manager.initialize()
+  File "/Users/antonalekseev/nlp_mage/DZ_2/src/lightrag_manager.py", line 85, in initialize
+    self.rag = create_lightrag_instance(self.working_dir)
+  File "/Users/antonalekseev/nlp_mage/DZ_2/src/lightrag_manager.py", line 35, in create_lightrag_instance
+    rag = LightRAG(
+TypeError: LightRAG.__init__() got an unexpected keyword argument 'llm_model_max_token_size'
+2026-05-31 21:35:12,021 [INFO] __main__: ============================================================
+2026-05-31 21:35:12,021 [INFO] __main__: Запуск построения графовой базы знаний
+2026-05-31 21:35:12,021 [INFO] __main__: Датасет: /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:35:12,021 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:35:12,021 [INFO] __main__: ============================================================
+2026-05-31 21:35:12,203 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_entities.json'} 0 data
+2026-05-31 21:35:12,203 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_relationships.json'} 0 data
+2026-05-31 21:35:12,203 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_chunks.json'} 0 data
+2026-05-31 21:35:12,204 [INFO] src.lightrag_manager: LightRAG 1.5.0 инициализирован | LLM: qwen2.5 | Embed: nomic-embed-text | Dir: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:35:12,204 [INFO] src.lightrag_manager: LightRAGManager готов к работе
+2026-05-31 21:35:12,204 [ERROR] __main__: Файл не найден: Датасет не найден: /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:35:12,204 [ERROR] __main__: Убедитесь, что файл datasets/output.json существует
+2026-05-31 21:35:32,636 [INFO] __main__: ============================================================
+2026-05-31 21:35:32,637 [INFO] __main__: Запуск построения графовой базы знаний
+2026-05-31 21:35:32,637 [INFO] __main__: Датасет: /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:35:32,637 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:35:32,637 [INFO] __main__: ============================================================
+2026-05-31 21:35:32,816 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_entities.json'} 0 data
+2026-05-31 21:35:32,816 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_relationships.json'} 0 data
+2026-05-31 21:35:32,816 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_chunks.json'} 0 data
+2026-05-31 21:35:32,816 [INFO] src.lightrag_manager: LightRAG 1.5.0 инициализирован | LLM: qwen2.5 | Embed: nomic-embed-text | Dir: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:35:32,816 [INFO] src.lightrag_manager: LightRAGManager готов к работе
+2026-05-31 21:35:32,820 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:35:32,820 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-05-31 21:35:32,881 [INFO] src.graph_builder: Построено 1691 графов формул. Глобальный граф: 9870 вершин, 1319 рёбер
+2026-05-31 21:35:32,889 [INFO] src.graph_builder: Подготовлено 1691 документов для LightRAG
+2026-05-31 21:35:32,889 [INFO] src.lightrag_manager: Вставляем 1691 документов в LightRAG...
+2026-05-31 21:35:32,889 [ERROR] src.lightrag_manager:   Батч 1/339 — ОШИБКА: "Pipeline namespace 'pipeline_status' not found.\n\nPipeline status should be auto-initialized by initialize_storages().\nIf you see this error, please ensure:\n\n  1. You called await rag.initialize_storages()\n  2. For multi-workspace setups, each LightRAG instance was properly initialized\n\nStandard initialization:\n  rag = LightRAG(workspace='your_workspace')\n  await rag.initialize_storages()  # Auto-initializes pipeline_status\n\nIf you need manual control (advanced):\n  from lightrag.kg.shared_storage import initialize_pipeline_status\n  await initialize_pipeline_status(workspace='your_workspace')"
+2026-05-31 21:35:32,889 [ERROR] __main__: Критическая ошибка: "Pipeline namespace 'pipeline_status' not found.\n\nPipeline status should be auto-initialized by initialize_storages().\nIf you see this error, please ensure:\n\n  1. You called await rag.initialize_storages()\n  2. For multi-workspace setups, each LightRAG instance was properly initialized\n\nStandard initialization:\n  rag = LightRAG(workspace='your_workspace')\n  await rag.initialize_storages()  # Auto-initializes pipeline_status\n\nIf you need manual control (advanced):\n  from lightrag.kg.shared_storage import initialize_pipeline_status\n  await initialize_pipeline_status(workspace='your_workspace')"
+Traceback (most recent call last):
+  File "/Users/antonalekseev/nlp_mage/DZ_2/main.py", line 185, in main
+    rag_manager = await build_knowledge_graph()
+  File "/Users/antonalekseev/nlp_mage/DZ_2/main.py", line 47, in build_knowledge_graph
+    stats = await rag_manager.build_and_index(
+  File "/Users/antonalekseev/nlp_mage/DZ_2/src/lightrag_manager.py", line 225, in build_and_index
+    await self.insert_documents(documents)
+  File "/Users/antonalekseev/nlp_mage/DZ_2/src/lightrag_manager.py", line 162, in insert_documents
+    await self.rag.ainsert(batch_text)
+  File "/Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/lightrag.py", line 1355, in ainsert
+    await self.apipeline_enqueue_documents(
+  File "/Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/pipeline.py", line 296, in apipeline_enqueue_documents
+    pipeline_status = await get_namespace_data(
+  File "/Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/kg/shared_storage.py", line 1500, in get_namespace_data
+    raise PipelineNotInitializedError(final_namespace)
+lightrag.exceptions.PipelineNotInitializedError: "Pipeline namespace 'pipeline_status' not found.\n\nPipeline status should be auto-initialized by initialize_storages().\nIf you see this error, please ensure:\n\n  1. You called await rag.initialize_storages()\n  2. For multi-workspace setups, each LightRAG instance was properly initialized\n\nStandard initialization:\n  rag = LightRAG(workspace='your_workspace')\n  await rag.initialize_storages()  # Auto-initializes pipeline_status\n\nIf you need manual control (advanced):\n  from lightrag.kg.shared_storage import initialize_pipeline_status\n  await initialize_pipeline_status(workspace='your_workspace')"
+2026-05-31 21:37:51,324 [INFO] __main__: ============================================================
+2026-05-31 21:37:51,324 [INFO] __main__: Запуск построения графовой базы знаний
+2026-05-31 21:37:51,324 [INFO] __main__: Датасет: /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:37:51,324 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:37:51,324 [INFO] __main__: ============================================================
+2026-05-31 21:37:51,501 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_entities.json'} 0 data
+2026-05-31 21:37:51,502 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_relationships.json'} 0 data
+2026-05-31 21:37:51,502 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph/vdb_chunks.json'} 0 data
+2026-05-31 21:37:51,502 [INFO] src.lightrag_manager: LightRAG 1.5.0 создан | LLM: qwen2.5 | Embed: nomic-embed-text | Dir: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph
+2026-05-31 21:37:51,502 [INFO] src.lightrag_manager: LightRAG объект создан (storages ещё не инициализированы)
+2026-05-31 21:37:51,505 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 21:37:51,506 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-05-31 21:37:51,565 [INFO] src.graph_builder: Построено 1691 графов формул. Глобальный граф: 9870 вершин, 1319 рёбер
+2026-05-31 21:37:51,572 [INFO] src.graph_builder: Подготовлено 1691 документов для LightRAG
+2026-05-31 21:37:51,573 [INFO] src.lightrag_manager: LightRAG storages инициализированы — готов к работе
+2026-05-31 21:37:51,573 [INFO] src.lightrag_manager: Вставляем 1691 документов (339 батчей)...
+2026-05-31 21:37:51,666 [INFO] src.lightrag_manager:   Батч 1/339 — OK
+2026-05-31 21:37:52,952 [INFO] src.lightrag_manager:   Батч 2/339 — OK
+2026-05-31 21:37:52,976 [INFO] src.lightrag_manager:   Батч 3/339 — OK
+2026-05-31 21:37:53,602 [INFO] src.lightrag_manager:   Батч 4/339 — OK
+2026-05-31 21:37:54,833 [INFO] src.lightrag_manager:   Батч 5/339 — OK
+2026-05-31 21:37:56,517 [INFO] src.lightrag_manager:   Батч 6/339 — OK
+2026-05-31 21:37:58,490 [INFO] src.lightrag_manager:   Батч 7/339 — OK
+2026-05-31 21:38:02,141 [INFO] src.lightrag_manager:   Батч 8/339 — OK
+2026-05-31 21:38:06,775 [INFO] src.lightrag_manager:   Батч 9/339 — OK
+2026-05-31 21:38:10,887 [INFO] src.lightrag_manager:   Батч 10/339 — OK
+2026-05-31 21:38:15,582 [INFO] src.lightrag_manager:   Батч 11/339 — OK
+2026-05-31 21:38:20,970 [INFO] src.lightrag_manager:   Батч 12/339 — OK
+2026-05-31 21:38:26,243 [INFO] src.lightrag_manager:   Батч 13/339 — OK
+2026-05-31 21:38:30,423 [INFO] src.lightrag_manager:   Батч 14/339 — OK
+2026-05-31 21:38:34,727 [INFO] src.lightrag_manager:   Батч 15/339 — OK
+2026-05-31 21:38:41,153 [INFO] src.lightrag_manager:   Батч 16/339 — OK
+2026-05-31 21:38:47,843 [INFO] src.lightrag_manager:   Батч 17/339 — OK
+2026-05-31 21:38:53,713 [INFO] src.lightrag_manager:   Батч 18/339 — OK
+2026-05-31 21:39:04,876 [INFO] src.lightrag_manager:   Батч 19/339 — OK
+2026-05-31 21:39:15,761 [INFO] src.lightrag_manager:   Батч 20/339 — OK
+2026-05-31 21:39:28,771 [INFO] src.lightrag_manager:   Батч 21/339 — OK
+2026-05-31 21:39:38,504 [INFO] src.lightrag_manager:   Батч 22/339 — OK
+2026-05-31 21:39:54,920 [INFO] src.lightrag_manager:   Батч 23/339 — OK
+2026-05-31 21:40:14,012 [INFO] src.lightrag_manager:   Батч 24/339 — OK
+2026-05-31 21:40:27,496 [INFO] src.lightrag_manager:   Батч 25/339 — OK
+2026-05-31 21:40:43,152 [INFO] src.lightrag_manager:   Батч 26/339 — OK
+2026-05-31 21:41:02,002 [INFO] src.lightrag_manager:   Батч 27/339 — OK
+2026-05-31 21:41:21,598 [INFO] src.lightrag_manager:   Батч 28/339 — OK
+2026-05-31 21:41:40,598 [INFO] src.lightrag_manager:   Батч 29/339 — OK
+2026-05-31 21:41:58,535 [INFO] src.lightrag_manager:   Батч 30/339 — OK
+2026-05-31 21:42:19,354 [INFO] src.lightrag_manager:   Батч 31/339 — OK
+2026-05-31 21:42:37,460 [INFO] src.lightrag_manager:   Батч 32/339 — OK
+2026-05-31 21:42:50,113 [INFO] src.lightrag_manager:   Батч 33/339 — OK
+2026-05-31 21:43:02,179 [INFO] src.lightrag_manager:   Батч 34/339 — OK
+2026-05-31 21:43:16,420 [INFO] src.lightrag_manager:   Батч 35/339 — OK
+2026-05-31 21:43:33,124 [INFO] src.lightrag_manager:   Батч 36/339 — OK
+2026-05-31 21:43:49,244 [INFO] src.lightrag_manager:   Батч 37/339 — OK
+2026-05-31 21:44:05,008 [INFO] src.lightrag_manager:   Батч 38/339 — OK
+2026-05-31 21:44:12,352 [INFO] src.lightrag_manager:   Батч 39/339 — OK
+2026-05-31 21:44:21,802 [INFO] src.lightrag_manager:   Батч 40/339 — OK
+2026-05-31 21:44:38,078 [INFO] src.lightrag_manager:   Батч 41/339 — OK
+2026-05-31 21:44:56,144 [INFO] src.lightrag_manager:   Батч 42/339 — OK
+2026-05-31 21:45:15,419 [INFO] src.lightrag_manager:   Батч 43/339 — OK
+2026-05-31 21:45:34,004 [INFO] src.lightrag_manager:   Батч 44/339 — OK
+2026-05-31 21:49:31,852 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-204' coro=<priority_limit_async_func_call.<locals>.final_decro.<locals>.worker() running at /Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/utils.py:937> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.discard(), gather.<locals>._done_callback() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:720]>
+2026-05-31 21:49:31,853 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-63278' coro=<Queue.get() running at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/queues.py:159> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:387]>
+2026-05-31 22:21:44,332 [INFO] __main__: Limit режим: база в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-05-31 22:21:45,167 [INFO] __main__: ============================================================
+2026-05-31 22:21:45,168 [INFO] __main__: Запуск построения графовой базы знаний
+2026-05-31 22:21:45,168 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 22:21:45,168 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-05-31 22:21:45,168 [INFO] __main__: Записей     : первые 10
+2026-05-31 22:21:45,168 [INFO] __main__: ============================================================
+2026-05-31 22:21:45,344 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_entities.json'} 0 data
+2026-05-31 22:21:45,344 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_relationships.json'} 0 data
+2026-05-31 22:21:45,345 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_chunks.json'} 0 data
+2026-05-31 22:21:45,345 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5 | Embed=nomic-embed-text(768d) | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-05-31 22:21:45,345 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-05-31 22:21:45,348 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 22:21:45,348 [INFO] src.lightrag_manager: Limit: используем первые 10 записей из 10
+2026-05-31 22:21:45,348 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-05-31 22:21:45,349 [INFO] src.graph_builder: Построено 10 графов формул. Глобальный граф: 41 вершин, 20 рёбер
+2026-05-31 22:21:45,349 [INFO] src.graph_builder: Подготовлено 10 документов для LightRAG
+2026-05-31 22:21:46,001 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-05-31 22:21:46,007 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-05-31 22:21:46,007 [INFO] src.lightrag_manager: Вставляем 10 документов (2 батчей)...
+2026-05-31 22:57:43,511 [INFO] src.lightrag_manager:   Батч 1/2 — OK
+2026-05-31 23:42:35,152 [INFO] src.lightrag_manager:   Батч 2/2 — OK
+2026-05-31 23:42:35,172 [INFO] src.lightrag_manager: Вставка завершена. Ошибок: 0/2
+2026-05-31 23:42:35,305 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/math_graph.json
+2026-05-31 23:42:50,808 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/math_graph.png
+2026-05-31 23:42:50,813 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 41, 'total_edges': 20, 'total_formulas': 10, 'node_types': {'expression': 30, 'variable': 9, 'operator': 2}, 'edge_operations': {'integration_domain': 8, 'integral': 8, 'equals': 4}}
+2026-05-31 23:42:50,816 [INFO] __main__: 
+============================================================
+2026-05-31 23:42:50,816 [INFO] __main__: СТАТИСТИКА:
+2026-05-31 23:42:50,816 [INFO] __main__:   Формул обработано : 10
+2026-05-31 23:42:50,816 [INFO] __main__:   Вершин в графе    : 41
+2026-05-31 23:42:50,816 [INFO] __main__:   Рёбер в графе     : 20
+2026-05-31 23:42:50,816 [INFO] __main__: 
+  Типы вершин:
+2026-05-31 23:42:50,816 [INFO] __main__:     expression          : 30
+2026-05-31 23:42:50,816 [INFO] __main__:     variable            : 9
+2026-05-31 23:42:50,816 [INFO] __main__:     operator            : 2
+2026-05-31 23:42:50,816 [INFO] __main__: 
+  Операции (рёбра):
+2026-05-31 23:42:50,816 [INFO] __main__:     integration_domain            : 8
+2026-05-31 23:42:50,816 [INFO] __main__:     integral                      : 8
+2026-05-31 23:42:50,816 [INFO] __main__:     equals                        : 4
+2026-05-31 23:42:50,816 [INFO] __main__: ============================================================
+2026-05-31 23:45:01,441 [INFO] __main__: Limit режим: база в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-05-31 23:45:02,282 [INFO] __main__: ============================================================
+2026-05-31 23:45:02,283 [INFO] __main__: Запуск построения графовой базы знаний
+2026-05-31 23:45:02,283 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 23:45:02,283 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-05-31 23:45:02,283 [INFO] __main__: Записей     : первые 10
+2026-05-31 23:45:02,283 [INFO] __main__: ============================================================
+2026-05-31 23:45:02,461 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_entities.json'} 0 data
+2026-05-31 23:45:02,461 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_relationships.json'} 0 data
+2026-05-31 23:45:02,461 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_chunks.json'} 0 data
+2026-05-31 23:45:02,462 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5 | Embed=nomic-embed-text(768d) | chunk_size=400 | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-05-31 23:45:02,462 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-05-31 23:45:02,465 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-05-31 23:45:02,466 [INFO] src.lightrag_manager: Limit: используем первые 10 записей из 10
+2026-05-31 23:45:02,466 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-05-31 23:45:02,467 [INFO] src.graph_builder: Построено 10 графов формул. Глобальный граф: 41 вершин, 20 рёбер
+2026-05-31 23:45:02,467 [INFO] src.graph_builder: Подготовлено 10 документов для LightRAG
+2026-05-31 23:45:03,125 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-05-31 23:45:03,131 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-05-31 23:45:03,131 [INFO] src.lightrag_manager: Вставляем 10 документов (2 батчей)...
+2026-05-31 23:52:59,452 [INFO] src.lightrag_manager:   Батч 1/2 — OK
+2026-05-31 23:57:08,993 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-77' coro=<priority_limit_async_func_call.<locals>.final_decro.<locals>.worker() running at /Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/utils.py:937> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.discard(), gather.<locals>._done_callback() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:720]>
+2026-05-31 23:57:08,994 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-1544' coro=<Queue.get() running at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/queues.py:159> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:387]>
+2026-06-01 00:19:28,202 [INFO] __main__: Limit режим: база в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-06-01 00:19:29,016 [INFO] __main__: ============================================================
+2026-06-01 00:19:29,016 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-01 00:19:29,016 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 00:19:29,016 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-06-01 00:19:29,016 [INFO] __main__: Записей     : первые 10
+2026-06-01 00:19:29,016 [INFO] __main__: ============================================================
+2026-06-01 00:19:29,192 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_entities.json'} 0 data
+2026-06-01 00:19:29,192 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_relationships.json'} 0 data
+2026-06-01 00:19:29,193 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_chunks.json'} 0 data
+2026-06-01 00:19:29,193 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5 | Embed=nomic-embed-text(768d) | chunk_size=400 | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-06-01 00:19:29,193 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 00:19:29,196 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 00:19:29,196 [INFO] src.lightrag_manager: Limit: используем первые 10 записей из 10
+2026-06-01 00:19:29,196 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-01 00:19:29,197 [INFO] src.graph_builder: Построено 10 графов формул. Глобальный граф: 41 вершин, 20 рёбер
+2026-06-01 00:19:29,197 [INFO] src.graph_builder: Подготовлено 10 документов для LightRAG
+2026-06-01 00:19:29,822 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 00:19:29,826 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 00:19:29,826 [INFO] src.lightrag_manager: Вставляем 10 документов по одному...
+2026-06-01 00:24:52,541 [INFO] src.lightrag_manager:   [1/10] OK (811 символов)
+2026-06-01 00:35:47,806 [INFO] src.lightrag_manager:   [2/10] OK (1222 символов)
+2026-06-01 00:48:14,225 [INFO] src.lightrag_manager:   [3/10] OK (783 символов)
+2026-06-01 01:10:03,819 [INFO] src.lightrag_manager:   [4/10] OK (982 символов)
+2026-06-01 01:45:56,611 [INFO] src.lightrag_manager:   [5/10] OK (946 символов)
+2026-06-01 02:17:16,148 [INFO] src.lightrag_manager:   [6/10] OK (963 символов)
+2026-06-01 02:49:00,419 [INFO] src.lightrag_manager:   [7/10] OK (751 символов)
+2026-06-01 03:11:43,874 [INFO] src.lightrag_manager:   [8/10] OK (984 символов)
+2026-06-01 03:41:44,784 [INFO] src.lightrag_manager:   [9/10] OK (708 символов)
+2026-06-01 03:43:19,835 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-72' coro=<priority_limit_async_func_call.<locals>.final_decro.<locals>.worker() running at /Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/utils.py:937> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.discard(), gather.<locals>._done_callback() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:720]>
+2026-06-01 03:43:19,836 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-14844' coro=<Queue.get() running at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/queues.py:159> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:387]>
+2026-06-01 03:48:47,740 [INFO] __main__: Limit режим: база в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 03:48:48,550 [INFO] __main__: ============================================================
+2026-06-01 03:48:48,550 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-01 03:48:48,550 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 03:48:48,550 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 03:48:48,550 [INFO] __main__: Записей     : первые 5
+2026-06-01 03:48:48,550 [INFO] __main__: ============================================================
+2026-06-01 03:48:48,722 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-01 03:48:48,722 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-01 03:48:48,722 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-01 03:48:48,723 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:0.5b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 03:48:48,723 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 03:48:48,726 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 03:48:48,726 [INFO] src.lightrag_manager: Limit: используем первые 5 из 1691 записей
+2026-06-01 03:48:48,726 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-01 03:48:48,727 [INFO] src.graph_builder: Построено 5 графов формул. Глобальный граф: 25 вершин, 10 рёбер
+2026-06-01 03:48:48,727 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-01 03:48:49,295 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 03:48:49,298 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 03:48:49,298 [INFO] src.lightrag_manager: Вставляем 5 документов батчами по 10...
+2026-06-01 03:51:00,107 [INFO] src.lightrag_manager:   Батч 1/1 — OK (4772 символов)
+2026-06-01 03:51:00,108 [INFO] src.lightrag_manager: Вставка завершена: 1/1 батчей OK, 0 ошибок
+2026-06-01 03:51:00,110 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-01 03:51:00,426 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-01 03:51:00,426 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 25, 'total_edges': 10, 'total_formulas': 5, 'node_types': {'expression': 15, 'variable': 9, 'operator': 1}, 'edge_operations': {'integration_domain': 3, 'integral': 3, 'equals': 4}}
+2026-06-01 03:51:00,426 [INFO] __main__: 
+============================================================
+2026-06-01 03:51:00,427 [INFO] __main__: СТАТИСТИКА:
+2026-06-01 03:51:00,427 [INFO] __main__:   Формул обработано : 5
+2026-06-01 03:51:00,427 [INFO] __main__:   Вершин в графе    : 25
+2026-06-01 03:51:00,427 [INFO] __main__:   Рёбер в графе     : 10
+2026-06-01 03:51:00,427 [INFO] __main__: 
+  Типы вершин:
+2026-06-01 03:51:00,427 [INFO] __main__:     expression          : 15
+2026-06-01 03:51:00,427 [INFO] __main__:     variable            : 9
+2026-06-01 03:51:00,427 [INFO] __main__:     operator            : 1
+2026-06-01 03:51:00,427 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-01 03:51:00,427 [INFO] __main__:     equals                        : 4
+2026-06-01 03:51:00,427 [INFO] __main__:     integration_domain            : 3
+2026-06-01 03:51:00,427 [INFO] __main__:     integral                      : 3
+2026-06-01 03:51:00,427 [INFO] __main__: ============================================================
+2026-06-01 13:01:26,403 [INFO] __main__: Limit режим: база в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 13:01:27,249 [INFO] __main__: ============================================================
+2026-06-01 13:01:27,249 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-01 13:01:27,249 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 13:01:27,249 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 13:01:27,249 [INFO] __main__: Записей     : первые 5
+2026-06-01 13:01:27,249 [INFO] __main__: ============================================================
+2026-06-01 13:01:27,424 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-01 13:01:27,424 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-01 13:01:27,425 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-01 13:01:27,425 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 13:01:27,425 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 13:01:27,428 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 13:01:27,429 [INFO] src.lightrag_manager: Limit: используем первые 5 из 1691 записей
+2026-06-01 13:01:27,429 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-01 13:01:27,429 [INFO] src.graph_builder: Построено 5 графов формул. Глобальный граф: 25 вершин, 10 рёбер
+2026-06-01 13:01:27,430 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-01 13:01:28,074 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 13:01:28,078 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 13:01:28,078 [INFO] src.lightrag_manager: Вставляем 5 документов батчами по 10...
+2026-06-01 13:08:00,014 [INFO] src.lightrag_manager:   Батч 1/1 — OK (4772 символов)
+2026-06-01 13:08:00,014 [INFO] src.lightrag_manager: Вставка завершена: 1/1 батчей OK, 0 ошибок
+2026-06-01 13:08:00,018 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-01 13:08:00,345 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-01 13:08:00,345 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 25, 'total_edges': 10, 'total_formulas': 5, 'node_types': {'expression': 15, 'variable': 9, 'operator': 1}, 'edge_operations': {'integration_domain': 3, 'integral': 3, 'equals': 4}}
+2026-06-01 13:08:00,345 [INFO] __main__: 
+============================================================
+2026-06-01 13:08:00,345 [INFO] __main__: СТАТИСТИКА:
+2026-06-01 13:08:00,345 [INFO] __main__:   Формул обработано : 5
+2026-06-01 13:08:00,345 [INFO] __main__:   Вершин в графе    : 25
+2026-06-01 13:08:00,345 [INFO] __main__:   Рёбер в графе     : 10
+2026-06-01 13:08:00,345 [INFO] __main__: 
+  Типы вершин:
+2026-06-01 13:08:00,345 [INFO] __main__:     expression          : 15
+2026-06-01 13:08:00,345 [INFO] __main__:     variable            : 9
+2026-06-01 13:08:00,345 [INFO] __main__:     operator            : 1
+2026-06-01 13:08:00,345 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-01 13:08:00,345 [INFO] __main__:     equals                        : 4
+2026-06-01 13:08:00,345 [INFO] __main__:     integration_domain            : 3
+2026-06-01 13:08:00,345 [INFO] __main__:     integral                      : 3
+2026-06-01 13:08:00,345 [INFO] __main__: ============================================================
+2026-06-01 14:07:52,869 [INFO] __main__: Limit режим: база в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 14:07:54,211 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-01 14:07:54,211 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-01 14:07:54,211 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-01 14:07:54,212 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 14:07:54,212 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 14:07:54,912 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 14:07:54,918 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 14:07:54,918 [INFO] __main__: Загружена существующая база знаний
+2026-06-01 14:10:24,052 [INFO] src.lightrag_manager: Запрос [hybrid]: Что такое оператор P в формулах?
+2026-06-01 15:31:59,432 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 15:32:00,259 [INFO] __main__: ============================================================
+2026-06-01 15:32:00,259 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-01 15:32:00,259 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 15:32:00,259 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 15:32:00,259 [INFO] __main__: Записей     : первые 5
+2026-06-01 15:32:00,259 [INFO] __main__: ============================================================
+2026-06-01 15:32:00,440 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-01 15:32:00,440 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-01 15:32:00,441 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-01 15:32:00,441 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 15:32:00,441 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 15:32:00,444 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 15:32:00,445 [INFO] src.lightrag_manager: Limit: используем первые 5 из 1691 записей
+2026-06-01 15:32:00,445 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-01 15:32:00,445 [INFO] src.graph_builder: Построено 5 графов формул. Глобальный граф: 25 вершин, 10 рёбер
+2026-06-01 15:32:00,446 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-01 15:32:01,098 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 15:32:01,102 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 15:32:01,102 [INFO] src.lightrag_manager: Вставляем 5 документов по одному...
+2026-06-01 15:32:13,396 [INFO] src.lightrag_manager:   [1/5] OK (811 симв.)
+2026-06-01 15:32:17,594 [INFO] src.lightrag_manager:   [2/5] OK (1222 симв.)
+2026-06-01 15:32:19,840 [INFO] src.lightrag_manager:   [3/5] OK (783 симв.)
+2026-06-01 15:38:19,887 [INFO] src.lightrag_manager:   [4/5] OK (982 симв.)
+2026-06-01 15:38:44,598 [INFO] src.lightrag_manager:   [5/5] OK (946 симв.)
+2026-06-01 15:38:44,599 [INFO] src.lightrag_manager: Вставка завершена: 5/5 OK, 0 ошибок
+2026-06-01 15:38:44,602 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-01 15:38:45,192 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-01 15:38:45,192 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 25, 'total_edges': 10, 'total_formulas': 5, 'node_types': {'expression': 15, 'variable': 9, 'operator': 1}, 'edge_operations': {'integration_domain': 3, 'integral': 3, 'equals': 4}}
+2026-06-01 15:38:45,192 [INFO] __main__: 
+============================================================
+2026-06-01 15:38:45,192 [INFO] __main__: СТАТИСТИКА:
+2026-06-01 15:38:45,192 [INFO] __main__:   Формул обработано : 5
+2026-06-01 15:38:45,192 [INFO] __main__:   Вершин в графе    : 25
+2026-06-01 15:38:45,192 [INFO] __main__:   Рёбер в графе     : 10
+2026-06-01 15:38:45,192 [INFO] __main__: 
+  Типы вершин:
+2026-06-01 15:38:45,192 [INFO] __main__:     expression          : 15
+2026-06-01 15:38:45,192 [INFO] __main__:     variable            : 9
+2026-06-01 15:38:45,192 [INFO] __main__:     operator            : 1
+2026-06-01 15:38:45,192 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-01 15:38:45,192 [INFO] __main__:     equals                        : 4
+2026-06-01 15:38:45,192 [INFO] __main__:     integration_domain            : 3
+2026-06-01 15:38:45,192 [INFO] __main__:     integral                      : 3
+2026-06-01 15:38:45,193 [INFO] __main__: ============================================================
+2026-06-01 15:39:25,204 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 15:39:26,023 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 15:39:26,200 [INFO] nano-vectordb: Load (4, 768) data
+2026-06-01 15:39:26,201 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 4 data
+2026-06-01 15:39:26,201 [INFO] nano-vectordb: Load (1, 768) data
+2026-06-01 15:39:26,201 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 1 data
+2026-06-01 15:39:26,202 [INFO] nano-vectordb: Load (7, 768) data
+2026-06-01 15:39:26,202 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 7 data
+2026-06-01 15:39:26,202 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 15:39:26,202 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 15:39:26,491 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 15:39:26,499 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 15:39:26,500 [INFO] __main__: База знаний загружена
+2026-06-01 15:39:40,492 [INFO] src.lightrag_manager: Запрос [hybrid]: Что такое оператор P в формулах?
+2026-06-01 16:08:50,683 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 16:08:51,458 [INFO] __main__: ============================================================
+2026-06-01 16:08:51,458 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-01 16:08:51,459 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 16:08:51,459 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 16:08:51,459 [INFO] __main__: Записей     : первые 5
+2026-06-01 16:08:51,459 [INFO] __main__: ============================================================
+2026-06-01 16:08:51,638 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-01 16:08:51,638 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-01 16:08:51,638 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-01 16:08:51,638 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 16:08:51,638 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 16:08:51,642 [INFO] src.graph_builder: Загружено 1691 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-01 16:08:51,642 [INFO] src.lightrag_manager: Limit: используем первые 5 из 1691 записей
+2026-06-01 16:08:51,642 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-01 16:08:51,645 [INFO] src.graph_builder: Построено 5 графов формул. Глобальный граф: 42 вершин, 127 рёбер
+2026-06-01 16:08:51,645 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-01 16:08:52,367 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 16:08:52,369 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 16:08:52,370 [INFO] src.lightrag_manager: Вставляем 5 документов по одному...
+2026-06-01 16:09:45,287 [INFO] src.lightrag_manager:   [1/5] OK (1892 симв.)
+2026-06-01 16:10:05,788 [INFO] src.lightrag_manager:   [2/5] OK (2102 симв.)
+2026-06-01 16:10:34,321 [INFO] src.lightrag_manager:   [3/5] OK (1973 симв.)
+2026-06-01 16:16:44,240 [INFO] src.lightrag_manager:   [4/5] OK (2897 симв.)
+2026-06-01 16:23:52,217 [INFO] src.lightrag_manager:   [5/5] OK (3755 симв.)
+2026-06-01 16:23:52,217 [INFO] src.lightrag_manager: Вставка завершена: 5/5 OK, 0 ошибок
+2026-06-01 16:23:52,225 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-01 16:23:53,037 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-01 16:23:53,037 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 42, 'total_edges': 127, 'total_formulas': 5, 'node_types': {'variable': 30, 'number': 3, 'operator': 5, 'function': 3, 'constant': 1}, 'edge_operations': {'subscript': 11, 'addition': 3, 'equals': 7, 'adjacent': 68, 'parameter': 4, 'belongs_to': 2, 'power': 12, 'subtraction': 3, 'less_or_equal': 1, 'multiplication': 2, 'applied_to': 3, 'division': 4, 'maps_to': 1, 'function_of': 4, 'greater_than': 2}}
+2026-06-01 16:23:53,038 [INFO] __main__: 
+============================================================
+2026-06-01 16:23:53,038 [INFO] __main__: СТАТИСТИКА:
+2026-06-01 16:23:53,038 [INFO] __main__:   Формул обработано : 5
+2026-06-01 16:23:53,038 [INFO] __main__:   Вершин в графе    : 42
+2026-06-01 16:23:53,038 [INFO] __main__:   Рёбер в графе     : 127
+2026-06-01 16:23:53,038 [INFO] __main__: 
+  Типы вершин:
+2026-06-01 16:23:53,038 [INFO] __main__:     variable            : 30
+2026-06-01 16:23:53,038 [INFO] __main__:     number              : 3
+2026-06-01 16:23:53,038 [INFO] __main__:     operator            : 5
+2026-06-01 16:23:53,038 [INFO] __main__:     function            : 3
+2026-06-01 16:23:53,038 [INFO] __main__:     constant            : 1
+2026-06-01 16:23:53,038 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-01 16:23:53,038 [INFO] __main__:     adjacent                      : 68
+2026-06-01 16:23:53,038 [INFO] __main__:     power                         : 12
+2026-06-01 16:23:53,038 [INFO] __main__:     subscript                     : 11
+2026-06-01 16:23:53,038 [INFO] __main__:     equals                        : 7
+2026-06-01 16:23:53,038 [INFO] __main__:     parameter                     : 4
+2026-06-01 16:23:53,038 [INFO] __main__:     division                      : 4
+2026-06-01 16:23:53,038 [INFO] __main__:     function_of                   : 4
+2026-06-01 16:23:53,038 [INFO] __main__:     addition                      : 3
+2026-06-01 16:23:53,038 [INFO] __main__:     subtraction                   : 3
+2026-06-01 16:23:53,038 [INFO] __main__:     applied_to                    : 3
+2026-06-01 16:23:53,038 [INFO] __main__:     belongs_to                    : 2
+2026-06-01 16:23:53,038 [INFO] __main__:     multiplication                : 2
+2026-06-01 16:23:53,038 [INFO] __main__:     greater_than                  : 2
+2026-06-01 16:23:53,038 [INFO] __main__:     less_or_equal                 : 1
+2026-06-01 16:23:53,038 [INFO] __main__:     maps_to                       : 1
+2026-06-01 16:23:53,038 [INFO] __main__: ============================================================
+2026-06-01 16:25:30,629 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 16:25:31,431 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 16:25:31,609 [INFO] nano-vectordb: Load (38, 768) data
+2026-06-01 16:25:31,609 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 38 data
+2026-06-01 16:25:31,610 [INFO] nano-vectordb: Load (38, 768) data
+2026-06-01 16:25:31,610 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 38 data
+2026-06-01 16:25:31,611 [INFO] nano-vectordb: Load (14, 768) data
+2026-06-01 16:25:31,611 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 14 data
+2026-06-01 16:25:31,612 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-01 16:25:31,612 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-01 16:25:31,862 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-01 16:25:31,870 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-01 16:25:31,870 [INFO] __main__: База знаний загружена
+2026-06-01 16:26:02,565 [INFO] src.lightrag_manager: Запрос [hybrid]: чему равно σ(x, ν)
+2026-06-02 03:44:44,168 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-06-02 03:44:44,998 [INFO] __main__: ============================================================
+2026-06-02 03:44:44,998 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 03:44:44,998 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 03:44:44,998 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-06-02 03:44:44,998 [INFO] __main__: Записей     : первые 10
+2026-06-02 03:44:44,998 [INFO] __main__: ============================================================
+2026-06-02 03:44:45,173 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_entities.json'} 0 data
+2026-06-02 03:44:45,174 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_relationships.json'} 0 data
+2026-06-02 03:44:45,174 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10/vdb_chunks.json'} 0 data
+2026-06-02 03:44:45,174 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_10
+2026-06-02 03:44:45,174 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 03:44:45,174 [INFO] src.graph_builder: Загружено 10 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 03:44:45,174 [INFO] src.lightrag_manager: Limit: используем первые 10 из 10 записей
+2026-06-02 03:44:45,174 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 03:44:45,176 [INFO] src.graph_builder: Построено 10 графов формул. Глобальный граф: 27 вершин, 57 рёбер
+2026-06-02 03:44:45,176 [INFO] src.graph_builder: Подготовлено 10 документов для LightRAG
+2026-06-02 03:44:45,848 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 03:44:45,852 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 03:44:45,852 [INFO] src.lightrag_manager: Вставляем 10 документов по одному...
+2026-06-02 03:45:06,098 [INFO] src.lightrag_manager:   [1/10] OK (699 симв.)
+2026-06-02 03:51:18,643 [INFO] src.lightrag_manager:   [2/10] OK (708 симв.)
+2026-06-02 03:51:51,212 [INFO] src.lightrag_manager:   [3/10] OK (746 симв.)
+2026-06-02 03:58:20,434 [INFO] src.lightrag_manager:   [4/10] OK (729 симв.)
+2026-06-02 03:58:54,615 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-71' coro=<priority_limit_async_func_call.<locals>.final_decro.<locals>.worker() running at /Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/utils.py:937> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.discard(), gather.<locals>._done_callback() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:720]>
+2026-06-02 03:58:54,615 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-2745' coro=<Queue.get() running at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/queues.py:159> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:387]>
+2026-06-02 04:04:00,833 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1
+2026-06-02 04:04:01,623 [INFO] __main__: ============================================================
+2026-06-02 04:04:01,624 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 04:04:01,624 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:04:01,624 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1
+2026-06-02 04:04:01,624 [INFO] __main__: Записей     : первые 1
+2026-06-02 04:04:01,624 [INFO] __main__: ============================================================
+2026-06-02 04:04:01,797 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1/vdb_entities.json'} 0 data
+2026-06-02 04:04:01,797 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1/vdb_relationships.json'} 0 data
+2026-06-02 04:04:01,797 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1/vdb_chunks.json'} 0 data
+2026-06-02 04:04:01,798 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1
+2026-06-02 04:04:01,798 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:04:01,798 [INFO] src.graph_builder: Загружено 10 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:04:01,798 [INFO] src.lightrag_manager: Limit: используем первые 1 из 10 записей
+2026-06-02 04:04:01,798 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 04:04:01,799 [INFO] src.graph_builder: Подготовлено 0 документов для LightRAG
+2026-06-02 04:04:02,561 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:04:02,564 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:04:02,564 [INFO] src.lightrag_manager: Вставляем 0 документов по одному...
+2026-06-02 04:04:02,564 [INFO] src.lightrag_manager: Вставка завершена: 0/0 OK, 0 ошибок
+2026-06-02 04:04:02,564 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_1/math_graph.json
+2026-06-02 04:04:02,564 [WARNING] src.graph_builder: Граф пустой, визуализация невозможна
+2026-06-02 04:04:02,564 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 0, 'total_edges': 0, 'total_formulas': 0, 'node_types': {}, 'edge_operations': {}}
+2026-06-02 04:04:02,564 [INFO] __main__: 
+============================================================
+2026-06-02 04:04:02,564 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 04:04:02,564 [INFO] __main__:   Формул обработано : 0
+2026-06-02 04:04:02,564 [INFO] __main__:   Вершин в графе    : 0
+2026-06-02 04:04:02,565 [INFO] __main__:   Рёбер в графе     : 0
+2026-06-02 04:04:02,565 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 04:04:02,565 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 04:04:02,565 [INFO] __main__: ============================================================
+2026-06-02 04:04:33,896 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:04:34,723 [INFO] __main__: ============================================================
+2026-06-02 04:04:34,723 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 04:04:34,723 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:04:34,723 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:04:34,723 [INFO] __main__: Записей     : первые 2
+2026-06-02 04:04:34,723 [INFO] __main__: ============================================================
+2026-06-02 04:04:34,888 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_entities.json'} 0 data
+2026-06-02 04:04:34,888 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_relationships.json'} 0 data
+2026-06-02 04:04:34,888 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_chunks.json'} 0 data
+2026-06-02 04:04:34,889 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:04:34,889 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:04:34,889 [INFO] src.graph_builder: Загружено 10 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:04:34,889 [INFO] src.lightrag_manager: Limit: используем первые 2 из 10 записей
+2026-06-02 04:04:34,889 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 04:04:34,890 [INFO] src.graph_builder: Подготовлено 0 документов для LightRAG
+2026-06-02 04:04:35,185 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:04:35,188 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:04:35,188 [INFO] src.lightrag_manager: Вставляем 0 документов по одному...
+2026-06-02 04:04:35,189 [INFO] src.lightrag_manager: Вставка завершена: 0/0 OK, 0 ошибок
+2026-06-02 04:04:35,190 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/math_graph.json
+2026-06-02 04:04:35,190 [WARNING] src.graph_builder: Граф пустой, визуализация невозможна
+2026-06-02 04:04:35,190 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 0, 'total_edges': 0, 'total_formulas': 0, 'node_types': {}, 'edge_operations': {}}
+2026-06-02 04:04:35,190 [INFO] __main__: 
+============================================================
+2026-06-02 04:04:35,190 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 04:04:35,190 [INFO] __main__:   Формул обработано : 0
+2026-06-02 04:04:35,190 [INFO] __main__:   Вершин в графе    : 0
+2026-06-02 04:04:35,190 [INFO] __main__:   Рёбер в графе     : 0
+2026-06-02 04:04:35,190 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 04:04:35,190 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 04:04:35,190 [INFO] __main__: ============================================================
+2026-06-02 04:15:21,783 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:15:22,510 [INFO] __main__: ============================================================
+2026-06-02 04:15:22,510 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 04:15:22,510 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:15:22,510 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:15:22,510 [INFO] __main__: Записей     : первые 2
+2026-06-02 04:15:22,510 [INFO] __main__: ============================================================
+2026-06-02 04:15:22,677 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_entities.json'} 0 data
+2026-06-02 04:15:22,678 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_relationships.json'} 0 data
+2026-06-02 04:15:22,678 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_chunks.json'} 0 data
+2026-06-02 04:15:22,678 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:15:22,678 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:15:22,678 [INFO] src.graph_builder: Загружено 10 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:15:22,678 [INFO] src.lightrag_manager: Limit: используем первые 2 из 10 записей
+2026-06-02 04:15:22,679 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 04:15:22,679 [INFO] src.graph_builder: Построено 2 графов формул (пропущено 0 без latex). Глобальный граф: 8 вершин, 10 рёбер
+2026-06-02 04:15:22,679 [INFO] src.graph_builder: Подготовлено 2 документов для LightRAG
+2026-06-02 04:15:23,457 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:15:23,460 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:15:23,460 [INFO] src.lightrag_manager: Вставляем 2 документов по одному...
+2026-06-02 04:15:45,399 [INFO] src.lightrag_manager:   [1/2] OK (313 симв.)
+2026-06-02 04:15:53,073 [INFO] src.lightrag_manager:   [2/2] OK (320 симв.)
+2026-06-02 04:15:53,073 [INFO] src.lightrag_manager: Вставка завершена: 2/2 OK, 0 ошибок
+2026-06-02 04:15:53,073 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/math_graph.json
+2026-06-02 04:15:53,623 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/math_graph.png
+2026-06-02 04:15:53,623 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 8, 'total_edges': 10, 'total_formulas': 2, 'node_types': {'variable': 5, 'number': 3}, 'edge_operations': {'power': 2, 'addition': 2, 'adjacent': 3, 'equals': 2, 'subtraction': 1}}
+2026-06-02 04:15:53,623 [INFO] __main__: 
+============================================================
+2026-06-02 04:15:53,623 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 04:15:53,623 [INFO] __main__:   Формул обработано : 2
+2026-06-02 04:15:53,623 [INFO] __main__:   Вершин в графе    : 8
+2026-06-02 04:15:53,623 [INFO] __main__:   Рёбер в графе     : 10
+2026-06-02 04:15:53,623 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 04:15:53,623 [INFO] __main__:     variable            : 5
+2026-06-02 04:15:53,623 [INFO] __main__:     number              : 3
+2026-06-02 04:15:53,624 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 04:15:53,624 [INFO] __main__:     adjacent                      : 3
+2026-06-02 04:15:53,624 [INFO] __main__:     power                         : 2
+2026-06-02 04:15:53,624 [INFO] __main__:     addition                      : 2
+2026-06-02 04:15:53,624 [INFO] __main__:     equals                        : 2
+2026-06-02 04:15:53,624 [INFO] __main__:     subtraction                   : 1
+2026-06-02 04:15:53,624 [INFO] __main__: ============================================================
+2026-06-02 04:17:04,430 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:17:05,195 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:17:05,375 [INFO] nano-vectordb: Load (11, 768) data
+2026-06-02 04:17:05,375 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_entities.json'} 11 data
+2026-06-02 04:17:05,376 [INFO] nano-vectordb: Load (9, 768) data
+2026-06-02 04:17:05,376 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_relationships.json'} 9 data
+2026-06-02 04:17:05,377 [INFO] nano-vectordb: Load (2, 768) data
+2026-06-02 04:17:05,377 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2/vdb_chunks.json'} 2 data
+2026-06-02 04:17:05,377 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_2
+2026-06-02 04:17:05,377 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:17:05,578 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:17:05,582 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:17:05,582 [INFO] __main__: База знаний загружена
+2026-06-02 04:17:10,543 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему равно x^2
+2026-06-02 04:17:57,359 [INFO] src.lightrag_manager: Запрос [hybrid]: Запиши через b и c значение x
+2026-06-02 04:20:19,195 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:20:19,976 [INFO] __main__: ============================================================
+2026-06-02 04:20:19,976 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 04:20:19,976 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:20:19,976 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:20:19,976 [INFO] __main__: Записей     : первые 5
+2026-06-02 04:20:19,976 [INFO] __main__: ============================================================
+2026-06-02 04:20:20,149 [INFO] nano-vectordb: Load (38, 768) data
+2026-06-02 04:20:20,149 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 38 data
+2026-06-02 04:20:20,151 [INFO] nano-vectordb: Load (38, 768) data
+2026-06-02 04:20:20,151 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 38 data
+2026-06-02 04:20:20,151 [INFO] nano-vectordb: Load (14, 768) data
+2026-06-02 04:20:20,152 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 14 data
+2026-06-02 04:20:20,152 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:20:20,152 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:20:20,152 [INFO] src.graph_builder: Загружено 12 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:20:20,152 [INFO] src.lightrag_manager: Limit: используем первые 5 из 12 записей
+2026-06-02 04:20:20,152 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 04:20:20,153 [INFO] src.graph_builder: Построено 5 графов формул (пропущено 0 без latex). Глобальный граф: 12 вершин, 17 рёбер
+2026-06-02 04:20:20,153 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-02 04:20:20,435 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:20:20,443 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:20:20,443 [INFO] src.lightrag_manager: Вставляем 5 документов по одному...
+2026-06-02 04:21:28,591 [INFO] src.lightrag_manager:   [1/5] OK (313 симв.)
+2026-06-02 04:21:36,671 [INFO] src.lightrag_manager:   [2/5] OK (320 симв.)
+2026-06-02 04:21:48,224 [INFO] src.lightrag_manager:   [3/5] OK (381 симв.)
+2026-06-02 04:22:00,688 [INFO] src.lightrag_manager:   [4/5] OK (178 симв.)
+2026-06-02 04:22:05,175 [INFO] src.lightrag_manager:   [5/5] OK (173 симв.)
+2026-06-02 04:22:05,175 [INFO] src.lightrag_manager: Вставка завершена: 5/5 OK, 0 ошибок
+2026-06-02 04:22:05,179 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-02 04:22:05,500 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-02 04:22:05,500 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 12, 'total_edges': 17, 'total_formulas': 5, 'node_types': {'variable': 6, 'number': 5, 'operator': 1}, 'edge_operations': {'power': 2, 'addition': 2, 'adjacent': 4, 'equals': 5, 'subtraction': 2, 'applied_to': 1, 'division': 1}}
+2026-06-02 04:22:05,500 [INFO] __main__: 
+============================================================
+2026-06-02 04:22:05,500 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 04:22:05,500 [INFO] __main__:   Формул обработано : 5
+2026-06-02 04:22:05,500 [INFO] __main__:   Вершин в графе    : 12
+2026-06-02 04:22:05,500 [INFO] __main__:   Рёбер в графе     : 17
+2026-06-02 04:22:05,500 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 04:22:05,500 [INFO] __main__:     variable            : 6
+2026-06-02 04:22:05,500 [INFO] __main__:     number              : 5
+2026-06-02 04:22:05,500 [INFO] __main__:     operator            : 1
+2026-06-02 04:22:05,500 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 04:22:05,500 [INFO] __main__:     equals                        : 5
+2026-06-02 04:22:05,500 [INFO] __main__:     adjacent                      : 4
+2026-06-02 04:22:05,500 [INFO] __main__:     power                         : 2
+2026-06-02 04:22:05,500 [INFO] __main__:     addition                      : 2
+2026-06-02 04:22:05,500 [INFO] __main__:     subtraction                   : 2
+2026-06-02 04:22:05,500 [INFO] __main__:     applied_to                    : 1
+2026-06-02 04:22:05,500 [INFO] __main__:     division                      : 1
+2026-06-02 04:22:05,500 [INFO] __main__: ============================================================
+2026-06-02 04:22:42,707 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:22:43,515 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:22:43,700 [INFO] nano-vectordb: Load (67, 768) data
+2026-06-02 04:22:43,701 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 67 data
+2026-06-02 04:22:43,703 [INFO] nano-vectordb: Load (73, 768) data
+2026-06-02 04:22:43,703 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 73 data
+2026-06-02 04:22:43,704 [INFO] nano-vectordb: Load (19, 768) data
+2026-06-02 04:22:43,704 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 19 data
+2026-06-02 04:22:43,705 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:22:43,705 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:22:43,928 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:22:43,936 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:22:43,936 [INFO] __main__: База знаний загружена
+2026-06-02 04:22:49,075 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему равен ч
+2026-06-02 04:23:10,832 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-284' coro=<priority_limit_async_func_call.<locals>.final_decro.<locals>.worker() running at /Users/antonalekseev/nlp_mage/.venv/lib/python3.10/site-packages/lightrag/utils.py:937> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[set.discard(), gather.<locals>._done_callback() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:720]>
+2026-06-02 04:23:10,834 [ERROR] asyncio: Task was destroyed but it is pending!
+task: <Task pending name='Task-336' coro=<Queue.get() running at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/queues.py:159> wait_for=<Future pending cb=[Task.task_wakeup()]> cb=[_release_waiter(<Future pendi...ask_wakeup()]>)() at /Users/antonalekseev/.pyenv/versions/3.10.15/lib/python3.10/asyncio/tasks.py:387]>
+2026-06-02 04:23:13,342 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:23:14,071 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:23:14,245 [INFO] nano-vectordb: Load (67, 768) data
+2026-06-02 04:23:14,245 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 67 data
+2026-06-02 04:23:14,247 [INFO] nano-vectordb: Load (73, 768) data
+2026-06-02 04:23:14,247 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 73 data
+2026-06-02 04:23:14,248 [INFO] nano-vectordb: Load (19, 768) data
+2026-06-02 04:23:14,248 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 19 data
+2026-06-02 04:23:14,249 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:23:14,249 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:23:14,490 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:23:14,500 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:23:14,500 [INFO] __main__: База знаний загружена
+2026-06-02 04:23:18,909 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему равен x
+2026-06-02 04:23:53,380 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему равен x^2
+2026-06-02 04:24:47,947 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:24:48,710 [INFO] __main__: ============================================================
+2026-06-02 04:24:48,710 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 04:24:48,710 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:24:48,710 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:24:48,710 [INFO] __main__: Записей     : первые 5
+2026-06-02 04:24:48,710 [INFO] __main__: ============================================================
+2026-06-02 04:24:48,890 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-02 04:24:48,890 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-02 04:24:48,890 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-02 04:24:48,891 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:24:48,891 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:24:48,891 [INFO] src.graph_builder: Загружено 12 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 04:24:48,891 [INFO] src.lightrag_manager: Limit: используем первые 5 из 12 записей
+2026-06-02 04:24:48,891 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 04:24:48,892 [INFO] src.graph_builder: Построено 5 графов формул (пропущено 0 без latex). Глобальный граф: 12 вершин, 17 рёбер
+2026-06-02 04:24:48,892 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-02 04:24:49,162 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:24:49,164 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:24:49,164 [INFO] src.lightrag_manager: Вставляем 5 документов по одному...
+2026-06-02 04:25:08,946 [INFO] src.lightrag_manager:   [1/5] OK (313 симв.)
+2026-06-02 04:25:16,144 [INFO] src.lightrag_manager:   [2/5] OK (320 симв.)
+2026-06-02 04:25:25,138 [INFO] src.lightrag_manager:   [3/5] OK (381 симв.)
+2026-06-02 04:25:31,844 [INFO] src.lightrag_manager:   [4/5] OK (178 симв.)
+2026-06-02 04:25:37,126 [INFO] src.lightrag_manager:   [5/5] OK (173 симв.)
+2026-06-02 04:25:37,126 [INFO] src.lightrag_manager: Вставка завершена: 5/5 OK, 0 ошибок
+2026-06-02 04:25:37,127 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-02 04:25:37,443 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-02 04:25:37,443 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 12, 'total_edges': 17, 'total_formulas': 5, 'node_types': {'variable': 6, 'number': 5, 'operator': 1}, 'edge_operations': {'power': 2, 'addition': 2, 'adjacent': 4, 'equals': 5, 'subtraction': 2, 'applied_to': 1, 'division': 1}}
+2026-06-02 04:25:37,443 [INFO] __main__: 
+============================================================
+2026-06-02 04:25:37,443 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 04:25:37,443 [INFO] __main__:   Формул обработано : 5
+2026-06-02 04:25:37,443 [INFO] __main__:   Вершин в графе    : 12
+2026-06-02 04:25:37,443 [INFO] __main__:   Рёбер в графе     : 17
+2026-06-02 04:25:37,443 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 04:25:37,443 [INFO] __main__:     variable            : 6
+2026-06-02 04:25:37,443 [INFO] __main__:     number              : 5
+2026-06-02 04:25:37,443 [INFO] __main__:     operator            : 1
+2026-06-02 04:25:37,443 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 04:25:37,444 [INFO] __main__:     equals                        : 5
+2026-06-02 04:25:37,444 [INFO] __main__:     adjacent                      : 4
+2026-06-02 04:25:37,444 [INFO] __main__:     power                         : 2
+2026-06-02 04:25:37,444 [INFO] __main__:     addition                      : 2
+2026-06-02 04:25:37,444 [INFO] __main__:     subtraction                   : 2
+2026-06-02 04:25:37,444 [INFO] __main__:     applied_to                    : 1
+2026-06-02 04:25:37,444 [INFO] __main__:     division                      : 1
+2026-06-02 04:25:37,444 [INFO] __main__: ============================================================
+2026-06-02 04:25:55,640 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:25:56,433 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:25:56,610 [INFO] nano-vectordb: Load (19, 768) data
+2026-06-02 04:25:56,611 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 19 data
+2026-06-02 04:25:56,611 [INFO] nano-vectordb: Load (20, 768) data
+2026-06-02 04:25:56,612 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 20 data
+2026-06-02 04:25:56,612 [INFO] nano-vectordb: Load (5, 768) data
+2026-06-02 04:25:56,612 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 5 data
+2026-06-02 04:25:56,613 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 04:25:56,613 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 04:25:56,811 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 04:25:56,816 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 04:25:56,816 [INFO] __main__: База знаний загружена
+2026-06-02 04:26:04,243 [INFO] src.lightrag_manager: Запрос [hybrid]: чему равен x
+2026-06-02 04:26:52,169 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему равен x^2?
+2026-06-02 12:28:02,912 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 12:28:03,787 [INFO] __main__: ============================================================
+2026-06-02 12:28:03,787 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 12:28:03,787 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 12:28:03,787 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 12:28:03,787 [INFO] __main__: Записей     : первые 5
+2026-06-02 12:28:03,787 [INFO] __main__: ============================================================
+2026-06-02 12:28:03,969 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 0 data
+2026-06-02 12:28:03,969 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 0 data
+2026-06-02 12:28:03,969 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 0 data
+2026-06-02 12:28:03,970 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 12:28:03,970 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 12:28:03,970 [INFO] src.graph_builder: Загружено 12 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 12:28:03,970 [INFO] src.lightrag_manager: Limit: используем первые 5 из 12 записей
+2026-06-02 12:28:03,970 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 12:28:03,971 [INFO] src.graph_builder: Построено 5 графов формул (пропущено 0 без latex). Глобальный граф: 12 вершин, 17 рёбер
+2026-06-02 12:28:03,972 [INFO] src.graph_builder: Подготовлено 5 документов для LightRAG
+2026-06-02 12:28:04,656 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 12:28:04,659 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 12:28:04,660 [INFO] src.lightrag_manager: Вставляем 5 документов по одному...
+2026-06-02 12:28:24,401 [INFO] src.lightrag_manager:   [1/5] OK (313 симв.)
+2026-06-02 12:28:31,642 [INFO] src.lightrag_manager:   [2/5] OK (320 симв.)
+2026-06-02 12:28:40,720 [INFO] src.lightrag_manager:   [3/5] OK (381 симв.)
+2026-06-02 12:28:46,215 [INFO] src.lightrag_manager:   [4/5] OK (178 симв.)
+2026-06-02 12:28:50,344 [INFO] src.lightrag_manager:   [5/5] OK (173 симв.)
+2026-06-02 12:28:50,344 [INFO] src.lightrag_manager: Вставка завершена: 5/5 OK, 0 ошибок
+2026-06-02 12:28:50,345 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.json
+2026-06-02 12:28:50,683 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/math_graph.png
+2026-06-02 12:28:50,684 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 12, 'total_edges': 17, 'total_formulas': 5, 'node_types': {'variable': 6, 'number': 5, 'operator': 1}, 'edge_operations': {'power': 2, 'addition': 2, 'adjacent': 4, 'equals': 5, 'subtraction': 2, 'applied_to': 1, 'division': 1}}
+2026-06-02 12:28:50,684 [INFO] __main__: 
+============================================================
+2026-06-02 12:28:50,684 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 12:28:50,684 [INFO] __main__:   Формул обработано : 5
+2026-06-02 12:28:50,684 [INFO] __main__:   Вершин в графе    : 12
+2026-06-02 12:28:50,684 [INFO] __main__:   Рёбер в графе     : 17
+2026-06-02 12:28:50,684 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 12:28:50,684 [INFO] __main__:     variable            : 6
+2026-06-02 12:28:50,684 [INFO] __main__:     number              : 5
+2026-06-02 12:28:50,684 [INFO] __main__:     operator            : 1
+2026-06-02 12:28:50,684 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 12:28:50,684 [INFO] __main__:     equals                        : 5
+2026-06-02 12:28:50,684 [INFO] __main__:     adjacent                      : 4
+2026-06-02 12:28:50,684 [INFO] __main__:     power                         : 2
+2026-06-02 12:28:50,684 [INFO] __main__:     addition                      : 2
+2026-06-02 12:28:50,684 [INFO] __main__:     subtraction                   : 2
+2026-06-02 12:28:50,684 [INFO] __main__:     applied_to                    : 1
+2026-06-02 12:28:50,684 [INFO] __main__:     division                      : 1
+2026-06-02 12:28:50,684 [INFO] __main__: ============================================================
+2026-06-02 12:31:40,631 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 12:31:41,430 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 12:31:41,611 [INFO] nano-vectordb: Load (19, 768) data
+2026-06-02 12:31:41,612 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_entities.json'} 19 data
+2026-06-02 12:31:41,612 [INFO] nano-vectordb: Load (11, 768) data
+2026-06-02 12:31:41,612 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_relationships.json'} 11 data
+2026-06-02 12:31:41,613 [INFO] nano-vectordb: Load (5, 768) data
+2026-06-02 12:31:41,613 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5/vdb_chunks.json'} 5 data
+2026-06-02 12:31:41,614 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_5
+2026-06-02 12:31:41,614 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 12:31:41,846 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 12:31:41,855 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 12:31:41,855 [INFO] __main__: База знаний загружена
+2026-06-02 12:32:18,919 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему может быть равно x если подставить значения b и c
+2026-06-02 12:35:17,904 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6
+2026-06-02 12:35:18,700 [INFO] __main__: ============================================================
+2026-06-02 12:35:18,700 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-02 12:35:18,700 [INFO] __main__: Датасет     : /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 12:35:18,700 [INFO] __main__: База знаний : /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6
+2026-06-02 12:35:18,700 [INFO] __main__: Записей     : первые 6
+2026-06-02 12:35:18,700 [INFO] __main__: ============================================================
+2026-06-02 12:35:18,868 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/vdb_entities.json'} 0 data
+2026-06-02 12:35:18,868 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/vdb_relationships.json'} 0 data
+2026-06-02 12:35:18,868 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/vdb_chunks.json'} 0 data
+2026-06-02 12:35:18,869 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6
+2026-06-02 12:35:18,869 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 12:35:18,869 [INFO] src.graph_builder: Загружено 13 записей из /Users/antonalekseev/nlp_mage/datasets/output.json
+2026-06-02 12:35:18,869 [INFO] src.lightrag_manager: Limit: используем первые 6 из 13 записей
+2026-06-02 12:35:18,869 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-02 12:35:18,870 [INFO] src.graph_builder: Построено 6 графов формул (пропущено 0 без latex). Глобальный граф: 13 вершин, 18 рёбер
+2026-06-02 12:35:18,870 [INFO] src.graph_builder: Подготовлено 6 документов для LightRAG
+2026-06-02 12:35:19,093 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 12:35:19,096 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 12:35:19,096 [INFO] src.lightrag_manager: Вставляем 6 документов по одному...
+2026-06-02 12:35:37,610 [INFO] src.lightrag_manager:   [1/6] OK (313 симв.)
+2026-06-02 12:35:45,253 [INFO] src.lightrag_manager:   [2/6] OK (320 симв.)
+2026-06-02 12:35:52,645 [INFO] src.lightrag_manager:   [3/6] OK (381 симв.)
+2026-06-02 12:35:57,631 [INFO] src.lightrag_manager:   [4/6] OK (178 симв.)
+2026-06-02 12:36:02,210 [INFO] src.lightrag_manager:   [5/6] OK (173 симв.)
+2026-06-02 12:36:08,335 [INFO] src.lightrag_manager:   [6/6] OK (173 симв.)
+2026-06-02 12:36:08,335 [INFO] src.lightrag_manager: Вставка завершена: 6/6 OK, 0 ошибок
+2026-06-02 12:36:08,336 [INFO] src.graph_builder: Граф сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/math_graph.json
+2026-06-02 12:36:08,668 [INFO] src.graph_builder: Граф визуализирован и сохранён в /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/math_graph.png
+2026-06-02 12:36:08,668 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 13, 'total_edges': 18, 'total_formulas': 6, 'node_types': {'variable': 6, 'number': 6, 'operator': 1}, 'edge_operations': {'power': 2, 'addition': 2, 'adjacent': 4, 'equals': 6, 'subtraction': 2, 'applied_to': 1, 'division': 1}}
+2026-06-02 12:36:08,668 [INFO] __main__: 
+============================================================
+2026-06-02 12:36:08,668 [INFO] __main__: СТАТИСТИКА:
+2026-06-02 12:36:08,668 [INFO] __main__:   Формул обработано : 6
+2026-06-02 12:36:08,668 [INFO] __main__:   Вершин в графе    : 13
+2026-06-02 12:36:08,668 [INFO] __main__:   Рёбер в графе     : 18
+2026-06-02 12:36:08,668 [INFO] __main__: 
+  Типы вершин:
+2026-06-02 12:36:08,668 [INFO] __main__:     variable            : 6
+2026-06-02 12:36:08,668 [INFO] __main__:     number              : 6
+2026-06-02 12:36:08,668 [INFO] __main__:     operator            : 1
+2026-06-02 12:36:08,668 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-02 12:36:08,668 [INFO] __main__:     equals                        : 6
+2026-06-02 12:36:08,668 [INFO] __main__:     adjacent                      : 4
+2026-06-02 12:36:08,668 [INFO] __main__:     power                         : 2
+2026-06-02 12:36:08,668 [INFO] __main__:     addition                      : 2
+2026-06-02 12:36:08,668 [INFO] __main__:     subtraction                   : 2
+2026-06-02 12:36:08,668 [INFO] __main__:     applied_to                    : 1
+2026-06-02 12:36:08,668 [INFO] __main__:     division                      : 1
+2026-06-02 12:36:08,668 [INFO] __main__: ============================================================
+2026-06-02 12:37:09,201 [INFO] __main__: База знаний: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6
+2026-06-02 12:37:09,980 [INFO] __main__: Загружаем существующую базу: /Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6
+2026-06-02 12:37:10,153 [INFO] nano-vectordb: Load (19, 768) data
+2026-06-02 12:37:10,153 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/vdb_entities.json'} 19 data
+2026-06-02 12:37:10,154 [INFO] nano-vectordb: Load (12, 768) data
+2026-06-02 12:37:10,154 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/vdb_relationships.json'} 12 data
+2026-06-02 12:37:10,154 [INFO] nano-vectordb: Load (6, 768) data
+2026-06-02 12:37:10,155 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': '/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6/vdb_chunks.json'} 6 data
+2026-06-02 12:37:10,155 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=/Users/antonalekseev/nlp_mage/DZ_2/knowledge_graph_limit_6
+2026-06-02 12:37:10,155 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-02 12:37:10,373 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-02 12:37:10,380 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-02 12:37:10,380 [INFO] __main__: База знаний загружена
+2026-06-02 12:37:17,952 [INFO] src.lightrag_manager: Запрос [hybrid]: Чему равен x?
+2026-06-09 15:14:54,881 [INFO] __main__: База знаний : knowledge_graph_math
+2026-06-09 15:14:54,881 [ERROR] __main__: Датасет не найден: ../datasets/output.json
+2026-06-09 15:15:15,415 [INFO] __main__: База знаний : knowledge_graph_math
+2026-06-09 15:15:16,793 [INFO] __main__: ============================================================
+2026-06-09 15:15:16,793 [INFO] __main__: Запуск построения графовой базы знаний
+2026-06-09 15:15:16,793 [INFO] __main__: Датасет     : datasets/output.json
+2026-06-09 15:15:16,793 [INFO] __main__: База знаний : knowledge_graph_math
+2026-06-09 15:15:16,793 [INFO] __main__: Записей     : все
+2026-06-09 15:15:16,793 [INFO] __main__: ============================================================
+2026-06-09 15:15:23,727 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': 'knowledge_graph_math/vdb_entities.json'} 0 data
+2026-06-09 15:15:23,727 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': 'knowledge_graph_math/vdb_relationships.json'} 0 data
+2026-06-09 15:15:23,727 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': 'knowledge_graph_math/vdb_chunks.json'} 0 data
+2026-06-09 15:15:23,728 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=knowledge_graph_math
+2026-06-09 15:15:23,728 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-09 15:15:23,728 [INFO] src.graph_builder: Загружено 52 записей из datasets/output.json
+2026-06-09 15:15:23,728 [INFO] src.lightrag_manager: Парсим формулы и строим граф...
+2026-06-09 15:15:23,732 [INFO] src.graph_builder: Построено 52 графов формул (пропущено 0 без latex). Глобальный граф: 46 вершин, 280 рёбер
+2026-06-09 15:15:23,733 [INFO] src.graph_builder: Подготовлено 52 документов для LightRAG
+2026-06-09 15:15:24,548 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-09 15:15:24,554 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-09 15:15:24,554 [INFO] src.lightrag_manager: Вставляем 52 документов по одному...
+2026-06-09 15:15:43,667 [INFO] src.lightrag_manager:   [1/52] OK (352 симв.)
+2026-06-09 15:15:54,878 [INFO] src.lightrag_manager:   [2/52] OK (320 симв.)
+2026-06-09 15:16:03,290 [INFO] src.lightrag_manager:   [3/52] OK (381 симв.)
+2026-06-09 15:16:11,314 [INFO] src.lightrag_manager:   [4/52] OK (298 симв.)
+2026-06-09 15:16:20,173 [INFO] src.lightrag_manager:   [5/52] OK (301 симв.)
+2026-06-09 15:16:33,173 [INFO] src.lightrag_manager:   [6/52] OK (309 симв.)
+2026-06-09 15:16:39,193 [INFO] src.lightrag_manager:   [7/52] OK (364 симв.)
+2026-06-09 15:16:47,839 [INFO] src.lightrag_manager:   [8/52] OK (297 симв.)
+2026-06-09 15:17:01,862 [INFO] src.lightrag_manager:   [9/52] OK (254 симв.)
+2026-06-09 15:17:08,132 [INFO] src.lightrag_manager:   [10/52] OK (259 симв.)
+2026-06-09 15:17:09,636 [INFO] src.lightrag_manager:   [11/52] OK (213 симв.)
+2026-06-09 15:17:14,740 [INFO] src.lightrag_manager:   [12/52] OK (214 симв.)
+2026-06-09 15:23:14,778 [INFO] src.lightrag_manager:   [13/52] OK (336 симв.)
+2026-06-09 15:23:35,030 [INFO] src.lightrag_manager:   [14/52] OK (297 симв.)
+2026-06-09 15:23:40,977 [INFO] src.lightrag_manager:   [15/52] OK (289 симв.)
+2026-06-09 15:23:42,421 [INFO] src.lightrag_manager:   [16/52] OK (172 симв.)
+2026-06-09 15:23:51,517 [INFO] src.lightrag_manager:   [17/52] OK (381 симв.)
+2026-06-09 15:23:58,964 [INFO] src.lightrag_manager:   [18/52] OK (219 симв.)
+2026-06-09 15:24:07,560 [INFO] src.lightrag_manager:   [19/52] OK (280 симв.)
+2026-06-09 15:24:22,654 [INFO] src.lightrag_manager:   [20/52] OK (282 симв.)
+2026-06-09 15:24:30,492 [INFO] src.lightrag_manager:   [21/52] OK (130 симв.)
+2026-06-09 15:24:36,407 [INFO] src.lightrag_manager:   [22/52] OK (273 симв.)
+2026-06-09 15:24:43,271 [INFO] src.lightrag_manager:   [23/52] OK (443 симв.)
+2026-06-09 15:24:52,267 [INFO] src.lightrag_manager:   [24/52] OK (437 симв.)
+2026-06-09 15:25:04,472 [INFO] src.lightrag_manager:   [25/52] OK (509 симв.)
+2026-06-09 15:25:06,154 [INFO] src.lightrag_manager:   [26/52] OK (499 симв.)
+2026-06-09 15:25:14,938 [INFO] src.lightrag_manager:   [27/52] OK (392 симв.)
+2026-06-09 15:25:29,231 [INFO] src.lightrag_manager:   [28/52] OK (436 симв.)
+2026-06-09 15:25:38,768 [INFO] src.lightrag_manager:   [29/52] OK (435 симв.)
+2026-06-09 15:25:56,482 [INFO] src.lightrag_manager:   [30/52] OK (396 симв.)
+2026-06-09 15:26:12,187 [INFO] src.lightrag_manager:   [31/52] OK (441 симв.)
+2026-06-09 15:26:19,640 [INFO] src.lightrag_manager:   [32/52] OK (369 симв.)
+2026-06-09 15:26:28,635 [INFO] src.lightrag_manager:   [33/52] OK (388 симв.)
+2026-06-09 15:26:41,782 [INFO] src.lightrag_manager:   [34/52] OK (429 симв.)
+2026-06-09 15:26:57,636 [INFO] src.lightrag_manager:   [35/52] OK (363 симв.)
+2026-06-09 15:27:03,426 [INFO] src.lightrag_manager:   [36/52] OK (331 симв.)
+2026-06-09 15:27:04,969 [INFO] src.lightrag_manager:   [37/52] OK (388 симв.)
+2026-06-09 15:27:06,511 [INFO] src.lightrag_manager:   [38/52] OK (349 симв.)
+2026-06-09 15:27:21,143 [INFO] src.lightrag_manager:   [39/52] OK (509 симв.)
+2026-06-09 15:27:42,804 [INFO] src.lightrag_manager:   [40/52] OK (759 симв.)
+2026-06-09 15:27:51,915 [INFO] src.lightrag_manager:   [41/52] OK (452 симв.)
+2026-06-09 15:27:58,989 [INFO] src.lightrag_manager:   [42/52] OK (370 симв.)
+2026-06-09 15:28:00,628 [INFO] src.lightrag_manager:   [43/52] OK (487 симв.)
+2026-06-09 15:28:09,903 [INFO] src.lightrag_manager:   [44/52] OK (396 симв.)
+2026-06-09 15:28:16,835 [INFO] src.lightrag_manager:   [45/52] OK (282 симв.)
+2026-06-09 15:28:18,381 [INFO] src.lightrag_manager:   [46/52] OK (255 симв.)
+2026-06-09 15:28:30,089 [INFO] src.lightrag_manager:   [47/52] OK (373 симв.)
+2026-06-09 15:28:38,431 [INFO] src.lightrag_manager:   [48/52] OK (768 симв.)
+2026-06-09 15:28:40,046 [INFO] src.lightrag_manager:   [49/52] OK (198 симв.)
+2026-06-09 15:28:41,623 [INFO] src.lightrag_manager:   [50/52] OK (335 симв.)
+2026-06-09 15:28:43,214 [INFO] src.lightrag_manager:   [51/52] OK (358 симв.)
+2026-06-09 15:28:54,441 [INFO] src.lightrag_manager:   [52/52] OK (368 симв.)
+2026-06-09 15:28:54,441 [INFO] src.lightrag_manager: Вставка завершена: 52/52 OK, 0 ошибок
+2026-06-09 15:28:54,445 [INFO] src.graph_builder: Граф сохранён в knowledge_graph_math/math_graph.json
+2026-06-09 15:28:55,889 [INFO] src.graph_builder: Граф визуализирован и сохранён в knowledge_graph_math/math_graph.png
+2026-06-09 15:28:55,889 [INFO] src.lightrag_manager: Готово. Статистика: {'total_nodes': 46, 'total_edges': 280, 'total_formulas': 52, 'node_types': {'variable': 28, 'number': 5, 'operator': 4, 'function': 8, 'constant': 1}, 'edge_operations': {'addition': 25, 'equals': 44, 'adjacent': 65, 'power': 39, 'division': 17, 'subscript': 15, 'multiplication': 4, 'subtraction': 16, 'applied_to': 7, 'function_of': 42, 'parameter': 4, 'maps_to': 2}}
+2026-06-09 15:28:55,890 [INFO] __main__: 
+============================================================
+2026-06-09 15:28:55,890 [INFO] __main__: СТАТИСТИКА:
+2026-06-09 15:28:55,890 [INFO] __main__:   Формул обработано : 52
+2026-06-09 15:28:55,890 [INFO] __main__:   Вершин в графе    : 46
+2026-06-09 15:28:55,890 [INFO] __main__:   Рёбер в графе     : 280
+2026-06-09 15:28:55,890 [INFO] __main__: 
+  Типы вершин:
+2026-06-09 15:28:55,890 [INFO] __main__:     variable            : 28
+2026-06-09 15:28:55,890 [INFO] __main__:     number              : 5
+2026-06-09 15:28:55,890 [INFO] __main__:     operator            : 4
+2026-06-09 15:28:55,890 [INFO] __main__:     function            : 8
+2026-06-09 15:28:55,890 [INFO] __main__:     constant            : 1
+2026-06-09 15:28:55,890 [INFO] __main__: 
+  Операции (рёбра):
+2026-06-09 15:28:55,890 [INFO] __main__:     adjacent                      : 65
+2026-06-09 15:28:55,890 [INFO] __main__:     equals                        : 44
+2026-06-09 15:28:55,890 [INFO] __main__:     function_of                   : 42
+2026-06-09 15:28:55,890 [INFO] __main__:     power                         : 39
+2026-06-09 15:28:55,890 [INFO] __main__:     addition                      : 25
+2026-06-09 15:28:55,890 [INFO] __main__:     division                      : 17
+2026-06-09 15:28:55,890 [INFO] __main__:     subtraction                   : 16
+2026-06-09 15:28:55,890 [INFO] __main__:     subscript                     : 15
+2026-06-09 15:28:55,890 [INFO] __main__:     applied_to                    : 7
+2026-06-09 15:28:55,890 [INFO] __main__:     multiplication                : 4
+2026-06-09 15:28:55,890 [INFO] __main__:     parameter                     : 4
+2026-06-09 15:28:55,890 [INFO] __main__:     maps_to                       : 2
+2026-06-09 15:28:55,890 [INFO] __main__: ============================================================
+2026-06-09 15:40:38,356 [INFO] __main__: База знаний : knowledge_graph_math
+2026-06-09 15:40:39,225 [INFO] __main__: Загружаем существующую базу: knowledge_graph_math
+2026-06-09 15:40:39,421 [INFO] nano-vectordb: Load (110, 768) data
+2026-06-09 15:40:39,421 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': 'knowledge_graph_math/vdb_entities.json'} 110 data
+2026-06-09 15:40:39,424 [INFO] nano-vectordb: Load (120, 768) data
+2026-06-09 15:40:39,425 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': 'knowledge_graph_math/vdb_relationships.json'} 120 data
+2026-06-09 15:40:39,426 [INFO] nano-vectordb: Load (52, 768) data
+2026-06-09 15:40:39,426 [INFO] nano-vectordb: Init {'embedding_dim': 768, 'metric': 'cosine', 'storage_file': 'knowledge_graph_math/vdb_chunks.json'} 52 data
+2026-06-09 15:40:39,427 [INFO] src.lightrag_manager: LightRAG создан | LLM=qwen2.5:3b | Embed=nomic-embed-text(768d) | chunk=512tok | Dir=knowledge_graph_math
+2026-06-09 15:40:39,427 [INFO] src.lightrag_manager: LightRAG объект создан
+2026-06-09 15:40:40,096 [INFO] src.lightrag_manager: Определена размерность эмбеддингов: 768 (shape=(1, 768))
+2026-06-09 15:40:40,117 [INFO] src.lightrag_manager: Storages инициализированы | embedding_dim=768
+2026-06-09 15:40:40,117 [INFO] __main__: База знаний загружена
+2026-06-09 15:42:27,260 [INFO] src.lightrag_manager: Запрос [hybrid]: Найди корни квадратного уравнения через дискриминант для a=1 b=2 c=1
