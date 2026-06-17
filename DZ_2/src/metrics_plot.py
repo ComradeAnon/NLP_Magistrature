@@ -115,6 +115,15 @@ def plot_metrics(report: dict, output_path: str):
             f"Циклов в операциях:    {ed['acyclicity']['operations_with_cycles']}/{ed['acyclicity']['checked_operations']}",
             f"Ассоц. правил:         {ed['association_rules']['rules_found']}",
         ]
+    gt = report.get("ground_truth")
+    if gt and gt.get("available"):
+        o = gt["overall"]
+        lines += [
+            "",
+            "Оракул sympy (истинные):",
+            f"  precision / recall:  {o['precision']:.2f} / {o['recall']:.2f}",
+            f"  F1:                  {o['f1']:.2f}",
+        ]
     ax.text(0.0, 1.0, "\n".join(lines), va="top", ha="left",
             fontfamily="monospace", fontsize=11, transform=ax.transAxes)
 

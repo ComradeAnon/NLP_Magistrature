@@ -158,12 +158,12 @@
           "confidence": 0.75
         },
         {
-          "rule": "applied_to ∧ subtraction → equals",
+          "rule": "applied_to ∧ subtraction → applied_to",
           "support": 2,
           "confidence": 0.667
         },
         {
-          "rule": "applied_to ∧ subtraction → applied_to",
+          "rule": "applied_to ∧ subtraction → equals",
           "support": 2,
           "confidence": 0.667
         },

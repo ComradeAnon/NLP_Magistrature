@@ -530,9 +530,11 @@ def compute_all(
     nodes, edges, stats, G = load_graph(graph_json_path)
 
     total_formulas = None
+    dataset = None
     if dataset_path:
         with open(dataset_path, "r", encoding="utf-8") as f:
-            total_formulas = len(json.load(f))
+            dataset = json.load(f)
+        total_formulas = len(dataset)
 
     structural = structural_metrics(nodes, edges, G)
     coverage = coverage_metrics(nodes, edges, stats, total_formulas)
@@ -540,7 +542,7 @@ def compute_all(
     error_detection = error_detection_metrics(nodes, edges)
     composite = composite_metrics(structural, coverage, consistency, weights)
 
-    return {
+    report = {
         "graph":           str(graph_json_path),
         "structural":      structural,
         "coverage":        coverage,
@@ -548,3 +550,11 @@ def compute_all(
         "error_detection": error_detection,
         "composite":       composite,
     }
+
+    # Истинные precision/recall через независимый оракул sympy — только если
+    # передан датасет (нужны исходные формулы и выравнивание по formula_{i}).
+    if dataset is not None:
+        from .ground_truth import evaluate_against_oracle
+        report["ground_truth"] = evaluate_against_oracle(nodes, edges, dataset)
+
+    return report

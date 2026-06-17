@@ -113,6 +113,27 @@ def print_report(report: dict):
     _row(f"Взвешенное качество (α={w['alpha']:.2f} β={w['beta']:.2f} γ={w['gamma']:.2f})",
          m["weighted_quality"])
     print(f"\n  Прим.: {m['_note']}")
+
+    gt = report.get("ground_truth")
+    if gt:
+        _line("6. Истинные точность/полнота — оракул sympy (§3.2)")
+        if not gt.get("available"):
+            print(f"  Недоступно: {gt.get('reason')}")
+        else:
+            _row("Формул разобрано оракулом", f"{gt['parsed_formulas']}/{gt['total_formulas']}"
+                                              f" (ошибок {gt['parse_failures']})")
+            _row("Рёбер адъюдицировано / исключено",
+                 f"{gt['adjudicated_edges']} / {gt['excluded_edges']}")
+            print(f"  {'класс':<14}{'TP':>4}{'FP':>4}{'FN':>4}{'precision':>11}{'recall':>9}{'F1':>7}")
+            for cls in ("equals", "power", "function"):
+                b = gt["by_class"][cls]
+                print(f"  {cls:<14}{b['tp']:>4}{b['fp']:>4}{b['fn']:>4}"
+                      f"{b['precision']:>11.2f}{b['recall']:>9.2f}{b['f1']:>7.2f}")
+            o = gt["overall"]
+            print(f"  {'ИТОГО':<14}{o['tp']:>4}{o['fp']:>4}{o['fn']:>4}"
+                  f"{o['precision']:>11.2f}{o['recall']:>9.2f}{o['f1']:>7.2f}")
+            print(f"\n  Прим.: {gt['note']}")
+
     print("═" * 60)
 
 
